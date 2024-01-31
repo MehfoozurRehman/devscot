@@ -46,8 +46,6 @@ body {
   line-height: 60px;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  display: flex;
-  max-width: 400px;
 }
 .herosection__content__left__content__description {
   font-size: 16px;
@@ -139,16 +137,5 @@ body {
 }
 
 .animated {
-  animation: slideRight 4s ease-in-out;
-  position: relative;
-  display: inline-block;
-  translate: none;
-  rotate: none;
-  scale: none;
-  opacity: 1;
-  visibility: inherit;
-  transform: translate(0px, 0px);
-}
-.herosection__content__left__content__heading {
-  display: flex;
+  animation: slideRight 2s ease-in-out;
 }
