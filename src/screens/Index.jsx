@@ -23,40 +23,8 @@ export default function Index() {
           <div className="herosection__content__left">
             <div className="herosection__content__left__content">
               <div className="herosection__content__left__content__heading ">
-                <div className="animated">M </div>
-                <div className="animated">a </div>
-                <div className="animated">g </div>
-                <div className="animated">i </div>
-                <div className="animated">c </div>
-                <div className="animated">a </div>
-                <div className="animated">l </div>
-              </div>
-              <div className="herosection__content__left__content__heading ">
-                <div className="animated">A </div>
-                <div className="animated">x </div>
-                <div className="animated">t </div>
-                <div className="animated">r </div>
-                <div className="animated">a </div>
-                <div className="animated"> </div>
-                <div className="animated">S </div>
-                <div className="animated">t </div>
-                <div className="animated">a </div>
-                <div className="animated">r </div>
-                <div className="animated">t </div>
-                <div className="animated">u </div>
-                <div className="animated">p </div>
-              </div>
-              <div className="herosection__content__left__content__heading ">
-                <br />
-                <div className="animated">S</div>
-                <div className="animated">o</div>
-                <div className="animated">l </div>
-                <div className="animated">u</div>
-                <div className="animated">t</div>
-                <div className="animated">i </div>
-                <div className="animated">o </div>
-                <div className="animated">n </div>
-              </div>
+                Magical <br /> Axtra Startup <br /> Solution
+              </div>{" "}
               <div className="herosection__content__left__content__heading__arrow">
                 <img
                   className="herosection__content__left__content__arrow"
