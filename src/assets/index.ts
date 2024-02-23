@@ -1,11 +1,5 @@
-import PngHerosection from './herosection.png'
-import PngHeroshape from './heroshape.png'
-import PngHeroshapearrow from './heroshapearrow.png'
-import PngHeroshapestar from './heroshapestar.png'
+import PngHeaderlogo from './headerlogo.png'
 
 export {
-  PngHerosection,
-  PngHeroshape,
-  PngHeroshapearrow,
-  PngHeroshapestar
+  PngHeaderlogo
 }

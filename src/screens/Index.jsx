@@ -1,5 +1,10 @@
 import React from "react";
+import Header from "../components/Header";
 
 export default function Index() {
-  return <div>Index</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
