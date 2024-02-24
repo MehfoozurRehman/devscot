@@ -25,7 +25,10 @@ export default function Index() {
             <button className="herosection__content__info__highlight__name">
               Web Apps
             </button>
-            and
+            <div className="herosection__content__info__highlight__names">
+              And
+            </div>
+
             <button className="herosection__content__info__highlight__name">
               degital Product Design
             </button>
@@ -49,6 +52,29 @@ export default function Index() {
               fill="white"
             />
           </svg>
+        </div>
+      </section>
+      <section className="herosection__aboutus">
+        <div className="herosection__aboutus__content">
+          <div className="herosection__aboutus__content__left">
+            We unlock the potential of your business with creative digital
+            solutions.
+          </div>
+          <div className="herosection__aboutus__content__right">
+            From traditional PR and thought leadership campaigns to storytelling
+            and creative social media management we’ve got you covered.
+            Something is not your average order-taking vendor. We are proud to
+            be the go-to partner for some of the world’s biggest agencies and
+            brands because they trust our expertise.
+          </div>
+        </div>{" "}
+        <div className="line" />
+      </section>
+      <section className="services__section">
+        <div className="services__section__heading">Solution We Provide</div>
+        <div className="services__section__content">
+          <div className="services__section__content__left"></div>
+          <div className="services__section__content__right"></div>
         </div>
       </section>
     </div>
