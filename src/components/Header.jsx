@@ -127,11 +127,11 @@ export default function Header() {
           </button>
 
           <NavLink
-            to="/pricing"
-            title="Sign Up"
+            to="/"
+            title="Lets Talk"
             className="header__content__cta__button"
           >
-            Sign Up
+            Lets Talk
           </NavLink>
         </div>
       </div>
