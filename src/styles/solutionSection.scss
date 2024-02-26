@@ -7,5 +7,188 @@
 .solution__section__content {
   display: flex;
   flex-direction: column;
-  max-width: 1366px;
+  max-width: 1300px;
+  width: 100%;
+  padding: 2em;
+}
+.solution__section__content__heading {
+  display: flex;
+  font-size: 44px;
+  color: #3c3c3c;
+  font-weight: 900;
+  font-family: AvenirLTStd-Black, sans-serif;
+  margin: 1.5em 0;
+  justify-content: center;
+  text-align: center;
+}
+.solution__section__content__data {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.solution__section__content__data__left {
+  display: flex;
+  width: 34%;
+
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+.solution__section__content__data__left__backgound {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  object-fit: cover;
+}
+.solution__section__content__data__left__img {
+  display: flex;
+  width: 100%;
+  z-index: 1;
+}
+.solution__section__content__data__info {
+  display: flex;
+  padding: 1em 2em 2.5em;
+  color: white;
+  justify-content: center;
+}
+.solution__section__content__data__info__text {
+  display: flex;
+  font-size: 26px;
+  font-weight: 900;
+  font-family: AvenirLTStd-Black, sans-serif;
+  margin-right: 1.5em;
+}
+.solution__section__content__data__info__btn {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 1em;
+  text-wrap: nowrap;
+  justify-content: center;
+  height: fit-content;
+  align-items: center;
+  cursor: pointer;
+}
+.solution__section__content__data__info__btn svg {
+  margin-left: 1em;
+  color: white;
+}
+.solution__section__content__data__info__btn:hover {
+  background-color: white;
+  color: #141414;
+  font-weight: 600;
+}
+.solution__section__content__data__info__btn:hover svg {
+  color: #141414;
+}
+.solution__section__content__data__right {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+}
+.solution__section__content__data__right__entry {
+  display: flex;
+  width: 100%;
+  padding: 2em;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.solution__section__content__data__right__entry__hover {
+  display: flex;
+  width: 100%;
+  padding: 2em;
+  justify-content: space-between;
+  background-color: #1399480a;
+  cursor: pointer;
+}
+
+.solution__section__content__data__right__entry__heading {
+  display: flex;
+  font-size: 22px;
+  font-weight: 900;
+  color: #3c3c3c;
+  align-items: center;
+  width: 200px;
+}
+.solution__section__content__data__right__entry__heading__hover {
+  display: flex;
+  font-size: 22px;
+  font-weight: 900;
+  color: #139948;
+  align-items: center;
+  width: 200px;
+}
+.solution__section__content__data__right__entry__text {
+  display: flex;
+  font-size: 15px;
+  padding: 0 2em;
+  align-items: center;
+  color: #141414;
+}
+.solution__section__content__data__right__entry__btn {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.solution__section__content__data__right__entry__btn__hover {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.solution__section__content__data__right__entry__btn svg {
+  color: #bebebe;
+}
+.solution__section__content__data__right__entry__btn__hover svg {
+  color: #139948;
+}
+@media (max-width: 1260px) {
+  .solution__section__content__data__info {
+    padding: 1em 1.3em 2.5em;
+  }
+  .solution__section__content__data__info__text {
+    margin-right: 0.5em;
+  }
+}
+@media (max-width: 1150px) {
+  .solution__section__content__data__left {
+    display: none;
+  }
+  .solution__section__content__data__right {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .solution__section__content__data__right__entry__heading__hover {
+    width: 100%;
+  }
+  .solution__section__content__data__right__entry__hover {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .solution__section__content__data__right__entry__heading {
+    width: 100%;
+  }
+  .solution__section__content__data__right__entry {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .solution__section__content__data__right__entry__text {
+    padding: 1em 0;
+  }
+  .solution__section__content__data__right__entry__btn__hover {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .solution__section__content__data__right__entry__btn {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .solution__section__content__heading {
+    font-size: 34px;
+  }
 }
