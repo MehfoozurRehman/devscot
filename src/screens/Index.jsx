@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import NumbersSection from "../components/NumbersSection";
 import React from "react";
 import SolutionSection from "../components/SolutionSection";
 import herobackgroundimg from "../assets/herobackground.png";
@@ -80,6 +81,7 @@ export default function Index() {
         </div>
       </section> */}
       <SolutionSection />
+      <NumbersSection />
     </>
   );
 }
