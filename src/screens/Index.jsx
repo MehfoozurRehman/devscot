@@ -1,9 +1,11 @@
-import React from "react";
 import Header from "../components/Header";
+import React from "react";
+import SolutionSection from "../components/SolutionSection";
 import herobackgroundimg from "../assets/herobackground.png";
+
 export default function Index() {
   return (
-    <div>
+    <>
       <Header />
       <section className="herosection">
         <div className="herosection__content">
@@ -70,13 +72,14 @@ export default function Index() {
         </div>{" "}
         <div className="line" />
       </section>
-      <section className="services__section">
+      {/* <section className="services__section">
         <div className="services__section__heading">Solution We Provide</div>
         <div className="services__section__content">
           <div className="services__section__content__left"></div>
           <div className="services__section__content__right"></div>
         </div>
-      </section>
-    </div>
+      </section> */}
+      <SolutionSection />
+    </>
   );
 }

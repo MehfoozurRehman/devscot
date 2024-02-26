@@ -1,0 +1,11 @@
+.solution__section {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.solution__section__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1366px;
+}
