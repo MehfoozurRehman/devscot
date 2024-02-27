@@ -70,7 +70,6 @@
   font-weight: 300;
   max-width: 200px;
 }
-
 .how__section__content__data__entry__line {
   display: flex;
   height: 1px;
@@ -85,9 +84,8 @@
 .how__section__content__data__entry__dot {
   display: flex;
   width: fit-content;
-
   z-index: 99999;
-  margin: 2em 0em;
+  margin: 2em 0;
   position: relative;
 }
 .how__section__content__data__entry__dot__overlay {

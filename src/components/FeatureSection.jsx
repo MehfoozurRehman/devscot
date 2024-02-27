@@ -1,5 +1,6 @@
-import React from "react";
 import FeatureSectionimg from "../assets/FeatureSectionimg.png";
+import React from "react";
+
 export default function FeatureSection() {
   return (
     <div>
@@ -21,16 +22,76 @@ export default function FeatureSection() {
             </div>
           </div>
           <div className="FeatureSection__content__right">
-            <div className="FeatureSection__content__right__content">
-              <div className="FeatureSection__content__right__content__img">
-                <img src={FeatureSectionimg} alt="" />
-                <img src={FeatureSectionimg} alt="" />
-                <img src={FeatureSectionimg} alt="" />
-                <img src={FeatureSectionimg} alt="" />
-                <img src={FeatureSectionimg} alt="" />
-                <img src={FeatureSectionimg} alt="" />
-              </div>
-            </div>
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
+            <img
+              src={FeatureSectionimg}
+              alt=""
+              className="FeatureSection__content__right__img"
+            />
           </div>
         </div>
       </div>

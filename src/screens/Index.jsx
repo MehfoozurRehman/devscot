@@ -1,10 +1,10 @@
+import FeatureSection from "../components/FeatureSection";
 import Header from "../components/Header";
 import HowWorkSection from "../components/HowWorkSection";
 import NumbersSection from "../components/NumbersSection";
 import React from "react";
 import SolutionSection from "../components/SolutionSection";
 import herobackgroundimg from "../assets/herobackground.png";
-import FeatureSection from "../components/FeatureSection";
 
 export default function Index() {
   return (

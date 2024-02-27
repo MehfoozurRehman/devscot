@@ -31,7 +31,6 @@
 .solution__section__content__data__left {
   display: flex;
   width: 34%;
-
   height: 100%;
   flex-direction: column;
   justify-content: flex-end;
@@ -104,7 +103,6 @@
   background-color: #1399480a;
   cursor: pointer;
 }
-
 .solution__section__content__data__right__entry__heading {
   display: flex;
   font-size: 22px;
@@ -133,13 +131,11 @@
   width: fit-content;
   align-items: center;
 }
-
 .solution__section__content__data__right__entry__btn__hover {
   display: flex;
   width: fit-content;
   align-items: center;
 }
-
 .solution__section__content__data__right__entry__btn svg {
   color: #bebebe;
 }

@@ -1,5 +1,5 @@
-import { Head } from '@router';
-import { Outlet } from 'react-router-dom';
+import { Head } from "@router";
+import { Outlet } from "react-router-dom";
 
 export default () => {
   return (
