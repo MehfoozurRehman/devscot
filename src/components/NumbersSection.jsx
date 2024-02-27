@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function NumbersSection() {
-  const [isMouseHover, setIsMouseHover] = useState(1);
+  const [isMouseHover, setIsMouseHover] = useState(2);
   const entries = [
     {
       number: "25K+",
