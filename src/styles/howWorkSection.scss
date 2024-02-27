@@ -33,22 +33,25 @@
 }
 .how__section__content__data {
   display: flex;
-  width: 1300px;
+  width: 100%;
 }
 .how__section__content__data__entry {
   display: flex;
   flex-direction: column;
-  width: 290px;
+  min-width: 290px;
   align-items: center;
   position: relative;
-  padding: 1em 2em;
+  padding: 1em 3em;
 }
 .how__section__content__data__entry:first-child {
-  padding: 1em 2em 1em 0.1em;
+  padding: 1em 3em 1em 0.1em;
+}
+.how__section__content__data__entry:last-child {
+  padding: 1em 0.1em 1em 3em;
 }
 .how__section__content__data__entry__step {
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 700;
 }
 .how__section__content__data__entry__number {
   font-size: 66px;
@@ -58,13 +61,14 @@
 }
 .how__section__content__data__entry__heading {
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 700;
   margin: 1em 0 1.5em;
 }
 .how__section__content__data__entry__text {
   font-size: 14px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
+  max-width: 200px;
 }
 
 .how__section__content__data__entry__line {
@@ -107,6 +111,14 @@
   height: 20px;
   border-radius: 100px;
   background-color: #d9d9d9;
+}
+.how__section__content__data__entry__dot__overlay__point__hover {
+  display: flex;
+  width: fit-content;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #139948;
 }
 @media (max-width: 700px) {
   .how__section__content__subheading {
