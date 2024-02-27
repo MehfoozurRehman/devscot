@@ -13,17 +13,17 @@ export default function NumbersSection() {
     {
       number: "8K+",
       text: "Happy Costomers",
-      delay: "400",
+      delay: "500",
     },
     {
       number: "25K+",
       text: "Years Experiences",
-      delay: "600",
+      delay: "800",
     },
     {
       number: "25K+",
       text: "Awards Achievement",
-      delay: "800",
+      delay: "1200",
     },
   ];
 

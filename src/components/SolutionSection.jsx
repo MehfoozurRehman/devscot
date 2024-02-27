@@ -44,9 +44,11 @@ export default function SolutionSection() {
   return (
     <div className="solution__section">
       <div className="solution__section__content">
-        <div className="solution__section__content__heading">
-          Solutions We Provide
-        </div>
+        <Fade up delay={100}>
+          <div className="solution__section__content__heading">
+            Solutions We Provide
+          </div>
+        </Fade>
         <div className="solution__section__content__data">
           <div
             className="solution__section__content__data__left"
