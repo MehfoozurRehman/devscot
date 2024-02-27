@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import Fade from "react-reveal/Fade";
 import devscot1 from "../assets/devscot1.png";
 import devscot2 from "../assets/devscot2.png";
 
@@ -7,26 +8,31 @@ export default function SolutionSection() {
   const entries = [
     {
       id: "web",
+      delay: "100",
       heading: "Web App Development",
       text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
     },
     {
       id: "mobile",
+      delay: "400",
       heading: "Mobile App Development",
       text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
     },
     {
       id: "ecommerce",
+      delay: "700",
       heading: "E-commerce Solutions",
       text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
     },
     {
       id: "design",
       heading: "UI/UX Designs",
+      delay: "1000",
       text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
     },
     {
       id: "3d",
+      delay: "1100",
       heading: "3D Graphics & Animations",
       text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
     },
@@ -38,9 +44,11 @@ export default function SolutionSection() {
   return (
     <div className="solution__section">
       <div className="solution__section__content">
-        <div className="solution__section__content__heading">
-          Solutions We Provide
-        </div>
+        <Fade up delay={100}>
+          <div className="solution__section__content__heading">
+            Solutions We Provide
+          </div>
+        </Fade>
         <div className="solution__section__content__data">
           <div
             className="solution__section__content__data__left"
@@ -52,10 +60,12 @@ export default function SolutionSection() {
               src={devscot2}
               className="solution__section__content__data__left__backgound"
             />
-            <img
-              className="solution__section__content__data__left__img"
-              src={devscot1}
-            />
+            <Fade In delay={100}>
+              <img
+                className="solution__section__content__data__left__img"
+                src={devscot1}
+              />
+            </Fade>
             <div className="solution__section__content__data__info">
               <div className="solution__section__content__data__info__text">
                 {selectedEntry.heading}
@@ -80,48 +90,50 @@ export default function SolutionSection() {
 
           <div className="solution__section__content__data__right">
             {entries.map((entry, index) => (
-              <div
-                className={
-                  isMouseHover === entry.id
-                    ? "solution__section__content__data__right__entry__hover"
-                    : "solution__section__content__data__right__entry"
-                }
-                id={index}
-                onMouseEnter={() => setIsMouseHover(entry.id)}
-              >
+              <Fade up delay={entry.delay}>
                 <div
                   className={
                     isMouseHover === entry.id
-                      ? "solution__section__content__data__right__entry__heading__hover"
-                      : "solution__section__content__data__right__entry__heading"
+                      ? "solution__section__content__data__right__entry__hover"
+                      : "solution__section__content__data__right__entry"
                   }
+                  id={index}
+                  onMouseEnter={() => setIsMouseHover(entry.id)}
                 >
-                  {entry.heading}
-                </div>
-                <div className="solution__section__content__data__right__entry__text">
-                  {entry.text}
-                </div>
-                <div
-                  className={
-                    isMouseHover === entry.id
-                      ? "solution__section__content__data__right__entry__btn__hover"
-                      : "solution__section__content__data__right__entry__btn"
-                  }
-                >
-                  <svg
-                    width="21"
-                    height="21"
-                    viewBox="0 0 21 21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <div
+                    className={
+                      isMouseHover === entry.id
+                        ? "solution__section__content__data__right__entry__heading__hover"
+                        : "solution__section__content__data__right__entry__heading"
+                    }
                   >
-                    <path
-                      d="M20.4289 2C20.4289 1.21086 19.7891 0.571131 19 0.571131L6.14018 0.57113C5.35104 0.571131 4.71131 1.21086 4.71131 2C4.71131 2.78914 5.35104 3.42887 6.14018 3.42887L17.5711 3.42887L17.5711 14.8598C17.5711 15.649 18.2109 16.2887 19 16.2887C19.7891 16.2887 20.4289 15.649 20.4289 14.8598L20.4289 2ZM3.01036 20.0104L20.0104 3.01036L17.9896 0.989637L0.989637 17.9896L3.01036 20.0104Z"
-                      fill="currentColor"
-                    />
-                  </svg>
+                    {entry.heading}
+                  </div>
+                  <div className="solution__section__content__data__right__entry__text">
+                    {entry.text}
+                  </div>
+                  <div
+                    className={
+                      isMouseHover === entry.id
+                        ? "solution__section__content__data__right__entry__btn__hover"
+                        : "solution__section__content__data__right__entry__btn"
+                    }
+                  >
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.4289 2C20.4289 1.21086 19.7891 0.571131 19 0.571131L6.14018 0.57113C5.35104 0.571131 4.71131 1.21086 4.71131 2C4.71131 2.78914 5.35104 3.42887 6.14018 3.42887L17.5711 3.42887L17.5711 14.8598C17.5711 15.649 18.2109 16.2887 19 16.2887C19.7891 16.2887 20.4289 15.649 20.4289 14.8598L20.4289 2ZM3.01036 20.0104L20.0104 3.01036L17.9896 0.989637L0.989637 17.9896L3.01036 20.0104Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
                 </div>
-              </div>
+              </Fade>
             ))}
           </div>
         </div>
