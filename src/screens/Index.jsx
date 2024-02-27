@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import HowWorkSection from "../components/HowWorkSection";
 import NumbersSection from "../components/NumbersSection";
 import React from "react";
 import SolutionSection from "../components/SolutionSection";
@@ -82,6 +83,7 @@ export default function Index() {
       </section> */}
       <SolutionSection />
       <NumbersSection />
+      <HowWorkSection />
     </>
   );
 }
