@@ -5,6 +5,7 @@ import NumbersSection from "../components/NumbersSection";
 import React from "react";
 import SolutionSection from "../components/SolutionSection";
 import herobackgroundimg from "../assets/herobackground.png";
+import Footer from "../components/Footer";
 
 export default function Index() {
   return (
@@ -86,6 +87,7 @@ export default function Index() {
       <NumbersSection />
       <HowWorkSection />
       <FeatureSection />
+      <Footer />
     </>
   );
 }
