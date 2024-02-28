@@ -443,6 +443,18 @@ body {
 .Footer {
   background-color: #121212;
   width: 94%;
+  margin-top: -25em;
+}
+.Footertopimg {
+  display: flex;
+  margin-left: 5em;
+  overflow: hidden;
+}
+.Footertopimg img {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
 }
 .Footer__content {
   display: flex;
@@ -458,6 +470,7 @@ body {
   padding-left: 4em;
   border-bottom: 2px solid #139948;
 }
+
 .Footer__content__right {
   width: 22%;
   display: flex;
