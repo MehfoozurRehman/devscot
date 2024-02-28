@@ -9,9 +9,13 @@ import {
 } from "react-feather";
 import { NavLink } from "react-router-dom";
 import Footerlogo from "../assets/headerlogo.png";
+import herobackgroundimg from "../assets/footer.jpg";
 export default function Footer() {
   return (
     <div>
+      <div className="Footertopimg">
+        <img src={herobackgroundimg} alt="herobackgroundimg" />
+      </div>
       <div className="Footer">
         <div className="Footer__content">
           <div className="Footer__content__left">
