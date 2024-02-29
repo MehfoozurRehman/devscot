@@ -397,7 +397,52 @@ body {
   height: 400px;
   margin-top: 2em;
 }
+.FeatureSection__content__right__content__card {
+  background-color: #139948;
+  color: #fff;
+  text-decoration: none;
+}
+.FeatureSection__content__right__content__card:hover {
+  background-color: #000;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+.FeatureSection__content__right__content__card:hover
+  .FeatureSection__content__right__content__card__arrow
+  svg {
+  scale: 1.4;
+  transition: 300ms ease-in-out;
+}
 
+.FeatureSection__content__right__content__card__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #f5f7fc;
+  font-weight: 600;
+  font-family: AvenirLTStd-Roman, sans-serif;
+}
+.FeatureSection__content__right__content__card__arrow svg {
+  width: 20px;
+}
+.FeatureSection__content__right__content__card__info {
+  font-size: 12px;
+  color: #f5f7fc;
+  font-weight: 400;
+  font-family: AvenirLTStd-Roman, sans-serif;
+}
+.FeatureSection__content__right__content {
+  position: relative;
+}
+.FeatureSection__content__right__content__card {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  right: 10%;
+  max-width: 200px;
+  padding: 1em;
+}
 .FeatureSection__content__left {
   text-align: left;
   font-family: AvenirLTStd-Black, sans-serif;
