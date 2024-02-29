@@ -4,6 +4,8 @@ import PngFeatureSectionimg from './FeatureSectionimg.png'
 import JpgFooter from './footer.jpg'
 import PngHeaderlogo from './headerlogo.png'
 import PngHerobackground from './herobackground.png'
+import PngMaelogo from './maelogo.png'
+import PngMealprj1 from './mealprj1.png'
 
 export {
   PngDevscot1,
@@ -11,5 +13,7 @@ export {
   PngFeatureSectionimg,
   JpgFooter,
   PngHeaderlogo,
-  PngHerobackground
+  PngHerobackground,
+  PngMaelogo,
+  PngMealprj1
 }
