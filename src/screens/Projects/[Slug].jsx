@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import MealAbouttext from "../../components/MealAbouttext";
 import GetDemo from "../../components/GetDemo";
+
+import Header from "../../components/Header";
 export default function meal() {
   const [swiperSlides, setSwiperSlides] = React.useState(6);
   const checkWidth = () => {
@@ -30,6 +32,7 @@ export default function meal() {
   }, [swiperSlides]);
   return (
     <>
+      <Header />
       <div className="meal__text__header__container">
         <div className="meal__text__header__container__left">
           <div className="meal__text__header__container__left__heading">
