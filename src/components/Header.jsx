@@ -98,13 +98,13 @@ export default function Header() {
               </NavLink>
 
               <NavLink
-                to="/pricing"
+                to="#"
                 onClick={() => {
                   if (window.innerWidth < 1000) {
                     setIsOpen(false);
                   }
                 }}
-                className="header__content__cta__button"
+                className="header__content__cta__button__outside"
               >
                 Lets Talk
               </NavLink>
