@@ -1,5 +1,7 @@
+import { ArrowUp, ArrowUpCircle, ArrowUpRight } from "react-feather";
 import FeatureSectionimg from "../assets/FeatureSectionimg.png";
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function FeatureSection() {
   return (
@@ -26,11 +28,25 @@ export default function FeatureSection() {
             </div>
           </div>
           <div className="FeatureSection__content__right">
-            <img
-              src={FeatureSectionimg}
-              alt=""
-              className="FeatureSection__content__right__img"
-            />
+            <div className="FeatureSection__content__right__content">
+              <img
+                src={FeatureSectionimg}
+                alt=""
+                className="FeatureSection__content__right__img"
+              />
+              <NavLink className="FeatureSection__content__right__content__card">
+                <div className="FeatureSection__content__right__content__card__heading">
+                  Project Name
+                  <div className="FeatureSection__content__right__content__card__arrow">
+                    <ArrowUpRight />
+                  </div>
+                </div>
+                <div className="FeatureSection__content__right__content__card__info">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+              </NavLink>
+            </div>
+
             <img
               src={FeatureSectionimg}
               alt=""
