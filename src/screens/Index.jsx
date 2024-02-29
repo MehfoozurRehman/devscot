@@ -6,6 +6,7 @@ import React from "react";
 import SolutionSection from "../components/SolutionSection";
 import herobackgroundimg from "../assets/herobackground.png";
 import Footer from "../components/Footer";
+import FeatureSectionMobile from "../components/FeatureSectionMobile";
 
 export default function Index() {
   return (
@@ -87,6 +88,7 @@ export default function Index() {
       <NumbersSection />
       <HowWorkSection />
       <FeatureSection />
+      <FeatureSectionMobile />
       <Footer />
     </>
   );
