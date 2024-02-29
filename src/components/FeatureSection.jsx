@@ -34,7 +34,13 @@ export default function FeatureSection() {
                 alt=""
                 className="FeatureSection__content__right__img"
               />
-              <NavLink className="FeatureSection__content__right__content__card">
+              <NavLink
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                to="/Projects/Meal"
+                className="FeatureSection__content__right__content__card"
+              >
                 <div className="FeatureSection__content__right__content__card__heading">
                   Project Name
                   <div className="FeatureSection__content__right__content__card__arrow">
