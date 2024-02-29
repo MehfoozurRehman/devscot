@@ -159,6 +159,9 @@
   }
 }
 @media (max-width: 700px) {
+  .solution__section__content {
+    padding: 0;
+  }
   .solution__section__content__data__right__entry__heading__hover {
     width: 100%;
   }
@@ -186,5 +189,6 @@
   }
   .solution__section__content__heading {
     font-size: 34px;
+    margin: 0.5em 0 0em;
   }
 }
