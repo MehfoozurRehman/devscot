@@ -89,6 +89,8 @@ export default function Index() {
       <HowWorkSection />
       <FeatureSection />
       <FeatureSectionMobile />
+      <FeatureSectionMobile />
+      <FeatureSectionMobile />
       <Footer />
     </>
   );
