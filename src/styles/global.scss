@@ -131,6 +131,9 @@ body {
 .header__content__nav .header__content__cta__button {
   display: none;
 }
+.header__content__nav .header__content__cta__button__outside {
+  display: none;
+}
 .header__content__nav .header__content__cta__button__login {
   display: none;
 }
@@ -674,6 +677,19 @@ body {
   }
 }
 @media (max-width: 1060px) {
+  .Footer__bottom__content__right {
+    display: none;
+  }
+  .Footer__bottom__content {
+    width: 100%;
+  }
+  .Footer {
+    width: 100%;
+    margin-top: 0;
+  }
+  .Footertopimg {
+    display: none;
+  }
   .FeatureSection__content__left__content__button {
     font-size: 14px;
   }
@@ -787,7 +803,26 @@ body {
     font-size: 12px;
   }
 }
+@media (max-width: 950px) {
+  .Footer__content {
+    flex-direction: column;
+  }
+  .Footer__content__left {
+    padding: 2em 2em;
+    width: 100%;
+  }
+  .Footer__content__right {
+    width: 100%;
+    padding: 2em 2em;
+  }
+}
 @media (max-width: 768px) {
+  .Footer__bottom__content {
+    flex-direction: column;
+  }
+  .Footer__bottom__content__info {
+    margin-bottom: 1em;
+  }
   .herosection__aboutus {
     padding: 0 0;
   }
