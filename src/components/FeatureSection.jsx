@@ -1,7 +1,8 @@
 import { ArrowUp, ArrowUpCircle, ArrowUpRight } from "react-feather";
+
 import FeatureSectionimg from "../assets/FeatureSectionimg.png";
-import React from "react";
 import { NavLink } from "react-router-dom";
+import React from "react";
 
 export default function FeatureSection() {
   return (
@@ -28,66 +29,61 @@ export default function FeatureSection() {
             </div>
           </div>
           <div className="FeatureSection__content__right">
-            <div className="FeatureSection__content__right__content">
-              <img
-                src={FeatureSectionimg}
-                alt=""
-                className="FeatureSection__content__right__img"
-              />
-              <NavLink
-                onClick={() => {
-                  window.scrollTo(0, 0);
-                }}
-                to="/Projects/Meal"
-                className="FeatureSection__content__right__content__card"
-              >
-                <div className="FeatureSection__content__right__content__card__heading">
-                  Project Name
-                  <div className="FeatureSection__content__right__content__card__arrow">
-                    <ArrowUpRight />
-                  </div>
-                </div>
-                <div className="FeatureSection__content__right__content__card__info">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </div>
-              </NavLink>
-            </div>
-
-            <img
-              src={FeatureSectionimg}
-              alt=""
-              className="FeatureSection__content__right__img"
-            />
-            <img
-              src={FeatureSectionimg}
-              alt=""
-              className="FeatureSection__content__right__img"
-            />
-
-            <img
-              src={FeatureSectionimg}
-              alt=""
-              className="FeatureSection__content__right__img"
-            />
-            <img
-              src={FeatureSectionimg}
-              alt=""
-              className="FeatureSection__content__right__img"
-            />
-            <img
-              src={FeatureSectionimg}
-              alt=""
-              className="FeatureSection__content__right__img"
-            />
-
-            <img
-              src={FeatureSectionimg}
-              alt=""
-              className="FeatureSection__content__right__img"
-            />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+function Card({}) {
+  return (
+    <div className="FeatureSection__content__right__content">
+      <img
+        src={FeatureSectionimg}
+        alt=""
+        className="FeatureSection__content__right__img"
+      />
+      <NavLink
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+        to="/Projects/Meal"
+        className="FeatureSection__content__right__content__card"
+      >
+        <div className="FeatureSection__content__right__content__card__heading">
+          Project Name
+          <div className="FeatureSection__content__right__content__card__arrow">
+            <ArrowUpRight />
+          </div>
+        </div>
+        <div className="FeatureSection__content__right__content__card__info">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </NavLink>
     </div>
   );
 }
