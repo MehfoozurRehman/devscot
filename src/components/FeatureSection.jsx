@@ -2,7 +2,6 @@ import { ArrowUp, ArrowUpCircle, ArrowUpRight } from "react-feather";
 
 import FeatureSectionimg from "../assets/FeatureSectionimg.png";
 import { NavLink } from "react-router-dom";
-import React from "react";
 
 export default function FeatureSection() {
   return (

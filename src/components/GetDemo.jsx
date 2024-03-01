@@ -1,12 +1,12 @@
-import React from "react";
+import { useState } from "react";
 
 const waitFor = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export default function GetDemo() {
-  const [Email, setEmail] = React.useState("");
-  const [errorMail, seterrorMail] = React.useState("");
-  const [status, setStatus] = React.useState("");
-  const [processing, setProcessing] = React.useState(false);
+  const [Email, setEmail] = useState("");
+  const [errorMail, seterrorMail] = useState("");
+  const [status, setStatus] = useState("");
+  const [processing, setProcessing] = useState(false);
 
   async function hanndelSubmit(e) {
     e.preventDefault();

@@ -1,5 +1,4 @@
 import FeatureSectionimg from "../assets/FeatureSectionimg.png";
-import React from "react";
 
 export default function FeatureSection() {
   return (

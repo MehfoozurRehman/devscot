@@ -1,5 +1,10 @@
 import { Outlet } from "react-router-dom";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default () => {
-  return <Outlet />;
+  return (
+    <ParallaxProvider>
+      <Outlet />
+    </ParallaxProvider>
+  );
 };

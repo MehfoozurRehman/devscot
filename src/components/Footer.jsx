@@ -1,22 +1,23 @@
-import React from "react";
-import {
-  Facebook,
-  Instagram,
-  Link,
-  Linkedin,
-  Send,
-  Twitter,
-} from "react-feather";
-import { NavLink } from "react-router-dom";
+import { Facebook, Instagram, Linkedin, Send, Twitter } from "react-feather";
+
 import Footerlogo from "../assets/headerlogo.png";
+import { NavLink } from "react-router-dom";
 import herobackgroundimg from "../assets/footer.jpg";
+import { useParallax } from "react-scroll-parallax";
+
 export default function Footer() {
+  const imageParallax = useParallax({
+    speed: 50,
+  });
+  const footerParallax = useParallax({
+    speed: 100,
+  });
   return (
     <div>
-      <div className="Footertopimg">
+      <div className="Footertopimg" ref={imageParallax.ref}>
         <img src={herobackgroundimg} alt="herobackgroundimg" />
       </div>
-      <div className="Footer">
+      <div className="Footer" ref={footerParallax.ref}>
         <div className="Footer__content">
           <div className="Footer__content__left">
             <div className="Footer__content__left__logo">

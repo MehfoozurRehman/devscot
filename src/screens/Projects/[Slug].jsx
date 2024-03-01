@@ -1,15 +1,16 @@
-import React, { useEffect } from "react";
-import mealprj1 from "../../assets/mealprj1.png";
-import maelogo from "../../assets/maelogo.png";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/pagination";
-import MealAbouttext from "../../components/MealAbouttext";
-import GetDemo from "../../components/GetDemo";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useState } from "react";
+
+import GetDemo from "../../components/GetDemo";
 import Header from "../../components/Header";
+import MealAbouttext from "../../components/MealAbouttext";
+import maelogo from "../../assets/maelogo.png";
+import mealprj1 from "../../assets/mealprj1.png";
+
 export default function meal() {
-  const [swiperSlides, setSwiperSlides] = React.useState(6);
+  const [swiperSlides, setSwiperSlides] = useState(6);
   const checkWidth = () => {
     if (window.innerWidth > 1366) {
       setSwiperSlides(3.8);
@@ -69,14 +70,7 @@ export default function meal() {
       </div>
       <div className="project__header__imags__slider__over">
         <div className="project__header__imags__slider">
-          <Swiper
-            spaceBetween={50}
-            pagination={{
-              clickable: true,
-            }}
-            // modules={[Pagination]}
-            slidesPerView={swiperSlides}
-          >
+          <Swiper spaceBetween={50} slidesPerView={swiperSlides}>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
                 <img src={mealprj1} alt="image" />

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function MealAbouttext({ heading, text }) {
   return (
     <div className="meal__about__container__text__wraper">

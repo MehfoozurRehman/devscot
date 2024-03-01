@@ -1,12 +1,11 @@
 import FeatureSection from "../components/FeatureSection";
+import FeatureSectionMobile from "../components/FeatureSectionMobile";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import HowWorkSection from "../components/HowWorkSection";
 import NumbersSection from "../components/NumbersSection";
-import React from "react";
 import SolutionSection from "../components/SolutionSection";
 import herobackgroundimg from "../assets/herobackground.png";
-import Footer from "../components/Footer";
-import FeatureSectionMobile from "../components/FeatureSectionMobile";
 
 export default function Index() {
   return (
