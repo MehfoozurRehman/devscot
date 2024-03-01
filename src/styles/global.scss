@@ -177,7 +177,6 @@ body {
 .header__content__cta__button__outside:hover {
   transition: 300ms ease-in-out;
   background-color: #065827;
-
   color: #000 !important;
 }
 .header__content__cta__button__entry {
@@ -413,7 +412,6 @@ body {
   scale: 1.4;
   transition: 300ms ease-in-out;
 }
-
 .FeatureSection__content__right__content__card__heading {
   display: flex;
   justify-content: space-between;
@@ -502,7 +500,6 @@ body {
   left: -8em;
   width: 50%;
   height: 2px;
-  // padding: 1em;
   background-color: #c2c2c2;
 }
 .FeatureSection__content__left__content__div {
@@ -551,8 +548,6 @@ body {
 }
 .Footer__content {
   display: flex;
-  // justify-content: space-between;
-  // max-width: 1300px;
 }
 .Footer__content__left {
   flex-direction: column;
@@ -563,7 +558,6 @@ body {
   padding-left: 4em;
   border-bottom: 2px solid #139948;
 }
-
 .Footer__content__right {
   width: 22%;
   display: flex;
@@ -616,7 +610,6 @@ body {
   width: 85%;
   align-items: center;
 }
-
 .Footer__bottom {
   display: flex;
   width: 100%;
@@ -625,9 +618,7 @@ body {
   padding: 2em;
   background-color: #000;
   width: 28%;
-  // margin-left: 5%;
 }
-
 .Footer__bottom__content__info {
   font-size: 16px;
   color: #f5f7fc;
@@ -642,9 +633,7 @@ body {
   border: 1px solid #1d1d1d;
   color: #999;
   position: relative;
-  // border-radius: s;
 }
-
 .Footer__content__right__card__content__heading {
   font-size: 22px;
   color: #f5f7fc;
@@ -766,7 +755,6 @@ body {
   .herosection__aboutus__content {
     padding: 2em 0;
   }
-
   .herosection__aboutus__content__right {
     width: 100%;
     padding: 0 1.5em;

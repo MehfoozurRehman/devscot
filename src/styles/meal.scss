@@ -81,7 +81,6 @@
   margin-bottom: 0.5em;
 }
 .meal__right__text__services {
-  // width: 100%;
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 0.5em;
@@ -111,8 +110,6 @@
 }
 .project__header__imags__slider {
   width: 90%;
-  // max-width: 1366px;
-  // margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,7 +163,6 @@
 }
 .project__main__full__img {
   width: 100%;
-  // margin: 2em 0;
   padding: 2em 0;
   background-color: #121212;
 }
@@ -220,14 +216,11 @@
   margin: 0.5em;
   text-align: center;
 }
-// .Emphasizing__main__container__project__img {
-//   width: 100%;
-// }
 .Emphasizing__main__container__project__img img {
   width: 100%;
   object-fit: cover;
   max-width: 900px;
-  padding: 2em 0em;
+  padding: 2em 0;
 }
 .Emphasizing__main__container__bg__over {
   position: relative;
@@ -448,7 +441,6 @@
   justify-content: flex-start;
   flex-direction: column;
   color: white;
-  // max-width: 700px;
   padding: 2em;
 }
 .get__demo__main__container__right__heading {
@@ -521,7 +513,6 @@
   color: #353434;
   transition: 300ms ease-in-out;
 }
-
 .get__demo__main__container__right__mail__wraper__input__button:hover {
   background-color: #00ce6e;
   color: rgb(245, 243, 243);
@@ -533,7 +524,7 @@
   }
   .get__demo__main__container__right {
     width: 100%;
-    padding: 0em;
+    padding: 0;
     padding-top: 3em;
   }
   .get__demo__main__container__left {
@@ -548,7 +539,7 @@
     font-size: 35px;
   }
   .get__demo__main__container {
-    padding: 0em 2em;
+    padding: 0 2em;
   }
   .result__container__text__wraper {
     width: 45%;
