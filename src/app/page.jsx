@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
+import Test from "@/components/Test";
 
 const splitText = (text) => {
   return text.split("").map((word, index) => {
@@ -18,6 +19,7 @@ const splitText = (text) => {
 export default function Index() {
   return (
     <>
+      <Test />
       <Header />
       <section className="herosection">
         <div className="herosection__content">

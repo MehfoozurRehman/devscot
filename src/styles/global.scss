@@ -1462,3 +1462,217 @@ body {
     opacity: 1;
   }
 }
+
+// frequently ask qustions//
+.Frequently__ask__questions__main__container__all {
+  height: 750px;
+  display: flex;
+  margin-top: 2.5em;
+  justify-content: center;
+  align-items: center;
+}
+.Frequently__ask__questions__main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7fc;
+  width: 1000px;
+  margin: 0 auto;
+
+  padding: 2em;
+  border-radius: 40px;
+}
+.Frequently__ask__questions__header {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.Frequently__ask__questions__wrapper {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.Frequently__ask__questions__accordion {
+  width: 500px;
+  padding: 1em;
+  border-radius: 10px;
+  width: 700px;
+}
+
+.Frequently__ask__questions__item {
+  margin-bottom: 5px;
+}
+
+.Frequently__ask__questions__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1em;
+  box-shadow: 5px 5px 5px #00000022;
+  border-radius: 10px;
+
+  cursor: pointer;
+  width: 700px;
+}
+.items__questions {
+  margin-bottom: 0.2em;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.content.show {
+  height: auto;
+  max-height: 999px;
+  background-color: #fff;
+  width: 700px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1em;
+  color: #263959;
+}
+
+//.........../////
+
+.Our__testimonial__container__left__side__content {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.Our__testimonial__container__left__side__sub__content {
+  width: fit-content;
+}
+.Our__testimonial__container__left__side {
+  width: 45%;
+}
+.our__testimonial__container__right__side {
+  width: 65%;
+}
+.Our__testimonial__container__main {
+  max-width: 1500px;
+  margin: auto 0 !important;
+
+  width: 100%;
+}
+.Our__testimonial__container {
+  padding: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial__container__content {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 12px;
+  width: 240px;
+}
+.testimonial__container {
+  background-color: #faf7ff;
+  width: fit-content;
+  height: fit-content;
+  padding: 1em;
+  border-radius: 30px;
+}
+.testimonial__review__container {
+  display: flex;
+}
+
+.testimonial__review__stars svg {
+  color: yellow;
+}
+.testimonial__review__name {
+  margin-left: 1em;
+}
+.testimonial__review__name__user {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+@media (max-width: 1286px) {
+  .our__testimonial__container__right__side {
+    width: 71%;
+  }
+}
+@media (max-width: 1230px) {
+  .our__testimonial__container__right__side {
+    width: 75%;
+  }
+}
+@media (max-width: 1170px) {
+  .our__testimonial__container__right__side {
+    width: 78%;
+  }
+}
+@media (max-width: 1160px) {
+  .our__testimonial__container__right__side {
+    width: 80%;
+  }
+}
+@media (max-width: 1140px) {
+  .our__testimonial__container__right__side {
+    width: 85%;
+  }
+}
+@media (max-width: 1080px) {
+  .Our__testimonial__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .our__testimonial__container__right__side {
+    width: 100%;
+  }
+  .Our__testimonial__container__left__side {
+    width: 90%;
+    margin-bottom: 1em;
+  }
+}
+
+.Service__agency__sub__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7fc;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.1em;
+  font-size: 0.8rem;
+  border-radius: 40px;
+}
+.Service__agency__trust__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.omega__title__main__title {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+}
+.omega__title__main__title span {
+  font-weight: 800;
+  position: relative;
+  margin-right: 0.3em;
+}
+.omega__title__main__title span svg {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.title__content {
+  background-color: #f4f5fb;
+  padding: 0.3em 0.5em 0.5em 0.5em;
+  border-radius: 9px;
+}
+.title__content svg {
+  margin-right: 0.5em;
+}
