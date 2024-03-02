@@ -1,9 +1,5 @@
 {
   "files.exclude": {
-    "**/router": true,
-    "**/main.jsx": true,
-    "**/index.ts": true,
-    "**/vite.config.ts": true,
-    "**/export.config.ts": true
+    "**/index.ts": true
   }
 }
