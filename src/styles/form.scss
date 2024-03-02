@@ -14,7 +14,6 @@
   margin: 2em;
   position: relative;
 }
-
 .formpage__content__heading {
   font-size: 30px;
   margin-bottom: 1em;
@@ -42,9 +41,7 @@
 }
 .formpage__content__form__name {
   display: flex;
-  //   margin: 1em;
   align-items: center;
-  //   width: 50%;
   justify-content: space-between;
   width: 100%;
 }
@@ -86,7 +83,6 @@
   text-decoration: none;
   border: none;
   border-bottom: 1px solid #999;
-
   background-color: transparent;
   height: 40px;
   outline: none;
