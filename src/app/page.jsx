@@ -116,7 +116,7 @@ export default function Index() {
               >
                 <path
                   d="M3.5 12.1784C43.7594 6.95554 151.922 -1.40459 262.496 6.93771"
-                  stroke="#FBBF6A"
+                  stroke="#139948"
                   strokeWidth="6"
                   strokeLinecap="round"
                 />
