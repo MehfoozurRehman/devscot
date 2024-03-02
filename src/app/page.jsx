@@ -6,6 +6,8 @@ import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import Test from "@/components/Test";
+import Testimonial from "@/components/Testimonial";
+import { addAnimation } from "@/utils/AddAnimation";
 
 const splitText = (text) => {
   return text.split("").map((word, index) => {
@@ -30,9 +32,9 @@ export default function Index() {
             {splitText("Design. Development & Identity for your Product")}
           </div>
           <div className="herosection__content__info">
-            We create modern user experience for new startups by creating a
-            bridge between users’ needs and the client’s requirements. We
-            expertise in developing
+            {splitText(
+              "We create modern user experience for new startups by creating a bridge between users’ needs and the client’s requirements. We expertise in developing"
+            )}
           </div>
           <div className="herosection__content__info__highlight">
             <button className="herosection__content__info__highlight__name">
@@ -77,11 +79,9 @@ export default function Index() {
             solutions.
           </div>
           <div className="herosection__aboutus__content__right">
-            From traditional PR and thought leadership campaigns to storytelling
-            and creative social media management we’ve got you covered.
-            Something is not your average order-taking vendor. We are proud to
-            be the go-to partner for some of the world’s biggest agencies and
-            brands because they trust our expertise.
+            {addAnimation(
+              "From traditional PR and thought leadership campaigns to storytelling and creative social media management we’ve got you covered. Something is not your average order-taking vendor. We are proud to be the go-to partner for some of the world’s biggest agencies and brands because they trust our expertise."
+            )}
           </div>
         </div>
         <div className="line" />
@@ -100,6 +100,32 @@ export default function Index() {
       <FeatureSectionMobile />
       <FeatureSectionMobile />
       <FeatureSectionMobile />
+      <div className="Service__agency__main__container">
+        <div className="Service__agency__trust__container">
+          <div className="omega__title__main__title">
+            <br />
+            <span> Our</span>
+            <span>
+              Testimonial
+              <svg
+                width="130"
+                height="16"
+                viewBox="0 0 266 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.5 12.1784C43.7594 6.95554 151.922 -1.40459 262.496 6.93771"
+                  stroke="#FBBF6A"
+                  strokeWidth="6"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <Testimonial />
       <Footer />
     </>
   );
