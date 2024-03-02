@@ -1,5 +1,6 @@
-import React from "react";
 import "@/styles/form.scss";
+
+import React from "react";
 import { X } from "react-feather";
 
 export default function page() {
