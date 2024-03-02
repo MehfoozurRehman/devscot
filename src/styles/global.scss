@@ -49,6 +49,20 @@ body {
     hsla(0, 0%, 0%, 1) 30%,
     hsla(0, 0%, 13%, 1) 100%
   );
+  transform-origin: center;
+  animation: headerExpandIn 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+@keyframes headerExpandIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 .header__content {
   width: 100%;
@@ -106,6 +120,15 @@ body {
   background-color: #d9d9d921;
   padding: 0.1em 1em;
   border-radius: 30px;
+  animation: header__content__navFadeIn 0.5s ease-in-out;
+}
+@keyframes header__content__navFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .header__content__nav__link {
   padding: 0 2em;
@@ -233,24 +256,26 @@ body {
   font-weight: bold;
 }
 .herosection {
-  background: hsla(0, 0%, 0%, 1);
   background: linear-gradient(
     360deg,
     hsla(0, 0%, 0%, 1) 30%,
     hsla(0, 0%, 13%, 1) 100%
   );
-  background: -moz-linear-gradient(
-    360deg,
-    hsla(0, 0%, 0%, 1) 30%,
-    hsla(0, 0%, 13%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    360deg,
-    hsla(0, 0%, 0%, 1) 30%,
-    hsla(0, 0%, 13%, 1) 100%
-  );
   position: relative;
+  width: 100%;
   padding: 5em 0;
+  height: 80vh;
+  transform-origin: top;
+  transform: scale(0.5);
+  animation: herosectionExpandIn 0.5s ease-in-out forwards;
+}
+@keyframes herosectionExpandIn {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 .herosection__backgroundimg {
   position: absolute;
@@ -270,6 +295,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding-bottom: 3em;
+  height: 100%;
 }
 .herosection__content__subheading {
   font-size: 20px;
@@ -281,6 +307,10 @@ body {
   font-weight: 700;
   font-family: AvenirLTStd-Black, sans-serif;
   text-transform: uppercase;
+  animation-delay: 0.5s;
+}
+.herosection__content__heading span {
+  animation: fadeIn 1.5s;
 }
 .herosection__content__info {
   font-size: 20px;
@@ -1380,6 +1410,17 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .header {
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1s;
+  }
+  .herosection {
+    animation: none;
+    transform: scale(1);
+  }
+  .herosection__backgroundimg {
+    width: 100%;
+  }
   .solution__section__content {
     padding: 0;
   }
@@ -1411,5 +1452,13 @@ body {
   .solution__section__content__heading {
     font-size: 34px;
     margin: 0.5em 0 0;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
