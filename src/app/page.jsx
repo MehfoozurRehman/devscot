@@ -33,7 +33,7 @@ export default function Index() {
           </div>
           <div className="herosection__content__info">
             {splitText(
-              "We create modern user experience for new startups by creating a bridge between users’ needs and the client’s requirements. We expertise in developing"
+              "We create modern user experience for new startups by creating a bridge between users’ needs and the client’s requirements. We expertise in developing",
             )}
           </div>
           <div className="herosection__content__info__highlight">
@@ -80,7 +80,7 @@ export default function Index() {
           </div>
           <div className="herosection__aboutus__content__right">
             {addAnimation(
-              "From traditional PR and thought leadership campaigns to storytelling and creative social media management we’ve got you covered. Something is not your average order-taking vendor. We are proud to be the go-to partner for some of the world’s biggest agencies and brands because they trust our expertise."
+              "From traditional PR and thought leadership campaigns to storytelling and creative social media management we’ve got you covered. Something is not your average order-taking vendor. We are proud to be the go-to partner for some of the world’s biggest agencies and brands because they trust our expertise.",
             )}
           </div>
         </div>

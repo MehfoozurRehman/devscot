@@ -32,7 +32,7 @@ export default function Header() {
         return "header__content__nav__link";
       }
     },
-    [pathname]
+    [pathname],
   );
 
   return (
