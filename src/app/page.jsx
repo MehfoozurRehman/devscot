@@ -1,11 +1,10 @@
-import FeatureSection from "../components/FeatureSection";
-import FeatureSectionMobile from "../components/FeatureSectionMobile";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import HowWorkSection from "../components/HowWorkSection";
-import NumbersSection from "../components/NumbersSection";
-import SolutionSection from "../components/SolutionSection";
-import herobackgroundimg from "../assets/herobackground.png";
+import FeatureSection from "@/components/FeatureSection";
+import FeatureSectionMobile from "@/components/FeatureSectionMobile";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import HowWorkSection from "@/components/HowWorkSection";
+import NumbersSection from "@/components/NumbersSection";
+import SolutionSection from "@/components/SolutionSection";
 
 export default function Index() {
   return (
@@ -41,7 +40,7 @@ export default function Index() {
           </div>
         </div>
         <img
-          src={herobackgroundimg}
+          src="/herobackground.png"
           alt="herobackgroundimg"
           className="herosection__backgroundimg"
         />
@@ -73,7 +72,7 @@ export default function Index() {
             be the go-to partner for some of the world’s biggest agencies and
             brands because they trust our expertise.
           </div>
-        </div>{" "}
+        </div>
         <div className="line" />
       </section>
       {/* <section className="services__section">

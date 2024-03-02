@@ -1,5 +1,3 @@
-import FeatureSectionimg from "../assets/FeatureSectionimg.png";
-
 export default function FeatureSection() {
   return (
     <div>
@@ -25,7 +23,7 @@ export default function FeatureSection() {
             </div>{" "}
             <div>
               <img
-                src={FeatureSectionimg}
+                src="/FeatureSectionimg.png"
                 alt=""
                 className="FeatureSection__content__right__img__mobile__img"
               />

@@ -1,54 +1,56 @@
-import React, { useState } from "react";
+"use client";
 
 import Fade from "react-reveal/Fade";
 import ScrollContainer from "react-indiana-drag-scroll";
+import { useState } from "react";
+
+const entries = [
+  {
+    step: "Step 01",
+    number: "01",
+    heading: "Audience",
+    text: "Having these the marketplace to your business",
+    delay: "100",
+  },
+  {
+    step: "Step 02",
+    number: "02",
+    heading: "Plan & Sketch",
+    delay: "500",
+    text: "Delicate and long-lasting with vitamins and nutritions",
+  },
+  {
+    step: "Step 03",
+    number: "03",
+    heading: "Customize",
+    delay: "1000",
+    text: "Creating brand identities for the digital experiences",
+  },
+  {
+    step: "Step 04",
+    number: "04",
+    heading: "User Testing",
+    delay: "1500",
+    text: "We look forward to engage with beyond the conventional",
+  },
+  {
+    step: "Step 05",
+    number: "05",
+    heading: "User Testing",
+    delay: "2000",
+    text: "We look forward to engage with beyond the conventional",
+  },
+  {
+    step: "Step 06",
+    number: "06",
+    heading: "User Testing",
+    delay: "2100",
+    text: "We look forward to engage with beyond the conventional",
+  },
+];
 
 export default function HowWorkSection() {
   const [isMouseHover, setIsMouseHover] = useState("03");
-  const entries = [
-    {
-      step: "Step 01",
-      number: "01",
-      heading: "Audience",
-      text: "Having these the marketplace to your business",
-      delay: "100",
-    },
-    {
-      step: "Step 02",
-      number: "02",
-      heading: "Plan & Sketch",
-      delay: "500",
-      text: "Delicate and long-lasting with vitamins and nutritions",
-    },
-    {
-      step: "Step 03",
-      number: "03",
-      heading: "Customize",
-      delay: "1000",
-      text: "Creating brand identities for the digital experiences",
-    },
-    {
-      step: "Step 04",
-      number: "04",
-      heading: "User Testing",
-      delay: "1500",
-      text: "We look forward to engage with beyond the conventional",
-    },
-    {
-      step: "Step 05",
-      number: "05",
-      heading: "User Testing",
-      delay: "2000",
-      text: "We look forward to engage with beyond the conventional",
-    },
-    {
-      step: "Step 06",
-      number: "06",
-      heading: "User Testing",
-      delay: "2100",
-      text: "We look forward to engage with beyond the conventional",
-    },
-  ];
 
   return (
     <div className="how__section">
@@ -58,7 +60,7 @@ export default function HowWorkSection() {
         <ScrollContainer>
           <div className="how__section__content__data">
             {entries.map((entry, index) => (
-              <Fade In delay={entry.delay}>
+              <Fade In delay={parseInt(entry.delay)} key={index}>
                 <div
                   className="how__section__content__data__entry"
                   key={index}

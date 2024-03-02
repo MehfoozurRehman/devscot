@@ -1,37 +1,39 @@
-import React, { useState } from "react";
+"use client";
 
 import Fade from "react-reveal/Fade";
+import { useState } from "react";
+
+const entries = [
+  {
+    number: "25K+",
+    text: "Project Completed",
+    delay: "100",
+  },
+  {
+    number: "8K+",
+    text: "Happy Costomers",
+    delay: "500",
+  },
+  {
+    number: "25K+",
+    text: "Years Experiences",
+    delay: "800",
+  },
+  {
+    number: "25K+",
+    text: "Awards Achievement",
+    delay: "1200",
+  },
+];
 
 export default function NumbersSection() {
   const [isMouseHover, setIsMouseHover] = useState(2);
-  const entries = [
-    {
-      number: "25K+",
-      text: "Project Completed",
-      delay: "100",
-    },
-    {
-      number: "8K+",
-      text: "Happy Costomers",
-      delay: "500",
-    },
-    {
-      number: "25K+",
-      text: "Years Experiences",
-      delay: "800",
-    },
-    {
-      number: "25K+",
-      text: "Awards Achievement",
-      delay: "1200",
-    },
-  ];
 
   return (
     <div className="numbers__section">
       <div className="numbers__section__content">
         {entries.map((entry, index) => (
-          <Fade up delay={entry.delay}>
+          <Fade up delay={parseInt(entry.delay)} key={index}>
             <div
               className={
                 isMouseHover === index

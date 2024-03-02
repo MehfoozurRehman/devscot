@@ -1,13 +1,14 @@
+"use client";
+
 import "swiper/css";
+import "@/styles/project-details.scss";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 
-import GetDemo from "../../components/GetDemo";
-import Header from "../../components/Header";
-import MealAbouttext from "../../components/MealAbouttext";
-import maelogo from "../../assets/maelogo.png";
-import mealprj1 from "../../assets/mealprj1.png";
+import GetDemo from "@/components/GetDemo";
+import Header from "@/components/Header";
+import MealAbouttext from "@/components/MealAbouttext";
 
 export default function meal() {
   const [swiperSlides, setSwiperSlides] = useState(6);
@@ -32,38 +33,40 @@ export default function meal() {
     return () => window.removeEventListener("resize", checkWidth);
   }, [swiperSlides]);
   return (
-    <>
+    <div className="project__details__container">
       <Header />
-      <div className="meal__text__header__container">
-        <div className="meal__text__header__container__left">
-          <div className="meal__text__header__container__left__heading">
+      <div className="project__details__text__header__container">
+        <div className="project__details__text__header__container__left">
+          <div className="project__details__text__header__container__left__heading">
             UNITED MEAL
           </div>
-          <div className="meal__text__header__container__left__subheading">
+          <div className="project__details__text__header__container__left__subheading">
             Our client is a visionary company that aims to simplify
             decentralized finance. With features offering convenience,
             user-friendly crypto design, and multi-currency support, their
             product — the Infinity wallet — seamlessly integrates into users’
             lives, catering to all their financial needs.
           </div>
-          <div className="meal__text__header__container__left__btn">
+          <div className="project__details__text__header__container__left__btn">
             <button style={{ margin: "0px" }} class="btn">
               Contact us
             </button>
           </div>
         </div>
-        <div className="meal__text__header__container__right">
-          <div className="meal__text__header__container__right__logo__title">
+        <div className="project__details__text__header__container__right">
+          <div className="project__details__text__header__container__right__logo__title">
             CLIENT
           </div>
-          <div className="meal__text__header__container__right__logo">
-            <img src={maelogo} alt="logo" />
+          <div className="project__details__text__header__container__right__logo">
+            <img src="/maelogo.png" alt="logo" />
           </div>
-          <div className="meal__right__text__services">
+          <div className="project__details__right__text__services">
             SERVICES WE PROVIDED
           </div>
-          <div className="meal__right__text__services__title">UX/UI Design</div>
-          <div className="meal__right__text__services__title">
+          <div className="project__details__right__text__services__title">
+            UX/UI Design
+          </div>
+          <div className="project__details__right__text__services__title">
             Graphic Design
           </div>
         </div>
@@ -73,40 +76,42 @@ export default function meal() {
           <Swiper spaceBetween={50} slidesPerView={swiperSlides}>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src={mealprj1} alt="image" />
+                <img src="/mealprj1.png" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src={mealprj1} alt="image" />
+                <img src="/mealprj1.png" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src={mealprj1} alt="image" />
+                <img src="/mealprj1.png" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src={mealprj1} alt="image" />
+                <img src="/mealprj1.png" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src={mealprj1} alt="image" />
+                <img src="/mealprj1.png" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src={mealprj1} alt="image" />
+                <img src="/mealprj1.png" alt="image" />
               </div>
             </SwiperSlide>
           </Swiper>
         </div>
       </div>
-      <div className="meal__text__header__container__bg"></div>
-      <div className="meal__about__container">
-        <div className="meal__about__container__heading">ABOUT THE PROJECT</div>
+      <div className="project__details__text__header__container__bg"></div>
+      <div className="project__details__about__container">
+        <div className="project__details__about__container__heading">
+          ABOUT THE PROJECT
+        </div>
         <MealAbouttext
           heading="The client"
           text="Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs."
@@ -314,6 +319,6 @@ export default function meal() {
         </div>
       </div>
       <GetDemo />
-    </>
+    </div>
   );
 }

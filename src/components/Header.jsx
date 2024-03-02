@@ -1,11 +1,15 @@
+"use client";
+
 import { Menu, X } from "react-feather";
-import React, { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 import ClickAwayListener from "react-click-away-listener";
-import { NavLink } from "react-router-dom";
-import headerlogo from "../assets/headerlogo.png";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
+
   const [isOpen, setIsOpen] = useState(false);
   function changeNavState() {
     if (window.innerWidth < 1000) {
@@ -17,10 +21,19 @@ export default function Header() {
   useEffect(() => {
     changeNavState();
     window.addEventListener("resize", changeNavState);
-    window.addEventListener("scroll", () => {
-      changeNavState();
-    });
+    window.addEventListener("scroll", changeNavState);
   }, []);
+
+  const navLinkClass = useCallback(
+    (path) => {
+      if (pathname.split("/")[1] === path.replace("/", "")) {
+        return "header__content__nav__link active";
+      } else {
+        return "header__content__nav__link";
+      }
+    },
+    [pathname]
+  );
 
   return (
     <div
@@ -32,10 +45,9 @@ export default function Header() {
       }
     >
       <div className="header__content">
-        <NavLink to="/" className="header__content__logo">
-          <img src={headerlogo} alt="logo" />
-        </NavLink>
-
+        <Link href="/" className="header__content__logo">
+          <img src="/headerlogo.png" alt="logo" />
+        </Link>
         {isOpen ? (
           <ClickAwayListener
             onClickAway={() => {
@@ -45,10 +57,9 @@ export default function Header() {
             }}
           >
             <div className="header__content__nav">
-              <NavLink
-                to="/"
-                activeclassname="active"
-                className="header__content__nav__link"
+              <Link
+                href="/"
+                className={navLinkClass("/")}
                 onClick={() => {
                   if (window.innerWidth < 1000) {
                     setIsOpen(false);
@@ -56,12 +67,10 @@ export default function Header() {
                 }}
               >
                 Home
-              </NavLink>
-
-              <NavLink
-                to="/"
-                activeclassname="active"
-                className="header__content__nav__link"
+              </Link>
+              <Link
+                href="/services"
+                className={navLinkClass("/services")}
                 onClick={() => {
                   if (window.innerWidth < 1000) {
                     setIsOpen(false);
@@ -69,12 +78,10 @@ export default function Header() {
                 }}
               >
                 Services
-              </NavLink>
-
-              <NavLink
-                to="/"
-                activeclassname="active"
-                className="header__content__nav__link"
+              </Link>
+              <Link
+                href="/projects"
+                className={navLinkClass("/projects")}
                 onClick={() => {
                   if (window.innerWidth < 1000) {
                     setIsOpen(false);
@@ -82,12 +89,10 @@ export default function Header() {
                 }}
               >
                 Portfolio
-              </NavLink>
-
-              <NavLink
-                to="/"
-                activeclassname="active"
-                className="header__content__nav__link"
+              </Link>
+              <Link
+                href="/about"
+                className={navLinkClass("/about")}
                 onClick={() => {
                   if (window.innerWidth < 1000) {
                     setIsOpen(false);
@@ -95,10 +100,9 @@ export default function Header() {
                 }}
               >
                 About Us
-              </NavLink>
-
-              <NavLink
-                to="#"
+              </Link>
+              <Link
+                href="/contact"
                 onClick={() => {
                   if (window.innerWidth < 1000) {
                     setIsOpen(false);
@@ -107,11 +111,10 @@ export default function Header() {
                 className="header__content__cta__button__outside"
               >
                 Lets Talk
-              </NavLink>
+              </Link>
             </div>
           </ClickAwayListener>
         ) : null}
-
         <div className="header__content__cta">
           <button
             className="header__content__menu"
@@ -127,13 +130,13 @@ export default function Header() {
             )}
           </button>
 
-          <NavLink
-            to="/"
+          <Link
+            href="/"
             title="Lets Talk"
             className="header__content__cta__button"
           >
             Lets Talk
-          </NavLink>
+          </Link>
         </div>
       </div>
     </div>

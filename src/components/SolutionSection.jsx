@@ -1,43 +1,42 @@
-import React, { useState } from "react";
+"use client";
 
 import Fade from "react-reveal/Fade";
-import devscot1 from "../assets/devscot1.png";
-import devscot2 from "../assets/devscot2.png";
+import { useState } from "react";
+
+const entries = [
+  {
+    id: "web",
+    delay: "100",
+    heading: "Web App Development",
+    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+  },
+  {
+    id: "mobile",
+    delay: "400",
+    heading: "Mobile App Development",
+    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+  },
+  {
+    id: "ecommerce",
+    delay: "700",
+    heading: "E-commerce Solutions",
+    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+  },
+  {
+    id: "design",
+    heading: "UI/UX Designs",
+    delay: "1000",
+    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+  },
+  {
+    id: "3d",
+    delay: "1100",
+    heading: "3D Graphics & Animations",
+    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+  },
+];
 
 export default function SolutionSection() {
-  const entries = [
-    {
-      id: "web",
-      delay: "100",
-      heading: "Web App Development",
-      text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
-    },
-    {
-      id: "mobile",
-      delay: "400",
-      heading: "Mobile App Development",
-      text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
-    },
-    {
-      id: "ecommerce",
-      delay: "700",
-      heading: "E-commerce Solutions",
-      text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
-    },
-    {
-      id: "design",
-      heading: "UI/UX Designs",
-      delay: "1000",
-      text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
-    },
-    {
-      id: "3d",
-      delay: "1100",
-      heading: "3D Graphics & Animations",
-      text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
-    },
-  ];
-
   const [isMouseHover, setIsMouseHover] = useState("mobile");
   const selectedEntry = entries.find((entry) => entry.id === isMouseHover);
 
@@ -57,13 +56,13 @@ export default function SolutionSection() {
             }}
           >
             <img
-              src={devscot2}
+              src="/devscot2.png"
               className="solution__section__content__data__left__backgound"
             />
             <Fade In delay={100}>
               <img
                 className="solution__section__content__data__left__img"
-                src={devscot1}
+                src="/devscot1.png"
               />
             </Fade>
             <div className="solution__section__content__data__info">
@@ -87,10 +86,9 @@ export default function SolutionSection() {
               </div>
             </div>
           </div>
-
           <div className="solution__section__content__data__right">
             {entries.map((entry, index) => (
-              <Fade up delay={entry.delay}>
+              <Fade up delay={parseInt(entry.delay)} key={index}>
                 <div
                   className={
                     isMouseHover === entry.id

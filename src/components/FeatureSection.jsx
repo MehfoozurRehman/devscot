@@ -1,7 +1,5 @@
-import { ArrowUp, ArrowUpCircle, ArrowUpRight } from "react-feather";
-
-import FeatureSectionimg from "../assets/FeatureSectionimg.png";
-import { NavLink } from "react-router-dom";
+import { ArrowUpRight } from "react-feather";
+import Link from "next/link";
 
 export default function FeatureSection() {
   return (
@@ -62,15 +60,12 @@ function Card({}) {
   return (
     <div className="FeatureSection__content__right__content">
       <img
-        src={FeatureSectionimg}
+        src="/FeatureSectionimg.png"
         alt=""
         className="FeatureSection__content__right__img"
       />
-      <NavLink
-        onClick={() => {
-          window.scrollTo(0, 0);
-        }}
-        to="/Projects/Meal"
+      <Link
+        href="/Projects/Meal"
         className="FeatureSection__content__right__content__card"
       >
         <div className="FeatureSection__content__right__content__card__heading">
@@ -82,7 +77,7 @@ function Card({}) {
         <div className="FeatureSection__content__right__content__card__info">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </div>
-      </NavLink>
+      </Link>
     </div>
   );
 }

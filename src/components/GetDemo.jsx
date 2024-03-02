@@ -1,24 +1,26 @@
+"use client";
+
 import { useState } from "react";
 
 const waitFor = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export default function GetDemo() {
   const [Email, setEmail] = useState("");
-  const [errorMail, seterrorMail] = useState("");
+  const [errorMail, setErrorMail] = useState("");
   const [status, setStatus] = useState("");
   const [processing, setProcessing] = useState(false);
 
-  async function hanndelSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
 
     try {
       setProcessing(true);
       if (!Email) {
-        seterrorMail("Email is required");
+        setErrorMail("Email is required");
       } else if (!Email.match(/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/)) {
-        seterrorMail("Enter the correct mail address");
+        setErrorMail("Enter the correct mail address");
       } else {
-        seterrorMail(null);
+        setErrorMail(null);
         setStatus("sending");
         setEmail("");
         await waitFor(2000);
@@ -106,7 +108,7 @@ export default function GetDemo() {
               Provide email address to get free demo
             </div>
             <form
-              onSubmit={hanndelSubmit}
+              onSubmit={handleSubmit}
               className="get__demo__main__container__right__mail__wraper__input__wraper"
             >
               <input
@@ -115,9 +117,9 @@ export default function GetDemo() {
                 onChange={(e) => {
                   setEmail(e.target.value);
                   if (!e.target.value) {
-                    seterrorMail("Email is required");
+                    setErrorMail("Email is required");
                   } else {
-                    seterrorMail("");
+                    setErrorMail("");
                   }
                 }}
                 value={Email}
@@ -144,7 +146,6 @@ export function SendingSVG() {
     // <div className="section__svg">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
       style={{
         margin: "auto",
         background: "none",

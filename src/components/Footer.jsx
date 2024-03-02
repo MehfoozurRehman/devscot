@@ -1,27 +1,37 @@
+"use client";
+
 import { Facebook, Instagram, Linkedin, Send, Twitter } from "react-feather";
 
-import Footerlogo from "../assets/headerlogo.png";
-import { NavLink } from "react-router-dom";
-import herobackgroundimg from "../assets/footer.jpg";
+import Link from "next/link";
+import { ParallaxProvider } from "react-scroll-parallax";
 import { useParallax } from "react-scroll-parallax";
 
 export default function Footer() {
+  return (
+    <ParallaxProvider>
+      <FooterContent />
+    </ParallaxProvider>
+  );
+}
+
+function FooterContent() {
   const imageParallax = useParallax({
     speed: 50,
   });
   const footerParallax = useParallax({
     speed: 100,
   });
+
   return (
     <div>
       <div className="Footertopimg" ref={imageParallax.ref}>
-        <img src={herobackgroundimg} alt="herobackgroundimg" />
+        <img src="/footer.jpg" alt="herobackgroundimg" />
       </div>
       <div className="Footer" ref={footerParallax.ref}>
         <div className="Footer__content">
           <div className="Footer__content__left">
             <div className="Footer__content__left__logo">
-              <img src={Footerlogo} alt="logo" />
+              <img src="/headerlogo.png" alt="logo" />
             </div>
             <div className="Footer__content__left__info">
               When do they work well, and when do they on us and finally, when
@@ -37,21 +47,21 @@ export default function Footer() {
           <div className="Footer__content__right">
             <div className="Footer__content__mid__heading">Information</div>
             <div className="Footer__content__right__links">
-              <NavLink className="Footer__content__right__link" to="#">
+              <Link className="Footer__content__right__link" href="#">
                 About Company
-              </NavLink>
-              <NavLink className="Footer__content__right__link" to="#">
+              </Link>
+              <Link className="Footer__content__right__link" href="#">
                 Case Study
-              </NavLink>
-              <NavLink className="Footer__content__right__link" to="#">
+              </Link>
+              <Link className="Footer__content__right__link" href="#">
                 Career
-              </NavLink>
-              <NavLink className="Footer__content__right__link" to="#">
-                Blog{" "}
-              </NavLink>
-              <NavLink className="Footer__content__right__link" to="#">
-                Contact{" "}
-              </NavLink>
+              </Link>
+              <Link className="Footer__content__right__link" href="#">
+                Blog
+              </Link>
+              <Link className="Footer__content__right__link" href="#">
+                Contact
+              </Link>
             </div>
           </div>
           <div className="Footer__content__right">
@@ -59,12 +69,12 @@ export default function Footer() {
             <div className="Footer__content__right__info">
               Valentin, Street Road 24, New York, USA - 67452
             </div>
-            <NavLink className="Footer__content__right__info" to="#">
+            <Link href="#" className="Footer__content__right__info">
               +1 123 456 7890
-            </NavLink>
-            <NavLink className="Footer__content__right__link" to="#">
+            </Link>
+            <Link href="#" className="Footer__content__right__link">
               info@Devscot.com
-            </NavLink>
+            </Link>
           </div>
           <div className="Footer__content__right__card">
             <div className="Footer__content__right__card__content">
