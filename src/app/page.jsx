@@ -6,6 +6,15 @@ import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 
+const splitText = (text) => {
+  return text.split("").map((word, index) => {
+    if (index % 2 !== 0) {
+      return <span>{word}</span>;
+    }
+    return word;
+  });
+};
+
 export default function Index() {
   return (
     <>
@@ -16,7 +25,7 @@ export default function Index() {
             We are heroes of
           </div>
           <div className="herosection__content__heading">
-            Design. Development & Identity for your Product
+            {splitText("Design. Development & Identity for your Product")}
           </div>
           <div className="herosection__content__info">
             We create modern user experience for new startups by creating a
