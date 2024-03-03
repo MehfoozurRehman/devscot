@@ -255,7 +255,7 @@ body {
   border: 1px solid #139948;
   font-weight: bold;
 }
-.herosection {
+.hero__section {
   background: linear-gradient(
     360deg,
     hsla(0, 0%, 0%, 1) 30%,
@@ -267,9 +267,9 @@ body {
   height: 80vh;
   transform-origin: top;
   transform: scale(0.5);
-  animation: herosectionExpandIn 0.5s ease-in-out forwards;
+  animation: hero__sectionExpandIn 0.5s ease-in-out forwards;
 }
-@keyframes herosectionExpandIn {
+@keyframes hero__sectionExpandIn {
   from {
     transform: scale(0.5);
   }
@@ -277,14 +277,14 @@ body {
     transform: scale(1);
   }
 }
-.herosection__backgroundimg {
+.hero__section__backgroundimg {
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
   object-fit: cover;
 }
-.herosection__content {
+.hero__section__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -297,11 +297,11 @@ body {
   padding-bottom: 3em;
   height: 100%;
 }
-.herosection__content__subheading {
+.hero__section__content__subheading {
   font-size: 20px;
   color: #f5f7fc;
 }
-.herosection__content__heading {
+.hero__section__content__heading {
   font-size: 65px;
   color: #f5f7fc;
   font-weight: 700;
@@ -309,10 +309,10 @@ body {
   text-transform: uppercase;
   animation-delay: 0.5s;
 }
-.herosection__content__heading span {
+.hero__section__content__heading span {
   animation: fadeIn 1.5s;
 }
-.herosection__content__info {
+.hero__section__content__info {
   font-size: 20px;
   color: #f5f7fc;
   font-weight: 400;
@@ -320,7 +320,7 @@ body {
   max-width: 600px;
   margin-bottom: 0.5em;
 }
-.herosection__content__info__highlight__name {
+.hero__section__content__info__highlight__name {
   background: transparent;
   font-size: 14px;
   border-radius: 30px;
@@ -330,12 +330,12 @@ body {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-.herosection__content__info__highlight__names {
+.hero__section__content__info__highlight__names {
   background: transparent;
   font-size: 14px;
   padding: 0.5em;
 }
-.herosection__content__info__highlight {
+.hero__section__content__info__highlight {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -351,7 +351,7 @@ body {
     bottom: 20%;
   }
 }
-.Arrow__bottom {
+.arrow__button {
   position: absolute;
   bottom: 20%;
   left: 10%;
@@ -368,7 +368,14 @@ body {
   border-radius: 30px;
   animation: rightmove infinite 6s;
 }
-.herosection__aboutus {
+.arrow__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #fff;
+}
+.arrow__button:hover svg path {
+  fill: #000;
+}
+.hero__section__aboutus {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -380,18 +387,18 @@ body {
   margin: 0 auto;
   color: #3c3c3c;
 }
-.herosection__aboutus__content {
+.hero__section__aboutus__content {
   display: flex;
   padding: 3em 0;
 }
-.herosection__aboutus__content__left {
+.hero__section__aboutus__content__left {
   width: 35%;
   padding: 0 2em;
   text-align: left;
   font-family: AvenirLTStd-Black, sans-serif;
   font-size: 22px;
 }
-.herosection__aboutus__content__right {
+.hero__section__aboutus__content__right {
   width: 65%;
   padding: 0 2em;
   text-align: left;
@@ -779,21 +786,21 @@ body {
   .FeatureSection {
     display: none;
   }
-  .herosection__aboutus__content {
+  .hero__section__aboutus__content {
     flex-direction: column;
   }
-  .herosection__aboutus__content__left {
+  .hero__section__aboutus__content__left {
     width: 100%;
     margin-bottom: 0.5em;
   }
-  .herosection__aboutus__content__left {
+  .hero__section__aboutus__content__left {
     padding: 0 1em;
     text-align: justify;
   }
-  .herosection__aboutus__content {
+  .hero__section__aboutus__content {
     padding: 2em 0;
   }
-  .herosection__aboutus__content__right {
+  .hero__section__aboutus__content__right {
     width: 100%;
     padding: 0 1.5em;
     text-align: justify;
@@ -854,22 +861,22 @@ body {
   .header__content__nav__link:hover {
     color: #9e9999;
   }
-  .Arrow__bottom {
+  .arrow__button {
     display: none;
   }
-  .herosection__content__heading {
+  .hero__section__content__heading {
     font-size: 40px;
   }
-  .herosection__content__info {
+  .hero__section__content__info {
     font-size: 16px;
   }
-  .herosection__content__subheading {
+  .hero__section__content__subheading {
     font-size: 16px;
   }
-  .herosection__content {
+  .hero__section__content {
     max-width: 750px;
   }
-  .herosection__content__info__highlight__name {
+  .hero__section__content__info__highlight__name {
     font-size: 12px;
   }
 }
@@ -899,35 +906,35 @@ body {
   .Footer__bottom__content__info {
     margin-bottom: 1em;
   }
-  .herosection__aboutus {
+  .hero__section__aboutus {
     padding: 0 0;
   }
-  .herosection__aboutus__content__left {
+  .hero__section__aboutus__content__left {
     font-size: 18px;
   }
-  .herosection__aboutus__content__right {
+  .hero__section__aboutus__content__right {
     font-size: 14px;
     padding: 0 1em;
   }
   .line {
     margin: 0;
   }
-  .herosection__content__info__highlight {
+  .hero__section__content__info__highlight {
     flex-wrap: wrap;
     margin-bottom: 0.5em;
     justify-content: center;
   }
-  .herosection__content__info__highlight__names {
+  .hero__section__content__info__highlight__names {
     display: none;
   }
-  .herosection__content__info {
+  .hero__section__content__info {
     font-size: 14px;
     margin-bottom: 1em;
   }
-  .herosection__content__heading {
+  .hero__section__content__heading {
     font-size: 32px;
   }
-  .herosection__content__subheading {
+  .hero__section__content__subheading {
     font-size: 12px;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -950,10 +957,10 @@ body {
   .header__content__logo img {
     width: 100px;
   }
-  .herosection {
+  .hero__section {
     padding: 3em 0;
   }
-  .herosection__content__info__highlight__name {
+  .hero__section__content__info__highlight__name {
     margin-bottom: 1em;
   }
   .homesection__content__overlay__content__heading {
@@ -1420,11 +1427,11 @@ body {
     animation: fadeIn 1s ease-in-out forwards;
     animation-delay: 1s;
   }
-  .herosection {
+  .hero__section {
     animation: none;
     transform: scale(1);
   }
-  .herosection__backgroundimg {
+  .hero__section__backgroundimg {
     width: 100%;
   }
   .solution__section__content {
