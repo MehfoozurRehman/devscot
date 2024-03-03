@@ -1,10 +1,12 @@
 "use client";
-import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
-import React, { useState, useEffect } from "react";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+
+import React, { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 const Testimonial = () => {
   const [slidesToShow, setSlidesToShow] = useState(3); // Default to 3 slides
 
@@ -14,20 +16,20 @@ const Testimonial = () => {
         window.innerWidth < 430
           ? 1
           : window.innerWidth < 505
-            ? 1.1
-            : window.innerWidth < 580
-              ? 1.5
-              : window.innerWidth < 650
-                ? 1.8
-                : window.innerWidth < 700
-                  ? 2
-                  : window.innerWidth < 800
-                    ? 2.2
-                    : window.innerWidth < 900
-                      ? 2.5
-                      : window.innerWidth < 1000
-                        ? 2
-                        : 2.5;
+          ? 1.1
+          : window.innerWidth < 580
+          ? 1.5
+          : window.innerWidth < 650
+          ? 1.8
+          : window.innerWidth < 700
+          ? 2
+          : window.innerWidth < 800
+          ? 2.2
+          : window.innerWidth < 900
+          ? 2.5
+          : window.innerWidth < 1000
+          ? 2
+          : 2.5;
       setSlidesToShow(newSlidesToShow);
     };
     window.addEventListener("resize", handleResize);
@@ -94,7 +96,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -109,7 +111,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -119,7 +121,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -129,7 +131,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -179,7 +181,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -194,7 +196,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -204,7 +206,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -214,7 +216,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -264,7 +266,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -279,7 +281,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -289,7 +291,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -299,7 +301,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -349,7 +351,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -364,7 +366,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -374,7 +376,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -384,7 +386,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -434,7 +436,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -449,7 +451,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -459,7 +461,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -469,7 +471,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -519,7 +521,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -534,7 +536,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -544,7 +546,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -554,7 +556,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -604,7 +606,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -619,7 +621,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -629,7 +631,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -639,7 +641,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -689,7 +691,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -704,7 +706,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -714,7 +716,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -724,7 +726,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -774,7 +776,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="em"
                         width="1em"
@@ -789,7 +791,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -799,7 +801,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
@@ -809,7 +811,7 @@ const Testimonial = () => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 576 512"
                         height="1em"
                         width="1em"
