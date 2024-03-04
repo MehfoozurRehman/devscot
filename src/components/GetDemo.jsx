@@ -27,7 +27,7 @@ export default function GetDemo() {
         setStatus("");
       }
     } catch (err) {
-      console.log(err);
+      console.error(err);
     } finally {
       setProcessing(false);
     }
