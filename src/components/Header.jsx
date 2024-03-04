@@ -72,7 +72,7 @@ export default function Header() {
             />
           </Link>
           <motion.div
-            initial={{ y: isOpen ? "-100%" : "0%" }}
+            initial={{ y: "-150%" }}
             animate={{ y: isOpen ? "0%" : "-100%" }}
             transition={{ duration: 1.5, delay: 0.1 }}
             className="header__content__nav"
@@ -133,7 +133,6 @@ export default function Header() {
               Lets Talk
             </Link>
           </motion.div>
-
           <div className="header__content__cta">
             <button
               className="header__content__menu"
