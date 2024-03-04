@@ -66,7 +66,7 @@ export default function Header() {
             <motion.img
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1.5, delay: 0.1 }}
+              transition={{ duration: 1.5 }}
               src="/headerlogo.png"
               alt="logo"
             />
@@ -74,7 +74,7 @@ export default function Header() {
           <motion.div
             initial={{ y: "-150%" }}
             animate={{ y: isOpen ? "0%" : "-100%" }}
-            transition={{ duration: 1.5, delay: 0.1 }}
+            transition={{ duration: 1.5 }}
             className="header__content__nav"
           >
             <Link
@@ -155,14 +155,14 @@ export default function Header() {
               <motion.span
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 1.5, delay: 0.1 }}
+                transition={{ duration: 1.5 }}
               >
                 Lets Talk
               </motion.span>
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 1.5, delay: 0.1 }}
+                transition={{ duration: 1.5 }}
                 className="header__content__cta__button__icon"
               >
                 <Edit2 size={20} color="currentColor" />
