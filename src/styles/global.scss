@@ -35,6 +35,9 @@ body {
   width: 100%;
   z-index: 999;
 }
+.header__scrolled {
+  background: linear-gradient(45deg, #121212, #000000);
+}
 .header__content {
   width: 100%;
   max-width: 1300px;
