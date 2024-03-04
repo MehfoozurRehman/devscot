@@ -7,6 +7,7 @@ import "swiper/css/scrollbar";
 
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 const Testimonial = () => {
   const [slidesToShow, setSlidesToShow] = useState(3); // Default to 3 slides
 
@@ -52,12 +53,7 @@ const Testimonial = () => {
         </div>
 
         <div className="our__testimonial__container__right__side">
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={slidesToShow}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-          >
+          <Swiper spaceBetween={10} slidesPerView={slidesToShow}>
             <SwiperSlide>
               <div className="testimonial__container">
                 <div className="testimonial__svg">
