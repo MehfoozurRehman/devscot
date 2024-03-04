@@ -32,6 +32,7 @@ export default function meal() {
     window.addEventListener("resize", checkWidth);
     return () => window.removeEventListener("resize", checkWidth);
   }, [swiperSlides]);
+  
   return (
     <div className="project__details__container">
       <Header />
