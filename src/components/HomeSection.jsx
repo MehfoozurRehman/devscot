@@ -30,7 +30,7 @@ export default function HomeSection() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1.5, delay: 0.1 }}
+            transition={{ duration: 1.5 }}
             className="hero__section__content__subheading"
           >
             We are heroes of
@@ -40,7 +40,7 @@ export default function HomeSection() {
             className="hero__section__content__info"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1.5, delay: 0.1 }}
+            transition={{ duration: 1.5 }}
           >
             We create modern user experience for new startups by creating a
             bridge between users’ needs and the client’s requirements. We
@@ -50,7 +50,7 @@ export default function HomeSection() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1.5, delay: 0.1 }}
+              transition={{ duration: 1.5 }}
               className="hero__section__content__info__highlight__name"
             >
               Mobile Apps
@@ -58,7 +58,7 @@ export default function HomeSection() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1.5, delay: 0.1 }}
+              transition={{ duration: 1.5 }}
               className="hero__section__content__info__highlight__name"
             >
               Web Apps
@@ -66,7 +66,7 @@ export default function HomeSection() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1.5, delay: 0.1 }}
+              transition={{ duration: 1.5 }}
               className="hero__section__content__info__highlight__names"
             >
               And
@@ -74,7 +74,7 @@ export default function HomeSection() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1.5, delay: 0.1 }}
+              transition={{ duration: 1.5 }}
               className="hero__section__content__info__highlight__name"
             >
               degital Product Design
