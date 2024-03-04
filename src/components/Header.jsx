@@ -12,6 +12,8 @@ export default function Header() {
   const pathname = usePathname();
 
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
   function changeNavState() {
     if (window.innerWidth < 1000) {
       setIsOpen(false);
@@ -22,7 +24,14 @@ export default function Header() {
   useEffect(() => {
     changeNavState();
     window.addEventListener("resize", changeNavState);
-    window.addEventListener("scroll", changeNavState);
+    window.addEventListener("scroll", () => {
+      changeNavState();
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    });
   }, []);
 
   const navLinkClass = useCallback(
@@ -45,7 +54,7 @@ export default function Header() {
       }}
     >
       <div
-        className="header"
+        className={"header" + (isScrolled ? " header__scrolled" : "")}
         style={
           isOpen && window.innerWidth < 1000
             ? { backgroundColor: "#fffff" }
@@ -62,9 +71,8 @@ export default function Header() {
               alt="logo"
             />
           </Link>
-
           <motion.div
-            initial={{ y: window.innerWidth > 1000 ? "0%" : "-100%" }}
+            initial={{ y: isOpen ? "-100%" : "0%" }}
             animate={{ y: isOpen ? "0%" : "-100%" }}
             transition={{ duration: 1.5, delay: 0.1 }}
             className="header__content__nav"
@@ -145,10 +153,21 @@ export default function Header() {
               title="Lets Talk"
               className="header__content__cta__button"
             >
-              <span>Lets Talk</span>
-              <div className="header__content__cta__button__icon">
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1.5, delay: 0.1 }}
+              >
+                Lets Talk
+              </motion.span>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1.5, delay: 0.1 }}
+                className="header__content__cta__button__icon"
+              >
                 <Edit2 size={20} color="currentColor" />
-              </div>
+              </motion.div>
             </Link>
           </div>
         </div>
