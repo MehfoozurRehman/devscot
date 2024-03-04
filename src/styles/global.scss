@@ -726,6 +726,181 @@ body {
   text-decoration: none;
   font-family: AvenirLTStd-Roman, sans-serif;
 }
+.Aboutuspage {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6em 4em;
+}
+.Aboutuspage__heading {
+  font-size: 45px;
+  color: #121212;
+  font-weight: 700;
+  font-family: AvenirLTStd-Black, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+.Aboutuspage__about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: #f5f7fc;
+  padding: 0 2em;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #3c3c3c;
+}
+.Aboutuspage__about {
+  padding: 2em 0em;
+}
+.Aboutuspage__video {
+  overflow: hidden;
+  margin-right: -6em;
+}
+.Aboutuspage__video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.Aboutuspage__about__button {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: none;
+}
+.Aboutuspage__about__info {
+  max-width: 600px;
+  text-align: left;
+}
+.Aboutuspage__ourstory {
+  width: 100%;
+}
+.Aboutuspage__ourstory__content__left {
+  width: 40%;
+  padding: 2em;
+}
+.Aboutuspage__ourstory__content {
+  display: flex;
+  padding: 2em 1em;
+  width: 100%;
+}
+.Aboutuspage__ourstory__content__right {
+  width: 60%;
+  padding: 2em;
+  text-align: justify;
+}
+.Aboutuspage__ourstory__content__subheading {
+  font-size: 12px;
+  color: #139948;
+  font-weight: lighter;
+  margin-bottom: 0.1em;
+  font-family: AvenirLTStd-Roman, sans-serif;
+  text-transform: uppercase;
+}
+.Aboutuspage__ourstory__content__heading {
+  font-size: 30px;
+  color: #121212;
+  font-weight: 700;
+  font-family: AvenirLTStd-Black, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+.Aboutuspage__ourstory__content__right__info {
+  font-size: 14px;
+  color: #555;
+  font-weight: 400;
+  font-family: AvenirLTStd-Roman, sans-serif;
+}
+.Aboutuspage__ourstory__content__images__left {
+  width: 30%;
+}
+.Aboutuspage__ourstory__content__images__left__image {
+  width: 200px;
+  margin: 1em;
+}
+.Aboutuspage__ourstory__content__images__right__image {
+  width: 350px;
+}
+.Aboutuspage__ourstory__content__images__rightlast__image {
+  width: 150px;
+  margin: 1em;
+}
+.Aboutuspage__ourstory__content__images__rightlast__imagetwo {
+  width: 260px;
+  margin: 1em;
+}
+.Aboutuspage__numbers {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6em 4em;
+}
+.Aboutuspage__numbers__content__card__number {
+  font-size: 60px;
+  color: #121212;
+  font-weight: 700;
+  font-family: AvenirLTStd-Black, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+.Aboutuspage__numbers__content__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-direction: column;
+}
+.Aboutuspage__numbers__content__card__info {
+  font-size: 16px;
+  max-width: 100px;
+  color: #555;
+  font-weight: 400;
+  font-family: AvenirLTStd-Roman, sans-serif;
+}
+.Aboutuspage__numbers__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.Aboutuspage__logos__content__subheading {
+  font-size: 12px;
+  color: #139948;
+  font-weight: lighter;
+  margin-bottom: 0.1em;
+  font-family: AvenirLTStd-Roman, sans-serif;
+  text-transform: uppercase;
+}
+.Aboutuspage__logos__content__heading {
+  font-size: 35px;
+  color: #121212;
+  font-weight: 700;
+  font-family: AvenirLTStd-Black, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+.Aboutuspage__logos__content__logos__card {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-direction: column;
+  border: 1px solid #e9e9e9;
+}
+
+.Aboutuspage__logos__content__logos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  // gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 1440px) {
   .header__content {
     width: 95%;
