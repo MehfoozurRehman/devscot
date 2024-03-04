@@ -241,6 +241,17 @@ body {
   background-color: #139948;
   color: #fff !important;
 }
+.hero__section__marquee__container {
+  background-color: #139948;
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.hero__section__marquee__container__item {
+  padding: 0 2em;
+  font-size: 1.5em;
+}
 .hero__section {
   background: linear-gradient(
     360deg,
@@ -250,7 +261,7 @@ body {
   position: relative;
   width: 100%;
   padding: 5em 0;
-  height: 100vh;
+  height: 90vh;
 }
 .hero__section__backgroundimg {
   position: absolute;
@@ -269,7 +280,6 @@ body {
   padding: 0 2em;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 3em;
   height: 100%;
 }
 .hero__section__content__subheading {
@@ -1643,5 +1653,9 @@ body {
   .Our__testimonial__container__left__side {
     width: 90%;
     margin-bottom: 1em;
+  }
+  .hero__section__marquee__container__item {
+    padding: 0 1em;
+    font-size: 1rem;
   }
 }
