@@ -54,12 +54,11 @@ body {
   width: 120px;
 }
 .header__content__menu {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   background-color: #139948;
-  border-radius: 5px;
+  border-radius: 50px;
   color: white;
-  border: 1px solid transparent;
   cursor: pointer;
   padding: 0;
   display: none;
@@ -67,6 +66,7 @@ body {
   justify-content: center;
   position: relative;
   z-index: 99999;
+  margin-left: 1em;
 }
 .header__content__menu svg {
   width: 25px;
@@ -776,7 +776,7 @@ body {
   }
   .header__content__menu {
     display: flex;
-    border: 1px solid #ffffff70;
+    border: none;
   }
   .header__content__nav {
     flex-direction: column;
@@ -911,10 +911,6 @@ body {
   .header__content__menu svg {
     width: 20px;
     height: 20px;
-  }
-  .header__content__menu {
-    width: 30px;
-    height: 30px;
   }
   .header__content__cta {
     flex-direction: row-reverse;
