@@ -1,6 +1,6 @@
 "use client";
 
-import "@/styles/form.scss";
+import "@/styles/contact.scss";
 
 import { useEffect, useState } from "react";
 
