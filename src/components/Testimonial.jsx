@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Testimonial = () => {
-  const [slidesToShow, setSlidesToShow] = useState(3); // Default to 3 slides
+  const [slidesToShow, setSlidesToShow] = useState(3);
 
   useEffect(() => {
     const handleResize = () => {
@@ -51,7 +51,6 @@ const Testimonial = () => {
             <br /> dolore magna aliqua.
           </div> */}
         </div>
-
         <div className="our__testimonial__container__right__side">
           <Swiper spaceBetween={10} slidesPerView={slidesToShow}>
             <SwiperSlide>
