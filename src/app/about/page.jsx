@@ -1,10 +1,6 @@
-import { Header } from "@/components";
-import React from "react";
-
-export default function page() {
+export default function About() {
   return (
     <>
-      {/* <Header /> */}
       <div className="Aboutuspage">
         <div className="Aboutuspage__heading">
           We’re a­ full­ service­ creative­ and­ digital­ agency,­ working­
@@ -20,8 +16,7 @@ export default function page() {
             story takes beginning in 2013
           </div>
           <img
-            src="
-          https://wealcoder.com/dev/html/axtra/assets/imgs/about/award.png"
+            src="https://wealcoder.com/dev/html/axtra/assets/imgs/about/award.png"
             alt=""
             className="Aboutuspage__about__logo"
           />
