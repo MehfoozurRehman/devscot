@@ -17,20 +17,20 @@ const Testimonial = () => {
         window.innerWidth < 430
           ? 1
           : window.innerWidth < 505
-          ? 1.1
-          : window.innerWidth < 580
-          ? 1.5
-          : window.innerWidth < 650
-          ? 1.8
-          : window.innerWidth < 700
-          ? 2
-          : window.innerWidth < 800
-          ? 2.2
-          : window.innerWidth < 900
-          ? 2.5
-          : window.innerWidth < 1000
-          ? 2
-          : 2.5;
+            ? 1.1
+            : window.innerWidth < 580
+              ? 1.5
+              : window.innerWidth < 650
+                ? 1.8
+                : window.innerWidth < 700
+                  ? 2
+                  : window.innerWidth < 800
+                    ? 2.2
+                    : window.innerWidth < 900
+                      ? 2.5
+                      : window.innerWidth < 1000
+                        ? 2
+                        : 2.5;
       setSlidesToShow(newSlidesToShow);
     };
     window.addEventListener("resize", handleResize);
