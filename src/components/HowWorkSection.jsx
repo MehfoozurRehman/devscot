@@ -106,25 +106,3 @@ export default function HowWorkSection() {
     </div>
   );
 }
-
-function WorkFlowEntry({}) {
-  return (
-    <div className="how__section__content__data__entry">
-      <div className="how__section__content__data__entry__step">Step 01</div>
-
-      <div className="how__section__content__data__entry__dot">
-        <div className="how__section__content__data__entry__dot__overlay">
-          <div className="how__section__content__data__entry__dot__overlay__point"></div>
-        </div>
-      </div>
-      <div className="how__section__content__data__entry__line"></div>
-      <div className="how__section__content__data__entry__number">01</div>
-      <div className="how__section__content__data__entry__heading">
-        Audience
-      </div>
-      <div className="how__section__content__data__entry__text">
-        Having these the marketplace to your business
-      </div>
-    </div>
-  );
-}
