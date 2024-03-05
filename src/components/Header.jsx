@@ -148,7 +148,7 @@ export default function Header() {
               )}
             </button>
             <Link
-              href="/"
+              href="/contact"
               title="Lets Talk"
               className="header__content__cta__button"
             >
