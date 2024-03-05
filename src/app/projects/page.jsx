@@ -1,3 +1,3 @@
-export default function Index() {
-  return <div>Index</div>;
+export default function Projects() {
+  return <div>projects</div>;
 }
