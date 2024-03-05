@@ -62,14 +62,3 @@ export default function NumbersSection() {
     </div>
   );
 }
-
-function NumberSectionEntry({}) {
-  return (
-    <div className="numbers__section__content__entry">
-      <div className="numbers__section__content__entry__number">25k+</div>
-      <div className="numbers__section__content__entry__text">
-        Project Completed
-      </div>
-    </div>
-  );
-}
