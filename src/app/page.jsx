@@ -1,7 +1,5 @@
 import FeatureSection from "@/components/FeatureSection";
 import FeatureSectionMobile from "@/components/FeatureSectionMobile";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import HomeSection from "../components/HomeSection";
 import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
@@ -11,7 +9,6 @@ import Testimonial from "@/components/Testimonial";
 export default function Index() {
   return (
     <>
-      <Header />
       <HomeSection />
       <section className="hero__section__aboutus">
         <div className="hero__section__aboutus__content">
@@ -60,7 +57,6 @@ export default function Index() {
         </div>
       </div>
       <Testimonial />
-      <Footer />
     </>
   );
 }
