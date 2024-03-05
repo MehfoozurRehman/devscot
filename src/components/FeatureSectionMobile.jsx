@@ -20,7 +20,7 @@ export default function FeatureSection() {
               <button className="FeatureSection__content__left__content__button">
                 View All Projects
               </button>
-            </div>{" "}
+            </div>
             <div>
               <img
                 src="/FeatureSectionimg.png"
