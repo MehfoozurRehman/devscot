@@ -6,7 +6,7 @@ export default function HomeSectionDown() {
       className="arrow__button"
       onClick={() => {
         window.scrollTo({
-          top: window.innerHeight,
+          top: window.innerHeight - 60,
           behavior: "smooth",
         });
       }}
