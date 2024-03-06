@@ -1248,6 +1248,13 @@ body {
   font-family: AvenirLTStd-Black, sans-serif;
   color: #ffffff17;
 }
+.how__section__content__data__entry__number__hover {
+  transition: 300ms ease-in-out;
+  font-size: 66px;
+  font-weight: bolder;
+  font-family: AvenirLTStd-Black, sans-serif;
+  color: #139948;
+}
 .how__section__content__data__entry__heading {
   font-size: 16px;
   font-weight: 700;
@@ -1743,7 +1750,7 @@ body {
   margin-top: 1em;
   margin-bottom: 2em;
   font-size: 14px;
-  width: 240px;
+  width: 100%;
   font-weight: 400;
   font-family: AvenirLTStd-Roman, sans-serif;
 }
