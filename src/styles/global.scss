@@ -1348,8 +1348,10 @@ body {
   border: 1px solid transparent;
   height: 270px;
   width: 23%;
+  transition: 300ms ease-in-out;
 }
 .numbers__section__content__entry__hover {
+  transition: 300ms ease-in-out;
   display: flex;
   flex-direction: column;
   padding: 1em;
