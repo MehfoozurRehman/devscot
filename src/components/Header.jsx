@@ -42,8 +42,16 @@ export default function Header() {
         return "header__content__nav__link";
       }
     },
-    [pathname],
+    [pathname]
   );
+
+  useEffect(() => {
+    if (pathname === "/about") {
+      document.querySelector(".header").style.backgroundColor = "#000";
+    } else {
+      document.querySelector(".header").style.backgroundColor = "taansparent";
+    }
+  }, [pathname]);
 
   return (
     <ClickAwayListener
