@@ -1,9 +1,7 @@
 "use client";
 
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+import "swiper/css/free-mode";
 
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,22 +15,23 @@ const Testimonial = () => {
         window.innerWidth < 430
           ? 1
           : window.innerWidth < 505
-            ? 1.1
-            : window.innerWidth < 580
-              ? 1.5
-              : window.innerWidth < 650
-                ? 1.8
-                : window.innerWidth < 700
-                  ? 2
-                  : window.innerWidth < 800
-                    ? 2.2
-                    : window.innerWidth < 900
-                      ? 2.5
-                      : window.innerWidth < 1000
-                        ? 2
-                        : 2.5;
+          ? 1.1
+          : window.innerWidth < 580
+          ? 1.5
+          : window.innerWidth < 650
+          ? 1.8
+          : window.innerWidth < 700
+          ? 2
+          : window.innerWidth < 800
+          ? 2.2
+          : window.innerWidth < 900
+          ? 2.5
+          : window.innerWidth < 1000
+          ? 2
+          : 2.5;
       setSlidesToShow(newSlidesToShow);
     };
+
     window.addEventListener("resize", handleResize);
     handleResize();
     return () => window.removeEventListener("resize", handleResize);
@@ -52,7 +51,12 @@ const Testimonial = () => {
           </div> */}
         </div>
         <div className="our__testimonial__container__right__side">
-          <Swiper spaceBetween={10} slidesPerView={slidesToShow}>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={slidesToShow}
+            freeMode={true}
+            loop={true}
+          >
             <SwiperSlide>
               <div className="testimonial__container">
                 <div className="testimonial__svg">
