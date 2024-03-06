@@ -458,14 +458,21 @@ body {
   font-family: AvenirLTStd-Roman, sans-serif;
 }
 .FeatureSection__content__right__content {
-  position: sticky;
-  top: 10%;
+  position: relative;
+  overflow: hidden;
+  top: 20%;
+  width: 100%;
+  margin-bottom: 2em;
+  transition: 300ms ease-in-out;
+}
+.FeatureSection__content__right__img {
+  width: 100%;
 }
 .FeatureSection__content__right__content__card {
   position: absolute;
-  z-index: 9;
+  z-index: 99;
   top: 50%;
-  right: 10%;
+  right: 0;
   max-width: 200px;
   padding: 1em;
 }
@@ -481,19 +488,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
 }
 .FeatureSection__content__right {
-  width: 50%;
+  width: 40%;
   text-align: left;
   font-family: AvenirLTStd-Roman, sans-serif;
   font-size: 16px;
   position: relative;
   height: 100%;
-}
-.FeatureSection__content__right__img {
-  height: 80%;
-  width: 90%;
 }
 .FeatureSection__content__left__content__headingsub {
   font-size: 22px;
