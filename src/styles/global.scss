@@ -1325,7 +1325,7 @@ body {
 .numbers__section {
   display: flex;
   width: 100%;
-  margin: 1.5em auto 0;
+  // margin: 1.5em auto 0;
   justify-content: center;
   background-color: #121212;
 }
@@ -1416,6 +1416,7 @@ body {
   width: 100%;
   padding: 2em;
   background-color: #fff;
+  margin-bottom: 2em;
 }
 .solution__section__content__heading {
   display: flex;
