@@ -26,7 +26,17 @@ export default function Index() {
         </div>
         <div className="line" />
       </section>
-      <SolutionSection />
+      <SolutionSection />{" "}
+      <div className="Aboutuspage__video">
+        <video
+          loop={true}
+          autoPlay={true}
+          muted={true}
+          playsInline={true}
+          src="https://wealcoder.com/dev/html/axtra/assets/video/video.mp4"
+          className="Aboutuspage__video__video"
+        ></video>
+      </div>
       <NumbersSection />
       <HowWorkSection />
       <FeatureSection />
