@@ -88,7 +88,13 @@ export default function HowWorkSection() {
                     </div>
                   </div>
                   <div className="how__section__content__data__entry__line"></div>
-                  <div className="how__section__content__data__entry__number">
+                  <div
+                    className={
+                      isMouseHover === entry.number
+                        ? "how__section__content__data__entry__number__hover"
+                        : "how__section__content__data__entry__number"
+                    }
+                  >
                     {entry.number}
                   </div>
                   <div className="how__section__content__data__entry__heading">
