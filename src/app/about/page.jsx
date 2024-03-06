@@ -59,34 +59,6 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="Aboutuspage__ourstory__content">
-            <div className="Aboutuspage__ourstory__content__images__left">
-              <img
-                src="	https://wealcoder.com/dev/html/axtra/assets/imgs/story/1.jpg"
-                alt=""
-                className="Aboutuspage__ourstory__content__images__left__image"
-              />
-            </div>
-            <div className="Aboutuspage__ourstory__content__images__right">
-              <img
-                src="	https://wealcoder.com/dev/html/axtra/assets/imgs/story/2.jpg"
-                alt=""
-                className="Aboutuspage__ourstory__content__images__right__image"
-              />
-            </div>
-            <div className="Aboutuspage__ourstory__content__images__rightlast">
-              <img
-                src="	https://wealcoder.com/dev/html/axtra/assets/imgs/story/3.jpg"
-                alt=""
-                className="Aboutuspage__ourstory__content__images__rightlast__image"
-              />
-              <img
-                src="	https://wealcoder.com/dev/html/axtra/assets/imgs/story/3.jpg"
-                alt=""
-                className="Aboutuspage__ourstory__content__images__rightlast__imagetwo"
-              />
-            </div>
-          </div>
         </div>{" "}
         <div className="Aboutuspage__numbers">
           <div className="Aboutuspage__numbers__content">
