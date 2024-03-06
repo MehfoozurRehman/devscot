@@ -746,7 +746,7 @@ body {
   margin-bottom: 0.3em;
   width: 100%;
   max-width: 1000px;
-  margin: 2em 0em 1em 0em;
+  margin: 2em 0 1em 0;
 }
 .Aboutuspage__about {
   display: flex;
@@ -754,9 +754,7 @@ body {
   justify-content: space-between;
   text-align: center;
   color: #f5f7fc;
-  // padding: 0 2em;
   width: 100%;
-
   color: #3c3c3c;
 }
 .Aboutuspage__about {
@@ -764,7 +762,6 @@ body {
 }
 .Aboutuspage__video {
   overflow: hidden;
-  // margin-right: -6em;
 }
 .Aboutuspage__video video {
   width: 100%;
@@ -790,11 +787,11 @@ body {
 }
 .Aboutuspage__ourstory__content__left {
   width: 30%;
-  padding: 2em 0em;
+  padding: 2em 0;
 }
 .Aboutuspage__ourstory__content {
   display: flex;
-  padding: 2em 0em;
+  padding: 2em 0;
   width: 100%;
 }
 .Aboutuspage__ourstory__content__right {
