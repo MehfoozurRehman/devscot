@@ -728,7 +728,7 @@ body {
 }
 .Aboutuspage {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 6em 4em;
 }
@@ -739,6 +739,9 @@ body {
   font-family: AvenirLTStd-Black, sans-serif;
   text-transform: uppercase;
   margin-bottom: 0.3em;
+  width: 100%;
+  max-width: 1000px;
+  margin: 2em 0em 1em 0em;
 }
 .Aboutuspage__about {
   display: flex;
@@ -746,10 +749,9 @@ body {
   justify-content: space-between;
   text-align: center;
   color: #f5f7fc;
-  padding: 0 2em;
+  // padding: 0 2em;
   width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
+
   color: #3c3c3c;
 }
 .Aboutuspage__about {
@@ -757,7 +759,7 @@ body {
 }
 .Aboutuspage__video {
   overflow: hidden;
-  margin-right: -6em;
+  // margin-right: -6em;
 }
 .Aboutuspage__video video {
   width: 100%;
@@ -766,29 +768,33 @@ body {
   overflow: hidden;
 }
 .Aboutuspage__about__button {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: none;
+  font-size: 18px;
+  font-weight: 700;
 }
 .Aboutuspage__about__info {
   max-width: 600px;
+  font-size: 22px;
   text-align: left;
 }
 .Aboutuspage__ourstory {
   width: 100%;
 }
 .Aboutuspage__ourstory__content__left {
-  width: 40%;
-  padding: 2em;
+  width: 30%;
+  padding: 2em 0em;
 }
 .Aboutuspage__ourstory__content {
   display: flex;
-  padding: 2em 1em;
+  padding: 2em 0em;
   width: 100%;
 }
 .Aboutuspage__ourstory__content__right {
   width: 60%;
+  flex: 1;
   padding: 2em;
   text-align: justify;
 }
@@ -809,7 +815,7 @@ body {
   margin-bottom: 0.3em;
 }
 .Aboutuspage__ourstory__content__right__info {
-  font-size: 14px;
+  font-size: 18px;
   color: #555;
   font-weight: 400;
   font-family: AvenirLTStd-Roman, sans-serif;
@@ -836,7 +842,7 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 6em 4em;
+  padding: 4em;
 }
 .Aboutuspage__numbers__content__card__number {
   font-size: 60px;
@@ -881,6 +887,7 @@ body {
   font-family: AvenirLTStd-Black, sans-serif;
   text-transform: uppercase;
   margin-bottom: 0.3em;
+  max-width: 800px;
 }
 .Aboutuspage__logos__content__logos__card {
   width: 20%;
