@@ -5,6 +5,8 @@ import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import Testimonial from "@/components/Testimonial";
+import { PlayCircle } from "react-feather";
+import VideoSection from "@/components/VideoSection";
 
 export default function Index() {
   return (
@@ -26,17 +28,8 @@ export default function Index() {
         </div>
         <div className="line" />
       </section>
-      <SolutionSection />{" "}
-      <div className="Aboutuspage__video">
-        <video
-          loop={true}
-          autoPlay={true}
-          muted={true}
-          playsInline={true}
-          src="https://wealcoder.com/dev/html/axtra/assets/video/video.mp4"
-          className="Aboutuspage__video__video"
-        ></video>
-      </div>
+      <SolutionSection />
+      <VideoSection />
       <NumbersSection />
       <HowWorkSection />
       <FeatureSection />
