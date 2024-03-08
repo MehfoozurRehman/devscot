@@ -946,6 +946,47 @@ body {
   }
 }
 @media (max-width: 1060px) {
+  .Aboutuspage__about {
+    flex-direction: column;
+  }
+  .Aboutuspage__about__button {
+    margin-bottom: 2em;
+  }
+  .Aboutuspage__heading {
+    font-size: 40px;
+  }
+  .Aboutuspage {
+    padding: 4em 1em;
+  }
+  .Aboutuspage__ourstory__content {
+    flex-direction: column;
+  }
+  .Aboutuspage__numbers__content {
+    flex-direction: column;
+    padding: 1em;
+  }
+  .Aboutuspage__numbers {
+    padding: 1em 0;
+  }
+  .Aboutuspage__logos__content__heading {
+    font-size: 30px;
+  }
+  .Aboutuspage__logos__content__logos__card {
+    width: 50%;
+  }
+  .Aboutuspage__ourstory__content__left {
+    width: 100%;
+  }
+  .Aboutuspage__ourstory__content__right {
+    width: 100%;
+    padding: 0em;
+  }
+  .Aboutuspage__numbers {
+    flex-direction: column;
+  }
+  .Aboutuspage__about__info {
+    margin-bottom: 2em;
+  }
   .Footer__bottom__content__right {
     display: none;
   }
