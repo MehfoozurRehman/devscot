@@ -16,10 +16,10 @@ export default function Footer() {
 
 function FooterContent() {
   const imageParallax = useParallax({
-    speed: 50,
+    speed: 10,
   });
   const footerParallax = useParallax({
-    speed: 100,
+    speed: 60,
   });
 
   return (
