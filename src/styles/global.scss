@@ -312,6 +312,12 @@ body {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+.hero__section__content__info__highlight__name:hover {
+  background: #f5f7fc;
+  color: #000;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
 .hero__section__content__info__highlight__names {
   background: transparent;
   font-size: 14px;
