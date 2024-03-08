@@ -21,9 +21,6 @@ export default function VideoSection() {
       </svg>
     );
   };
-  // hover pause button show
-
-  const video = document.querySelector(".Aboutuspage__video__video");
 
   return (
     <div className="Aboutuspage__video">
