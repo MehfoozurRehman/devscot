@@ -312,6 +312,12 @@ body {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+.hero__section__content__info__highlight__name:hover {
+  background: #f5f7fc;
+  color: #000;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
 .hero__section__content__info__highlight__names {
   background: transparent;
   font-size: 14px;
@@ -762,6 +768,7 @@ body {
 }
 .Aboutuspage__video {
   overflow: hidden;
+  position: relative;
 }
 .Aboutuspage__video video {
   width: 100%;
@@ -769,6 +776,33 @@ body {
   object-fit: cover;
   overflow: hidden;
 }
+.Aboutuspage__video__button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #139948;
+  cursor: pointer;
+  border: none;
+  z-index: 99;
+  transition: 300ms ease-in-out;
+}
+
+.Aboutuspage__video__button svg {
+  width: 150px;
+  height: 150px;
+  fill: #fff;
+}
+.Aboutuspage__video__button:hover {
+  background-color: #000;
+}
+
 .Aboutuspage__about__button {
   width: 150px;
   height: 150px;
@@ -918,6 +952,47 @@ body {
   }
 }
 @media (max-width: 1060px) {
+  .Aboutuspage__about {
+    flex-direction: column;
+  }
+  .Aboutuspage__about__button {
+    margin-bottom: 2em;
+  }
+  .Aboutuspage__heading {
+    font-size: 40px;
+  }
+  .Aboutuspage {
+    padding: 4em 1em;
+  }
+  .Aboutuspage__ourstory__content {
+    flex-direction: column;
+  }
+  .Aboutuspage__numbers__content {
+    flex-direction: column;
+    padding: 1em;
+  }
+  .Aboutuspage__numbers {
+    padding: 1em 0;
+  }
+  .Aboutuspage__logos__content__heading {
+    font-size: 30px;
+  }
+  .Aboutuspage__logos__content__logos__card {
+    width: 50%;
+  }
+  .Aboutuspage__ourstory__content__left {
+    width: 100%;
+  }
+  .Aboutuspage__ourstory__content__right {
+    width: 100%;
+    padding: 0em;
+  }
+  .Aboutuspage__numbers {
+    flex-direction: column;
+  }
+  .Aboutuspage__about__info {
+    margin-bottom: 2em;
+  }
   .Footer__bottom__content__right {
     display: none;
   }
@@ -1325,7 +1400,7 @@ body {
 .numbers__section {
   display: flex;
   width: 100%;
-  margin: 1.5em auto 0;
+  // margin: 1.5em auto 0;
   justify-content: center;
   background-color: #121212;
 }
@@ -1416,6 +1491,7 @@ body {
   width: 100%;
   padding: 2em;
   background-color: #fff;
+  margin-bottom: 2em;
 }
 .solution__section__content__heading {
   display: flex;

@@ -8,16 +8,16 @@ import splitText from "../utils/splitText";
 const list = [
   "Mobile Apps",
   "Web Apps",
-  "Degital Product Design",
+  "digital Product Design",
   "Mobile Apps",
   "Web Apps",
-  "Degital Product Design",
+  "digital Product Design",
   "Mobile Apps",
   "Web Apps",
-  "Degital Product Design",
+  "digital Product Design",
   "Mobile Apps",
   "Web Apps",
-  "Degital Product Design",
+  "digital Product Design",
 ];
 
 export default function HomeSection() {
@@ -77,7 +77,7 @@ export default function HomeSection() {
               transition={{ duration: 1.5 }}
               className="hero__section__content__info__highlight__name"
             >
-              degital Product Design
+              digital Product Design
             </motion.div>
           </div>
         </div>

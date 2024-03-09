@@ -5,6 +5,8 @@ import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import Testimonial from "@/components/Testimonial";
+import { PlayCircle } from "react-feather";
+import VideoSection from "@/components/VideoSection";
 
 export default function Index() {
   return (
@@ -27,6 +29,7 @@ export default function Index() {
         <div className="line" />
       </section>
       <SolutionSection />
+      <VideoSection />
       <NumbersSection />
       <HowWorkSection />
       <FeatureSection />
