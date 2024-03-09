@@ -415,6 +415,8 @@ body {
   align-items: flex-start;
   padding: 2em;
   gap: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .FeatureSection__content__mobile {
   display: flex;
@@ -492,7 +494,7 @@ body {
   top: 12%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   width: 60%;
 }
@@ -835,7 +837,7 @@ body {
   text-align: justify;
 }
 .Aboutuspage__ourstory__content__subheading {
-  font-size: 12px;
+  font-size: 18px;
   color: #139948;
   font-weight: lighter;
   margin-bottom: 0.1em;
@@ -843,7 +845,7 @@ body {
   text-transform: uppercase;
 }
 .Aboutuspage__ourstory__content__heading {
-  font-size: 30px;
+  font-size: 45px;
   color: #121212;
   font-weight: 700;
   font-family: AvenirLTStd-Black, sans-serif;
@@ -881,7 +883,7 @@ body {
   padding: 4em;
 }
 .Aboutuspage__numbers__content__card__number {
-  font-size: 60px;
+  font-size: 70px;
   color: #121212;
   font-weight: 700;
   font-family: AvenirLTStd-Black, sans-serif;
@@ -909,7 +911,7 @@ body {
   text-align: center;
 }
 .Aboutuspage__logos__content__subheading {
-  font-size: 12px;
+  font-size: 18px;
   color: #139948;
   font-weight: lighter;
   margin-bottom: 0.1em;
@@ -917,7 +919,7 @@ body {
   text-transform: uppercase;
 }
 .Aboutuspage__logos__content__heading {
-  font-size: 35px;
+  font-size: 45px;
   color: #121212;
   font-weight: 700;
   font-family: AvenirLTStd-Black, sans-serif;
@@ -927,6 +929,7 @@ body {
 }
 .Aboutuspage__logos__content__logos__card {
   width: 20%;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1487,7 +1490,7 @@ body {
 .solution__section__content {
   display: flex;
   flex-direction: column;
-  max-width: 1500px;
+  max-width: 1200px;
   width: 100%;
   padding: 2em;
   background-color: #fff;
