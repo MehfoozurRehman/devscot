@@ -24,7 +24,7 @@ const entries = [
     number: "03",
     heading: "Customize",
     delay: "300",
-    text: "Creating brand identities for the digital experiences",
+    text: "Creating brand identities for the Digital experiences",
   },
   {
     step: "Step 04",
