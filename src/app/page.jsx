@@ -2,16 +2,18 @@ import FeatureSection from "@/components/FeatureSection";
 import FeatureSectionMobile from "@/components/FeatureSectionMobile";
 import HomeSection from "../components/HomeSection";
 import HowWorkSection from "@/components/HowWorkSection";
+import MagnetButton from "@/components/MagnetButton";
 import NumbersSection from "@/components/NumbersSection";
+import { PlayCircle } from "react-feather";
 import SolutionSection from "@/components/SolutionSection";
 import Testimonial from "@/components/Testimonial";
-import { PlayCircle } from "react-feather";
 import VideoSection from "@/components/VideoSection";
 
 export default function Index() {
   return (
     <>
       <HomeSection />
+      <MagnetButton>Let's Talk</MagnetButton>
       <section className="hero__section__aboutus">
         <div className="hero__section__aboutus__content">
           <div className="hero__section__aboutus__content__left">
