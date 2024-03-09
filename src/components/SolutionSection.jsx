@@ -8,31 +8,31 @@ const entries = [
     id: "web",
     delay: "100",
     heading: "Web App Development",
-    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
     id: "mobile",
     delay: "400",
     heading: "Mobile App Development",
-    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
     id: "ecommerce",
     delay: "700",
     heading: "E-commerce Solutions",
-    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
     id: "design",
     heading: "UI/UX Designs",
     delay: "1000",
-    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
     id: "3d",
     delay: "1100",
     heading: "3D Graphics & Animations",
-    text: "We create, products, brands, apps & websites for the companies all around the world class digital products",
+    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
 ];
 
