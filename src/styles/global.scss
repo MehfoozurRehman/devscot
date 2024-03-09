@@ -1600,6 +1600,13 @@ body {
   background-color: #1399480a;
   cursor: pointer;
 }
+.solution__section__content__data__right__entry__hover:hover
+  .solution__section__content__data__right__entry__btn__hover {
+  color: #139948;
+  transition: 300ms ease-in-out;
+  scale: 1.2;
+  transform: translate(0, -10%);
+}
 .solution__section__content__data__right__entry__heading {
   display: flex;
   font-size: 22px;
