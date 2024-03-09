@@ -1,5 +1,15 @@
+@font-face {
+  font-family: AvenirLTStd-Roman;
+  src: url(../font/AvenirLTStd-Roman.otf);
+}
+@font-face {
+  font-family: AvenirLTStd-Black;
+  src: url(../font/AvenirLTStd-Black.otf);
+}
 .project__details__container {
   background-color: #121212;
+
+  font-family: AvenirLTStd-Roman, sans-serif;
 }
 .project__details__text__header__container__bg {
   width: 100%;
@@ -29,7 +39,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  max-width: 1366px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 2em;
   padding-top: 10em;
@@ -49,7 +59,7 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.5em;
-  font-family: Akira;
+  font-family: AvenirLTStd-Black;
 }
 .project__details__text__header__container__left__subheading {
   width: 100%;
@@ -124,9 +134,10 @@
   margin-left: 2em;
 }
 .project__header__imags__slider__card img {
-  height: 600px;
+  height: auto;
   width: 100%;
   border-radius: 20px;
+  max-height: 5000px;
 }
 .project__details__about__container {
   width: 100%;
@@ -142,7 +153,9 @@
   align-items: flex-start;
   justify-content: flex-start;
   font-size: 16px;
-  background: linear-gradient(90deg, #1dbef5 0%, #5846c7 96.15%);
+  color: #139948;
+  background-color: #139948;
+  font-size: 18px;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
