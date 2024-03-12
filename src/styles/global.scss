@@ -119,7 +119,7 @@ body {
 .header__content__nav__link {
   padding: 0 2em;
   height: 38px;
-  font-size: 14px;
+  font-size: 16px;
   color: #ffffffc7;
   text-decoration: none;
   display: flex;
@@ -263,6 +263,7 @@ body {
 .hero__section__marquee__container__item {
   padding: 0 2em;
   font-size: 1.5em;
+  font-weight: 700;
 }
 .hero__section {
   background: linear-gradient(
@@ -293,6 +294,8 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
+  position: relative;
+  z-index: 1;
 }
 .hero__section__content__subheading {
   font-size: 20px;
@@ -301,8 +304,8 @@ body {
 .hero__section__content__heading {
   font-size: 75px;
   color: #f5f7fc;
-  font-weight: bolder;
-  font-family: AvenirLTStd-Black, sans-serif;
+  font-weight: 700;
+  font-family: AvenirLTStd-Roman, sans-serif;
   text-transform: uppercase;
   animation-delay: 0.5s;
 }
@@ -367,6 +370,7 @@ body {
   height: 80px;
   border-radius: 30px;
   animation: rightmove infinite 6s;
+  z-index: 99;
 }
 .arrow__button:hover {
   transition: 300ms ease-in-out;
