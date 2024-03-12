@@ -138,6 +138,11 @@ client-only@0.0.1:
   resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
   integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
 
+countup.js@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/countup.js/-/countup.js-2.8.0.tgz#64951f2df3ede28839413d654d8fef28251c32a8"
+  integrity sha512-f7xEhX0awl4NOElHulrl4XRfKoNH3rB+qfNSZZyjSZhaAoUk6elvhH+MNxMmlmuUJ2/QNTWPSA7U4mNtIAKljQ==
+
 debounce@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.2.1.tgz#38881d8f4166a5c5848020c11827b834bcb3e0a5"
@@ -304,6 +309,13 @@ react-click-away-listener@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/react-click-away-listener/-/react-click-away-listener-2.2.3.tgz#a5c3e37d94cc86dac3546dbb753db14bacb63186"
   integrity sha512-p63JRQtK9d085+QHUJ2Pje22P/N4tEaXsS2x7tbbptriQqZ9o8xEk7G1JrxwND5YmEVc/VO4fC3+cSBsqqgLUQ==
+
+react-countup@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.5.0.tgz#2671035ec5012ed8db097a79d08fa6f193e139d3"
+  integrity sha512-26JFHbUHsHxu8SetkJwWVIUEkaNnrj4P9msxNGC8tS4hGr1bngRzbwtJYOgXD2G/ItjaKJ3JfYKd85sw7qRVeA==
+  dependencies:
+    countup.js "^2.8.0"
 
 react-dom@^18:
   version "18.2.0"
