@@ -1,26 +1,27 @@
 "use client";
 
 import Fade from "react-reveal/Fade";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import CountUpWhenInView from "./CountUpWhenInView";
 
 const entries = [
   {
-    number: "25K+",
+    number: "25000",
     text: "Project Completed",
     delay: "100",
   },
   {
-    number: "8K+",
+    number: "8000",
     text: "Happy Costomers",
     delay: "500",
   },
   {
-    number: "25K+",
+    number: "25000",
     text: "Years Experiences",
     delay: "800",
   },
   {
-    number: "25K+",
+    number: "25000",
     text: "Awards Achievement",
     delay: "1200",
   },
@@ -44,7 +45,12 @@ export default function NumbersSection() {
               onMouseEnter={() => setIsMouseHover(index)}
             >
               <div className="numbers__section__content__entry__number">
-                {entry.number}
+                <CountUpWhenInView
+                  start={0}
+                  end={parseInt(entry.number)}
+                  duration={3}
+                />
+                +
               </div>
               <div
                 className={
