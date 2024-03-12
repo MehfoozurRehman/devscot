@@ -8,11 +8,13 @@ import { PlayCircle } from "react-feather";
 import SolutionSection from "@/components/SolutionSection";
 import Testimonial from "@/components/Testimonial";
 import VideoSection from "@/components/VideoSection";
+import HomeTestimonials from "@/components/HomeTestimonials";
 
 export default function Index() {
   return (
     <>
       <HomeSection />
+      <HomeTestimonials />
       <MagnetButton>Let's Talk</MagnetButton>
       <section className="hero__section__aboutus">
         <div className="hero__section__aboutus__content">
