@@ -44,7 +44,7 @@ export default function HomeSection() {
           >
             We create modern user experience for new startups by creating a
             bridge between users’ needs and the client’s requirements. We
-            expertise in developing.
+            expertise in developing
           </motion.div>
           <div className="hero__section__content__info__highlight">
             <motion.div
