@@ -1407,6 +1407,7 @@ body {
   height: 20px;
   border-radius: 100px;
   background-color: #139948;
+  transition: 300ms ease-in-out;
 }
 @media (max-width: 700px) {
   .how__section__content__subheading {
