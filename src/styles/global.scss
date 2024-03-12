@@ -960,6 +960,114 @@ body {
   justify-content: center;
   align-items: center;
 }
+.home__testmonials {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding: 5em 0em;
+}
+.home__testmonials__svg {
+  position: absolute;
+  top: -200px;
+  right: 0px;
+}
+.home__testmonials__heading {
+  font-size: 45px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  padding: 0em 2em;
+}
+.home__testmonials__info {
+  font-size: 16px;
+  color: #878787;
+  text-align: center;
+  width: 100%;
+  max-width: 950px;
+  margin-bottom: 2em;
+  padding: 0em 2em;
+}
+.home__testmonials__content {
+  background: url("../../public/testimonialImage.webp"), no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1366px;
+  padding: 2em;
+  margin: 0em auto;
+}
+.home__testmonials__content__users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.home__testmonials__content__users__entry {
+  position: relative;
+  margin: 3em;
+  display: flex;
+  gap: 2em;
+}
+.home__testmonials__content__users__entry__input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+}
+.home__testmonials__content__users__entry__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  padding: 0em;
+  border: 10px solid transparent;
+  overflow: hidden;
+  user-select: none;
+  outline: 10px solid rgba(36, 170, 108, 0.1);
+}
+.home__testmonials__content__users__entry:nth-child(even) {
+  margin-top: 10em;
+}
+.home__testmonials__content__users__entry:nth-child(odd) {
+  margin-bottom: 10em;
+}
+.home__testmonials__content__users__entry__input:hover
+  ~ .home__testmonials__content__users__entry__img,
+.home__testmonials__content__users__entry__input:checked
+  ~ .home__testmonials__content__users__entry__img {
+  transition: 300ms ease-in-out;
+  border-color: #2ecc82;
+}
+.home__testmonials__content__details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0em auto;
+}
+.home__testmonials__content__details__info {
+  color: #878787;
+  font-size: 16px;
+}
+.home__testmonials__content__details__heading {
+  margin: 0.5em 0em;
+  font-size: 20px;
+  color: #2ecc82;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.home__testmonials__content__details__sub__heading {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+}
 @media (max-width: 1440px) {
   .header__content {
     width: 95%;
