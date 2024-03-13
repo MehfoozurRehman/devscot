@@ -38,31 +38,6 @@ export default function Index() {
       <HowWorkSection />
       <FeatureSection />
       <FeatureSectionMobile />
-      <div className="Service__agency__main__container">
-        <div className="Service__agency__trust__container">
-          <div className="omega__title__main__title">
-            <br />
-            <span> Our</span>
-            <span>
-              Testimonial
-              <svg
-                width="130"
-                height="16"
-                viewBox="0 0 266 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.5 12.1784C43.7594 6.95554 151.922 -1.40459 262.496 6.93771"
-                  stroke="#139948"
-                  strokeWidth="6"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>
-          </div>
-        </div>
-      </div>
       <Testimonial />
     </>
   );
