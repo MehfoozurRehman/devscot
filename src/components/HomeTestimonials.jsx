@@ -37,12 +37,6 @@ export default function HomeTestimonials() {
   console.log(selectedEntry, "selectedEntry");
   return (
     <div className="home__testmonials">
-      <img
-        loading="lazy"
-        src="/testimonial.svg"
-        alt="testimonialSvg"
-        className="home__testmonials__svg"
-      />
       <div bottom distance="30%">
         <div className="home__testmonials__heading heading">
           Learn why 1000+ customers
