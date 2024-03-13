@@ -13,7 +13,6 @@ export default function Index() {
   return (
     <>
       <HomeSection />
-      <HomeTestimonials />
       <MagnetButton>Let's Talk</MagnetButton>
       <section className="hero__section__aboutus">
         <div className="hero__section__aboutus__content">
@@ -36,7 +35,7 @@ export default function Index() {
       <NumbersSection />
       <HowWorkSection />
       <FeatureSection />
-      <FeatureSectionMobile />
+      <FeatureSectionMobile /> <HomeTestimonials />
     </>
   );
 }
