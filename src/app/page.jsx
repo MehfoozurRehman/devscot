@@ -6,7 +6,6 @@ import MagnetButton from "@/components/MagnetButton";
 import NumbersSection from "@/components/NumbersSection";
 import { PlayCircle } from "react-feather";
 import SolutionSection from "@/components/SolutionSection";
-import Testimonial from "@/components/Testimonial";
 import VideoSection from "@/components/VideoSection";
 import HomeTestimonials from "@/components/HomeTestimonials";
 
@@ -38,7 +37,6 @@ export default function Index() {
       <HowWorkSection />
       <FeatureSection />
       <FeatureSectionMobile />
-      <Testimonial />
     </>
   );
 }
