@@ -5,6 +5,7 @@ import { Facebook, Instagram, Linkedin, Send, Twitter } from "react-feather";
 import Link from "next/link";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { useParallax } from "react-scroll-parallax";
+import MagnetButton from "@/components/MagnetButton";
 
 export default function Footer() {
   return (
@@ -81,9 +82,7 @@ function FooterContent() {
               <div className="Footer__content__right__card__content__heading">
                 Have a project in your mind?
               </div>
-              <button className="Footer__content__right__card__content__button">
-                Contact Us
-              </button>
+              <MagnetButton>Let's Talk</MagnetButton>
               <div className="Footer__content__right__card__content__time">
                 09 : 00 AM - 10 : 30 PM
               </div>
