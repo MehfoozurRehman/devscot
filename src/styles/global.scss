@@ -10,6 +10,10 @@
   src: url(../font/AvenirLTStd-Black.otf);
 }
 @font-face {
+  font-family: DMSansSemiBold;
+  src: url(../font/DMSansSemiBold.ttf);
+}
+@font-face {
   font-family: AvenirLTStd-Roman;
   src: url(../font/AvenirLTStd-Roman.otf);
 }
@@ -300,14 +304,20 @@ body {
 .hero__section__content__subheading {
   font-size: 20px;
   color: #f5f7fc;
+  margin-bottom: 0.2em;
 }
 .hero__section__content__heading {
-  font-size: 75px;
+  font-size: 72px;
   color: #f5f7fc;
-  font-weight: 700;
-  font-family: AvenirLTStd-Roman, sans-serif;
+  font-weight: 800;
+  font-family: AvenirLTStd-Black, sans-serif;
   text-transform: uppercase;
   animation-delay: 0.5s;
+}
+.hero__section__content__heading span {
+  font-family: AvenirLTStd-Black, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 .hero__section__content__info {
   font-size: 20px;
@@ -316,6 +326,7 @@ body {
   margin-top: 0.5em;
   max-width: 600px;
   margin-bottom: 1em;
+  letter-spacing: 1px;
 }
 .hero__section__content__info__highlight__name {
   background: transparent;
