@@ -15,7 +15,7 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   function changeNavState() {
-    if (window.innerWidth < 1000) {
+    if (window.innerWidth < 1060) {
       setIsOpen(false);
     } else {
       setIsOpen(true);
@@ -56,7 +56,7 @@ export default function Header() {
   return (
     <ClickAwayListener
       onClickAway={() => {
-        if (window.innerWidth < 1000) {
+        if (window.innerWidth < 1060) {
           setIsOpen(false);
         }
       }}
@@ -64,7 +64,7 @@ export default function Header() {
       <div
         className={"header" + (isScrolled ? " header__scrolled" : "")}
         style={
-          isOpen && window.innerWidth < 1000
+          isOpen && window.innerWidth < 1060
             ? { backgroundColor: "#fffff" }
             : null
         }
@@ -89,7 +89,7 @@ export default function Header() {
               href="/"
               className={navLinkClass("/")}
               onClick={() => {
-                if (window.innerWidth < 1000) {
+                if (window.innerWidth < 1060) {
                   setIsOpen(false);
                 }
               }}
@@ -100,7 +100,7 @@ export default function Header() {
               href="/services"
               className={navLinkClass("/services")}
               onClick={() => {
-                if (window.innerWidth < 1000) {
+                if (window.innerWidth < 1060) {
                   setIsOpen(false);
                 }
               }}
@@ -111,7 +111,7 @@ export default function Header() {
               href="/projects"
               className={navLinkClass("/projects")}
               onClick={() => {
-                if (window.innerWidth < 1000) {
+                if (window.innerWidth < 1060) {
                   setIsOpen(false);
                 }
               }}
@@ -122,7 +122,7 @@ export default function Header() {
               href="/about"
               className={navLinkClass("/about")}
               onClick={() => {
-                if (window.innerWidth < 1000) {
+                if (window.innerWidth < 1060) {
                   setIsOpen(false);
                 }
               }}
@@ -132,7 +132,7 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => {
-                if (window.innerWidth < 1000) {
+                if (window.innerWidth < 1060) {
                   setIsOpen(false);
                 }
               }}
