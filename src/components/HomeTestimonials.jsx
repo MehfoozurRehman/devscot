@@ -69,7 +69,7 @@ export default function HomeTestimonials() {
       } else {
         setCheckimg(Data[0].id); // Reset to the beginning of the array
       }
-    }, 1000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [Checkimg, Data]); // Include Checkimg and Data in the dependency array
 
