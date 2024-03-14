@@ -5,7 +5,10 @@ import MagnetWrapper from "./MagnetWrapper";
 export default function MagnetButton({ children }) {
   return (
     <MagnetWrapper>
-      <button className="magnet_button">{children}</button>
+      <button className="magnet_button">
+        {children}
+        <span></span>
+      </button>
     </MagnetWrapper>
   );
 }
