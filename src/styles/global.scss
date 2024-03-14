@@ -1673,6 +1673,12 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .home__testmonials__content__users__entry__img__container:nth-child(even) {
+    margin-top: 5em;
+  }
+  .home__testmonials__content__users__entry__img__container:nth-child(odd) {
+    margin-bottom: 5em;
+  }
   .Footer__bottom__content {
     flex-direction: column;
   }
@@ -1692,6 +1698,7 @@ body {
   .line {
     margin: 0;
   }
+
   .hero__section__content__info__highlight {
     flex-wrap: wrap;
     margin-bottom: 0.5em;
@@ -1701,14 +1708,43 @@ body {
     display: none;
   }
   .hero__section__content__info {
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 1em;
+    text-align: justify;
   }
   .hero__section__content__heading {
-    font-size: 32px;
+    font-size: 40px;
+  }
+  .hero__section__content__info__highlight {
+    justify-content: space-between;
+  }
+
+  .hero__section__content__info__highlight__name {
+    font-size: 14px;
+  }
+  .hero__section__content__info__highlight__name:first-child {
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .hero__section__content__info__highlight__name:nth-child(2) {
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .hero__section__content__info__highlight__name:last-child {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
   .hero__section__content__subheading {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 2em;
     margin-bottom: 1em;
   }
@@ -1749,6 +1785,30 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .hero__section {
+    height: 75vh;
+  }
+  .hero__section__content {
+    text-align: start;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .home__testmonials__heading {
+    text-align: left;
+    width: 100%;
+  }
+  .home__testmonials__info {
+    text-align: left;
+    width: 100%;
+  }
+  .home__testmonials__heading,
+  .home__testmonials__info {
+    padding: 0em;
+  }
+  .home__testmonials {
+    align-items: flex-start;
+    padding: 2em;
+  }
   .home__testmonials__content__users__entry__img {
     width: 80px;
     height: 80px;
@@ -1869,6 +1929,29 @@ body {
   }
   .header__content {
     padding: 1em 1em;
+    width: 90%;
+  }
+  .line {
+    display: none;
+  }
+  .hero__section__aboutus__content {
+    padding: 2em 1em;
+  }
+  .solution__section__content__data__right {
+    width: 100%;
+    margin: 0em 1em;
+  }
+  .solution__section__content__data__right__entry {
+    padding: 1em;
+  }
+  .hero__section__aboutus__content__left {
+    font-size: 18px;
+  }
+  .how__section__content__data__entry {
+    min-width: 225px;
+  }
+  .hero__section__aboutus__content__right {
+    font-size: 16px;
   }
   .header__content__nav {
     width: 100%;
