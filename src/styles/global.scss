@@ -491,7 +491,7 @@ body {
 }
 .FeatureSection__content__right__img {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
 }
 .FeatureSection__content__right__content__card {
   position: absolute;
@@ -1020,9 +1020,10 @@ body {
   cursor: pointer;
   opacity: 0;
 }
+
 .home__testmonials__content__users__entry__img {
-  width: 120px;
-  height: 120px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   padding: 0em;
   border: 10px solid transparent;
@@ -1030,17 +1031,21 @@ body {
   user-select: none;
   outline: 10px solid rgba(36, 170, 108, 0.1);
 }
+
 .home__testmonials__content__users__entry__img:hover {
-  outline: 10px solid #139948;
+  outline: 10px solid #139949b7;
+  transition: 300ms ease-in-out;
 }
 .home__testmonials__content__users__entry__img__container__active {
-  outline: 5px solid #139948;
+  outline: 10px solid #139948;
   border-radius: 50%;
+  width: 75px;
+  height: 75px;
 }
-.home__testmonials__content__users__entry:nth-child(even) {
+.home__testmonials__content__users__entry__img__container:nth-child(even) {
   margin-top: 10em;
 }
-.home__testmonials__content__users__entry:nth-child(odd) {
+.home__testmonials__content__users__entry__img__container:nth-child(odd) {
   margin-bottom: 10em;
 }
 .home__testmonials__content__users__entry__input:hover
@@ -1738,6 +1743,15 @@ body {
     width: 80px;
     height: 80px;
   }
+  .home__testmonials__content__users__entry__img__container__active {
+    width: 80px;
+    height: 80px;
+  }
+  .home__testmonials__content__users__entry__img__container
+    .home__testmonials__content__users__entry__img__container__active {
+    width: 80px;
+    height: 80px;
+  }
   .numbers__section__content__entry__number {
     font-size: 34px;
   }
@@ -1793,6 +1807,15 @@ body {
     width: 40px;
     height: 40px;
     margin-bottom: 2em;
+  }
+  .home__testmonials__content__users__entry__img__container
+    .home__testmonials__content__users__entry__img__container__active {
+    width: 40px;
+    height: 40px;
+  }
+  .home__testmonials__content__users__entry__img__container__active {
+    width: 40px;
+    height: 40px;
   }
   .home__testmonials__content__users__entry {
     margin: 0.5em !important;
