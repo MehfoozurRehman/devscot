@@ -1023,12 +1023,19 @@ body {
 .home__testmonials__content__users__entry__img {
   width: 120px;
   height: 120px;
-  border-radius: 120px;
+  border-radius: 50%;
   padding: 0em;
   border: 10px solid transparent;
   overflow: hidden;
   user-select: none;
   outline: 10px solid rgba(36, 170, 108, 0.1);
+}
+.home__testmonials__content__users__entry__img:hover {
+  outline: 10px solid #139948;
+}
+.home__testmonials__content__users__entry__img__container__active {
+  outline: 5px solid #139948;
+  border-radius: 50%;
 }
 .home__testmonials__content__users__entry:nth-child(even) {
   margin-top: 10em;
@@ -1041,7 +1048,7 @@ body {
 .home__testmonials__content__users__entry__input:checked
   ~ .home__testmonials__content__users__entry__img {
   transition: 300ms ease-in-out;
-  border-color: #2ecc82;
+  border-color: #139948;
 }
 .home__testmonials__content__details {
   display: flex;
@@ -1063,7 +1070,7 @@ body {
 .home__testmonials__content__details__heading {
   margin: 0.5em 0em;
   font-size: 20px;
-  color: #2ecc82;
+  color: #139948;
   font-weight: bold;
   text-transform: capitalize;
 }
