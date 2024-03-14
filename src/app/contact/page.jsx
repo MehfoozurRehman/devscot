@@ -1,7 +1,7 @@
 "use client";
 
 import "@/styles/contact.scss";
-
+import MagnetButton from "@/components/MagnetButton";
 import { useEffect, useState } from "react";
 
 import { motion } from "framer-motion";
@@ -145,7 +145,7 @@ export default function Contact() {
             animate={{ opacity: 1 }}
             className="formpage__content__form__submitbutton"
           >
-            <button>{splitText("Submit")}</button>
+            <MagnetButton>Submit</MagnetButton>
           </motion.div>
         </form>
       </motion.div>
