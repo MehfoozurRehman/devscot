@@ -1,3 +1,13 @@
+.formpage ::-webkit-scrollbar {
+  width: 5px;
+}
+.formpage ::-webkit-scrollbar-track {
+  background: #1b1b1b;
+}
+.formpage ::-webkit-scrollbar-thumb {
+  background: #4caf50;
+  border-radius: 10px;
+}
 .formpage {
   width: 100%;
   height: 100vh;
@@ -34,17 +44,24 @@
   font-size: 30px;
   margin-bottom: 1em;
 }
-.formpage__content__form__submitbutton button {
-  background-color: #4caf50;
-  color: white;
-  padding: 1em;
-  border-radius: 30px;
-  margin: 0.5em;
-  border: none;
-  cursor: pointer;
+.formpage__content__form__submitbutton {
+  display: flex;
+  justify-content: right;
+  align-items: right;
   width: 100%;
-  max-width: 300px;
+  height: 0;
 }
+// .formpage__content__form__submitbutton button {
+//   background-color: #4caf50;
+//   color: white;
+//   padding: 1em;
+//   border-radius: 30px;
+//   margin: 0.5em;
+//   border: none;
+//   cursor: pointer;
+//   width: 100%;
+//   max-width: 300px;
+// }
 .formpage {
   position: relative;
 }
