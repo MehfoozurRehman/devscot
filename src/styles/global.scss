@@ -1708,7 +1708,7 @@ body {
     display: none;
   }
   .hero__section__content__info {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 1em;
     text-align: justify;
   }
@@ -1716,32 +1716,35 @@ body {
     font-size: 40px;
   }
   .hero__section__content__info__highlight {
-    justify-content: space-between;
+    justify-content: unset;
   }
 
   .hero__section__content__info__highlight__name {
     font-size: 14px;
   }
   .hero__section__content__info__highlight__name:first-child {
-    width: 45%;
+    width: 50%;
     text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
   }
   .hero__section__content__info__highlight__name:nth-child(2) {
-    width: 45%;
+    width: 40%;
     text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
   }
   .hero__section__content__info__highlight__name:last-child {
-    width: 100%;
+    width: 50%;
     text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
+  }
+  .hero__section__content__info__highlight__name {
+    border: 1px solid #f5f7fc;
   }
   .hero__section__content__subheading {
     font-size: 16px;
@@ -1756,7 +1759,7 @@ body {
     flex-direction: row-reverse;
   }
   .header__content__logo img {
-    width: 100px;
+    width: 130px;
   }
   .hero__section {
     padding: 3em 0;
@@ -1863,13 +1866,31 @@ body {
     justify-content: flex-end;
   }
   .solution__section__content__heading {
-    font-size: 34px;
+    font-size: 25px;
     margin: 0.5em 0 0;
+    text-align: start;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0em 1.2em;
+  }
+  .solution__section__content__data__right__entry__heading {
+    font-size: 20px;
+  }
+  .solution__section__content__data__right__entry__hover:hover
+    .solution__section__content__data__right__entry__btn__hover {
+    color: #139948;
+    transition: 300ms ease-in-out;
+    scale: 1;
+    transform: translate(0, 0%);
   }
 }
 @media (max-width: 600px) {
   .home__testmonials__heading {
     font-size: 25px;
+  }
+  .home__testmonials {
+    overflow: hidden;
   }
 }
 @media (max-width: 520px) {
@@ -1928,7 +1949,7 @@ body {
     color: #fff !important;
   }
   .header__content {
-    padding: 1em 1em;
+    padding: 1em 0em;
     width: 90%;
   }
   .line {
