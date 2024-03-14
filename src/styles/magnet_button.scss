@@ -1,7 +1,42 @@
 .magnet_button {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #139948;
+  font-size: 18px;
+  color: #f5f7fc;
+  margin: 2em 0;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+.magnet_button span {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 0;
+  background-color: #139948;
+  z-index: -1;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0);
+}
+.magnet_button:hover span {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: white;
-  border: 1px solid black;
+  background-color: #000;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  // -webkit-transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
+
+  -webkit-transform: scale(1);
 }
