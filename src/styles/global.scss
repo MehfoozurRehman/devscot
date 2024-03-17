@@ -1759,7 +1759,15 @@ body {
     flex-direction: row-reverse;
   }
   .header__content__logo img {
-    width: 130px;
+    width: 150px;
+  }
+  .Aboutuspage__video__button svg {
+    width: 50px;
+    height: 50px;
+  }
+  .Aboutuspage__video__button {
+    width: 50px;
+    height: 50px;
   }
   .hero__section {
     padding: 3em 0;
@@ -1788,6 +1796,25 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .numbers__section__content__entry {
+    width: 44%;
+    max-width: 170px;
+    height: 170px;
+  }
+  .numbers__section__content {
+    padding: 4em 1em;
+  }
+  .numbers__section__content__entry__hover {
+    width: 44%;
+    max-width: 170px;
+    height: 170px;
+  }
+  .numbers__section__content__entry__text {
+    text-align: center;
+  }
+  .numbers__section__content__entry__number {
+    font-size: 25px !important;
+  }
   .hero__section {
     height: 75vh;
   }
@@ -1866,7 +1893,8 @@ body {
     justify-content: flex-end;
   }
   .solution__section__content__heading {
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 700;
     margin: 0.5em 0 0;
     text-align: start;
     align-items: flex-start;
@@ -1894,6 +1922,10 @@ body {
   }
 }
 @media (max-width: 520px) {
+  .Footer {
+    width: 100%;
+    margin-top: -10em;
+  }
   .home__testmonials__content__users__entry__img {
     width: 40px;
     height: 40px;
@@ -1949,7 +1981,7 @@ body {
     color: #fff !important;
   }
   .header__content {
-    padding: 1em 0em;
+    padding: 1em 0.5em;
     width: 90%;
   }
   .line {
@@ -1967,6 +1999,13 @@ body {
   }
   .hero__section__aboutus__content__left {
     font-size: 18px;
+    font-weight: 700;
+  }
+  .home__testmonials__content__details {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .how__section__content__data__entry {
     min-width: 225px;
@@ -1983,11 +2022,11 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-  .numbers__section__content__entry {
-    width: 100%;
-  }
-  .numbers__section__content__entry__hover {
-    width: 100%;
-  }
-}
+// @media (max-width: 500px) {
+//   // .numbers__section__content__entry {
+//   //   width: 100%;
+//   // }
+//   .numbers__section__content__entry__hover {
+//     width: 100%;
+//   }
+// }
