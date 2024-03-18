@@ -1,0 +1,197 @@
+.Services__deatils {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20em;
+  padding: 0 2em;
+}
+.Services__deatils__all__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Services__deatils__content {
+  display: flex;
+}
+.Services__deatils__content__left {
+  width: 50%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+}
+.Services__deatils__content__right {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.Services__deatils__content__right__contentbottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Services__deatils__content__right__contentbottom__content {
+  margin: 0.5em;
+  max-width: 300px;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+.Services__deatils__content__left__conent__heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+.Services__deatils__content__right__contentbottom__points {
+  margin-bottom: 1em;
+}
+.Services__deatils__content__right__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #000;
+}
+.Services__deatils__content__right__content__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  text-align: justify;
+  margin-bottom: 2em;
+}
+.Services__deatils__content__right__content__info:first-child {
+  margin-right: 1em;
+}
+.Services__deatils__content__right__contentbottom__imgs {
+  display: flex;
+  padding: 1em;
+}
+.Services__deatils__content__right__contentbottom__imgs__img {
+  width: 60%;
+  margin: 1em;
+}
+.Services__deatils__content__right__contentbottom__imgs__img__two {
+  width: 40%;
+  margin: 1em;
+}
+.Services__deatils__card {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.Services__deatils__card__content__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.Services__deatils__card__content__cards__card {
+  width: 23%;
+}
+.Services__deatils__card__content__cards__card__heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0.5em;
+}
+.Services__deatils__card__content__cards__card__info {
+  font-size: 14px;
+  text-align: justify;
+  //   margin-top: 0.2em;
+}
+.Services__deatils__layer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+.Services__deatils__layer__content {
+  display: flex;
+  width: 100%;
+}
+.Services__deatils__layer__content__left {
+  width: 30%;
+  //   max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+}
+.Services__deatils__layer__content__right {
+  width: 70%;
+}
+.Services__deatils__layer__content__left__span {
+  padding: 2em;
+  width: 200px;
+  height: 200px;
+  background-color: #c9f31d;
+  border-radius: 50%;
+  position: relative;
+}
+.Services__deatils__layer__content__left__span::before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #000;
+  top: 49%;
+  left: 50%;
+  //   transform: translateX(-50%);
+}
+.Services__deatils__layer__content__left__span::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 2;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 1px solid #000;
+  top: 50%;
+  left: 50%;
+  //   transform: translateX(-50%);
+}
+.Services__deatils__layer__content__heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  max-width: 380px;
+  margin-bottom: 2em;
+  text-align: justify;
+}
+.Services__deatils__layer__content__right__content__img {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+}
+.Services__deatils__layer__content__right__content__info {
+  display: flex;
+}
+.Services__deatils__layer__content__right__content__info__info {
+  text-align: justify;
+  margin-top: 1em;
+  font-size: 14px;
+}
+.Services__deatils__layer__content__right__content__info__info:first-child {
+  margin-right: 1em;
+}
