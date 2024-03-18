@@ -2,7 +2,6 @@ import FeatureSection from "@/components/FeatureSection";
 import FeatureSectionMobile from "@/components/FeatureSectionMobile";
 import HomeSection from "../components/HomeSection";
 import HowWorkSection from "@/components/HowWorkSection";
-
 import NumbersSection from "@/components/NumbersSection";
 import { PlayCircle } from "react-feather";
 import SolutionSection from "@/components/SolutionSection";
