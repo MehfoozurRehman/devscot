@@ -147,10 +147,15 @@
 .formpage__content__form__name__speacialinput:focus {
   border-color: #4caf50;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 880px) {
   .formpage__content {
     padding: 3em 2em;
+    margin: 1em;
+    height: auto;
+    // margin-bottom: 10em !important;
   }
+
   .formpage__content__form {
     flex-direction: column;
     padding: 0.5em 0;
