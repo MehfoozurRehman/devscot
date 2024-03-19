@@ -48,6 +48,8 @@ export default function Header() {
   useEffect(() => {
     if (pathname === "/about") {
       document.querySelector(".header").style.backgroundColor = "#000";
+    } else if (pathname === "/services") {
+      document.querySelector(".header").style.backgroundColor = "#000";
     } else {
       document.querySelector(".header").style.backgroundColor = "taansparent";
     }
