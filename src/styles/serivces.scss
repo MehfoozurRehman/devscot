@@ -111,6 +111,7 @@
   font-size: 14px;
   text-align: justify;
   //   margin-top: 0.2em;
+  color: #555;
 }
 .Services__deatils__layer {
   display: flex;
@@ -191,7 +192,31 @@
   text-align: justify;
   margin-top: 1em;
   font-size: 14px;
+  color: #555;
 }
 .Services__deatils__layer__content__right__content__info__info:first-child {
   margin-right: 1em;
+}
+.Services__deatils__product {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.faq-answer {
+  overflow: hidden;
+  transition: height 0.3s, opacity 0.3s;
 }
