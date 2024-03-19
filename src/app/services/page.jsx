@@ -1,5 +1,6 @@
 import React from "react";
 import "@/styles/serivces.scss";
+import FaqSection from "@/components/FaqSection";
 export default function page() {
   return (
     <>
@@ -143,6 +144,47 @@ export default function page() {
           </div>
         </div>
       </div>
+      <div className="Services__deatils__product">
+        <div className="Services__deatils__product__content">
+          <div className="Services__deatils__product__content__left">
+            <img
+              src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/faq.jpg"
+              alt="img"
+              className="Services__deatils__product__content__left__img"
+            />
+          </div>
+          <div className="Services__deatils__product__content__right">
+            <div className="Services__deatils__product__content__right__content">
+              <div className="Services__deatils__product__content__right__content__heading">
+                Product making for friendly users
+              </div>
+              <div className="Services__deatils__product__content__right__content__faqs">
+                <div className="Services__deatils__product__content__right__content__faqs__faq">
+                  <div className="Services__deatils__product__content__right__content__faqs__faq__heading">
+                    What is the process of making a product?
+                  </div>
+                  <div className="Services__deatils__product__content__right__content__faqs__faq__info">
+                    We work to develop solutions that are tailored to meet the
+                    needs of our partners. We work to develop solutions that are
+                    tailored to meet the needs of our partners.
+                  </div>
+                </div>
+                <div className="Services__deatils__product__content__right__content__faqs__faq">
+                  <div className="Services__deatils__product__content__right__content__faqs__faq__heading">
+                    What is the process of making a product?
+                  </div>
+                  <div className="Services__deatils__product__content__right__content__faqs__faq__info">
+                    We work to develop solutions that are tailored to meet the
+                    needs of our partners. We work to develop solutions that are
+                    tailored to meet the needs of our partners.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <FaqSection />
     </>
   );
 }
