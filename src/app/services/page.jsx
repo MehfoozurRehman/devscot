@@ -1,6 +1,5 @@
 import React from "react";
 import "@/styles/serivces.scss";
-import FaqSection from "@/components/FaqSection";
 export default function page() {
   return (
     <>
@@ -184,7 +183,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FaqSection />
     </>
   );
 }
