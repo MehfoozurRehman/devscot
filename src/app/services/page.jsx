@@ -1,8 +1,12 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 import "@/styles/serivces.scss";
 import ServicesHowWeDoIt from "@/components/ServicesHowWeDoIt";
 import HowWorkSection from "@/components/HowWorkSection";
+import splitText from "@/utils/splitText";
 export default function page() {
+  const heading = splitText("Web and mobile development");
   return (
     <>
       <div className="Services__deatils">
@@ -10,23 +14,38 @@ export default function page() {
           <div className="Services__deatils__content">
             <div className="Services__deatils__content__left">
               <div className="Services__deatils__content__left__conent">
-                <div className="Services__deatils__content__left__conent__heading">
-                  Web and mobile development
-                </div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1.5 }}
+                  className="Services__deatils__content__left__conent__heading"
+                >
+                  {heading}
+                </motion.div>
               </div>
             </div>
             <div className="Services__deatils__content__right">
               <div className="Services__deatils__content__right__content">
-                <div className="Services__deatils__content__right__content__info">
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1.5 }}
+                  className="Services__deatils__content__right__content__info"
+                >
                   Every decision we make needs to answer the million-dollar
                   question: how will this benefit our partner’s goal best? We
                   work to develop solutions
-                </div>
-                <div className="Services__deatils__content__right__content__info">
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1.5 }}
+                  className="Services__deatils__content__right__content__info"
+                >
                   Every decision we make needs to answer the million-dollar
                   question: how will this benefit our partner’s goal best? We
                   work to develop solutions
-                </div>
+                </motion.div>
               </div>
               <div className="Services__deatils__content__right__contentbottom">
                 <div className="Services__deatils__content__right__contentbottom__content">
