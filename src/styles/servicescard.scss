@@ -2,11 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  margin-top: 20px;
+  // padding: 0 20px;
+  // margin-top: 20px;
   width: 100%;
   background-color: #000;
-  padding: 4em 2em;
+  padding: 0em 2em;
 }
 .active-scroll-spy {
   color: #fff;
@@ -27,12 +27,13 @@
   position: sticky;
   height: 100%;
   top: 100px;
+  padding: 2em;
 }
 .service__Pagedetails__section__content__mid {
   width: 40%;
 }
 .service__Pagedetails__section__content__mid__imgs__img {
-  height: 90vh;
+  height: 100vh;
 }
 .service__Pagedetails__section__content__right {
   width: 35%;
@@ -42,15 +43,19 @@
   color: #fff;
   font-size: 20px;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .service__Pagedetails__section__content__right__content__heading {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 600;
   margin-bottom: 0.5px;
 }
 .service__Pagedetails__section__content__right__content__info {
   margin-top: 1em;
   font-size: 18px;
+  line-height: 1.4;
   text-align: justify;
   font-weight: 400;
   color: #999;
@@ -67,12 +72,12 @@
 .service__Pagedetails__section__content__left {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .service__Pagedetails__section__content__left__links__link {
   color: #999;
   text-decoration: none;
   display: block;
-
   padding-bottom: 1.2em;
   margin-bottom: 10px;
 }
@@ -82,8 +87,9 @@
 .service__Pagedetails__section__content__left__links__link {
   color: #999;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 600;
+  max-width: 150px;
 }
 .active {
   color: #fff !important;
