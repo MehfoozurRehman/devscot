@@ -3,8 +3,80 @@ import React, { useEffect } from "react";
 import "@/styles/servicesdetails.scss";
 import "@/styles/servicescard.scss";
 import MagnetButton from "@/components/MagnetButton";
+import ScrollSpy from "react-ui-scrollspy";
 
 function ServicePage() {
+  const Data = [
+    {
+      title: "Web Development",
+      description:
+        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+      links: ["Approch", "Creativity", "Experienced"],
+      id: 1,
+      img: "/FeatureSectionimg.png",
+    },
+    {
+      title: "Mobile App Development",
+      description:
+        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+      links: ["Approch", "Creativity", "Experienced"],
+      id: 2,
+      img: "/FeatureSectionimg.png",
+    },
+    {
+      title: "Digital Marketing",
+      description:
+        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+      links: ["Approch", "Creativity", "Experienced"],
+      id: 3,
+      img: "/FeatureSectionimg.png",
+    },
+    {
+      title: "UI/UX Design",
+      description:
+        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+      links: ["Approch", "Creativity", "Experienced"],
+      id: 4,
+      img: "/FeatureSectionimg.png",
+    },
+    {
+      title: "Branding",
+      description:
+        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+      links: ["Approch", "Creativity", "Experienced"],
+      id: 5,
+      img: "/FeatureSectionimg.png",
+    },
+    {
+      title: "E-commerce",
+      description:
+        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+      links: ["Approch", "Creativity", "Experienced"],
+      id: 6,
+      img: "/FeatureSectionimg.png",
+    },
+  ];
+  const scrollToSection = (e, offset = 0) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.href.split("#")[1];
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      let yOffset = 0;
+      if (window.innerWidth >= 1220) {
+        yOffset = -150; // For widths 1024px and above
+      } else if (window.innerWidth >= 950) {
+        yOffset = -195;
+      } else {
+        yOffset = -250;
+      }
+      const y =
+        targetElement.getBoundingClientRect().top +
+        window.scrollY +
+        yOffset -
+        offset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
   return (
     <div>
       <div id="smooth-wrapper">
@@ -102,58 +174,65 @@ function ServicePage() {
       <div className="service__Pagedetails__section">
         <div className="service__Pagedetails__section__content">
           <div className="service__Pagedetails__section__content__left">
-            <div className="service__Pagedetails__section__content__left__links">
-              <div className="service__Pagedetails__section__content__left__links__link active">
-                Web Development
-              </div>
-              <div className="service__Pagedetails__section__content__left__links__link">
-                Mobile App Development
-              </div>
-              <div className="service__Pagedetails__section__content__left__links__link">
-                Digital Marketing
-              </div>
-              <div className="service__Pagedetails__section__content__left__links__link">
-                UI/UX Design
-              </div>
-              <div className="service__Pagedetails__section__content__left__links__link">
-                Branding
-              </div>
-              <div className="service__Pagedetails__section__content__left__links__link">
-                E-commerce
-              </div>
-            </div>
-          </div>
+            {Data.map((item) => {
+              return (
+                <div className="service__Pagedetails__section__content__left__links">
+                  <div
+                    onClick={(e) => scrollToSection(e)}
+                    href={`#${item.id}`}
+                    className="service__Pagedetails__section__content__left__links__link "
+                  >
+                    <div data-to-scrollspy-id={item.id}>{item.title}</div>
+                  </div>
+                </div>
+              );
+            })}{" "}
+          </div>{" "}
           <div className="service__Pagedetails__section__content__mid">
             <div className="service__Pagedetails__section__content__mid__imgs">
-              <img src="/FeatureSectionimg.png" alt="Solution Image" />
-              <img src="/FeatureSectionimg.png" alt="Solution Image" />{" "}
-              <img src="/FeatureSectionimg.png" alt="Solution Image" />{" "}
-              <img src="/FeatureSectionimg.png" alt="Solution Image" />
+              {Data.map((item) => (
+                <section
+                  id={item.id}
+                  className="service__Pagedetails__section__content__mid__imgs__img"
+                >
+                  <img src="/FeatureSectionimg.png" alt="Solution Image" />
+                </section>
+              ))}
             </div>
           </div>
           <div className="service__Pagedetails__section__content__right">
-            <div className="service__Pagedetails__section__content__right__content">
-              <div className="service__Pagedetails__section__content__right__content__heading">
-                Web Development
-              </div>
-              <p className="service__Pagedetails__section__content__right__content__info">
-                We’re designing digital experiences that enrich human lives and
-                it helps to grow your business globally trends.
-              </p>
-              <div className="service__Pagedetails__section__content__right__content__heading__links">
-                <ul>
-                  <li>Approch</li>
-                  <li>Creativity</li>
-                  <li>Experienced</li>
-                </ul>
-                <ul>
-                  <li>Approch</li>
-                  <li>Creativity</li>
-                  <li>Experienced</li>
-                </ul>
-              </div>
-              <MagnetButton>Get Started</MagnetButton>
-            </div>
+            <ScrollSpy
+              scrollThrottle={10}
+              useBoxMethod={false}
+              offsetTop={-250}
+            >
+              {Data?.map((item) => (
+                <section
+                  id={item.id}
+                  className="service__Pagedetails__section__content__right__content"
+                >
+                  <div className="service__Pagedetails__section__content__right__content__heading">
+                    {item.title}
+                  </div>
+                  <p className="service__Pagedetails__section__content__right__content__info">
+                    {item.description}
+                  </p>
+                  <div className="service__Pagedetails__section__content__right__content__heading__links">
+                    <ul>
+                      <li>Approch</li>
+                      <li>Creativity</li>
+                      <li>Experienced</li>
+                    </ul>
+                    <ul>
+                      <li>Approch</li>
+                      <li>Creativity</li>
+                      <li>Experienced</li>
+                    </ul>
+                  </div>
+                  <MagnetButton>Get Started</MagnetButton>
+                </section>
+              ))}{" "}
+            </ScrollSpy>
           </div>
         </div>
       </div>
