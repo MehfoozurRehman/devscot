@@ -50,6 +50,8 @@ export default function Header() {
       document.querySelector(".header").style.backgroundColor = "#000";
     } else if (pathname === "/services") {
       document.querySelector(".header").style.backgroundColor = "#000";
+    } else if (pathname.includes("/services")) {
+      document.querySelector(".header").style.backgroundColor = "#000";
     } else {
       document.querySelector(".header").style.backgroundColor = "taansparent";
     }
