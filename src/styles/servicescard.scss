@@ -13,9 +13,13 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
+  position: relative;
 }
 .service__Pagedetails__section__content__left {
   width: 30%;
+  position: sticky;
+  height: 100%;
+  top: 100px;
 }
 .service__Pagedetails__section__content__mid {
   width: 30%;
