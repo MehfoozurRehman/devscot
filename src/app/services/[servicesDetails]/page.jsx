@@ -190,14 +190,21 @@ function ServicePage() {
           </div>{" "}
           <div className="service__Pagedetails__section__content__mid">
             <div className="service__Pagedetails__section__content__mid__imgs">
-              {Data.map((item) => (
-                <section
-                  id={item.id}
-                  className="service__Pagedetails__section__content__mid__imgs__img"
-                >
-                  <img src="/FeatureSectionimg.png" alt="Solution Image" />
-                </section>
-              ))}
+              <ScrollSpy
+                scrollThrottle={10}
+                useBoxMethod={false}
+                offsetTop={-250}
+              >
+                {" "}
+                {Data.map((item) => (
+                  <section
+                    id={item.id}
+                    className="service__Pagedetails__section__content__mid__imgs__img"
+                  >
+                    <img src="/FeatureSectionimg.png" alt="Solution Image" />
+                  </section>
+                ))}
+              </ScrollSpy>
             </div>
           </div>
           <div className="service__Pagedetails__section__content__right">
@@ -211,9 +218,9 @@ function ServicePage() {
                   id={item.id}
                   className="service__Pagedetails__section__content__right__content"
                 >
-                  <div className="service__Pagedetails__section__content__right__content__heading">
+                  <h2 className="service__Pagedetails__section__content__right__content__heading">
                     {item.title}
-                  </div>
+                  </h2>
                   <p className="service__Pagedetails__section__content__right__content__info">
                     {item.description}
                   </p>
