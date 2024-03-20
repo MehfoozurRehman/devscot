@@ -1,6 +1,7 @@
 import React from "react";
 import "@/styles/serivces.scss";
-import SolutionSection from "@/components/SolutionSection";
+import ServicesHowWeDoIt from "@/components/ServicesHowWeDoIt";
+import HowWorkSection from "@/components/HowWorkSection";
 export default function page() {
   return (
     <>
@@ -67,42 +68,8 @@ export default function page() {
           </div>{" "}
         </div>
       </div>
-      <SolutionSection />
-      <div className="Services__deatils__layer">
-        <div className="Services__deatils__layer__content__heading">
-          We replace unreliable wirefreme and expensive agencies for one of the
-          best organized layer.
-        </div>
-        <div className="Services__deatils__layer__content">
-          <div className="Services__deatils__layer__content__left">
-            <span className="Services__deatils__layer__content__left__span"></span>
-          </div>
-          <div className="Services__deatils__layer__content__right">
-            <div className="Services__deatils__layer__content__right__content">
-              <img
-                src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/service-detail.png"
-                alt=""
-                className="Services__deatils__layer__content__right__content__img"
-              />
-              <div className="Services__deatils__layer__content__right__content__info">
-                <div className="Services__deatils__layer__content__right__content__info__info">
-                  Receive your design within a few business days, and be updated
-                  on the process. Everything you need for a digitally driven
-                  brand. Defined proposition. Conceptual realisation. Logo,
-                  type, look, feel, tone, movement, content - we've got it
-                  covered.
-                </div>
-                <div className="Services__deatils__layer__content__right__content__info__info">
-                  Getting your brand message out there. We create dynamic
-                  campaign creative that engages audiences, wherever they are
-                  most talented. Bring your brand to life, communicate your
-                  value proposition with agile setup across creativity.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <HowWorkSection />
+      <ServicesHowWeDoIt />
     </>
   );
 }
