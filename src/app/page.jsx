@@ -33,7 +33,8 @@ export default function Index() {
       <NumbersSection />
       <HowWorkSection />
       <FeatureSection />
-      <FeatureSectionMobile /> <HomeTestimonials />
+      <FeatureSectionMobile />
+      <HomeTestimonials />
     </>
   );
 }
