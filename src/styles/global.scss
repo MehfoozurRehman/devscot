@@ -1153,10 +1153,13 @@ body {
 }
 .solution__section__content__data__info__text {
   display: flex;
-  font-size: 26px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
   font-weight: 900;
   font-family: AvenirLTStd-Black, sans-serif;
   margin-right: 1.5em;
+  max-width: 150px;
 }
 .solution__section__content__data__info__btn {
   display: flex;
