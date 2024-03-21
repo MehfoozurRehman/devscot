@@ -1,0 +1,105 @@
+.projectpage__Section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 6em 2em 2em;
+}
+.projectpage__Section__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+  flex-direction: column;
+}
+.projectpage__Section__content__heading {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0.5px;
+  padding: 0em 0.5em;
+}
+.projectpage__Section__content__info {
+  margin-top: 1em;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: justify;
+  font-weight: 400;
+  color: #999;
+  max-width: 900px;
+  margin-bottom: 2em;
+  padding: 0em 1em;
+}
+.projectpage__Section__content__cards {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 100%;
+}
+.projectpage__Section__content__card {
+  width: 23%;
+  max-width: 300px;
+  background: #fff;
+  border-radius: 10px;
+}
+.projectpage__Section__content__card:hover
+  .projectpage__Section__content__card__content__name {
+  color: #087f37;
+}
+.projectpage__Section__content__card:hover
+  .projectpage__Section__content__card__content__icon {
+  scale: 1.1;
+}
+
+@keyframes pulse {
+  from,
+  to {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.08;
+  }
+}
+.projectpage__Section__content__card:hover {
+  animation: pulse 2s infinite;
+}
+.projectpage__Section__content__card__content {
+  aspect-ratio: 2 / 3;
+  border: 0.25rem solid rgb(255 255 255 / 15%);
+}
+.projectpage__Section__content__card__content_img {
+  width: 100%;
+  //   height: 300px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.projectpage__Section__content__card__content__name__icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0.2em;
+}
+.projectpage__Section__content__card__content_img:hover
+  .projectpage__Section__content__card__content__name {
+  color: #087f37;
+  cursor: pointer;
+}
+.projectpage__Section__content__card:hover
+  .projectpage__Section__content__card__content__icon
+  svg {
+  color: #087f37;
+}
+.projectpage__Section__content__card__content__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.projectpage__Section__content__card__content__icon {
+  font-size: 20px;
+  color: #999;
+  rotate: -50deg;
+}
