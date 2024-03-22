@@ -84,11 +84,9 @@ function ServicePage() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            {/* Hero area start */}
             <section className="solution__area">
-              <div className="container hero-line"></div>
+              <div className="container hero-line" />
               <div className="solution__wrapper">
-                {/* Left Section */}
                 <div className="solution__left">
                   <div className="solution__img-1">
                     <img
@@ -103,8 +101,6 @@ function ServicePage() {
                     />
                   </div>
                 </div>
-
-                {/* Middle Section */}
                 <div className="solution__mid">
                   <h1 className="solution__title animation__char_come">
                     Digital Solution
@@ -114,8 +110,6 @@ function ServicePage() {
                     and it helps to grow your business globally trends.
                   </p>
                 </div>
-
-                {/* Right Section */}
                 <div className="solution__right">
                   <div className="solution__img-3">
                     <img
@@ -125,8 +119,6 @@ function ServicePage() {
                   </div>
                 </div>
               </div>
-
-              {/* Bottom Section */}
               <div className="container pb-130">
                 <div className="row">
                   <div className="col-xxl-12">
@@ -140,8 +132,6 @@ function ServicePage() {
                   </div>
                 </div>
               </div>
-
-              {/* Shape Images */}
               <div className="solution__shape">
                 <img
                   src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/1.png"
