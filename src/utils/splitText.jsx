@@ -4,12 +4,26 @@ export default (text) => {
   return text.split(" ").map((word, index) => {
     return (
       <motion.span
-        initial={{ opacity: 0, y: 20 }}
+        key={index}
+        initial={{ opacity: 0, y: 25 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5, delay: index * 0.15 }}
-        key={index}
+        style={{ display: "inline-block", marginRight: "15px" }}
       >
-        {word}{" "}
+        {word.split("").map((letter, letterIndex) => (
+          <motion.span
+            key={letterIndex}
+            style={{ display: "inline-block" }}
+            initial={{ opacity: 0, y: 25 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: index * 0.15 + letterIndex * 0.03,
+            }}
+          >
+            {letter}
+          </motion.span>
+        ))}
       </motion.span>
     );
   });
