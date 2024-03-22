@@ -4,6 +4,8 @@ import "@/styles/contact.scss";
 
 import { useEffect, useState } from "react";
 
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import MagnetButton from "@/components/MagnetButton";
 import { motion } from "framer-motion";
 import splitText from "@/utils/splitText";
@@ -40,116 +42,120 @@ export default function Contact() {
   };
 
   return (
-    <div className="formpage">
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        className="formpage__content"
-      >
-        <div className="formpage__content__heading">
-          {splitText("Hello, Devscot. team!")}
-        </div>
-        <form onSubmit={handleSubmit}>
-          <div className="formpage__content__form">
-            <div className="formpage__content__form__name">
-              <label htmlFor="name">{splitText("My name is")}</label>
-              <input
-                type="text"
-                placeholder="Your Name?"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-            <div className="formpage__content__form__name">
-              <label htmlFor="from">{splitText("from")}</label>
-              <input
-                type="text"
-                value={from}
-                onChange={(e) => setFrom(e.target.value)}
-                placeholder="Website Or Company Name?"
-              />
-            </div>
+    <>
+      <Header />
+      <div className="formpage">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="formpage__content"
+        >
+          <div className="formpage__content__heading">
+            {splitText("Hello, Devscot. team!")}
           </div>
-          <div className="formpage__content__form">
-            <div className="formpage__content__form__name">
-              <label htmlFor="name">{splitText("I’d like to discuss")}</label>
-              <div className="formpage__content__form__name__button">
-                <div className="formpage__content__form__name__button__content">
-                  {ideas.map((item, index) => (
-                    <motion.button
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.1, duration: 1.5 }}
-                      key={index}
-                      type="button"
-                      onClick={() => setIdea(item)}
-                      className={item === idea ? "active" : ""}
-                    >
-                      {item}
-                    </motion.button>
-                  ))}
-                </div>
+          <form onSubmit={handleSubmit}>
+            <div className="formpage__content__form">
+              <div className="formpage__content__form__name">
+                <label htmlFor="name">{splitText("My name is")}</label>
+                <input
+                  type="text"
+                  placeholder="Your Name?"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
               </div>
-              <label htmlFor="name">
-                {splitText("project idea & design brief.")}
-              </label>
-            </div>
-          </div>
-          <div className="formpage__content__form">
-            <div className="formpage__content__form__name">
-              <textarea
-                className="formpage__content__form__name__speacialinput"
-                type="project"
-                value={explain}
-                onChange={(e) => setExplain(e.target.value)}
-                placeholder="Project Idea"
-              />
-            </div>
-          </div>
-          <div className="formpage__content__form">
-            <div className="formpage__content__form__name">
-              <label htmlFor="name">
-                {splitText("A budget for this project is")}
-              </label>
-              <div className="formpage__content__form__name__button">
-                <div className="formpage__content__form__name__button__content">
-                  {budgets.map((item, index) => (
-                    <motion.button
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.1, duration: 1.5 }}
-                      key={index}
-                      type="button"
-                      onClick={() => setBudget(item)}
-                      className={item === budget ? "active" : ""}
-                    >
-                      {item}
-                    </motion.button>
-                  ))}
-                </div>
+              <div className="formpage__content__form__name">
+                <label htmlFor="from">{splitText("from")}</label>
+                <input
+                  type="text"
+                  value={from}
+                  onChange={(e) => setFrom(e.target.value)}
+                  placeholder="Website Or Company Name?"
+                />
               </div>
             </div>
-          </div>
-          <div className="formpage__content__form">
-            <div className="formpage__content__form__name">
-              <label htmlFor="name">{splitText("Contact me back at")}</label>
-              <input
-                type="email"
-                placeholder="Your Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
+            <div className="formpage__content__form">
+              <div className="formpage__content__form__name">
+                <label htmlFor="name">{splitText("I’d like to discuss")}</label>
+                <div className="formpage__content__form__name__button">
+                  <div className="formpage__content__form__name__button__content">
+                    {ideas.map((item, index) => (
+                      <motion.button
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.1, duration: 1.5 }}
+                        key={index}
+                        type="button"
+                        onClick={() => setIdea(item)}
+                        className={item === idea ? "active" : ""}
+                      >
+                        {item}
+                      </motion.button>
+                    ))}
+                  </div>
+                </div>
+                <label htmlFor="name">
+                  {splitText("project idea & design brief.")}
+                </label>
+              </div>
             </div>
-          </div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="formpage__content__form__submitbutton"
-          >
-            <MagnetButton>Submit</MagnetButton>
-          </motion.div>
-        </form>
-      </motion.div>
-    </div>
+            <div className="formpage__content__form">
+              <div className="formpage__content__form__name">
+                <textarea
+                  className="formpage__content__form__name__speacialinput"
+                  type="project"
+                  value={explain}
+                  onChange={(e) => setExplain(e.target.value)}
+                  placeholder="Project Idea"
+                />
+              </div>
+            </div>
+            <div className="formpage__content__form">
+              <div className="formpage__content__form__name">
+                <label htmlFor="name">
+                  {splitText("A budget for this project is")}
+                </label>
+                <div className="formpage__content__form__name__button">
+                  <div className="formpage__content__form__name__button__content">
+                    {budgets.map((item, index) => (
+                      <motion.button
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.1, duration: 1.5 }}
+                        key={index}
+                        type="button"
+                        onClick={() => setBudget(item)}
+                        className={item === budget ? "active" : ""}
+                      >
+                        {item}
+                      </motion.button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="formpage__content__form">
+              <div className="formpage__content__form__name">
+                <label htmlFor="name">{splitText("Contact me back at")}</label>
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+            </div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="formpage__content__form__submitbutton"
+            >
+              <MagnetButton>Submit</MagnetButton>
+            </motion.div>
+          </form>
+        </motion.div>
+      </div>
+      <Footer />
+    </>
   );
 }
