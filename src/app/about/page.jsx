@@ -1,6 +1,10 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+
 export default function About() {
   return (
     <>
+      <Header />
       <div className="Aboutuspage">
         <div className="Aboutuspage__heading">
           We’re a­ full­ service­ creative­ and­ digital­ agency,­ working­
@@ -181,6 +185,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
