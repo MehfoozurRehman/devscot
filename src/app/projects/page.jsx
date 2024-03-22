@@ -1,49 +1,51 @@
-import { ArrowRight } from "react-feather";
 import "@/styles/projectpage.scss";
-import { motion } from "framer-motion";
+
+import { ArrowRight } from "react-feather";
+
+const Data = [
+  {
+    title: "Web development",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Mobile development",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Digital Marketing",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "UI/UX Design",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Branding",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "E-commerce",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "NFT Marketplace",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Wallet",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Dapp",
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Defi",
+    img: "/FeatureSectionimg.png",
+  },
+];
+
 export default function Projects() {
-  const Data = [
-    {
-      title: "Web development",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Mobile development",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Digital Marketing",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "UI/UX Design",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Branding",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "E-commerce",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "NFT Marketplace",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Wallet",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Dapp",
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Defi",
-      img: "/FeatureSectionimg.png",
-    },
-  ];
   return (
     <>
       <div className="projectpage__Section">
