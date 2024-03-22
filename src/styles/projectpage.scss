@@ -12,7 +12,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   position: relative;
   flex-direction: column;
 }
@@ -36,7 +36,7 @@
 .projectpage__Section__content__cards {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 1em;
   width: 100%;
