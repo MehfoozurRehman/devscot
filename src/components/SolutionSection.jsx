@@ -2,6 +2,7 @@
 
 import Fade from "react-reveal/Fade";
 import { useState } from "react";
+import splitText from "@/utils/splitText";
 
 const entries = [
   {
@@ -39,14 +40,12 @@ const entries = [
 export default function SolutionSection() {
   const [isMouseHover, setIsMouseHover] = useState("mobile");
   const selectedEntry = entries.find((entry) => entry.id === isMouseHover);
-
+  const heading = splitText("Solutions We Provide");
   return (
     <div className="solution__section">
       <div className="solution__section__content">
         <Fade up delay={100}>
-          <div className="solution__section__content__heading">
-            Solutions We Provide
-          </div>
+          <div className="solution__section__content__heading">{heading}</div>
         </Fade>
         <div className="solution__section__content__data">
           <div
