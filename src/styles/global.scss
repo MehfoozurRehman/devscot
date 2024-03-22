@@ -38,6 +38,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 999;
+  scroll-snap-align: start;
 }
 .header::after {
   content: "";
@@ -47,6 +48,9 @@ body {
   width: 100%;
   height: -100vh;
   background: linear-gradient(45deg, #121212, #000000);
+}
+.services__details__page::-webkit-scrollbar {
+  width: 0px;
 }
 .Aboutuspage__video__button__video {
   margin-bottom: -1em;
@@ -1781,7 +1785,7 @@ body {
   }
   .header__content__nav__link {
     width: 100%;
-    justify-content: start;
+    justify-content: flex-start;
     color: #fff;
     padding: 1em;
     margin-bottom: 3em;
