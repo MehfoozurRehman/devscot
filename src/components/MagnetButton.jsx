@@ -7,7 +7,7 @@ export default function MagnetButton({ children }) {
     <MagnetWrapper>
       <button className="magnet_button">
         {children}
-        <span></span>
+        <span />
       </button>
     </MagnetWrapper>
   );
