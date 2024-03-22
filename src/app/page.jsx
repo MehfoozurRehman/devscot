@@ -1,16 +1,19 @@
 import FeatureSection from "@/components/FeatureSection";
 import FeatureSectionMobile from "@/components/FeatureSectionMobile";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import HomeSection from "../components/HomeSection";
+import HomeTestimonials from "@/components/HomeTestimonials";
 import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import { PlayCircle } from "react-feather";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
-import HomeTestimonials from "@/components/HomeTestimonials";
 
 export default function Index() {
   return (
     <>
+      <Header />
       <HomeSection />
       <section className="hero__section__aboutus">
         <div className="hero__section__aboutus__content">
@@ -35,6 +38,7 @@ export default function Index() {
       <FeatureSection />
       <FeatureSectionMobile />
       <HomeTestimonials />
+      <Footer />
     </>
   );
 }
