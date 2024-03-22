@@ -1,8 +1,8 @@
 "use client";
 
+import CountUpWhenInView from "./CountUpWhenInView";
 import Fade from "react-reveal/Fade";
 import { useState } from "react";
-import CountUpWhenInView from "./CountUpWhenInView";
 
 const entries = [
   {
