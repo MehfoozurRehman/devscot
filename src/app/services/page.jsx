@@ -2,6 +2,8 @@
 
 import "@/styles/serivces.scss";
 
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import HowWorkSection from "@/components/HowWorkSection";
 import React from "react";
 import ServicesHowWeDoIt from "@/components/ServicesHowWeDoIt";
@@ -12,6 +14,7 @@ export default function page() {
   const heading = splitText("Web and mobile development");
   return (
     <>
+      <Header />
       <div className="Services__deatils">
         <div className="Services__deatils__all__content">
           <div className="Services__deatils__content">
@@ -92,6 +95,7 @@ export default function page() {
       </div>
       <HowWorkSection />
       <ServicesHowWeDoIt />
+      <Footer />
     </>
   );
 }
