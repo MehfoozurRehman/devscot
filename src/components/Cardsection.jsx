@@ -105,16 +105,4 @@ const cards = [
     id: 5,
     number: "05",
   },
-  {
-    url: "/FeatureSectionimg.png",
-    title: "Title 6",
-    id: 6,
-    number: "06",
-  },
-  {
-    url: "/FeatureSectionimg.png",
-    title: "Title 7",
-    id: 7,
-    number: "07",
-  },
 ];
