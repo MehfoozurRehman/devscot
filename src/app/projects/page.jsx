@@ -6,42 +6,52 @@ import Header from "@/components/Header";
 
 const Data = [
   {
+    link: "/web-development",
     title: "Web development",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/mobile-development",
     title: "Mobile development",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/digital-marketing",
     title: "Digital Marketing",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/ui-ux-design",
     title: "UI/UX Design",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/branding",
     title: "Branding",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/seo",
     title: "E-commerce",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/seo",
     title: "NFT Marketplace",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/seo",
     title: "Wallet",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/seo",
     title: "Dapp",
     img: "/FeatureSectionimg.webp",
   },
   {
+    link: "/seo",
     title: "Defi",
     img: "/FeatureSectionimg.webp",
   },
@@ -64,7 +74,8 @@ export default function Projects() {
           <div className="projectpage__Section__content__cards">
             {Data.map((data) => {
               return (
-                <div
+                <a
+                  href={"/projects" + data.link}
                   key={data.id}
                   className="projectpage__Section__content__card"
                 >
@@ -83,7 +94,7 @@ export default function Projects() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </a>
               );
             })}
           </div>
