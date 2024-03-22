@@ -8,6 +8,10 @@ $text: #272727;
   margin-top: 8em;
   padding: 0 2em;
 }
+.Service__pagebutton {
+  text-decoration: none !important;
+  color: #fff;
+}
 .Services__deatils__all__content {
   width: 100%;
   max-width: 1360px;
@@ -135,9 +139,7 @@ $text: #272727;
 }
 .faq-answer {
   overflow: hidden;
-  transition:
-    height 0.3s,
-    opacity 0.3s;
+  transition: height 0.3s, opacity 0.3s;
 }
 .services__how__we__do__it {
   width: 100%;
