@@ -65,7 +65,7 @@ function ServicePage() {
     if (targetElement) {
       let yOffset = 0;
       if (window.innerWidth >= 1220) {
-        yOffset = -150; // For widths 1024px and above
+        yOffset = -150;
       } else if (window.innerWidth >= 950) {
         yOffset = -195;
       } else {
