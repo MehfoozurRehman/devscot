@@ -29,7 +29,7 @@ export default function About() {
             playsInline={true}
             src="https://wealcoder.com/dev/html/axtra/assets/video/video.mp4"
             className="Aboutuspage__video__video"
-          ></video>
+          />
         </div>
         <div className="Aboutuspage__ourstory">
           <div className="Aboutuspage__ourstory__content">
