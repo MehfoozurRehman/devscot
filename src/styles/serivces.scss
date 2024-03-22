@@ -135,7 +135,9 @@ $text: #272727;
 }
 .faq-answer {
   overflow: hidden;
-  transition: height 0.3s, opacity 0.3s;
+  transition:
+    height 0.3s,
+    opacity 0.3s;
 }
 .services__how__we__do__it {
   width: 100%;
