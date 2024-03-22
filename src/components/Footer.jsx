@@ -3,9 +3,9 @@
 import { Facebook, Instagram, Linkedin, Send, Twitter } from "react-feather";
 
 import Link from "next/link";
+import MagnetButton from "@/components/MagnetButton";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { useParallax } from "react-scroll-parallax";
-import MagnetButton from "@/components/MagnetButton";
 
 export default function Footer() {
   return (
@@ -108,7 +108,7 @@ function FooterContent() {
               </div>
             </div>
           </div>
-          <div className="Footer__bottom__content__right"></div>
+          <div className="Footer__bottom__content__right" />
         </div>
       </div>
     </div>
