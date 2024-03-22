@@ -5,6 +5,9 @@
   width: 100%;
   background-color: #000;
   padding: 0 2em;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  min-height: 100vh;
 }
 .active-scroll-spy {
   color: #fff;
@@ -14,7 +17,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   position: relative;
 }
 .service__Pagedetails__section__content__left {
@@ -28,16 +31,31 @@
   width: 40%;
 }
 .service__Pagedetails__section__content__mid__imgs__img {
-  height: 100vh;
+  height: 90vh;
+}
+.service__Pagedetails__section__content__mid__imgs {
+  width: 50%;
+  overflow: hidden;
 }
 .service__Pagedetails__section__content__right {
-  width: 35%;
+  flex: 1;
   padding: 0 2em;
+}
+.service__Pagedetails__section__content__right::-webkit-scrollbar {
+  width: 0px;
+}
+.service__Pagedetails__section__content__right__content__section {
+  display: flex;
+  flex: 1;
+  gap: 3em;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  height: 100%;
 }
 .service__Pagedetails__section__content__right__content {
   color: #fff;
   font-size: 20px;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
