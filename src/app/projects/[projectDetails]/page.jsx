@@ -122,7 +122,7 @@ export default function ProjectDetails() {
           </Swiper>
         </div>
       </div>
-      <div className="project__details__text__header__container__bg"></div>
+      <div className="project__details__text__header__container__bg" />
       <div className="project__details__about__container">
         <div className="project__details__about__container__heading">
           ABOUT THE PROJECT
