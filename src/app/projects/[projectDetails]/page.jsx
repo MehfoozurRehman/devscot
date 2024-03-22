@@ -73,7 +73,7 @@ export default function ProjectDetails() {
             CLIENT
           </div>
           <div className="project__details__text__header__container__right__logo">
-            <img src="/maelogo.png" alt="logo" />
+            <img src="/maelogo.webp" alt="logo" />
           </div>
           <div className="project__details__right__text__services">
             SERVICES WE PROVIDED
@@ -91,32 +91,32 @@ export default function ProjectDetails() {
           <Swiper spaceBetween={50} slidesPerView={swiperSlides}>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src="/mealprj1.png" alt="image" />
+                <img src="/mealprj1.webp" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src="/mealprj1.png" alt="image" />
+                <img src="/mealprj1.webp" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src="/mealprj1.png" alt="image" />
+                <img src="/mealprj1.webp" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src="/mealprj1.png" alt="image" />
+                <img src="/mealprj1.webp" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src="/mealprj1.png" alt="image" />
+                <img src="/mealprj1.webp" alt="image" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="project__header__imags__slider__card">
-                <img src="/mealprj1.png" alt="image" />
+                <img src="/mealprj1.webp" alt="image" />
               </div>
             </SwiperSlide>
           </Swiper>
