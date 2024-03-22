@@ -1,9 +1,10 @@
 "use client";
 
 import "@/styles/contact.scss";
-import MagnetButton from "@/components/MagnetButton";
+
 import { useEffect, useState } from "react";
 
+import MagnetButton from "@/components/MagnetButton";
 import { motion } from "framer-motion";
 import splitText from "@/utils/splitText";
 
@@ -133,7 +134,7 @@ export default function Contact() {
             <div className="formpage__content__form__name">
               <label htmlFor="name">{splitText("Contact me back at")}</label>
               <input
-                type="emal"
+                type="email"
                 placeholder="Your Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
