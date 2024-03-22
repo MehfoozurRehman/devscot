@@ -62,9 +62,7 @@ export default function Header() {
   return (
     <ClickAwayListener
       onClickAway={() => {
-        if (window.innerWidth < 1060) {
-          setIsOpen(false);
-        }
+        if (window.innerWidth < 1060) setIsOpen(false);
       }}
     >
       <div
