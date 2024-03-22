@@ -3,6 +3,7 @@ import "@/styles/projectpage.scss";
 import { ArrowRight } from "react-feather";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { Fade } from "react-reveal";
 
 const Data = [
   {
@@ -63,14 +64,22 @@ export default function Projects() {
       <Header />
       <div className="projectpage__Section">
         <div className="projectpage__Section__content">
-          <h1 className="projectpage__Section__content__heading">Projects</h1>
-          <div className="projectpage__Section__content__info">
-            Let's dive into part of our journey. Of course we started working
-            for web2 companies, but really fast we found a passion and fall in
-            love with crypto, wallets, NFTs and other parts of web3 world. We're
-            proud that we established in this segment and we always trying to
-            make things better and easy to use for users.
-          </div>
+          <Fade up delay={100}>
+            {" "}
+            <h1 className="projectpage__Section__content__heading">
+              Projects
+            </h1>{" "}
+          </Fade>{" "}
+          <Fade up delay={100}>
+            {" "}
+            <div className="projectpage__Section__content__info">
+              Let's dive into part of our journey. Of course we started working
+              for web2 companies, but really fast we found a passion and fall in
+              love with crypto, wallets, NFTs and other parts of web3 world.
+              We're proud that we established in this segment and we always
+              trying to make things better and easy to use for users.
+            </div>{" "}
+          </Fade>{" "}
           <div className="projectpage__Section__content__cards">
             {Data.map((data) => {
               return (
