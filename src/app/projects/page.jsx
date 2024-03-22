@@ -5,43 +5,43 @@ import { ArrowRight } from "react-feather";
 const Data = [
   {
     title: "Web development",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "Mobile development",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "Digital Marketing",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "UI/UX Design",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "Branding",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "E-commerce",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "NFT Marketplace",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "Wallet",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "Dapp",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
   {
     title: "Defi",
-    img: "/FeatureSectionimg.png",
+    img: "/FeatureSectionimg.webp",
   },
 ];
 

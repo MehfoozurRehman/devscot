@@ -9,7 +9,7 @@ export default function FeatureSectionCard() {
     <Link href="/">
       <div className="FeatureSection__content__right__content">
         <motion.img
-          src="/FeatureSectionimg.png"
+          src="/FeatureSectionimg.webp"
           className="FeatureSection__content__right__img"
           initial={{ scale: 1.5, y: -100 }}
           whileInView={{ scale: 1, y: 0 }}

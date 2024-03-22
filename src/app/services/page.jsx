@@ -1,10 +1,13 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
+
 import "@/styles/serivces.scss";
-import ServicesHowWeDoIt from "@/components/ServicesHowWeDoIt";
+
 import HowWorkSection from "@/components/HowWorkSection";
+import React from "react";
+import ServicesHowWeDoIt from "@/components/ServicesHowWeDoIt";
+import { motion } from "framer-motion";
 import splitText from "@/utils/splitText";
+
 export default function page() {
   const heading = splitText("Web and mobile development");
   return (
@@ -76,12 +79,12 @@ export default function page() {
           <div className="Services__deatils__content__right__contentbottom__imgs">
             <img
               className="Services__deatils__content__right__contentbottom__imgs__img"
-              src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/dev-1.jpg"
+              src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/dev-1.png"
               alt=""
             />
             <img
               className="Services__deatils__content__right__contentbottom__imgs__img__two"
-              src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/dev-2.jpg"
+              src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/dev-2.png"
               alt=""
             />
           </div>{" "}

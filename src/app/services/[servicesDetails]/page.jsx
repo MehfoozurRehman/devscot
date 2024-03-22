@@ -193,7 +193,7 @@ function ServicePage() {
                     id={item.id}
                     className="service__Pagedetails__section__content__mid__imgs__img"
                   >
-                    <img src="/FeatureSectionimg.png" alt="Solution Image" />
+                    <img src="/FeatureSectionimg.webp" alt="Solution Image" />
                   </section>
                 ))}
               </ScrollSpy>

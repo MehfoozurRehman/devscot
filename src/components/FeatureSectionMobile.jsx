@@ -23,7 +23,7 @@ export default function FeatureSection() {
             </div>
             <div>
               <img
-                src="/FeatureSectionimg.png"
+                src="/FeatureSectionimg.webp"
                 alt=""
                 className="FeatureSection__content__right__img__mobile__img"
               />

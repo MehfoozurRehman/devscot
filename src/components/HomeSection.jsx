@@ -82,7 +82,7 @@ export default function HomeSection() {
           </div>
         </div>
         <img
-          src="/herobackground.png"
+          src="/herobackground.webp"
           alt="herobackgroundimg"
           className="hero__section__backgroundimg"
         />

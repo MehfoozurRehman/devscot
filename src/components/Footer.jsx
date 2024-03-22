@@ -26,13 +26,13 @@ function FooterContent() {
   return (
     <div>
       <div className="Footertopimg" ref={imageParallax.ref}>
-        <img src="/footer.jpg" alt="herobackgroundimg" />
+        <img src="/footer.webp" alt="herobackgroundimg" />
       </div>
       <div className="Footer" ref={footerParallax.ref}>
         <div className="Footer__content">
           <div className="Footer__content__left">
             <div className="Footer__content__left__logo">
-              <img src="/headerlogo.png" alt="logo" />
+              <img src="/headerlogo.webp" alt="logo" />
             </div>
             <div className="Footer__content__left__info">
               When do they work well, and when do they on us and finally, when

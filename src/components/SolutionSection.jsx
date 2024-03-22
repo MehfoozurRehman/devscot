@@ -56,13 +56,13 @@ export default function SolutionSection() {
             }}
           >
             <img
-              src="/devscot2.png"
+              src="/devscot2.webp"
               className="solution__section__content__data__left__backgound"
             />
             <Fade In delay={100}>
               <img
                 className="solution__section__content__data__left__img"
-                src="/devscot1.png"
+                src="/devscot1.webp"
               />
             </Fade>
             <div className="solution__section__content__data__info">
