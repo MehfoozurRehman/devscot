@@ -822,7 +822,6 @@ body {
   z-index: 99;
   transition: 300ms ease-in-out;
 }
-
 .Aboutuspage__video__button svg {
   width: 150px;
   height: 150px;
@@ -831,7 +830,6 @@ body {
 .Aboutuspage__video__button:hover {
   background-color: #000;
 }
-
 .Aboutuspage__about__button {
   width: 150px;
   height: 150px;
@@ -976,18 +974,18 @@ body {
   flex-direction: column;
   position: relative;
   align-items: center;
-  padding: 5em 0em;
+  padding: 5em 0;
 }
 .home__testmonials__svg {
   position: absolute;
   top: -200px;
-  right: 0px;
+  right: 0;
 }
 .home__testmonials__heading {
   font-size: 45px;
   margin-bottom: 0.5em;
   text-align: center;
-  padding: 0em 2em;
+  padding: 0 2em;
   font-family: AvenirLTStd-Black, sans-serif;
 }
 .home__testmonials__info {
@@ -997,7 +995,7 @@ body {
   width: 100%;
   max-width: 950px;
   margin-bottom: 2em;
-  padding: 0em 2em;
+  padding: 0 2em;
   font-family: AvenirLTStd-Roman, sans-serif;
 }
 .home__testmonials__content {
@@ -1006,7 +1004,7 @@ body {
   width: 100%;
   max-width: 1366px;
   padding: 2em;
-  margin: 0em auto;
+  margin: 0 auto;
 }
 .home__testmonials__content__users {
   display: flex;
@@ -1022,26 +1020,24 @@ body {
 }
 .home__testmonials__content__users__entry__input {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   z-index: 1;
   cursor: pointer;
   opacity: 0;
 }
-
 .home__testmonials__content__users__entry__img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  padding: 0em;
+  padding: 0;
   border: 10px solid transparent;
   overflow: hidden;
   user-select: none;
   outline: 10px solid rgba(36, 170, 108, 0.1);
 }
-
 .home__testmonials__content__users__entry__img:hover {
   outline: 10px solid #139949b7;
   transition: 300ms ease-in-out;
@@ -1075,7 +1071,7 @@ body {
   border-radius: 10px;
   width: 100%;
   max-width: 800px;
-  margin: 0em auto;
+  margin: 0 auto;
 }
 .home__testmonials__content__details__info {
   color: #878787;
@@ -1083,7 +1079,7 @@ body {
   font-family: AvenirLTStd-Roman, sans-serif;
 }
 .home__testmonials__content__details__heading {
-  margin: 0.5em 0em;
+  margin: 0.5em 0;
   font-size: 20px;
   color: #139948;
   font-weight: bold;
@@ -1253,7 +1249,6 @@ body {
 .numbers__section {
   display: flex;
   width: 100%;
-  // margin: 1.5em auto 0;
   justify-content: center;
   background-color: #121212;
 }
@@ -1321,7 +1316,6 @@ body {
   margin: 0 auto;
   max-width: 1500px;
   width: 100%;
-
   padding: 4em 2em 8em;
   justify-content: center;
   color: white;
@@ -1466,7 +1460,6 @@ body {
     width: 100%;
   }
 }
-
 @media (max-width: 1100px) {
   .home__testmonials__content__users__entry {
     margin: 2em;
@@ -1506,7 +1499,7 @@ body {
   }
   .Aboutuspage__ourstory__content__right {
     width: 100%;
-    padding: 0em;
+    padding: 0;
   }
   .Aboutuspage__numbers {
     flex-direction: column;
@@ -1664,7 +1657,7 @@ body {
 }
 @media (max-width: 900px) {
   .home__testmonials__content__users__entry {
-    margin: 0em;
+    margin: 0;
   }
 }
 @media (max-width: 800px) {
@@ -1702,7 +1695,6 @@ body {
   .line {
     margin: 0;
   }
-
   .hero__section__content__info__highlight {
     flex-wrap: wrap;
     margin-bottom: 0.5em;
@@ -1722,7 +1714,6 @@ body {
   .hero__section__content__info__highlight {
     justify-content: unset;
   }
-
   .hero__section__content__info__highlight__name {
     font-size: 14px;
   }
@@ -1837,7 +1828,7 @@ body {
   }
   .home__testmonials__heading,
   .home__testmonials__info {
-    padding: 0em;
+    padding: 0;
   }
   .home__testmonials {
     align-items: flex-start;
@@ -1904,7 +1895,7 @@ body {
     align-items: flex-start;
     width: 100%;
     justify-content: flex-start;
-    padding: 0em 1.2em;
+    padding: 0 1.2em;
   }
   .solution__section__content__data__right__entry__heading {
     font-size: 20px;
@@ -1996,7 +1987,7 @@ body {
   }
   .solution__section__content__data__right {
     width: 100%;
-    margin: 0em 1em;
+    margin: 0 1em;
   }
   .solution__section__content__data__right__entry {
     padding: 1em;
@@ -2025,12 +2016,3 @@ body {
     border-bottom-right-radius: 15px;
   }
 }
-
-// @media (max-width: 500px) {
-//   // .numbers__section__content__entry {
-//   //   width: 100%;
-//   // }
-//   .numbers__section__content__entry__hover {
-//     width: 100%;
-//   }
-// }
