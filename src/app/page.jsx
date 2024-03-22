@@ -6,7 +6,6 @@ import HomeSection from "../components/HomeSection";
 import HomeTestimonials from "@/components/HomeTestimonials";
 import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
-import { PlayCircle } from "react-feather";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
 
