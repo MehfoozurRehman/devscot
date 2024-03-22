@@ -84,10 +84,10 @@ export default function HowWorkSection() {
                             ? "how__section__content__data__entry__dot__overlay__point__hover"
                             : "how__section__content__data__entry__dot__overlay__point"
                         }
-                      ></div>
+                      />
                     </div>
                   </div>
-                  <div className="how__section__content__data__entry__line"></div>
+                  <div className="how__section__content__data__entry__line" />
                   <div
                     className={
                       isMouseHover === entry.number
