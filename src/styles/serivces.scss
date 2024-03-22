@@ -1,6 +1,5 @@
 $primary: #139948;
 $text: #272727;
-
 .Services__deatils {
   display: flex;
   justify-content: space-between;
@@ -14,7 +13,6 @@ $text: #272727;
   max-width: 1360px;
   margin: 0 auto;
 }
-
 .Services__deatils__content {
   display: flex;
 }
@@ -24,7 +22,6 @@ $text: #272727;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  //   justify-content: center;
   align-items: center;
 }
 .Services__deatils__content__right {
@@ -117,7 +114,6 @@ $text: #272727;
 .Services__deatils__card__content__cards__card__info {
   font-size: 14px;
   text-align: justify;
-  //   margin-top: 0.2em;
   color: #555;
 }
 .Services__deatils__product {
@@ -132,24 +128,21 @@ $text: #272727;
 .faq-item {
   margin-bottom: 10px;
 }
-
 .faq-question {
   cursor: pointer;
   background-color: #f0f0f0;
   padding: 10px;
 }
-
 .faq-answer {
   overflow: hidden;
   transition: height 0.3s, opacity 0.3s;
 }
-
 .services__how__we__do__it {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4em 0em;
+  padding: 4em 0;
 }
 .services__how__we__do__it__reverse {
   background-color: #000;
@@ -171,14 +164,14 @@ $text: #272727;
   text-align: center;
   width: 100%;
   max-width: 900px;
-  padding: 0em 2em;
+  padding: 0 2em;
 }
 .services__how__we__do__it__content {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1366px;
-  padding: 0em 2em;
+  padding: 0 2em;
   flex-wrap: wrap;
 }
 .services__how__we__do__it__content__entry {
@@ -204,7 +197,6 @@ $text: #272727;
   margin-bottom: 1em;
   transition: 300ms ease-in-out;
 }
-
 .services__how__we__do__it__content__entry__icon::after {
   content: "";
   position: absolute;
@@ -214,7 +206,6 @@ $text: #272727;
   top: 40px;
   z-index: 0;
 }
-
 .services__how__we__do__it__reverse
   .services__how__we__do__it__content__entry__card {
   background-color: #272727;
@@ -322,7 +313,7 @@ $text: #272727;
 @media (max-width: 650px) {
   .services__how__we__do__it__content__entry {
     width: 100%;
-    margin: 0em;
+    margin: 0;
   }
   .services__how__we__do__it__content__entry:nth-child(2) {
     margin-top: 3em;
@@ -337,16 +328,16 @@ $text: #272727;
   }
   .Services__deatils__content__right__contentbottom__imgs__img {
     width: 100%;
-    margin: 0em;
+    margin: 0;
     margin-bottom: 1em;
   }
   .Services__deatils__content__right__contentbottom__imgs__img__two {
     width: 100%;
-    margin: 0em;
+    margin: 0;
     margin-bottom: 1em;
   }
   .Services__deatils__content__right__contentbottom__imgs {
-    padding: 0em;
+    padding: 0;
   }
   .Services__deatils__content__right__contentbottom__content {
     max-width: 190px;
