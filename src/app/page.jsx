@@ -8,7 +8,7 @@ import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
-
+import Cardsection from "@/components/Cardsection";
 export default function Index() {
   return (
     <>
@@ -36,6 +36,7 @@ export default function Index() {
       <HowWorkSection />
       <FeatureSection />
       <FeatureSectionMobile />
+      <Cardsection />
       <HomeTestimonials />
       <Footer />
     </>
