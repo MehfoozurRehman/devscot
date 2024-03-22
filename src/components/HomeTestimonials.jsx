@@ -93,12 +93,6 @@ export default function HomeTestimonials() {
       <div className="home__testmonials__content">
         <div className="home__testmonials__content__users">
           <div className="home__testmonials__content__users__entry">
-            {/* <input
-              type="radio"
-              name="home__testmonials__content__users"
-              title="asdfsadafa"
-              className="home__testmonials__content__users__entry__input"
-            /> */}
             {Data.map((item, index) => (
               <div
                 distance="30%"
