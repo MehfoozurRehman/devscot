@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 
 export default function VideoSection() {
@@ -39,7 +40,7 @@ export default function VideoSection() {
           loop={true}
           src="https://wealcoder.com/dev/html/axtra/assets/video/video.mp4"
           className="Aboutuspage__video__video"
-        ></video>
+        />
       </div>
     </div>
   );
