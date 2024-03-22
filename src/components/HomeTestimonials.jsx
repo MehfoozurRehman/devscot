@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Fade } from "react-reveal";
 
 const Data = [
   {
@@ -77,19 +78,26 @@ export default function HomeTestimonials() {
 
   return (
     <div className="home__testmonials">
-      <div distance="30%">
-        <div className="home__testmonials__heading heading">
-          Learn why 1000+ customers
-        </div>
-      </div>
-      <div distance="30%">
-        <div className="home__testmonials__info">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, rerum
-          fugit? Quibusdam eaque amet, quam et tempora unde suscipit autem nisi
-          dolores sequi repellat ex totam. Eligendi sapiente inventore dolor!
-        </div>
-      </div>
-
+      <Fade up delay={100}>
+        {" "}
+        <div distance="30%">
+          {" "}
+          <div className="home__testmonials__heading heading">
+            Learn why 1000+ customers
+          </div>
+        </div>{" "}
+      </Fade>{" "}
+      <Fade up delay={100}>
+        {" "}
+        <div distance="30%">
+          <div className="home__testmonials__info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
+            rerum fugit? Quibusdam eaque amet, quam et tempora unde suscipit
+            autem nisi dolores sequi repellat ex totam. Eligendi sapiente
+            inventore dolor!
+          </div>
+        </div>{" "}
+      </Fade>
       <div className="home__testmonials__content">
         <div className="home__testmonials__content__users">
           <div className="home__testmonials__content__users__entry">
