@@ -1,6 +1,8 @@
 import "@/styles/projectpage.scss";
 
 import { ArrowRight } from "react-feather";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const Data = [
   {
@@ -48,6 +50,7 @@ const Data = [
 export default function Projects() {
   return (
     <>
+      <Header />
       <div className="projectpage__Section">
         <div className="projectpage__Section__content">
           <h1 className="projectpage__Section__content__heading">Projects</h1>
@@ -86,6 +89,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
