@@ -1,13 +1,14 @@
 /* CSS for styling */
 .bg-neutral-800 {
   background-color: #4b5563;
-  color: #d1d5db;
+  // color: #d1d5db;
   font-family: sans-serif;
   min-height: 100vh;
 }
 
 .bg-neutral-900 {
   background-color: #1f2937;
+  padding: 2em 0em;
 }
 
 .flex {
@@ -53,10 +54,27 @@
 .group {
   position: relative;
 }
-
+.scroolcard {
+  font-size: 70px;
+  // padding: 3em;
+}
 .classs {
-  height: 450px;
-  width: 450px;
+  height: 350px;
+  width: 750px;
+}
+.card__content {
+  padding: 2em;
+}
+.card__heading {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  // line-height: 2rem;
+}
+.card__info {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
 }
 // .h-[450px] {
 //   height: 28rem;
