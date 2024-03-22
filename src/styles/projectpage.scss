@@ -20,7 +20,7 @@
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 0.5px;
-  padding: 0em 0.5em;
+  padding: 0 0.5em;
 }
 .projectpage__Section__content__info {
   margin-top: 1em;
@@ -31,7 +31,7 @@
   color: #999;
   max-width: 900px;
   margin-bottom: 2em;
-  padding: 0em 1em;
+  padding: 0 1em;
 }
 .projectpage__Section__content__cards {
   display: flex;
@@ -55,13 +55,11 @@
   .projectpage__Section__content__card__content__icon {
   scale: 1.1;
 }
-
 @keyframes pulse {
   from,
   to {
     scale: 1;
   }
-
   50% {
     scale: 1.08;
   }
@@ -75,7 +73,6 @@
 }
 .projectpage__Section__content__card__content_img {
   width: 100%;
-  //   height: 300px;
   cursor: pointer;
   overflow: hidden;
 }
