@@ -1,61 +1,63 @@
 "use client";
-import React, { useEffect } from "react";
+
 import "@/styles/servicesdetails.scss";
 import "@/styles/servicescard.scss";
+
 import MagnetButton from "@/components/MagnetButton";
 import ScrollSpy from "react-ui-scrollspy";
 
+const Data = [
+  {
+    title: "Web Development",
+    description:
+      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+    links: ["Approch", "Creativity", "Experienced"],
+    id: 1,
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Mobile App Development",
+    description:
+      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+    links: ["Approch", "Creativity", "Experienced"],
+    id: 2,
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Digital Marketing",
+    description:
+      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+    links: ["Approch", "Creativity", "Experienced"],
+    id: 3,
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "UI/UX Design",
+    description:
+      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+    links: ["Approch", "Creativity", "Experienced"],
+    id: 4,
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "Branding",
+    description:
+      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+    links: ["Approch", "Creativity", "Experienced"],
+    id: 5,
+    img: "/FeatureSectionimg.png",
+  },
+  {
+    title: "E-commerce",
+    description:
+      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+    links: ["Approch", "Creativity", "Experienced"],
+    id: 6,
+    img: "/FeatureSectionimg.png",
+  },
+];
+
 function ServicePage() {
-  const Data = [
-    {
-      title: "Web Development",
-      description:
-        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-      links: ["Approch", "Creativity", "Experienced"],
-      id: 1,
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Mobile App Development",
-      description:
-        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-      links: ["Approch", "Creativity", "Experienced"],
-      id: 2,
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Digital Marketing",
-      description:
-        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-      links: ["Approch", "Creativity", "Experienced"],
-      id: 3,
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "UI/UX Design",
-      description:
-        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-      links: ["Approch", "Creativity", "Experienced"],
-      id: 4,
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "Branding",
-      description:
-        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-      links: ["Approch", "Creativity", "Experienced"],
-      id: 5,
-      img: "/FeatureSectionimg.png",
-    },
-    {
-      title: "E-commerce",
-      description:
-        "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-      links: ["Approch", "Creativity", "Experienced"],
-      id: 6,
-      img: "/FeatureSectionimg.png",
-    },
-  ];
   const scrollToSection = (e, offset = 0) => {
     e.preventDefault();
     const targetId = e.currentTarget.href.split("#")[1];
