@@ -196,3 +196,25 @@
   transition: transform 0.3s ease;
   transform: scale(1.1);
 }
+@media (max-width: 768px) {
+  .card__main__div__circle {
+    display: none;
+  }
+  .card__main__div__circle__two {
+    display: none;
+  }
+
+  .card__number {
+    font-size: 28px;
+  }
+  .card__heading {
+    font-size: 24px;
+  }
+  .card__info {
+    font-size: 16px;
+  }
+  .classs {
+    height: 330px;
+    width: 400px;
+  }
+}
