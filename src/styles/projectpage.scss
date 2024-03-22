@@ -46,6 +46,8 @@
   max-width: 300px;
   background: #fff;
   border-radius: 10px;
+  text-decoration: none;
+  color: #000;
 }
 .projectpage__Section__content__card:hover
   .projectpage__Section__content__card__content__name {
@@ -94,6 +96,7 @@
 .projectpage__Section__content__card__content__name {
   font-size: 20px;
   font-weight: 600;
+  text-decoration: none;
 }
 .projectpage__Section__content__card__content__icon {
   font-size: 20px;
