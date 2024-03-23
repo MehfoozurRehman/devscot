@@ -11,7 +11,12 @@ import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
 import Cardsection from "@/components/Cardsection";
 import { Fade } from "react-reveal";
+import { use } from "react";
+
+const waitFor = (ms) => new Promise((r) => setTimeout(r, ms));
+
 export default function Index() {
+  const data = use(waitFor(1000));
   return (
     <>
       <Header />
