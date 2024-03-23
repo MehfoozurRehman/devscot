@@ -35,7 +35,7 @@ export default function GetDemo() {
   }
   return (
     <div className="get__demo__main__container">
-      <Fade up delay={100}>
+      <Fade left delay={100}>
         {" "}
         <div className="get__demo__main__container__left">
           <img
