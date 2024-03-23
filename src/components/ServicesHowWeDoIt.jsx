@@ -1,15 +1,21 @@
+import { Fade } from "react-reveal";
 import ServicesHowWeDoItEntry from "./ServicesHowWeDoItEntry";
 
 export default function ServicesHowWeDoIt() {
   return (
     <div className="services__how__we__do__it">
-      <div className="services__how__we__do__it__heading heading">
-        How we do it?
-      </div>
-      <div className="services__how__we__do__it__info">
-        Fast-track your project's delivery using our simple three-step
-        application development process.
-      </div>
+      <Fade up delay={100}>
+        {" "}
+        <div className="services__how__we__do__it__heading heading">
+          How we do it?
+        </div>
+      </Fade>{" "}
+      <Fade up delay={300}>
+        <div className="services__how__we__do__it__info">
+          Fast-track your project's delivery using our simple three-step
+          application development process.
+        </div>
+      </Fade>
       <div className="services__how__we__do__it__content">
         <ServicesHowWeDoItEntry
           icon="1"
