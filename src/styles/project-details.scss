@@ -107,7 +107,7 @@
 }
 .project__details__right__text__services {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: 0.5em;
   position: relative;
 }
@@ -133,8 +133,9 @@
   display: flex;
   justify-content: flex-end;
 }
+
 .project__header__imags__slider {
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,7 +147,7 @@
 }
 .project__header__imags__slider__card img {
   height: auto;
-  width: 250px;
+  width: 100%;
   border-radius: 20px;
   max-height: 2000px;
 }
@@ -316,7 +317,7 @@
 .guide__section__card {
   width: 100%;
   max-width: 23%;
-  min-height: 305px;
+  min-height: 230px;
   background: #1dbef5;
   border-radius: 20px;
   padding: 2em;
@@ -336,7 +337,7 @@
 }
 .guide__section__card__font__left {
   width: 48%;
-  min-height: 400px;
+  min-height: 300px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -352,20 +353,20 @@
   font-size: 80px;
   font-weight: 700;
   line-height: 1.4;
-  margin-top: 2em;
+  margin-top: 1em;
   width: 100%;
-  padding-left: 0.5em;
+  // padding-left: 0.5em;
 }
 .guide__section__card__font__left__sub__name {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
   width: 100%;
-  padding-left: 2em;
+  // padding-left: 2em;
 }
 .guide__section__card__font__right {
   width: 48%;
-  min-height: 400px;
+  min-height: 300px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -384,7 +385,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 1.4;
-  margin-top: 7em;
+  margin-top: 2em;
   width: 100%;
   max-width: 600px;
   padding-left: 0.5em;
@@ -617,6 +618,15 @@
   }
 }
 @media (max-width: 750px) {
+  .specialslider {
+    display: none;
+  }
+  .project__details__text__header__container__right {
+    display: none;
+  }
+  .project__details__about__container__text__wraper {
+    padding: 1em;
+  }
   .result__container__text__wraper__container {
     margin-top: 2em;
   }
@@ -667,5 +677,8 @@
   }
   .result__container__text__wraper__subheading {
     font-size: 14px;
+  }
+  .project__header__imags__slider {
+    padding: 0em;
   }
 }
