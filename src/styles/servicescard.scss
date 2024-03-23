@@ -136,9 +136,19 @@
   }
   .service__Pagedetails__section__mobile {
     display: flex;
+    justify-content: center;
   }
   .services__details__page {
     height: auto !important;
+  }
+  .service__Pagedetails__section__content__right__content__section {
+    height: auto !important;
+  }
+  .service__Pagedetails__section__content__right__content__section {
+    background-color: #000;
+  }
+  .service__Pagedetails__section__content__right__content__info {
+    max-width: 600px;
   }
 }
 @media (max-width: 900px) {
