@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { Fade } from "react-reveal";
 
 export default function VideoSection() {
   const PlayCircle = () => {
@@ -24,24 +25,27 @@ export default function VideoSection() {
   };
 
   return (
-    <div className="Aboutuspage__video">
-      <button
-        onClick={() => {
-          document.querySelector(".Aboutuspage__video__video").play();
-          document.querySelector(".Aboutuspage__video__button").style.display =
-            "none";
-        }}
-        className="Aboutuspage__video__button"
-      >
-        <PlayCircle />
-      </button>
-      <div className="Aboutuspage__video__button__video">
-        <video
-          loop={true}
-          src="https://wealcoder.com/dev/html/axtra/assets/video/video.mp4"
-          className="Aboutuspage__video__video"
-        />
+    <Fade up delay={100}>
+      <div className="Aboutuspage__video">
+        <button
+          onClick={() => {
+            document.querySelector(".Aboutuspage__video__video").play();
+            document.querySelector(
+              ".Aboutuspage__video__button"
+            ).style.display = "none";
+          }}
+          className="Aboutuspage__video__button"
+        >
+          <PlayCircle />
+        </button>
+        <div className="Aboutuspage__video__button__video">
+          <video
+            loop={true}
+            src="https://wealcoder.com/dev/html/axtra/assets/video/video.mp4"
+            className="Aboutuspage__video__video"
+          />
+        </div>
       </div>
-    </div>
+    </Fade>
   );
 }
