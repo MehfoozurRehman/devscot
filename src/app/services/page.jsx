@@ -9,6 +9,8 @@ import MagnetButton from "@/components/MagnetButton";
 import ScrollSpy from "react-ui-scrollspy";
 import { motion } from "framer-motion";
 import { useRef } from "react";
+import splitText from "@/utils/splitText";
+import { Fade } from "react-reveal";
 
 const Data = [
   {
@@ -69,7 +71,7 @@ const Data = [
 
 function ServicePage() {
   const parentScrollContainerRef = useRef(null);
-
+  const heading = splitText("Digital Solution");
   return (
     <>
       <div
@@ -105,12 +107,16 @@ function ServicePage() {
                   </div>
                   <div className="solution__mid">
                     <h1 className="solution__title animation__char_come">
-                      Digital Solution
+                      {heading}
                     </h1>
-                    <p>
-                      We’re designing digital experiences that enrich human
-                      lives and it helps to grow your business globally trends.
-                    </p>
+
+                    <Fade up delay={100}>
+                      <p>
+                        We’re designing digital experiences that enrich human
+                        lives and it helps to grow your business globally
+                        trends.
+                      </p>
+                    </Fade>
                   </div>
                   <div className="solution__right">
                     <div className="solution__img-3">
@@ -207,37 +213,97 @@ function ServicePage() {
                       />
                     </div>
                     <div className="service__Pagedetails__section__content__right__content">
-                      <h2 className="service__Pagedetails__section__content__right__content__heading">
-                        {item.title}
-                      </h2>
-                      <p className="service__Pagedetails__section__content__right__content__info">
-                        {item.description}
-                      </p>
-                      <div className="service__Pagedetails__section__content__right__content__heading__links">
-                        <ul>
-                          <li>Approch</li>
-                          <li>Creativity</li>
-                          <li>Experienced</li>
-                        </ul>
-                        <ul>
-                          <li>Approch</li>
-                          <li>Creativity</li>
-                          <li>Experienced</li>
-                        </ul>
-                      </div>
-                      <MagnetButton>
-                        <a
-                          style={{ color: "white", textDecoration: "none" }}
-                          href={"/services" + item.link}
-                        >
-                          Get Started
-                        </a>
-                      </MagnetButton>
+                      <Fade up delay={100}>
+                        {" "}
+                        <h2 className="service__Pagedetails__section__content__right__content__heading">
+                          {item.title}
+                        </h2>
+                      </Fade>
+                      <Fade up delay={300}>
+                        {" "}
+                        <p className="service__Pagedetails__section__content__right__content__info">
+                          {item.description}
+                        </p>
+                      </Fade>
+                      <Fade up delay={500}>
+                        <div className="service__Pagedetails__section__content__right__content__heading__links">
+                          <ul>
+                            <li>Approch</li>
+                            <li>Creativity</li>
+                            <li>Experienced</li>
+                          </ul>
+                          <ul>
+                            <li>Approch</li>
+                            <li>Creativity</li>
+                            <li>Experienced</li>
+                          </ul>
+                        </div>
+                      </Fade>
+                      <Fade up delay={700}>
+                        {" "}
+                        <MagnetButton>
+                          <a
+                            style={{ color: "white", textDecoration: "none" }}
+                            href={"/services" + item.link}
+                          >
+                            Get Started
+                          </a>
+                        </MagnetButton>
+                      </Fade>
                     </div>
                   </section>
                 ))}
               </ScrollSpy>
             </div>
+          </div>
+        </div>
+        <div className="service__Pagedetails__section__mobile">
+          <div className="service__Pagedetails__section__mobile__content">
+            {Data?.map((item) => (
+              <section
+                className="service__Pagedetails__section__content__right__content__section"
+                id={item.id}
+                key={item.id}
+              >
+                <div className="service__Pagedetails__section__content__mid__imgs__moblie">
+                  <motion.img
+                    initial={{ scale: 1.5 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ duration: 1.5 }}
+                    src={item.img}
+                    alt={item.title}
+                  />
+                </div>
+                <div className="service__Pagedetails__section__content__right__content">
+                  <h2 className="service__Pagedetails__section__content__right__content__heading">
+                    {item.title}
+                  </h2>
+                  <p className="service__Pagedetails__section__content__right__content__info">
+                    {item.description}
+                  </p>
+                  <div className="service__Pagedetails__section__content__right__content__heading__links">
+                    <ul>
+                      <li>Approch</li>
+                      <li>Creativity</li>
+                      <li>Experienced</li>
+                    </ul>
+                    <ul>
+                      <li>Approch</li>
+                      <li>Creativity</li>
+                      <li>Experienced</li>
+                    </ul>
+                  </div>
+                  <MagnetButton>
+                    <a
+                      style={{ color: "white", textDecoration: "none" }}
+                      href={"/services" + item.link}
+                    >
+                      Get Started
+                    </a>
+                  </MagnetButton>
+                </div>
+              </section>
+            ))}
           </div>
         </div>
       </div>
