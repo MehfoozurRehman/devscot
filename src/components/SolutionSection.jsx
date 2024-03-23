@@ -6,30 +6,45 @@ import splitText from "@/utils/splitText";
 
 const entries = [
   {
+    img: "/webdev.png",
+    imgtext: "/devscot1.png",
+    background: "linear-gradient(to bottom, #A78D5B, #5A4217)",
     id: "web",
     delay: "100",
     heading: "Web App Development",
     text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
+    img: "/mobiledev.png",
+    imgtext: "/devscot2.png",
+    background: "linear-gradient(to bottom, #42AA8C, #1C6D55)",
     id: "mobile",
     delay: "400",
     heading: "Mobile App Development",
     text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
+    img: "/ecommerce.png",
+    imgtext: "/devscot3.png",
+    background: "linear-gradient(to bottom, #37444C, #6B8696)",
     id: "ecommerce",
     delay: "700",
     heading: "E-commerce Solutions",
     text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
+    img: "/uiux.png",
+    imgtext: "/devscot4.png",
+    background: "linear-gradient(to bottom, #421036, #BB491A)",
     id: "design",
     heading: "UI/UX Designs",
     delay: "1000",
     text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
   },
   {
+    img: "/3d.png",
+    imgtext: "/devscot5.png",
+    background: "linear-gradient(to bottom, #FFC801, #FFC801)",
     id: "3d",
     delay: "1100",
     heading: "3D Graphics & Animations",
@@ -52,17 +67,17 @@ export default function SolutionSection() {
             <div
               className="solution__section__content__data__left"
               style={{
-                background: "linear-gradient(to bottom, #42AA8C, #1C6D55)",
+                background: selectedEntry.background,
               }}
             >
               <img
-                src="/devscot2.webp"
+                src={selectedEntry.imgtext}
                 className="solution__section__content__data__left__backgound"
               />
               <Fade In delay={100}>
                 <img
                   className="solution__section__content__data__left__img"
-                  src="/devscot1.webp"
+                  src={selectedEntry.img}
                 />
               </Fade>
               <div className="solution__section__content__data__info">
