@@ -32,9 +32,9 @@ export default function ProjectDetails() {
 
   const checkWidth = () => {
     if (window.innerWidth > 1366) {
-      setSwiperSlides(3.8);
+      setSwiperSlides(5.8);
     } else if (window.innerWidth > 1200) {
-      setSwiperSlides(3.3);
+      setSwiperSlides(4.3);
     } else if (window.innerWidth > 900) {
       setSwiperSlides(3);
     } else if (window.innerWidth > 730) {
@@ -64,7 +64,6 @@ export default function ProjectDetails() {
               {heading}
             </div>
             <Fade up delay={100}>
-              {" "}
               <div className="project__details__text__header__container__left__subheading">
                 Our client is a visionary company that aims to simplify
                 decentralized finance. With features offering convenience,
@@ -72,13 +71,13 @@ export default function ProjectDetails() {
                 product — the Infinity wallet — seamlessly integrates into
                 users’ lives, catering to all their financial needs.
               </div>
-            </Fade>{" "}
+            </Fade>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__btn">
                 <button style={{ margin: "0px" }} class="btn">
                   Contact us
                 </button>
-              </div>{" "}
+              </div>
             </Fade>
           </div>
           <Fade up delay={100}>
@@ -103,35 +102,60 @@ export default function ProjectDetails() {
         </div>
         <div className="project__header__imags__slider__over">
           <div className="project__header__imags__slider">
-            <Swiper spaceBetween={50} slidesPerView={swiperSlides}>
+            <Swiper spaceBetween={20} slidesPerView={swiperSlides}>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.webp" alt="image" />
+                  <img src="/mealprj1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.webp" alt="image" />
+                  <img src="/mealprj1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.webp" alt="image" />
+                  <img src="/mealprj1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.webp" alt="image" />
+                  <img src="/mealprj1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.webp" alt="image" />
+                  <img src="/mealprj1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.webp" alt="image" />
+                  <img src="/mealprj1.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj1.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj1.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj1.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj1.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj1.png" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>
@@ -140,7 +164,6 @@ export default function ProjectDetails() {
         <div className="project__details__text__header__container__bg" />
         <div className="project__details__about__container">
           <Fade up delay={100}>
-            {" "}
             <div className="project__details__about__container__heading">
               ABOUT THE PROJECT
             </div>
@@ -151,13 +174,11 @@ export default function ProjectDetails() {
               key={index}
             >
               <Fade up delay={100}>
-                {" "}
                 <div className="project__details__about__container__text__wraper__heading">
                   {heading}
                 </div>
               </Fade>
               <Fade up delay={300}>
-                {" "}
                 <div className="project__details__about__container__text__wraper__sub__heading">
                   {text}
                 </div>
@@ -172,7 +193,6 @@ export default function ProjectDetails() {
           />
         </div>
         <Fade up delay={100}>
-          {" "}
           <div className="process__image">
             <img
               src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701935150/Group_1707485878_mrsf2p.webp"
@@ -182,26 +202,25 @@ export default function ProjectDetails() {
         </Fade>
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
-            {" "}
             <div className="Emphasizing__main__container__logo">
               <img
                 src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701938382/Group_3_yjuhvx.webp"
                 alt="meal"
               />
             </div>
-          </Fade>{" "}
+          </Fade>
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__heading">
               Emphasizing consistency: creating a self-sufficient ecosystem
               within Infinity
             </div>
-          </Fade>{" "}
+          </Fade>
           <Fade up delay={300}>
             <div className="Emphasizing__main__container__subheading">
               Our client is a visionary company that aims to simplify
               decentralized finance. With features offering convenience
             </div>
-          </Fade>{" "}
+          </Fade>
           <Fade up delay={500}>
             <div className="Emphasizing__main__container__project__img">
               <img
@@ -257,13 +276,11 @@ export default function ProjectDetails() {
         </div>
         <div className="guide__section__wraper">
           <Fade up delay={100}>
-            {" "}
             <div className="guide__section__wraper__heading">
               Visual Style Guide Creation
             </div>
           </Fade>
           <Fade up delay={300}>
-            {" "}
             <div className="guide__section__wraper__sub__heading">
               We created a visual style guide, which was a milestone in the
               design consistency of the project. Just like the design system, it
@@ -273,7 +290,6 @@ export default function ProjectDetails() {
           </Fade>
           <div className="guide__section__card__wraper">
             <Fade up delay={100}>
-              {" "}
               <div
                 className="guide__section__card"
                 style={{
@@ -282,7 +298,7 @@ export default function ProjectDetails() {
               >
                 #00CE6E
               </div>
-            </Fade>{" "}
+            </Fade>
             <Fade up delay={100}>
               <div
                 className="guide__section__card"
@@ -292,8 +308,8 @@ export default function ProjectDetails() {
                 }}
               >
                 #98FFCF
-              </div>{" "}
-            </Fade>{" "}
+              </div>
+            </Fade>
             <Fade up delay={100}>
               <div
                 className="guide__section__card"
@@ -303,7 +319,7 @@ export default function ProjectDetails() {
               >
                 #33373B
               </div>
-            </Fade>{" "}
+            </Fade>
             <Fade up delay={100}>
               <div
                 className="guide__section__card"
@@ -329,7 +345,7 @@ export default function ProjectDetails() {
                   Semi-bold
                 </div>
               </div>
-            </Fade>{" "}
+            </Fade>
             <Fade up delay={600}>
               <div className="guide__section__card__font__right">
                 <div className="guide__section__card__font__title">
@@ -349,7 +365,6 @@ export default function ProjectDetails() {
         <div className="result__container__over">
           <div className="result__container">
             <Fade up delay={100}>
-              {" "}
               <div className="result__container__heading">THE RESULT</div>
             </Fade>
             <div className="result__container__text__wraper__container">
@@ -366,7 +381,7 @@ export default function ProjectDetails() {
                     satisfied.
                   </div>
                 </div>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={200}>
                 <div className="result__container__text__wraper">
                   <div className="result__container__text__wraper__number">
@@ -380,7 +395,7 @@ export default function ProjectDetails() {
                     satisfied.
                   </div>
                 </div>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={500}>
                 <div className="result__container__text__wraper">
                   <div className="result__container__text__wraper__number">
@@ -394,7 +409,7 @@ export default function ProjectDetails() {
                     satisfied.
                   </div>
                 </div>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={500}>
                 <div className="result__container__text__wraper">
                   <div className="result__container__text__wraper__number">
