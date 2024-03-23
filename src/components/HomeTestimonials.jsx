@@ -80,23 +80,29 @@ export default function HomeTestimonials() {
     <div className="home__testmonials">
       <Fade up delay={100}>
         {" "}
-        <div distance="30%">
+        <Fade up delay={100}>
           {" "}
-          <div className="home__testmonials__heading heading">
-            Learn why 1000+ customers
-          </div>
-        </div>{" "}
+          <div distance="30%">
+            {" "}
+            <div className="home__testmonials__heading heading">
+              Learn why 1000+ customers
+            </div>
+          </div>{" "}
+        </Fade>
       </Fade>{" "}
       <Fade up delay={100}>
         {" "}
-        <div distance="30%">
-          <div className="home__testmonials__info">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
-            rerum fugit? Quibusdam eaque amet, quam et tempora unde suscipit
-            autem nisi dolores sequi repellat ex totam. Eligendi sapiente
-            inventore dolor!
-          </div>
-        </div>{" "}
+        <Fade up delay={100}>
+          {" "}
+          <div distance="30%">
+            <div className="home__testmonials__info">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
+              rerum fugit? Quibusdam eaque amet, quam et tempora unde suscipit
+              autem nisi dolores sequi repellat ex totam. Eligendi sapiente
+              inventore dolor!
+            </div>
+          </div>{" "}
+        </Fade>
       </Fade>
       <div className="home__testmonials__content">
         <div className="home__testmonials__content__users">
@@ -127,22 +133,32 @@ export default function HomeTestimonials() {
             ))}
           </div>
         </div>
+
         <div className="home__testmonials__content__details">
-          <div distance="30%">
-            <div className="home__testmonials__content__details__info">
-              {selectedEntry?.info}
+          <Fade up delay={100}>
+            {" "}
+            <div distance="30%">
+              <div className="home__testmonials__content__details__info">
+                {selectedEntry?.info}
+              </div>
             </div>
-          </div>
-          <div distance="30%">
-            <div className="home__testmonials__content__details__heading">
-              {selectedEntry?.text}
+          </Fade>
+          <Fade up delay={100}>
+            {" "}
+            <div distance="30%">
+              <div className="home__testmonials__content__details__heading">
+                {selectedEntry?.text}
+              </div>
             </div>
-          </div>
-          <div distance="30%">
-            <div className="home__testmonials__content__details__sub__heading">
-              {selectedEntry?.job}
+          </Fade>
+          <Fade up delay={100}>
+            {" "}
+            <div distance="30%">
+              <div className="home__testmonials__content__details__sub__heading">
+                {selectedEntry?.job}
+              </div>
             </div>
-          </div>
+          </Fade>
         </div>
       </div>
     </div>
