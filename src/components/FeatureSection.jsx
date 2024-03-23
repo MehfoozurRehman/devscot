@@ -38,8 +38,6 @@ export default function FeatureSection() {
           </div>
           <div className="FeatureSection__content__right">
             <FeatureSectionCard />
-            <FeatureSectionCard />
-            <FeatureSectionCard />
           </div>
         </div>
       </div>

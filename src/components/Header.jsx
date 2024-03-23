@@ -42,7 +42,7 @@ export default function Header() {
         return "header__content__nav__link";
       }
     },
-    [pathname],
+    [pathname]
   );
 
   useEffect(() => {
@@ -53,6 +53,8 @@ export default function Header() {
     } else if (pathname.includes("/services")) {
       document.querySelector(".header").style.backgroundColor = "#000";
     } else if (pathname === "/projects") {
+      document.querySelector(".header").style.backgroundColor = "#000";
+    } else if (pathname.includes("/projects")) {
       document.querySelector(".header").style.backgroundColor = "#000";
     } else {
       document.querySelector(".header").style.backgroundColor = "taansparent";
