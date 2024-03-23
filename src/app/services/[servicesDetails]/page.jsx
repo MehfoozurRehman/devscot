@@ -9,6 +9,7 @@ import React from "react";
 import ServicesHowWeDoIt from "@/components/ServicesHowWeDoIt";
 import { motion } from "framer-motion";
 import splitText from "@/utils/splitText";
+import { Fade } from "react-reveal";
 
 export default function page() {
   const heading = splitText("Web and mobile development");
@@ -20,61 +21,69 @@ export default function page() {
           <div className="Services__deatils__content">
             <div className="Services__deatils__content__left">
               <div className="Services__deatils__content__left__conent">
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 1.5 }}
-                  className="Services__deatils__content__left__conent__heading"
-                >
+                <div className="Services__deatils__content__left__conent__heading">
                   {heading}
-                </motion.div>
+                </div>
               </div>
             </div>
             <div className="Services__deatils__content__right">
               <div className="Services__deatils__content__right__content">
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 1.5 }}
-                  className="Services__deatils__content__right__content__info"
-                >
-                  Every decision we make needs to answer the million-dollar
-                  question: how will this benefit our partner’s goal best? We
-                  work to develop solutions
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 1.5 }}
-                  className="Services__deatils__content__right__content__info"
-                >
-                  Every decision we make needs to answer the million-dollar
-                  question: how will this benefit our partner’s goal best? We
-                  work to develop solutions
-                </motion.div>
+                <Fade up delay={100}>
+                  {" "}
+                  <div className="Services__deatils__content__right__content__info">
+                    Every decision we make needs to answer the million-dollar
+                    question: how will this benefit our partner’s goal best? We
+                    work to develop solutions
+                  </div>
+                </Fade>{" "}
+                <Fade up delay={100}>
+                  <div className="Services__deatils__content__right__content__info">
+                    Every decision we make needs to answer the million-dollar
+                    question: how will this benefit our partner’s goal best? We
+                    work to develop solutions
+                  </div>
+                </Fade>
               </div>
               <div className="Services__deatils__content__right__contentbottom">
                 <div className="Services__deatils__content__right__contentbottom__content">
-                  <div className="Services__deatils__content__right__contentbottom__points">
-                    + API Development
-                  </div>
-                  <div className="Services__deatils__content__right__contentbottom__points">
-                    + Cloud Migration
-                  </div>
-                  <div className="Services__deatils__content__right__contentbottom__points">
-                    + JavaScript
-                  </div>{" "}
+                  <Fade up delay={100}>
+                    {" "}
+                    <div className="Services__deatils__content__right__contentbottom__points">
+                      + API Development
+                    </div>
+                  </Fade>
+                  <Fade up delay={300}>
+                    {" "}
+                    <div className="Services__deatils__content__right__contentbottom__points">
+                      + Cloud Migration
+                    </div>
+                  </Fade>
+                  <Fade up delay={500}>
+                    {" "}
+                    <div className="Services__deatils__content__right__contentbottom__points">
+                      + JavaScript
+                    </div>{" "}
+                  </Fade>
                 </div>
                 <div className="Services__deatils__content__right__contentbottom__content">
-                  <div className="Services__deatils__content__right__contentbottom__points">
-                    + WordPress
-                  </div>
-                  <div className="Services__deatils__content__right__contentbottom__points">
-                    + Front End Development
-                  </div>
-                  <div className="Services__deatils__content__right__contentbottom__points">
-                    + Fluter Framework
-                  </div>
+                  <Fade up delay={100}>
+                    {" "}
+                    <div className="Services__deatils__content__right__contentbottom__points">
+                      + WordPress
+                    </div>
+                  </Fade>{" "}
+                  <Fade up delay={300}>
+                    {" "}
+                    <div className="Services__deatils__content__right__contentbottom__points">
+                      + Front End Development
+                    </div>
+                  </Fade>{" "}
+                  <Fade up delay={500}>
+                    {" "}
+                    <div className="Services__deatils__content__right__contentbottom__points">
+                      + Fluter Framework
+                    </div>{" "}
+                  </Fade>
                 </div>
               </div>
             </div>
