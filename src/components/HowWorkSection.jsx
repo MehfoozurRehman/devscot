@@ -55,8 +55,14 @@ export default function HowWorkSection() {
   return (
     <div className="how__section">
       <div className="how__section__content">
-        <div className="how__section__content__subheading">WORKFLOW</div>
-        <div className="how__section__content__heading">How we work</div>
+        <Fade up delay={100}>
+          {" "}
+          <div className="how__section__content__subheading">WORKFLOW</div>
+        </Fade>
+        <Fade up delay={100}>
+          {" "}
+          <div className="how__section__content__heading">How we work</div>
+        </Fade>
         <ScrollContainer>
           <div className="how__section__content__data">
             {entries.map((entry, index) => (
