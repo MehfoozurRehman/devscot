@@ -43,15 +43,9 @@ export default function MagnetWrapper({ children }) {
       yTo(0);
     };
 
-    magnetic.current.addEventListener("mousemove", mouseMove);
+    magnetic?.current?.addEventListener("mousemove", mouseMove);
 
-    magnetic.current.addEventListener("mouseleave", mouseLeave);
-
-    return () => {
-      magnetic.current.removeEventListener("mousemove", mouseMove);
-
-      magnetic.current.removeEventListener("mouseleave", mouseLeave);
-    };
+    magnetic?.current?.addEventListener("mouseleave", mouseLeave);
   }, []);
 
   return React.cloneElement(children, { ref: magnetic });
