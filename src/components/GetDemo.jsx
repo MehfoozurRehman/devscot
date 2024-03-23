@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Fade } from "react-reveal";
 
 const waitFor = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -34,21 +35,29 @@ export default function GetDemo() {
   }
   return (
     <div className="get__demo__main__container">
-      <div className="get__demo__main__container__left">
-        <img
-          className="get__demo__main__container__left__img"
-          src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702008938/Group_1707485772_tlqvjk.webp"
-          alt=""
-        />
-      </div>
+      <Fade up delay={100}>
+        {" "}
+        <div className="get__demo__main__container__left">
+          <img
+            className="get__demo__main__container__left__img"
+            src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702008938/Group_1707485772_tlqvjk.webp"
+            alt=""
+          />
+        </div>
+      </Fade>
       <div className="get__demo__main__container__right">
-        <div className="get__demo__main__container__right__heading">
-          Get a demo 💪 Build Landing pages
-        </div>
-        <div className="get__demo__main__container__right__subheading">
-          Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus
-          mauris hac nisi habitasse donec. Vitae integer massa in blandit.
-        </div>
+        <Fade up delay={100}>
+          {" "}
+          <div className="get__demo__main__container__right__heading">
+            Get a demo 💪 Build Landing pages
+          </div>{" "}
+        </Fade>{" "}
+        <Fade up delay={100}>
+          <div className="get__demo__main__container__right__subheading">
+            Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus
+            mauris hac nisi habitasse donec. Vitae integer massa in blandit.
+          </div>{" "}
+        </Fade>
         <div className="get__demo__main__container__right__mail__wraper__bg__over">
           <div className="get__demo__main__container__right__mail__wraper__bg">
             <svg
@@ -103,38 +112,40 @@ export default function GetDemo() {
               </defs>
             </svg>
           </div>
-          <div className="get__demo__main__container__right__mail__wraper">
-            <div className="get__demo__main__container__right__mail__wraper__title">
-              Provide email address to get free demo
-            </div>
-            <form
-              onSubmit={handleSubmit}
-              className="get__demo__main__container__right__mail__wraper__input__wraper"
-            >
-              <input
-                className="get__demo__main__container__right__mail__wraper__input"
-                type="email"
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                  if (!e.target.value) {
-                    setErrorMail("Email is required");
-                  } else {
-                    setErrorMail("");
-                  }
-                }}
-                value={Email}
-                placeholder="Enter your email address"
-              />
-              <button
-                type="submit"
-                disabled={processing}
-                className="get__demo__main__container__right__mail__wraper__input__button"
+          <Fade up delay={100}>
+            <div className="get__demo__main__container__right__mail__wraper">
+              <div className="get__demo__main__container__right__mail__wraper__title">
+                Provide email address to get free demo
+              </div>
+              <form
+                onSubmit={handleSubmit}
+                className="get__demo__main__container__right__mail__wraper__input__wraper"
               >
-                {status === "sending" ? <>sending...</> : "Get started now"}
-              </button>
-            </form>
-            <p style={{ color: "red", fontSize: "14px" }}>{errorMail}</p>
-          </div>
+                <input
+                  className="get__demo__main__container__right__mail__wraper__input"
+                  type="email"
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    if (!e.target.value) {
+                      setErrorMail("Email is required");
+                    } else {
+                      setErrorMail("");
+                    }
+                  }}
+                  value={Email}
+                  placeholder="Enter your email address"
+                />
+                <button
+                  type="submit"
+                  disabled={processing}
+                  className="get__demo__main__container__right__mail__wraper__input__button"
+                >
+                  {status === "sending" ? <>sending...</> : "Get started now"}
+                </button>
+              </form>
+              <p style={{ color: "red", fontSize: "14px" }}>{errorMail}</p>
+            </div>{" "}
+          </Fade>
         </div>
       </div>
     </div>
