@@ -266,13 +266,7 @@ function ServicePage() {
                 key={item.id}
               >
                 <div className="service__Pagedetails__section__content__mid__imgs__moblie">
-                  <motion.img
-                    initial={{ scale: 1.5 }}
-                    whileInView={{ scale: 1 }}
-                    transition={{ duration: 1.5 }}
-                    src={item.img}
-                    alt={item.title}
-                  />
+                  <img src={item.img} alt={item.title} />
                 </div>
                 <div className="service__Pagedetails__section__content__right__content">
                   <h2 className="service__Pagedetails__section__content__right__content__heading">
