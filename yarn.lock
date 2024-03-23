@@ -296,10 +296,10 @@ react-click-away-listener@^2.2.3:
   resolved "https://registry.yarnpkg.com/react-click-away-listener/-/react-click-away-listener-2.2.3.tgz#a5c3e37d94cc86dac3546dbb753db14bacb63186"
   integrity sha512-p63JRQtK9d085+QHUJ2Pje22P/N4tEaXsS2x7tbbptriQqZ9o8xEk7G1JrxwND5YmEVc/VO4fC3+cSBsqqgLUQ==
 
-react-countup@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.5.2.tgz#ac1d8ddd95fb5ed8c8579722f0f4b0b10decdd2f"
-  integrity sha512-5QXlUnDqBaMRbiAFGMs942EaJGGpYibER6IKBxKIedGZRza0ImACOUO0FdBrSWv8+RcjV2oKNT8lLvZ3vnjkVQ==
+react-countup@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.5.3.tgz#e892aa3eab2d6ba9c3cdba30bf4ed6764826d848"
+  integrity sha512-udnqVQitxC7QWADSPDOxVWULkLvKUWrDapn5i53HE4DPRVgs+Y5rr4bo25qEl8jSh+0l2cToJgGMx+clxPM3+w==
   dependencies:
     countup.js "^2.8.0"
 
