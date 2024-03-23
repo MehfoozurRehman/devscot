@@ -1,3 +1,4 @@
+"use client";
 import FeatureSection from "@/components/FeatureSection";
 import FeatureSectionMobile from "@/components/FeatureSectionMobile";
 import Footer from "@/components/Footer";
@@ -9,6 +10,7 @@ import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
 import Cardsection from "@/components/Cardsection";
+import { Fade } from "react-reveal";
 export default function Index() {
   return (
     <>
@@ -16,17 +18,23 @@ export default function Index() {
       <HomeSection />
       <section className="hero__section__aboutus">
         <div className="hero__section__aboutus__content">
-          <div className="hero__section__aboutus__content__left">
-            We unlock the potential of your business with creative digital
-            solutions.
-          </div>
-          <div className="hero__section__aboutus__content__right">
-            From traditional PR and thought leadership campaigns to storytelling
-            and creative social media management we’ve got you covered.
-            Something is not your average order-taking vendor. We are proud to
-            be the go-to partner for some of the world’s biggest agencies and
-            brands because they trust our expertise.
-          </div>
+          <Fade up delay={100}>
+            {" "}
+            <div className="hero__section__aboutus__content__left">
+              We unlock the potential of your business with creative digital
+              solutions.
+            </div>
+          </Fade>
+          <Fade up delay={300}>
+            {" "}
+            <div className="hero__section__aboutus__content__right">
+              From traditional PR and thought leadership campaigns to
+              storytelling and creative social media management we’ve got you
+              covered. Something is not your average order-taking vendor. We are
+              proud to be the go-to partner for some of the world’s biggest
+              agencies and brands because they trust our expertise.
+            </div>
+          </Fade>
         </div>
         <div className="line" />
       </section>
