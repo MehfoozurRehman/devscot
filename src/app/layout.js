@@ -1,6 +1,7 @@
 import "@/styles/global.scss";
 
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import ClientLayout from "./ClientLayout";
 
 export const metadata = {
   title: "Devscot",
@@ -11,9 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <ClientLayout>{children}</ClientLayout>
         <SpeedInsights />
       </body>
     </html>
   );
 }
+
