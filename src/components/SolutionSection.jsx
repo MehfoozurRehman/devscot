@@ -48,43 +48,45 @@ export default function SolutionSection() {
           <div className="solution__section__content__heading">{heading}</div>
         </Fade>
         <div className="solution__section__content__data">
-          <div
-            className="solution__section__content__data__left"
-            style={{
-              background: "linear-gradient(to bottom, #42AA8C, #1C6D55)",
-            }}
-          >
-            <img
-              src="/devscot2.webp"
-              className="solution__section__content__data__left__backgound"
-            />
-            <Fade In delay={100}>
+          <Fade up delay={100}>
+            <div
+              className="solution__section__content__data__left"
+              style={{
+                background: "linear-gradient(to bottom, #42AA8C, #1C6D55)",
+              }}
+            >
               <img
-                className="solution__section__content__data__left__img"
-                src="/devscot1.webp"
+                src="/devscot2.webp"
+                className="solution__section__content__data__left__backgound"
               />
-            </Fade>
-            <div className="solution__section__content__data__info">
-              <div className="solution__section__content__data__info__text">
-                {selectedEntry.heading}
-              </div>
-              <div className="solution__section__content__data__info__btn">
-                Order Now
-                <svg
-                  width="17"
-                  height="12"
-                  viewBox="0 0 17 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16.5164 6.5164C16.8016 6.2312 16.8016 5.7688 16.5164 5.4836L11.8688 0.836022C11.5836 0.550823 11.1212 0.550823 10.836 0.836022C10.5508 1.12122 10.5508 1.58362 10.836 1.86882L14.9672 6L10.836 10.1312C10.5508 10.4164 10.5508 10.8788 10.836 11.164C11.1212 11.4492 11.5836 11.4492 11.8688 11.164L16.5164 6.5164ZM0 6.7303H16V5.2697H0V6.7303Z"
-                    fill="currentColor"
-                  />
-                </svg>
+              <Fade In delay={100}>
+                <img
+                  className="solution__section__content__data__left__img"
+                  src="/devscot1.webp"
+                />
+              </Fade>
+              <div className="solution__section__content__data__info">
+                <div className="solution__section__content__data__info__text">
+                  {selectedEntry.heading}
+                </div>
+                <div className="solution__section__content__data__info__btn">
+                  Order Now
+                  <svg
+                    width="17"
+                    height="12"
+                    viewBox="0 0 17 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.5164 6.5164C16.8016 6.2312 16.8016 5.7688 16.5164 5.4836L11.8688 0.836022C11.5836 0.550823 11.1212 0.550823 10.836 0.836022C10.5508 1.12122 10.5508 1.58362 10.836 1.86882L14.9672 6L10.836 10.1312C10.5508 10.4164 10.5508 10.8788 10.836 11.164C11.1212 11.4492 11.5836 11.4492 11.8688 11.164L16.5164 6.5164ZM0 6.7303H16V5.2697H0V6.7303Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
-          </div>
+          </Fade>{" "}
           <div className="solution__section__content__data__right">
             {entries.map((entry, index) => (
               <Fade up delay={parseInt(entry.delay)} key={index}>
