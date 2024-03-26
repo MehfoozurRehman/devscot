@@ -1,3 +1,5 @@
+import FeatureSectionCard from "./FeatureSectionCard";
+
 export default function FeatureSection() {
   return (
     <div>
@@ -22,11 +24,12 @@ export default function FeatureSection() {
               </button>
             </div>
             <div>
-              <img
+              <FeatureSectionCard />
+              {/* <img
                 src="/FeatureSectionimg.webp"
                 alt=""
                 className="FeatureSection__content__right__img__mobile__img"
-              />
+              /> */}
             </div>
           </div>
         </div>
