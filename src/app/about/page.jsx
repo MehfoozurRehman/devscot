@@ -6,14 +6,14 @@ import splitText from "@/utils/splitText";
 import { Fade } from "react-reveal";
 
 export default function About() {
-  const heading = splitText(
-    "We’re a­ full­ service­ creative­ and­ digital­ agency,­ working­ globally­ with­ leargest ­brands"
-  );
   return (
     <>
       <Header />
       <div className="Aboutuspage">
-        <div className="Aboutuspage__heading">{heading}</div>
+        <div className="Aboutuspage__heading">
+          We’re a­ full­ service­ creative­ and­ digital­ agency,­ working­
+          globally­ with­ leargest ­brands
+        </div>
         <div className="Aboutuspage__about">
           <Fade up delay={100}>
             {" "}
