@@ -1599,6 +1599,13 @@ body {
   .FeatureSection {
     display: none;
   }
+  .FeatureSection__content__right__img {
+    width: 100%;
+    min-height: 100%;
+  }
+  .FeatureSection__content__left__content__div {
+    margin-bottom: 1em;
+  }
   .hero__section__aboutus__content {
     flex-direction: column;
   }
