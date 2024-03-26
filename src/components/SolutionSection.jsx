@@ -3,6 +3,7 @@
 import Fade from "react-reveal/Fade";
 import { useState } from "react";
 import splitText from "@/utils/splitText";
+import { motion } from "framer-motion";
 
 const entries = [
   {
@@ -74,16 +75,28 @@ export default function SolutionSection() {
                 src={selectedEntry.imgtext}
                 className="solution__section__content__data__left__backgound"
               />
-              <Fade In delay={100}>
-                <img
-                  className="solution__section__content__data__left__img"
-                  src={selectedEntry.img}
-                />
-              </Fade>
+
+              <motion.img
+                initial={{ opacity: 0, y: -100 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                key={selectedEntry.img}
+                className="solution__section__content__data__left__img"
+                src={selectedEntry.img}
+              />
+
               <div className="solution__section__content__data__info">
-                <div className="solution__section__content__data__info__text">
+                <motion.div
+                  initial={{ opacity: 0, y: 100 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  key={selectedEntry.heading}
+                  className="solution__section__content__data__info__text"
+                >
                   {selectedEntry.heading}
-                </div>
+                </motion.div>
                 <div className="solution__section__content__data__info__btn">
                   Order Now
                   <svg
