@@ -34,7 +34,7 @@ export default function ProjectDetails() {
     if (window.innerWidth > 1366) {
       setSwiperSlides(5.8);
     } else if (window.innerWidth > 1200) {
-      setSwiperSlides(4.3);
+      setSwiperSlides(5.3);
     } else if (window.innerWidth > 900) {
       setSwiperSlides(3);
     } else if (window.innerWidth > 730) {
@@ -103,6 +103,12 @@ export default function ProjectDetails() {
         <div className="project__header__imags__slider__over">
           <div className="project__header__imags__slider">
             <Swiper spaceBetween={20} slidesPerView={swiperSlides}>
+              <SwiperSlide className="specialslider"></SwiperSlide>{" "}
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj1.png" alt="image" />
+                </div>
+              </SwiperSlide>{" "}
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/mealprj1.png" alt="image" />
@@ -299,7 +305,7 @@ export default function ProjectDetails() {
                 #00CE6E
               </div>
             </Fade>
-            <Fade up delay={100}>
+            <Fade up delay={300}>
               <div
                 className="guide__section__card"
                 style={{
@@ -310,7 +316,7 @@ export default function ProjectDetails() {
                 #98FFCF
               </div>
             </Fade>
-            <Fade up delay={100}>
+            <Fade up delay={500}>
               <div
                 className="guide__section__card"
                 style={{
@@ -320,7 +326,7 @@ export default function ProjectDetails() {
                 #33373B
               </div>
             </Fade>
-            <Fade up delay={100}>
+            <Fade up delay={700}>
               <div
                 className="guide__section__card"
                 style={{
@@ -333,7 +339,7 @@ export default function ProjectDetails() {
             </Fade>
           </div>
           <div className="guide__section__card__font">
-            <Fade up delay={300}>
+            <Fade up delay={500}>
               <div className="guide__section__card__font__left">
                 <div className="guide__section__card__font__title">
                   Typography
@@ -346,7 +352,7 @@ export default function ProjectDetails() {
                 </div>
               </div>
             </Fade>
-            <Fade up delay={600}>
+            <Fade up delay={800}>
               <div className="guide__section__card__font__right">
                 <div className="guide__section__card__font__title">
                   Heading Font
