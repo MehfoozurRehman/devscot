@@ -103,62 +103,62 @@ export default function ProjectDetails() {
               <SwiperSlide className="specialslider"></SwiperSlide>{" "}
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth2.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth3.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth4.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth2.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth3.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth4.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth2.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/meetworth3.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/meetworth4.png" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>
