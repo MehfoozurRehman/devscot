@@ -23,6 +23,7 @@
     "react-indiana-drag-scroll": "^2.2.0",
     "react-reveal": "^1.2.2",
     "react-scroll-parallax": "^3.4.5",
+    "react-spinners": "^0.13.8",
     "react-ui-scrollspy": "^2.3.0",
     "swiper": "^11.0.7"
   },
