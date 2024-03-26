@@ -2,7 +2,7 @@
 
 import "@/styles/servicesdetails.scss";
 import "@/styles/servicescard.scss";
-
+import Footermobile from "@/components/Footermobile";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MagnetButton from "@/components/MagnetButton";
@@ -300,8 +300,9 @@ function ServicePage() {
             ))}
           </div>
         </div>
-      </div>
+      </div>{" "}
       <Footer />
+      <Footermobile />
     </>
   );
 }

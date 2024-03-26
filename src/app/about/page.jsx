@@ -1,6 +1,7 @@
 "use client";
 
 import Footer from "@/components/Footer";
+import Footermobile from "@/components/Footermobile";
 import Header from "@/components/Header";
 import splitText from "@/utils/splitText";
 import { Fade } from "react-reveal";
@@ -247,6 +248,7 @@ export default function About() {
         </div>
       </div>
       <Footer />
+      <Footermobile />
     </>
   );
 }

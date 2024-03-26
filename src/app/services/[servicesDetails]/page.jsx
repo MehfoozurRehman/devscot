@@ -1,7 +1,7 @@
 "use client";
 
 import "@/styles/serivces.scss";
-
+import Footermobile from "@/components/Footermobile";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HowWorkSection from "@/components/HowWorkSection";
@@ -103,8 +103,8 @@ export default function page() {
         </div>
       </div>
       <HowWorkSection />
-      <ServicesHowWeDoIt />
-      <Footer />
+      <ServicesHowWeDoIt /> <Footer />
+      <Footermobile />
     </>
   );
 }

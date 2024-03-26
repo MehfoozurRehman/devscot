@@ -3,7 +3,7 @@
 import "@/styles/contact.scss";
 
 import { useEffect, useState } from "react";
-
+import Footermobile from "@/components/Footermobile";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MagnetButton from "@/components/MagnetButton";
@@ -156,6 +156,7 @@ export default function Contact() {
         </motion.div>
       </div>
       <Footer />
+      <Footermobile />
     </>
   );
 }

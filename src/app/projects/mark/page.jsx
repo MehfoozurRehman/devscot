@@ -6,6 +6,7 @@ import "@/styles/mark.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 
+import Footermobile from "@/components/Footermobile";
 import Footer from "@/components/Footer";
 import GetDemo from "@/components/GetDemo";
 import Header from "@/components/Header";
@@ -56,7 +57,6 @@ export default function ProjectDetails() {
   return (
     <>
       <Header />
-
       <div className="project__details__container">
         <div className="project__details__text__header__container">
           <div className="project__details__text__header__container__left">
@@ -434,8 +434,9 @@ export default function ProjectDetails() {
           </div>
         </div>
         <GetDemo />
-      </div>
+      </div>{" "}
       <Footer />
+      <Footermobile />
     </>
   );
 }

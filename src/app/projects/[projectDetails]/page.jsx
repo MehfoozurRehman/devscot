@@ -5,7 +5,7 @@ import "@/styles/project-details.scss";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
-
+import Footermobile from "@/components/Footermobile";
 import Footer from "@/components/Footer";
 import GetDemo from "@/components/GetDemo";
 import Header from "@/components/Header";
@@ -436,6 +436,7 @@ export default function ProjectDetails() {
         <GetDemo />
       </div>
       <Footer />
+      <Footermobile />
     </>
   );
 }

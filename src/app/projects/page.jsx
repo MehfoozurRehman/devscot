@@ -1,6 +1,7 @@
 "use client";
 import "@/styles/projectpage.scss";
 import { ArrowRight } from "react-feather";
+import Footermobile from "@/components/Footermobile";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Fade } from "react-reveal";
@@ -130,8 +131,9 @@ export default function Projects() {
             })}
           </div>
         </div>
-      </div>
+      </div>{" "}
       <Footer />
+      <Footermobile />
     </>
   );
 }
