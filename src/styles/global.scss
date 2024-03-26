@@ -505,7 +505,8 @@ body {
 }
 .FeatureSection__content__right__img {
   width: 100%;
-  height: 85vh;
+  // height: 85vh;
+  min-height: 700px;
 }
 .FeatureSection__content__right__content__card {
   position: absolute;
@@ -1435,6 +1436,21 @@ body {
   border-radius: 100px;
   background-color: #139948;
   transition: 300ms ease-in-out;
+}
+@media (min-width: 1920px) {
+  .hero__section__content {
+    max-width: 1920px;
+  }
+  .hero__section__content__heading {
+    font-size: 120px;
+  }
+
+  .hero__section__content__subheading {
+    font-size: 28px;
+  }
+  .hero__section__content__info {
+    font-size: 30px;
+  }
 }
 @media (max-width: 1440px) {
   .header__content {
