@@ -10,6 +10,7 @@ import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
 import Cardsection from "@/components/Cardsection";
+import Footermobile from "@/components/Footermobile";
 import { Fade } from "react-reveal";
 import { use } from "react";
 
@@ -52,6 +53,7 @@ export default function Index() {
       <Cardsection />
       <HomeTestimonials />
       <Footer />
+      <Footermobile />
     </>
   );
 }
