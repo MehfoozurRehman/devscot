@@ -1451,6 +1451,46 @@ body {
   .hero__section__content__info {
     font-size: 30px;
   }
+  .hero__section__content__info {
+    max-width: 1300px;
+  }
+  .hero__section__content__info__highlight__name {
+    font-size: 30px;
+  }
+  .hero__section__aboutus__content__left {
+    font-size: 33px;
+  }
+  .hero__section__aboutus__content__right {
+    font-size: 28px;
+  }
+  .hero__section__aboutus {
+    max-width: 1600px;
+  }
+  .solution__section__content {
+    max-width: 1900px;
+  }
+  .solution__section__content__data__right__entry__heading {
+    font-size: 28px;
+  }
+  .solution__section__content__data__right__entry__heading__hover {
+    font-size: 28px;
+  }
+  .solution__section__content__data__right__entry__text {
+    font-size: 22px;
+  }
+  .solution__section__content__data__right__entry__hover {
+    font-size: 22px;
+  }
+  .solution__section__content__data__left {
+    height: 100%;
+  }
+  .solution__section__content__data__right__entry__hover {
+    display: flex;
+    width: 100%;
+    padding: 1.5em;
+    justify-content: space-between;
+    cursor: pointer;
+  }
 }
 @media (max-width: 1440px) {
   .header__content {
