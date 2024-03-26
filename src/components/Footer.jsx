@@ -10,9 +10,11 @@ import { Fade } from "react-reveal";
 
 export default function Footer() {
   return (
-    <ParallaxProvider>
-      <FooterContent />
-    </ParallaxProvider>
+    <div className="Footerweb">
+      <ParallaxProvider>
+        <FooterContent />
+      </ParallaxProvider>{" "}
+    </div>
   );
 }
 
