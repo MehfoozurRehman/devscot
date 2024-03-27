@@ -40,7 +40,7 @@ const HorizontalScrollCarousel = () => {
             })}
           </motion.div>
         </div>
-      </section>{" "}
+      </section>
     </>
   );
 };
