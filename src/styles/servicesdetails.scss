@@ -301,6 +301,15 @@
   z-index: -1;
 }
 @media only screen and (max-width: 767px) {
+  .solution__img-2 {
+    position: relative;
+    float: right;
+    display: none;
+    margin-top: 60px;
+  }
+  .solution__right {
+    padding-top: 5px;
+  }
   .solution__btm {
     padding-top: 40px;
   }
