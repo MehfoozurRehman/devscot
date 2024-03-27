@@ -1869,6 +1869,21 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .hero__section__marquee__container {
+    background-color: #139948;
+    color: white;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+  }
+  .hero__section__marquee__container__item {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .hero__section__aboutus__content__left {
+    font-size: 16px;
+    text-align: left;
+  }
   .numbers__section__content__entry {
     width: 44%;
     max-width: 170px;
@@ -1973,10 +1988,14 @@ body {
     align-items: flex-start;
     width: 100%;
     justify-content: flex-start;
-    padding: 0 1.2em;
+    padding: 0 1em;
   }
   .solution__section__content__data__right__entry__heading {
     font-size: 20px;
+  }
+  .hero__section__aboutus__content__left {
+    font-size: 20px;
+    color: #3c3c3c;
   }
   .solution__section__content__data__right__entry__hover:hover
     .solution__section__content__data__right__entry__btn__hover {
