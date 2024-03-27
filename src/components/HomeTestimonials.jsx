@@ -79,21 +79,16 @@ export default function HomeTestimonials() {
   return (
     <div className="home__testmonials">
       <Fade up delay={100}>
-        {" "}
         <Fade up delay={100}>
-          {" "}
           <div distance="30%">
-            {" "}
             <div className="home__testmonials__heading heading">
               Learn why 1000+ customers
             </div>
-          </div>{" "}
+          </div>
         </Fade>
-      </Fade>{" "}
+      </Fade>
       <Fade up delay={100}>
-        {" "}
         <Fade up delay={100}>
-          {" "}
           <div distance="30%">
             <div className="home__testmonials__info">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
@@ -101,7 +96,7 @@ export default function HomeTestimonials() {
               autem nisi dolores sequi repellat ex totam. Eligendi sapiente
               inventore dolor!
             </div>
-          </div>{" "}
+          </div>
         </Fade>
       </Fade>
       <div className="home__testmonials__content">
@@ -136,7 +131,6 @@ export default function HomeTestimonials() {
 
         <div className="home__testmonials__content__details">
           <Fade up delay={100}>
-            {" "}
             <div distance="30%">
               <div className="home__testmonials__content__details__info">
                 {selectedEntry?.info}
@@ -144,7 +138,6 @@ export default function HomeTestimonials() {
             </div>
           </Fade>
           <Fade up delay={100}>
-            {" "}
             <div distance="30%">
               <div className="home__testmonials__content__details__heading">
                 {selectedEntry?.text}
@@ -152,7 +145,6 @@ export default function HomeTestimonials() {
             </div>
           </Fade>
           <Fade up delay={100}>
-            {" "}
             <div distance="30%">
               <div className="home__testmonials__content__details__sub__heading">
                 {selectedEntry?.job}

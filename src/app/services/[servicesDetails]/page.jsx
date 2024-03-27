@@ -29,13 +29,12 @@ export default function page() {
             <div className="Services__deatils__content__right">
               <div className="Services__deatils__content__right__content">
                 <Fade up delay={100}>
-                  {" "}
                   <div className="Services__deatils__content__right__content__info">
                     Every decision we make needs to answer the million-dollar
                     question: how will this benefit our partner’s goal best? We
                     work to develop solutions
                   </div>
-                </Fade>{" "}
+                </Fade>
                 <Fade up delay={100}>
                   <div className="Services__deatils__content__right__content__info">
                     Every decision we make needs to answer the million-dollar
@@ -47,47 +46,41 @@ export default function page() {
               <div className="Services__deatils__content__right__contentbottom">
                 <div className="Services__deatils__content__right__contentbottom__content">
                   <Fade up delay={100}>
-                    {" "}
                     <div className="Services__deatils__content__right__contentbottom__points">
                       + API Development
                     </div>
                   </Fade>
                   <Fade up delay={300}>
-                    {" "}
                     <div className="Services__deatils__content__right__contentbottom__points">
                       + Cloud Migration
                     </div>
                   </Fade>
                   <Fade up delay={500}>
-                    {" "}
                     <div className="Services__deatils__content__right__contentbottom__points">
                       + JavaScript
-                    </div>{" "}
+                    </div>
                   </Fade>
                 </div>
                 <div className="Services__deatils__content__right__contentbottom__content">
                   <Fade up delay={100}>
-                    {" "}
                     <div className="Services__deatils__content__right__contentbottom__points">
                       + WordPress
                     </div>
-                  </Fade>{" "}
+                  </Fade>
                   <Fade up delay={300}>
-                    {" "}
                     <div className="Services__deatils__content__right__contentbottom__points">
                       + Front End Development
                     </div>
-                  </Fade>{" "}
+                  </Fade>
                   <Fade up delay={500}>
-                    {" "}
                     <div className="Services__deatils__content__right__contentbottom__points">
                       + Fluter Framework
-                    </div>{" "}
+                    </div>
                   </Fade>
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
           <div className="Services__deatils__content__right__contentbottom__imgs">
             <img
               className="Services__deatils__content__right__contentbottom__imgs__img"
@@ -99,7 +92,7 @@ export default function page() {
               src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/dev-2.png"
               alt=""
             />
-          </div>{" "}
+          </div>
         </div>
       </div>
       <HowWorkSection />

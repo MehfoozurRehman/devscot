@@ -59,22 +59,19 @@ const Card = ({ card }) => {
       >
         <div className="card__content absolute inset-0 z-10 grid place-content-center">
           <Fade up delay={100}>
-            {" "}
             <div className="card__heading">{card.title}</div>
           </Fade>
           <div className="card__content__info__number">
             <Fade up delay={100}>
-              {" "}
               <p className="card__info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
                 voluptate debitis fugiat ut eos ipsa asperiores iste! Quos,
                 consequuntur quasi accusamus eligendi soluta possimus delectus
                 facere impedit exercitationem iure rem!
-              </p>{" "}
+              </p>
             </Fade>
             <Fade up delay={100}>
-              {" "}
-              <div className="card__number">{card.number}</div>{" "}
+              <div className="card__number">{card.number}</div>
             </Fade>
           </div>
         </div>

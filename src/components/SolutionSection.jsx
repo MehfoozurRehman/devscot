@@ -114,7 +114,7 @@ export default function SolutionSection() {
                 </div>
               </div>
             </div>
-          </Fade>{" "}
+          </Fade>
           <div className="solution__section__content__data__right">
             {entries.map((entry, index) => (
               <Fade up delay={parseInt(entry.delay)} key={index}>

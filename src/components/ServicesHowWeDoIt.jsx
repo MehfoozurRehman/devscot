@@ -5,11 +5,10 @@ export default function ServicesHowWeDoIt() {
   return (
     <div className="services__how__we__do__it">
       <Fade up delay={100}>
-        {" "}
         <div className="services__how__we__do__it__heading heading">
           How we do it?
         </div>
-      </Fade>{" "}
+      </Fade>
       <Fade up delay={300}>
         <div className="services__how__we__do__it__info">
           Fast-track your project's delivery using our simple three-step

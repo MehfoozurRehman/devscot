@@ -56,11 +56,9 @@ export default function HowWorkSection() {
     <div className="how__section">
       <div className="how__section__content">
         <Fade up delay={100}>
-          {" "}
           <div className="how__section__content__subheading">WORKFLOW</div>
         </Fade>
         <Fade up delay={100}>
-          {" "}
           <div className="how__section__content__heading">How we work</div>
         </Fade>
         <ScrollContainer>

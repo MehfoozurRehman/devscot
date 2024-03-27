@@ -36,7 +36,7 @@ export default function HomeSection() {
           >
             We are heroes of
           </motion.div>
-          <div className="hero__section__content__heading">{heading}</div>{" "}
+          <div className="hero__section__content__heading">{heading}</div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -46,7 +46,7 @@ export default function HomeSection() {
             We create modern user experience for new startups by creating a
             bridge between users’ needs and the client’s requirements. We
             expertise in developing
-          </motion.div>{" "}
+          </motion.div>
           <Fade up delay={100}>
             <div className="hero__section__content__info__highlight">
               <motion.div
@@ -81,8 +81,8 @@ export default function HomeSection() {
               >
                 Digital Product Design
               </motion.div>
-            </div>{" "}
-          </Fade>{" "}
+            </div>
+          </Fade>
         </div>
         <img
           src="/herobackground.webp"

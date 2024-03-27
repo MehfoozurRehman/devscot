@@ -15,17 +15,15 @@ export default function FeatureSection() {
                 </div>
               </Fade>
               <Fade up delay={100}>
-                {" "}
                 <div className="FeatureSection__content__left__content__heading">
                   Projects
                 </div>
               </Fade>
               <Fade up delay={100}>
-                {" "}
                 <div className="FeatureSection__content__left__content__info">
                   View the full case study of our recent featured and awesome
                   works that we created for our clients.
-                </div>{" "}
+                </div>
               </Fade>
             </div>
             <Fade up delay={100}>

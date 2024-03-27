@@ -102,12 +102,12 @@ export default function ProjectDetails() {
         <div className="project__header__imags__slider__over">
           <div className="project__header__imags__slider">
             <Swiper spaceBetween={20} slidesPerView={swiperSlides}>
-              <SwiperSlide className="specialslider"></SwiperSlide>{" "}
+              <SwiperSlide className="specialslider"></SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/mealprj1.png" alt="image" />
                 </div>
-              </SwiperSlide>{" "}
+              </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/mealprj1.png" alt="image" />
@@ -433,7 +433,7 @@ export default function ProjectDetails() {
           </div>
         </div>
         <GetDemo />
-      </div>{" "}
+      </div>
       <Footer />
       <Footermobile />
     </>

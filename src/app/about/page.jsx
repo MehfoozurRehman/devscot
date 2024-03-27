@@ -17,29 +17,26 @@ export default function About() {
         </div>
         <div className="Aboutuspage__about">
           <Fade up delay={100}>
-            {" "}
             <button className="Aboutuspage__about__button">
               Trend & Technology
-            </button>{" "}
+            </button>
           </Fade>
           <Fade up delay={100}>
             <div className="Aboutuspage__about__info">
               hink of the world's most iconica and successful brands easily
               findable, impactful. Interactional and exceptional designs. Our
               story takes beginning in 2013
-            </div>{" "}
+            </div>
           </Fade>
           <Fade up delay={100}>
-            {" "}
             <img
               src="https://wealcoder.com/dev/html/axtra/assets/imgs/about/award.png"
               alt=""
               className="Aboutuspage__about__logo"
-            />{" "}
+            />
           </Fade>
         </div>
         <Fade up delay={100}>
-          {" "}
           <div className="Aboutuspage__video">
             <video
               loop={true}
@@ -49,26 +46,24 @@ export default function About() {
               src="https://wealcoder.com/dev/html/axtra/assets/video/video.mp4"
               className="Aboutuspage__video__video"
             />
-          </div>{" "}
+          </div>
         </Fade>
         <div className="Aboutuspage__ourstory">
           <div className="Aboutuspage__ourstory__content">
             <div className="Aboutuspage__ourstory__content__left">
               <Fade up delay={100}>
-                {" "}
                 <div className="Aboutuspage__ourstory__content__subheading">
                   Digital Studio
-                </div>{" "}
-              </Fade>{" "}
+                </div>
+              </Fade>
               <Fade up delay={100}>
                 <div className="Aboutuspage__ourstory__content__heading">
                   Our Story
-                </div>{" "}
+                </div>
               </Fade>
             </div>
             <div className="Aboutuspage__ourstory__content__right">
               <Fade up delay={100}>
-                {" "}
                 <div className="Aboutuspage__ourstory__content__right__info">
                   Your brand is the most important asset in your company let our
                   team of professionals help you with a good strategy took the
@@ -77,7 +72,7 @@ export default function About() {
                   has recently exploded in younger generations. Playing on
                   aspects of sustainability, the pieces appeared to be upcycled
                   to establish dimension and flair. This take on grunge and
-                  streetwear took sustainable fashion to an entirely new level.{" "}
+                  streetwear took sustainable fashion to an entirely new level.
                   <br />
                   <br />
                   ur specialized team of researchers, strategists, designers,
@@ -85,11 +80,11 @@ export default function About() {
                   processes to break through organizational roadblocks. We
                   translate research into solutions, crafting thoughtful and
                   unified brands.
-                </div>{" "}
+                </div>
               </Fade>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="Aboutuspage__numbers">
           <div className="Aboutuspage__numbers__content">
             <div className="Aboutuspage__numbers__content__card">
@@ -97,7 +92,6 @@ export default function About() {
                 10k
               </div>
               <Fade up delay={100}>
-                {" "}
                 <div className="Aboutuspage__numbers__content__card__info">
                   Projects Completed
                 </div>
@@ -108,7 +102,6 @@ export default function About() {
                 18k
               </div>
               <Fade up delay={100}>
-                {" "}
                 <div className="Aboutuspage__numbers__content__card__info">
                   Happy customers
                 </div>
@@ -119,7 +112,6 @@ export default function About() {
                 122
               </div>
               <Fade up delay={100}>
-                {" "}
                 <div className="Aboutuspage__numbers__content__card__info">
                   Years experiences
                 </div>
@@ -130,7 +122,6 @@ export default function About() {
                 132
               </div>
               <Fade up delay={100}>
-                {" "}
                 <div className="Aboutuspage__numbers__content__card__info">
                   Awards achievement
                 </div>
@@ -141,13 +132,11 @@ export default function About() {
         <div className="Aboutuspage__logos">
           <div className="Aboutuspage__logos__content">
             <Fade up delay={100}>
-              {" "}
               <div className="Aboutuspage__logos__content__subheading">
                 {splitText("Internation Brands")}
               </div>
             </Fade>
             <Fade up delay={100}>
-              {" "}
               <div className="Aboutuspage__logos__content__heading">
                 {splitText("We are happy to work with global largest brands")}
               </div>

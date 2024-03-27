@@ -362,7 +362,7 @@ export default function ProjectDetails() {
           </div>
         </div>
         <GetDemo />
-      </div>{" "}
+      </div>
       <Footer />
       <Footermobile />
     </>

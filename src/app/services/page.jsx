@@ -214,13 +214,11 @@ function ServicePage() {
                     </div>
                     <div className="service__Pagedetails__section__content__right__content">
                       <Fade up delay={100}>
-                        {" "}
                         <h2 className="service__Pagedetails__section__content__right__content__heading">
                           {item.title}
                         </h2>
                       </Fade>
                       <Fade up delay={300}>
-                        {" "}
                         <p className="service__Pagedetails__section__content__right__content__info">
                           {item.description}
                         </p>
@@ -240,7 +238,6 @@ function ServicePage() {
                         </div>
                       </Fade>
                       <Fade up delay={700}>
-                        {" "}
                         <MagnetButton>
                           <a
                             style={{ color: "white", textDecoration: "none" }}
@@ -300,7 +297,7 @@ function ServicePage() {
             ))}
           </div>
         </div>
-      </div>{" "}
+      </div>
       <Footer />
       <Footermobile />
     </>

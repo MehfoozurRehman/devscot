@@ -86,21 +86,17 @@ export default function Projects() {
       <div className="projectpage__Section">
         <div className="projectpage__Section__content">
           <Fade up delay={100}>
-            {" "}
-            <h1 className="projectpage__Section__content__heading">
-              Projects
-            </h1>{" "}
-          </Fade>{" "}
+            <h1 className="projectpage__Section__content__heading">Projects</h1>
+          </Fade>
           <Fade up delay={100}>
-            {" "}
             <div className="projectpage__Section__content__info">
               Let's dive into part of our journey. Of course we started working
               for web2 companies, but really fast we found a passion and fall in
               love with crypto, wallets, NFTs and other parts of web3 world.
               We're proud that we established in this segment and we always
               trying to make things better and easy to use for users.
-            </div>{" "}
-          </Fade>{" "}
+            </div>
+          </Fade>
           <div className="projectpage__Section__content__cards">
             {Data.map((data) => {
               return (
@@ -131,7 +127,7 @@ export default function Projects() {
             })}
           </div>
         </div>
-      </div>{" "}
+      </div>
       <Footer />
       <Footermobile />
     </>

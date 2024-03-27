@@ -5,14 +5,12 @@ export default function ServicesHowWeDoItEntry({ icon, title, list }) {
   return (
     <div className="services__how__we__do__it__content__entry">
       <Fade up delay={100}>
-        {" "}
         <div className="services__how__we__do__it__content__entry__icon heading">
           {icon}
         </div>
       </Fade>
       <div className="services__how__we__do__it__content__entry__card">
         <Fade up delay={300}>
-          {" "}
           <div className="services__how__we__do__it__content__entry__card__heading heading">
             {title}
           </div>

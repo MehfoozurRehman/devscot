@@ -36,7 +36,6 @@ export default function GetDemo() {
   return (
     <div className="get__demo__main__container">
       <Fade left delay={100}>
-        {" "}
         <div className="get__demo__main__container__left">
           <img
             className="get__demo__main__container__left__img"
@@ -47,16 +46,15 @@ export default function GetDemo() {
       </Fade>
       <div className="get__demo__main__container__right">
         <Fade up delay={100}>
-          {" "}
           <div className="get__demo__main__container__right__heading">
             Get a demo 💪 Build Landing pages
-          </div>{" "}
-        </Fade>{" "}
+          </div>
+        </Fade>
         <Fade up delay={100}>
           <div className="get__demo__main__container__right__subheading">
             Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus
             mauris hac nisi habitasse donec. Vitae integer massa in blandit.
-          </div>{" "}
+          </div>
         </Fade>
         <div className="get__demo__main__container__right__mail__wraper__bg__over">
           <div className="get__demo__main__container__right__mail__wraper__bg">
@@ -144,7 +142,7 @@ export default function GetDemo() {
                 </button>
               </form>
               <p style={{ color: "red", fontSize: "14px" }}>{errorMail}</p>
-            </div>{" "}
+            </div>
           </Fade>
         </div>
       </div>

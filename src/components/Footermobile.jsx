@@ -16,13 +16,11 @@ export default function Footer() {
         <div className="Footer__content">
           <div className="Footer__content__left">
             <Fade up delay={100}>
-              {" "}
               <div className="Footer__content__left__logo">
                 <img src="/headerlogo.webp" alt="logo" />
               </div>
             </Fade>
             <Fade up delay={100}>
-              {" "}
               <div className="Footer__content__left__info">
                 When do they work well, and when do they on us and finally, when
                 do we actually need how can we avoid them.
@@ -30,80 +28,66 @@ export default function Footer() {
             </Fade>
             <div className="Footer__content__left__social">
               <Fade up delay={100}>
-                {" "}
                 <Facebook />
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={300}>
-                {" "}
                 <Twitter />
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={500}>
-                {" "}
                 <Instagram />
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={700}>
-                {" "}
-                <Linkedin />{" "}
+                <Linkedin />
               </Fade>
             </div>
           </div>
           <div className="Footer__content__right">
             <Fade up delay={100}>
-              {" "}
               <div className="Footer__content__mid__heading">Information</div>
-            </Fade>{" "}
+            </Fade>
             <div className="Footer__content__right__links">
               <Fade up delay={300}>
-                {" "}
                 <Link className="Footer__content__right__link" href="#">
                   About Company
                 </Link>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={400}>
-                {" "}
                 <Link className="Footer__content__right__link" href="#">
                   Case Study
                 </Link>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={600}>
-                {" "}
                 <Link className="Footer__content__right__link" href="#">
                   Career
                 </Link>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={800}>
-                {" "}
                 <Link className="Footer__content__right__link" href="#">
                   Blog
                 </Link>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={1000}>
-                {" "}
                 <Link className="Footer__content__right__link" href="#">
                   Contact
-                </Link>{" "}
+                </Link>
               </Fade>
             </div>
           </div>
           <div className="Footer__content__right">
             <Fade up delay={100}>
-              {" "}
               <div className="Footer__content__mid__heading">Contact Us</div>
-            </Fade>{" "}
+            </Fade>
             <Fade up delay={300}>
-              {" "}
               <div className="Footer__content__right__info">
                 Valentin, Street Road 24, New York, USA - 67452
-              </div>{" "}
+              </div>
             </Fade>
             <Fade up delay={500}>
-              {" "}
               <Link href="#" className="Footer__content__right__info">
                 +1 123 456 7890
               </Link>
-            </Fade>{" "}
+            </Fade>
             <Fade up delay={800}>
-              {" "}
               <Link href="#" className="Footer__content__right__link">
                 info@Devscot.com
               </Link>
@@ -112,23 +96,19 @@ export default function Footer() {
           <div className="Footer__content__right__card">
             <div className="Footer__content__right__card__content">
               <Fade up delay={100}>
-                {" "}
                 <div className="Footer__content__right__card__content__heading">
                   Have a project in your mind?
                 </div>
               </Fade>
               <Fade up delay={300}>
-                {" "}
                 <MagnetButton>Let's Talk</MagnetButton>
               </Fade>
               <Fade up delay={500}>
-                {" "}
                 <div className="Footer__content__right__card__content__time">
                   09 : 00 AM - 10 : 30 PM
                 </div>
-              </Fade>{" "}
+              </Fade>
               <Fade up delay={700}>
-                {" "}
                 <div className="Footer__content__right__card__content__days">
                   Saturday - Thursday
                 </div>
@@ -139,7 +119,6 @@ export default function Footer() {
         <div className="Footer__bottom">
           <div className="Footer__bottom__content">
             <Fade up delay={100}>
-              {" "}
               <div className="Footer__bottom__content__info">
                 © 2021 Devscot. All Rights Reserved
               </div>
