@@ -77,10 +77,10 @@ export default function SolutionSection() {
               />
 
               <motion.img
-                initial={{ opacity: 0, y: -100 }}
+                initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 1 }}
                 key={selectedEntry.img}
                 className="solution__section__content__data__left__img"
                 src={selectedEntry.img}
@@ -91,7 +91,7 @@ export default function SolutionSection() {
                   initial={{ opacity: 0, y: 100 }}
                   animate={{ opacity: 1, y: 0 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 1 }}
                   key={selectedEntry.heading}
                   className="solution__section__content__data__info__text"
                 >
