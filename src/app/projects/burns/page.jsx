@@ -1,6 +1,6 @@
 "use client";
 import "swiper/css";
-import "@/styles/meet-worth.scss";
+import "@/styles/burns.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 import Footermobile from "@/components/Footermobile";
