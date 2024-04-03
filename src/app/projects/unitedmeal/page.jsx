@@ -111,7 +111,22 @@ export default function ProjectDetails() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mealprj2.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj3.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj4.png" alt="image" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="project__header__imags__slider__card">
+                  <img src="/mealprj5.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -121,47 +136,22 @@ export default function ProjectDetails() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mealprj2.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mealprj3.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mealprj4.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mealprj5.png" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>
