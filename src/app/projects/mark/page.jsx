@@ -106,62 +106,52 @@ export default function ProjectDetails() {
               <SwiperSlide className="specialslider"></SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark2.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark3.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark4.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark5.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark1.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark2.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark3.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark4.png" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mealprj1.png" alt="image" />
+                  <img src="/mark5.png" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>
@@ -193,26 +183,17 @@ export default function ProjectDetails() {
           ))}
         </div>
         <div className="project__main__full__img">
-          <img
-            src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702008607/Group_1707485925_uvc7qk.webp"
-            alt="devscot"
-          />
+          <img src="/markvideo.png" alt="devscot" />
         </div>
         <Fade up delay={100}>
           <div className="process__image">
-            <img
-              src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701935150/Group_1707485878_mrsf2p.webp"
-              alt=""
-            />
+            <img src="/marksvg.svg" alt="" />
           </div>
         </Fade>
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img
-                src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701938382/Group_3_yjuhvx.webp"
-                alt="meal"
-              />
+              <img src="/marklogo.png" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>
@@ -229,10 +210,7 @@ export default function ProjectDetails() {
           </Fade>
           <Fade up delay={500}>
             <div className="Emphasizing__main__container__project__img">
-              <img
-                src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701937239/Group_1707485770_ge8de0.webp"
-                alt=""
-              />
+              <img src="/markimg.png" alt="" />
             </div>
           </Fade>
         </div>
@@ -250,7 +228,7 @@ export default function ProjectDetails() {
                   cx="26.5"
                   cy="766.5"
                   r="254.5"
-                  fill="#00CE6E"
+                  fill="#062a94"
                   fillOpacity="0.58"
                 />
               </g>
@@ -299,21 +277,21 @@ export default function ProjectDetails() {
               <div
                 className="guide__section__card"
                 style={{
-                  backgroundColor: " #00CE6E",
+                  backgroundColor: " #062a94 ",
                 }}
               >
-                #00CE6E
+                #062a94
               </div>
             </Fade>
             <Fade up delay={300}>
               <div
                 className="guide__section__card"
                 style={{
-                  backgroundColor: " #98FFCF",
+                  backgroundColor: " #139948",
                   color: "BLACK",
                 }}
               >
-                #98FFCF
+                #139948
               </div>
             </Fade>
             <Fade up delay={500}>
