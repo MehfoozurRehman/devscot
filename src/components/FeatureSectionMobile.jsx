@@ -1,4 +1,5 @@
 import FeatureSectionCard from "./FeatureSectionCard";
+import Link from "next/link";
 
 export default function FeatureSection() {
   return (
@@ -22,9 +23,12 @@ export default function FeatureSection() {
               </div>
             </div>
             <div className="FeatureSection__content__left__content__div">
-              <button className="FeatureSection__content__left__content__button">
+              <Link
+                href="/projects"
+                className="FeatureSection__content__left__content__button"
+              >
                 View All Projects
-              </button>
+              </Link>
             </div>
             <div>
               <FeatureSectionCard />=
