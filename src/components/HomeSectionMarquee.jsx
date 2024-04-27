@@ -4,26 +4,26 @@ import Marquee from "react-fast-marquee";
 import { delayAnimationsFor } from "@/app/Loader";
 import { motion } from "framer-motion";
 
-const list = [
-  "Mobile Apps",
-  "Web Apps",
-  "Digital Product Design",
-  "Mobile Apps",
-  "Web Apps",
-  "Digital Product Design",
-  "Mobile Apps",
-  "Web Apps",
-  "Digital Product Design",
-  "Mobile Apps",
-  "Web Apps",
-  "Digital Product Design",
+const slogans = [
+  "Apps That Work",
+  "Websites That Shine",
+  "Designing for You",
+  "Apps for Everyone",
+  "Websites for All",
+  "Digital Design Done Right",
+  "Your App, Our Passion",
+  "Solutions Simplified",
+  "Web Made Easy",
+  "Apps Made Simple",
+  "Designs for Today",
+  "Your Digital Partner",
 ];
 
 export default function HomeSectionMarquee() {
   return (
     <div className="hero__section__marquee__container">
       <Marquee>
-        {list.map((item, index) => (
+        {slogans.map((item, index) => (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
