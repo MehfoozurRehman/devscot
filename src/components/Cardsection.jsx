@@ -5,40 +5,10 @@ import "@/styles/style.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 import Fade from "@/components/Fade";
+import { testimonials } from "../db/testimonials";
 import { useRef } from "react";
 
-const Example = () => {
-  return (
-    <div className="bg-neutral-800">
-      <HorizontalScrollCarousel />
-    </div>
-  );
-};
-
-const HorizontalScrollCarousel = () => {
-  const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-  });
-
-  const x = useTransform(scrollYProgress, [0, 1], ["-95%", "1%"]);
-
-  return (
-    <>
-      <section ref={targetRef} className="relative h-[300vh] bg-neutral-900">
-        <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-          <motion.div style={{ x }} className="flex gap-4">
-            {cards.map((card) => {
-              return <Card card={card} key={card.id} />;
-            })}
-          </motion.div>
-        </div>
-      </section>
-    </>
-  );
-};
-
-const Card = ({ card }) => {
+const HorizontalScrollCarouselCard = ({ card }) => {
   return (
     <>
       <div className="card__main__div">
@@ -56,12 +26,7 @@ const Card = ({ card }) => {
           </Fade>
           <div className="card__content__info__number">
             <Fade up delay={100}>
-              <p className="card__info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                voluptate debitis fugiat ut eos ipsa asperiores iste! Quos,
-                consequuntur quasi accusamus eligendi soluta possimus delectus
-                facere impedit exercitationem iure rem!
-              </p>
+              <p className="card__info">{card.quote}</p>
             </Fade>
             <Fade up delay={100}>
               <div className="card__number">{card.number}</div>
@@ -73,37 +38,27 @@ const Card = ({ card }) => {
   );
 };
 
-export default Example;
+const HorizontalScrollCarousel = () => {
+  const targetRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+  });
 
-const cards = [
-  {
-    url: "/FeatureSectionimg.webp",
-    title: "We help our clients to shine online",
-    id: 1,
-    number: "01",
-  },
-  {
-    url: "/FeatureSectionimg.webp",
-    title: "We help our clients to shine online",
-    id: 2,
-    number: "02",
-  },
-  {
-    url: "/FeatureSectionimg.webp",
-    title: "We help our clients to shine online",
-    id: 3,
-    number: "03",
-  },
-  {
-    url: "/FeatureSectionimg.webp",
-    title: "We help our clients to shine online",
-    id: 4,
-    number: "04",
-  },
-  {
-    url: "/FeatureSectionimg.webp",
-    title: "We help our clients to shine online",
-    id: 5,
-    number: "05",
-  },
-];
+  const x = useTransform(scrollYProgress, [0, 1], ["-95%", "1%"]);
+
+  return (
+    <div className="bg-neutral-800">
+      <section ref={targetRef} className="relative h-[300vh] bg-neutral-900">
+        <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+          <motion.div style={{ x }} className="flex gap-4">
+            {testimonials.map((card) => (
+              <HorizontalScrollCarouselCard card={card} key={card.id} />
+            ))}
+          </motion.div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default HorizontalScrollCarousel;
