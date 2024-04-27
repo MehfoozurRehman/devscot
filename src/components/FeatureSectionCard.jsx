@@ -2,83 +2,83 @@
 
 import { ArrowUpRight } from "react-feather";
 import Link from "next/link";
-import { delayAnimationsFor } from "@/app/Loader";
 import { motion } from "framer-motion";
 
+const entries = [
+  {
+    delay: 100,
+    img: "/project1img.webp",
+    link: "projects/meetworth",
+    title: "Meet Worth",
+    info: "Connecting entrepreneurs with potential investors to bring their business ideas to life.",
+  },
+  {
+    delay: 200,
+    link: "projects/mark",
+    img: "/project2img.webp",
+    title: "Mark",
+    info: "Simplifying banking with secure management, fund transfers, bill payments, and convenient access to services.",
+  },
+  {
+    delay: 300,
+    link: "projects/unitedmeal",
+    img: "/project3img.webp",
+    title: "United Meal",
+    info: "Exploring culinary delights from local eateries with seamless ordering, delivery, and reservation options.",
+  },
+  {
+    delay: 400,
+    link: "projects/sakenemaar",
+    img: "/project4img.webp",
+    title: "Saken Emaar",
+    info: "Navigating the real estate market with tools for property search, transactions, and agent connections.",
+  },
+  {
+    delay: 500,
+    link: "projects/muslimbiz",
+    img: "/project5img.webp",
+    title: "Muslim Biz",
+    info: "Bridging employers and skilled workers for efficient labor recruitment and management across industries.",
+  },
+  {
+    delay: 600,
+    link: "projects/walking",
+    img: "/walkingbanner.webp",
+    title: "Walking App",
+    info: "Discover scenic routes and track your walks with ease, promoting a healthier lifestyle.",
+  },
+  {
+    delay: 700,
+    link: "projects/daltaswap",
+    img: "/daltabanner.webp",
+    title: "Dalta Swap ",
+    info: "Trading cryptocurrencies securely and efficiently, empowering users with a seamless exchange experience.",
+  },
+  {
+    delay: 800,
+    link: "projects/burns",
+    img: "/burnsbanner.webp",
+    title: "Burns ",
+    info: "Providing personalized workout plans and fitness tracking tools to help users achieve their health goals.",
+  },
+  {
+    delay: 900,
+    link: "projects/healthvital",
+    img: "/healthbanner.webp",
+    title: "Health Vital ",
+    info: "Monitoring health metrics and providing insights for a holistic approach to wellness management.",
+  },
+  {
+    delay: 1000,
+    link: "projects/weekly",
+    img: "/weeklybanner.webp",
+    title: "Weekly ",
+    info: "Managing schedules and tasks efficiently to enhance productivity and time management.",
+  },
+];
+
 export default function FeatureSectionCard() {
-  const Data = [
-    {
-      delay: 100,
-      img: "/project1img.webp",
-      link: "projects/meetworth",
-      title: "Meet Worth",
-      info: "Business investor finder app: Streamlining connections between entrepreneurs and investors for efficient funding opportunities.",
-    },
-    {
-      delay: 200,
-      link: "projects/mark",
-      img: "/project2img.webp",
-      title: "Mark",
-      info: "Banking app: Securely manage finances, transfer funds, pay bills, and access banking services conveniently from your mobile device.",
-    },
-    {
-      delay: 300,
-      link: "projects/unitedmeal",
-      img: "/project3img.webp",
-      title: "United Meal",
-      info: "Food app: Discover, order, and enjoy a diverse range of cuisines from local restaurants, with options for delivery, pickup, and reservations.",
-    },
-    {
-      delay: 400,
-      link: "projects/sakenemaar",
-      img: "/project4img.webp",
-      title: "Saken Emaar",
-      info: "Real estate  Search, buy, sell, or rent properties, access market insights, and connect with agents for seamless property transactions.",
-    },
-    {
-      delay: 500,
-      link: "projects/muslimbiz",
-      img: "/project5img.webp",
-      title: "Muslim Biz",
-      info: "Hiring labor web platform: Facilitating the recruitment process, connecting employers with skilled workers, and streamlining labor management for various industries.",
-    },
-    {
-      delay: 600,
-      link: "projects/walking",
-      img: "/walkingbanner.webp",
-      title: "Walking App",
-      info: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
-    },
-    {
-      delay: 700,
-      link: "projects/daltaswap",
-      img: "/daltabanner.webp",
-      title: "Dalta Swap ",
-      info: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
-    },
-    {
-      delay: 800,
-      link: "projects/burns",
-      img: "/burnsbanner.webp",
-      title: "Burns ",
-      info: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
-    },
-    {
-      delay: 900,
-      link: "projects/healthvital",
-      img: "/healthbanner.webp",
-      title: "Health Vital ",
-      info: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
-    },
-    {
-      delay: 1000,
-      link: "projects/weekly",
-      img: "/weeklybanner.webp",
-      title: "Weekly ",
-      info: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
-    },
-  ];
-  return Data.map((data) => (
+  return entries.map((data) => (
     <Link href={data.link}>
       <div className="FeatureSection__content__right__content">
         <motion.img
@@ -86,12 +86,12 @@ export default function FeatureSectionCard() {
           className="FeatureSection__content__right__img"
           initial={{ scale: 1.5, y: -100 }}
           whileInView={{ scale: 1, y: 0 }}
-          transition={{ duration: 1, type: "tween", delay: delayAnimationsFor }}
+          transition={{ duration: 1, type: "tween" }}
         />
         <motion.div
           initial={{ x: 100, scale: 0.9 }}
           whileInView={{ x: 0, scale: 1 }}
-          transition={{ duration: 1, delay: delayAnimationsFor }}
+          transition={{ duration: 1 }}
           className="FeatureSection__content__right__content__card"
         >
           <div className="FeatureSection__content__right__content__card__heading">
