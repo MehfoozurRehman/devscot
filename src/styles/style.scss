@@ -1,0 +1,175 @@
+.bg-neutral-800 {
+  font-family: sans-serif;
+  margin: 2em 0;
+}
+.bg-neutral-900 {
+}
+.flex {
+  display: flex;
+}
+.h-48 {
+  height: 40rem;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.sticky {
+  position: sticky;
+}
+.top-0 {
+  top: 0;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.group {
+  position: relative;
+}
+.scroolcard {
+  font-size: 70px;
+}
+.classs {
+  height: 400px;
+  width: 750px;
+  border-radius: 30px;
+}
+.card__main__div__circle {
+  position: absolute;
+  top: 10px;
+  left: -100px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-right: #cac8c8 2px solid;
+  z-index: 1;
+}
+.card__main__div__circle__two {
+  position: absolute;
+  top: -90px;
+  left: 15px;
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: #cac8c8 3px solid;
+  z-index: 1;
+}
+.card__content__info__number {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.card__info {
+  width: 80%;
+}
+.card__main__div {
+  position: relative;
+}
+.card__content {
+  padding: 0 2em;
+}
+.card__number {
+  font-size: 50px;
+  font-weight: 600;
+  color: #1f2937;
+}
+.card__heading {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card__info {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+}
+.bg-neutral-200 {
+  background-color: #e5e7eb;
+}
+.absolute {
+  position: absolute;
+}
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-10 {
+  z-index: 10;
+}
+.grid {
+  display: grid;
+}
+.place-content-center {
+  place-content: center;
+}
+.bg-gradient-to-br {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
+  );
+}
+.p-8 {
+  padding: 2rem;
+}
+.text-6xl {
+  font-size: 4rem;
+}
+.font-black {
+  font-weight: 900;
+}
+.backdrop-blur-lg {
+  backdrop-filter: blur(16px);
+}
+.group:hover .transition-transform {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .card__main__div__circle {
+    display: none;
+  }
+  .card__main__div__circle__two {
+    display: none;
+  }
+  .card__number {
+    font-size: 28px;
+  }
+  .card__heading {
+    font-size: 24px;
+  }
+  .card__info {
+    font-size: 16px;
+  }
+  .classs {
+    height: 330px;
+    width: 400px;
+  }
+}

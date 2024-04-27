@@ -1,0 +1,33 @@
+{
+  "name": "devscot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.10",
+    "framer-motion": "^11.1.7",
+    "gsap": "^3.12.5",
+    "next": "14.2.2",
+    "react": "^18",
+    "react-click-away-listener": "^2.2.3",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4",
+    "react-feather": "^2.0.10",
+    "react-indiana-drag-scroll": "^2.2.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll-parallax": "^3.4.5",
+    "react-spinners": "^0.13.8",
+    "react-ui-scrollspy": "^2.3.0",
+    "swiper": "^11.1.1"
+  },
+  "devDependencies": {
+    "sass": "^1.75.0"
+  }
+}

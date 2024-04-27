@@ -1,0 +1,20 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #242424, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+  color: #fff;
+}
+.loader__content__logo {
+  margin-bottom: 20px;
+}
+.loader__content__text {
+  font-size: 20px;
+}

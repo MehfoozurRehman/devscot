@@ -1,0 +1,5 @@
+{
+  "files.exclude": {
+    "**/index.ts": true
+  }
+}
