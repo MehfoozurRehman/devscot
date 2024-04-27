@@ -4,25 +4,25 @@ import CountUpWhenInView from "./CountUpWhenInView";
 import Fade from "@/components/Fade";
 import { useState } from "react";
 
-const entries = [
+const stats = [
   {
-    number: "25000",
-    text: "Project Completed",
+    number: "200",
+    text: "Projects Completed",
     delay: "100",
   },
   {
-    number: "8000",
-    text: "Happy Costomers",
+    number: "50",
+    text: "Satisfied Customers",
     delay: "500",
   },
   {
-    number: "25000",
-    text: "Years Experiences",
+    number: "8",
+    text: "Years of Experience",
     delay: "800",
   },
   {
-    number: "25000",
-    text: "Awards Achievement",
+    number: "5",
+    text: "Awards & Achievements",
     delay: "1200",
   },
 ];
@@ -33,7 +33,7 @@ export default function NumbersSection() {
   return (
     <div className="numbers__section">
       <div className="numbers__section__content">
-        {entries.map((entry, index) => (
+        {stats.map((entry, index) => (
           <Fade up delay={parseInt(entry.delay)} key={index}>
             <div
               className={
@@ -50,7 +50,13 @@ export default function NumbersSection() {
                   end={parseInt(entry.number)}
                   duration={3}
                 />
-                +
+                <span
+                  style={{
+                    marginLeft: "0.5rem",
+                  }}
+                >
+                  +
+                </span>
               </div>
               <div
                 className={
