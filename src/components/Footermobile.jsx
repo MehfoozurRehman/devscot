@@ -78,8 +78,8 @@ export default function Footer() {
             </Fade>
             <Fade up delay={300}>
               <div className="Footer__content__right__info">
-                Office No. 10 Street No. 8 Housing Colony No 1 Samundri,
-                Faisalabad, Punjab, Pakistan
+                Office # 10, street # 8, housing colony # 1, Faisalabad,
+                Pakistan
               </div>
             </Fade>
             <Fade up delay={500}>
