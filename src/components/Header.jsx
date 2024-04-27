@@ -15,13 +15,14 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  function changeNavState() {
+  const changeNavState = () => {
     if (window.innerWidth < 1060) {
       setIsOpen(false);
     } else {
       setIsOpen(true);
     }
-  }
+  };
+
   useEffect(() => {
     changeNavState();
     window.addEventListener("resize", changeNavState);
