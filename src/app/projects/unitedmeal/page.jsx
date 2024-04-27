@@ -11,6 +11,7 @@ import Footer from "@/components/Footer";
 import Footermobile from "@/components/Footermobile";
 import GetDemo from "@/components/GetDemo";
 import Header from "@/components/Header";
+import Link from "next/link";
 import splitText from "@/utils/splitText";
 
 const aboutArray = [
@@ -52,7 +53,8 @@ export default function ProjectDetails() {
     window.addEventListener("resize", checkWidth);
     return () => window.removeEventListener("resize", checkWidth);
   }, [swiperSlides]);
-  const heading = splitText("      UNITED MEAL");
+
+  const heading = splitText("UNITED MEAL");
 
   return (
     <>
@@ -65,18 +67,16 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Our client is a visionary company that aims to simplify
-                decentralized finance. With features offering convenience,
-                user-friendly crypto design, and multi-currency support, their
-                product — the Infinity wallet — seamlessly integrates into
-                users’ lives, catering to all their financial needs.
+                United Meal is a food delivery service that offers a wide range
+                of cuisines from various restaurants. The platform is designed
+                to provide a seamless experience for users to order food online.
               </div>
             </Fade>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__btn">
-                <button style={{ margin: "0px" }} class="btn">
+                <Link href="/contact" style={{ margin: "0px" }} class="btn">
                   Contact us
-                </button>
+                </Link>
               </div>
             </Fade>
           </div>
