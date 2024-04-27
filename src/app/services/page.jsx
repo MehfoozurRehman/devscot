@@ -15,7 +15,7 @@ import { solutions } from "@/db/solutions";
 import splitText from "@/utils/splitText";
 import { useRef } from "react";
 
-function ServicePage() {
+export default function ServicePage() {
   const parentScrollContainerRef = useRef(null);
 
   const heading = splitText("Digital Software");
@@ -276,5 +276,3 @@ function ServicePage() {
     </>
   );
 }
-
-export default ServicePage;
