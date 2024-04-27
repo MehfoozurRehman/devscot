@@ -11,6 +11,7 @@ import Footer from "@/components/Footer";
 import Footermobile from "@/components/Footermobile";
 import GetDemo from "@/components/GetDemo";
 import Header from "@/components/Header";
+import Link from "next/link";
 import splitText from "@/utils/splitText";
 
 const aboutArray = [
@@ -75,9 +76,9 @@ export default function ProjectDetails() {
             </Fade>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__btn">
-                <button style={{ margin: "0px" }} class="btn">
+                <Link href="/contact" style={{ margin: "0px" }} class="btn">
                   Contact us
-                </button>
+                </Link>
               </div>
             </Fade>
           </div>
