@@ -13,10 +13,9 @@ const slogans = [
   "Digital Design Done Right",
   "Your App, Our Passion",
   "Solutions Simplified",
-  "Web Made Easy",
-  "Apps Made Simple",
+  "Web Applications",
+  "Mobile Applications",
   "Designs for Today",
-  "Your Digital Partner",
 ];
 
 export default function HomeSectionMarquee() {
