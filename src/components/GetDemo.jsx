@@ -11,7 +11,7 @@ export default function GetDemo() {
   const [status, setStatus] = useState("");
   const [processing, setProcessing] = useState(false);
 
-  async function handleSubmit(e) {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
@@ -32,7 +32,7 @@ export default function GetDemo() {
     } finally {
       setProcessing(false);
     }
-  }
+  };
   return (
     <div className="get__demo__main__container">
       <Fade left delay={100}>
