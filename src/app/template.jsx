@@ -2,8 +2,10 @@
 
 import { delayAnimationsFor } from "./Loader";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 export default function Template({ children }) {
+  const pathname = usePathname();
   return (
     <motion.main
       initial={{
@@ -14,7 +16,7 @@ export default function Template({ children }) {
       }}
       transition={{
         duration: 0.5,
-        delay: delayAnimationsFor,
+        delay: pathname === "/contact" ? 0 : delayAnimationsFor,
         ease: "easeInOut",
       }}
     >
