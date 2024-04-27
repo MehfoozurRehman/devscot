@@ -1,10 +1,10 @@
-.formpage::-webkit-scrollbar {
+.formpage__content::-webkit-scrollbar {
   width: 5px;
 }
-.formpage::-webkit-scrollbar-track {
+.formpage__content::-webkit-scrollbar-track {
   background: #1b1b1b;
 }
-.formpage::-webkit-scrollbar-thumb {
+.formpage__content::-webkit-scrollbar-thumb {
   background: #4caf50;
   border-radius: 10px;
 }

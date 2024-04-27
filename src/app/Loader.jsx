@@ -7,7 +7,7 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
-const timeOut = 3000;
+const timeOut = 2000;
 
 export const delayAnimationsFor = timeOut / 1000 - 0.5;
 
@@ -31,12 +31,12 @@ export default function Loader({ children }) {
   return (
     isLoading && (
       <motion.div
-        initial={{ scale: 1, borderRadius: "0%" }}
-        animate={{ scale: 0, borderRadius: "50%" }}
+        initial={{ scale: 1, borderRadius: 0 }}
+        animate={{ scale: 0, borderRadius: "100%" }}
         transition={{
-          duration: 0.5,
-          delay: timeOut / 1000 - 0.5,
+          duration: 0.4,
           ease: "easeInOut",
+          delay: timeOut / 1000 - 0.4,
         }}
         className="loader"
       >

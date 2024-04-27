@@ -85,7 +85,7 @@ export default function ProjectDetails() {
                 CLIENT
               </div>
               <div className="project__details__text__header__container__right__logo">
-                <img src="/muslimlogo.png" alt="logo" />
+                <img src="/muslimlogo.webp" alt="logo" />
               </div>
               <div className="project__details__right__text__services">
                 SERVICES WE PROVIDED
@@ -102,7 +102,7 @@ export default function ProjectDetails() {
         <div className="project__header__imags__slider__over">
           <div className="project__header__imags__slider">
             <img
-              src="/muslimhero.png"
+              src="/muslimhero.webp"
               alt="img"
               className="project__header__imags__slider__webimg"
             />
@@ -134,7 +134,7 @@ export default function ProjectDetails() {
           ))}
         </div>
         <div className="project__main__full__img">
-          <img src="/muslimvideo.png" alt="devscot" />
+          <img src="/muslimvideo.webp" alt="devscot" />
         </div>
         <Fade up delay={100}>
           <div className="process__image">
@@ -144,7 +144,7 @@ export default function ProjectDetails() {
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img src="/muslimlogo.png" alt="meal" />
+              <img src="/muslimlogo.webp" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>
@@ -161,7 +161,7 @@ export default function ProjectDetails() {
           </Fade>
           <Fade up delay={500}>
             <div className="Emphasizing__main__container__project__img">
-              <img src="/muslimimg.png" alt="" />
+              <img src="/muslimimg.webp" alt="" />
             </div>
           </Fade>
         </div>

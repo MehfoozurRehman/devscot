@@ -77,31 +77,31 @@ export default Example;
 
 const cards = [
   {
-    url: "/FeatureSectionimg.png",
+    url: "/FeatureSectionimg.webp",
     title: "We help our clients to shine online",
     id: 1,
     number: "01",
   },
   {
-    url: "/FeatureSectionimg.png",
+    url: "/FeatureSectionimg.webp",
     title: "We help our clients to shine online",
     id: 2,
     number: "02",
   },
   {
-    url: "/FeatureSectionimg.png",
+    url: "/FeatureSectionimg.webp",
     title: "We help our clients to shine online",
     id: 3,
     number: "03",
   },
   {
-    url: "/FeatureSectionimg.png",
+    url: "/FeatureSectionimg.webp",
     title: "We help our clients to shine online",
     id: 4,
     number: "04",
   },
   {
-    url: "/FeatureSectionimg.png",
+    url: "/FeatureSectionimg.webp",
     title: "We help our clients to shine online",
     id: 5,
     number: "05",

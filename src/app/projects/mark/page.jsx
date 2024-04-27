@@ -86,7 +86,7 @@ export default function ProjectDetails() {
                 CLIENT
               </div>
               <div className="project__details__text__header__container__right__logo">
-                <img src="/marklogo.png" alt="logo" />
+                <img src="/marklogo.webp" alt="logo" />
               </div>
               <div className="project__details__right__text__services">
                 SERVICES WE PROVIDED
@@ -106,52 +106,52 @@ export default function ProjectDetails() {
               <SwiperSlide className="specialslider"></SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark1.png" alt="image" />
+                  <img src="/mark1.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark2.png" alt="image" />
+                  <img src="/mark2.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark3.png" alt="image" />
+                  <img src="/mark3.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark4.png" alt="image" />
+                  <img src="/mark4.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark5.png" alt="image" />
+                  <img src="/mark5.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark1.png" alt="image" />
+                  <img src="/mark1.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark2.png" alt="image" />
+                  <img src="/mark2.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark3.png" alt="image" />
+                  <img src="/mark3.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark4.png" alt="image" />
+                  <img src="/mark4.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/mark5.png" alt="image" />
+                  <img src="/mark5.webp" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>
@@ -183,7 +183,7 @@ export default function ProjectDetails() {
           ))}
         </div>
         <div className="project__main__full__img">
-          <img src="/markvideo.png" alt="devscot" />
+          <img src="/markvideo.webp" alt="devscot" />
         </div>
         <Fade up delay={100}>
           <div className="process__image">
@@ -193,7 +193,7 @@ export default function ProjectDetails() {
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img src="/marklogo.png" alt="meal" />
+              <img src="/marklogo.webp" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>
@@ -210,7 +210,7 @@ export default function ProjectDetails() {
           </Fade>
           <Fade up delay={500}>
             <div className="Emphasizing__main__container__project__img">
-              <img src="/markimg.png" alt="" />
+              <img src="/markimg.webp" alt="" />
             </div>
           </Fade>
         </div>

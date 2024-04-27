@@ -114,11 +114,7 @@ export default function HomeTestimonials() {
                 }`}
               >
                 <img
-                  onClick={() => {
-                    setCheckimg(item.id);
-
-                    console.log("clicked");
-                  }}
+                  onClick={() => setCheckimg(item.id)}
                   src={item.img}
                   alt="user"
                   width={100}

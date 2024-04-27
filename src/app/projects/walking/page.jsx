@@ -86,7 +86,7 @@ export default function ProjectDetails() {
                 CLIENT
               </div>
               <div className="project__details__text__header__container__right__logo">
-                <img src="/walkinglogo.png" alt="logo" />
+                <img src="/walkinglogo.webp" alt="logo" />
               </div>
               <div className="project__details__right__text__services">
                 SERVICES WE PROVIDED
@@ -106,52 +106,52 @@ export default function ProjectDetails() {
               <SwiperSlide className="specialslider"></SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking1.png" alt="image" />
+                  <img src="/walking1.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking2.png" alt="image" />
+                  <img src="/walking2.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking3.png" alt="image" />
+                  <img src="/walking3.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking4.png" alt="image" />
+                  <img src="/walking4.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking5.png" alt="image" />
+                  <img src="/walking5.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking1.png" alt="image" />
+                  <img src="/walking1.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking2.png" alt="image" />
+                  <img src="/walking2.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking3.png" alt="image" />
+                  <img src="/walking3.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking4.png" alt="image" />
+                  <img src="/walking4.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/walking5.png" alt="image" />
+                  <img src="/walking5.webp" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>
@@ -183,7 +183,7 @@ export default function ProjectDetails() {
           ))}
         </div>
         <div className="project__main__full__img">
-          <img src="/walkingvideo.png" alt="devscot" />
+          <img src="/walkingvideo.webp" alt="devscot" />
         </div>
         <Fade up delay={100}>
           <div className="process__image">
@@ -193,7 +193,7 @@ export default function ProjectDetails() {
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img src="/walkinglogo.png" alt="meal" />
+              <img src="/walkinglogo.webp" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>
@@ -210,7 +210,7 @@ export default function ProjectDetails() {
           </Fade>
           <Fade up delay={500}>
             <div className="Emphasizing__main__container__project__img">
-              <img src="/walkingimg.png" alt="" />
+              <img src="/walkingimg.webp" alt="" />
             </div>
           </Fade>
         </div>

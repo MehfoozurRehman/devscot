@@ -1175,6 +1175,8 @@ body {
   height: fit-content;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 .solution__section__content__data__info__btn svg {
   margin-left: 1em;
@@ -1237,6 +1239,7 @@ body {
   padding: 0 2em;
   align-items: center;
   color: #141414;
+  width: 100%;
 }
 .solution__section__content__data__right__entry__btn {
   display: flex;

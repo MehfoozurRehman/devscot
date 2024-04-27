@@ -85,7 +85,7 @@ export default function ProjectDetails() {
                 CLIENT
               </div>
               <div className="project__details__text__header__container__right__logo">
-                <img src="/sakemmarlogo.png" alt="logo" />
+                <img src="/sakemmarlogo.webp" alt="logo" />
               </div>
               <div className="project__details__right__text__services">
                 SERVICES WE PROVIDED
@@ -102,7 +102,7 @@ export default function ProjectDetails() {
         <div className="project__header__imags__slider__over">
           <div className="project__header__imags__slider">
             <img
-              src="/sakemmarhero.png"
+              src="/sakemmarhero.webp"
               alt="img"
               className="project__header__imags__slider__webimg"
             />
@@ -134,7 +134,7 @@ export default function ProjectDetails() {
           ))}
         </div>
         <div className="project__main__full__img">
-          <img src="/sakemmarvideo.png" alt="devscot" />
+          <img src="/sakemmarvideo.webp" alt="devscot" />
         </div>
         <Fade up delay={100}>
           <div className="process__image">
@@ -144,7 +144,7 @@ export default function ProjectDetails() {
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img src="/saakemmarlogo.png" alt="meal" />
+              <img src="/saakemmarlogo.webp" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>

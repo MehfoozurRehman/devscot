@@ -86,7 +86,7 @@ export default function ProjectDetails() {
                 CLIENT
               </div>
               <div className="project__details__text__header__container__right__logo">
-                <img src="/meetlogo.png" alt="logo" />
+                <img src="/meetlogo.webp" alt="logo" />
               </div>
               <div className="project__details__right__text__services">
                 SERVICES WE PROVIDED
@@ -106,62 +106,62 @@ export default function ProjectDetails() {
               <SwiperSlide className="specialslider"></SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth1.png" alt="image" />
+                  <img src="/meetworth1.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth2.png" alt="image" />
+                  <img src="/meetworth2.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth3.png" alt="image" />
+                  <img src="/meetworth3.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth4.png" alt="image" />
+                  <img src="/meetworth4.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth1.png" alt="image" />
+                  <img src="/meetworth1.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth2.png" alt="image" />
+                  <img src="/meetworth2.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth3.png" alt="image" />
+                  <img src="/meetworth3.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth4.png" alt="image" />
+                  <img src="/meetworth4.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth1.png" alt="image" />
+                  <img src="/meetworth1.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth2.png" alt="image" />
+                  <img src="/meetworth2.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth3.png" alt="image" />
+                  <img src="/meetworth3.webp" alt="image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
-                  <img src="/meetworth4.png" alt="image" />
+                  <img src="/meetworth4.webp" alt="image" />
                 </div>
               </SwiperSlide>
             </Swiper>
@@ -193,7 +193,7 @@ export default function ProjectDetails() {
           ))}
         </div>
         <div className="project__main__full__img">
-          <img src="/meetvideo.png" alt="devscot" />
+          <img src="/meetvideo.webp" alt="devscot" />
         </div>
         <Fade up delay={100}>
           <div className="process__image">
@@ -203,7 +203,7 @@ export default function ProjectDetails() {
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img src="/meetlogo.png" alt="meal" />
+              <img src="/meetlogo.webp" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>
@@ -220,7 +220,7 @@ export default function ProjectDetails() {
           </Fade>
           <Fade up delay={500}>
             <div className="Emphasizing__main__container__project__img">
-              <img src="/meetcreate.png" alt="" />
+              <img src="/meetcreate.webp" alt="" />
             </div>
           </Fade>
         </div>

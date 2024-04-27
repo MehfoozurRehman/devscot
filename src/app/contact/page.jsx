@@ -10,13 +10,12 @@ import Header from "@/components/Header";
 import MagnetButton from "@/components/MagnetButton";
 import { delayAnimationsFor } from "../Loader";
 import { motion } from "framer-motion";
+import { solutions } from "@/db/solutions";
 import splitText from "@/utils/splitText";
-
-const ideas = ["Ui/Ux", "Web", "Branding", "Mobile", "Other"];
 
 const budgets = ["10k-20k", "20k-30k", "30k-40k", "40k-50k", "50k-60k"];
 
-export default function Contact() {
+export default function Contact({ searchParams }) {
   useEffect(() => {
     document.body.style.overflow = "hidden";
     return () => {
@@ -24,7 +23,8 @@ export default function Contact() {
     };
   }, []);
 
-  const [idea, setIdea] = useState("");
+  const [idea, setIdea] = useState(searchParams.service || "");
+
   const [name, setName] = useState("");
   const [from, setFrom] = useState("");
   const [budget, setBudget] = useState("");
@@ -84,7 +84,7 @@ export default function Contact() {
                 <label htmlFor="name">{splitText("I’d like to discuss")}</label>
                 <div className="formpage__content__form__name__button">
                   <div className="formpage__content__form__name__button__content">
-                    {ideas.map((item, index) => (
+                    {solutions.map((item, index) => (
                       <motion.button
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -94,10 +94,10 @@ export default function Contact() {
                         }}
                         key={index}
                         type="button"
-                        onClick={() => setIdea(item)}
-                        className={item === idea ? "active" : ""}
+                        onClick={() => setIdea(item.id)}
+                        className={item.id === idea ? "active" : ""}
                       >
-                        {item}
+                        {item.id}
                       </motion.button>
                     ))}
                   </div>

@@ -1,63 +1,19 @@
 "use client";
 
 import Fade from "@/components/Fade";
-import { delayAnimationsFor } from "@/app/Loader";
+import Link from "next/link";
 import { motion } from "framer-motion";
+import { solutions } from "@/db/solutions";
 import splitText from "@/utils/splitText";
 import { useState } from "react";
 
-const entries = [
-  {
-    img: "/webdev.png",
-    imgtext: "/devscot1.png",
-    background: "linear-gradient(to bottom, #A78D5B, #5A4217)",
-    id: "web",
-    delay: "100",
-    heading: "Web App Development",
-    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
-  },
-  {
-    img: "/mobiledev.png",
-    imgtext: "/devscot2.png",
-    background: "linear-gradient(to bottom, #42AA8C, #1C6D55)",
-    id: "mobile",
-    delay: "400",
-    heading: "Mobile App Development",
-    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
-  },
-  {
-    img: "/ecommerce.png",
-    imgtext: "/devscot3.png",
-    background: "linear-gradient(to bottom, #37444C, #6B8696)",
-    id: "ecommerce",
-    delay: "700",
-    heading: "E-commerce Solutions",
-    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
-  },
-  {
-    img: "/uiux.png",
-    imgtext: "/devscot4.png",
-    background: "linear-gradient(to bottom, #421036, #BB491A)",
-    id: "design",
-    heading: "UI/UX Designs",
-    delay: "1000",
-    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
-  },
-  {
-    img: "/3d.png",
-    imgtext: "/devscot5.png",
-    background: "linear-gradient(to bottom, #FFC801, #FFC801)",
-    id: "3d",
-    delay: "1100",
-    heading: "3D Graphics & Animations",
-    text: "We create, products, brands, apps & websites for the companies all around the world class Digital products",
-  },
-];
-
 export default function SolutionSection() {
   const [isMouseHover, setIsMouseHover] = useState("mobile");
-  const selectedEntry = entries.find((entry) => entry.id === isMouseHover);
+
+  const selectedEntry = solutions.find((entry) => entry.id === isMouseHover);
+
   const heading = splitText("Solutions We Provide");
+
   return (
     <div className="solution__section">
       <div className="solution__section__content">
@@ -74,31 +30,34 @@ export default function SolutionSection() {
             >
               <img
                 src={selectedEntry.imgtext}
+                alt="devscot"
+                loading="lazy"
                 className="solution__section__content__data__left__backgound"
               />
-
               <motion.img
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: delayAnimationsFor }}
+                transition={{ duration: 1 }}
                 key={selectedEntry.img}
                 className="solution__section__content__data__left__img"
                 src={selectedEntry.img}
               />
-
               <div className="solution__section__content__data__info">
                 <motion.div
                   initial={{ opacity: 0, y: 100 }}
                   animate={{ opacity: 1, y: 0 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1, delay: delayAnimationsFor }}
+                  transition={{ duration: 1 }}
                   key={selectedEntry.heading}
                   className="solution__section__content__data__info__text"
                 >
                   {selectedEntry.heading}
                 </motion.div>
-                <div className="solution__section__content__data__info__btn">
+                <Link
+                  href={"/contact?service=" + selectedEntry.id}
+                  className="solution__section__content__data__info__btn"
+                >
                   Order Now
                   <svg
                     width="17"
@@ -112,12 +71,12 @@ export default function SolutionSection() {
                       fill="currentColor"
                     />
                   </svg>
-                </div>
+                </Link>
               </div>
             </div>
           </Fade>
           <div className="solution__section__content__data__right">
-            {entries.map((entry, index) => (
+            {solutions.map((entry, index) => (
               <Fade up delay={parseInt(entry.delay)} key={index}>
                 <div
                   className={

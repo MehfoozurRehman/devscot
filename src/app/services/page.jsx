@@ -96,13 +96,13 @@ function ServicePage() {
                   <div className="solution__left">
                     <div className="solution__img-1">
                       <img
-                        src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/solution.png"
+                        src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/solution.webp"
                         alt="Solution Image"
                       />
                     </div>
                     <div className="solution__img-2">
                       <img
-                        src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/solution-2.png"
+                        src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/solution-2.webp"
                         alt="Solution Image"
                       />
                     </div>
@@ -123,7 +123,7 @@ function ServicePage() {
                   <div className="solution__right">
                     <div className="solution__img-3">
                       <img
-                        src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/solution-3.png"
+                        src="https://wealcoder.com/dev/html/axtra/assets/imgs/thumb/solution-3.webp"
                         alt="Solution Image"
                       />
                     </div>
@@ -144,27 +144,27 @@ function ServicePage() {
                 </div>
                 <div className="solution__shape">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/1.webp"
                     alt="Shape Image"
                     className="shape-1"
                   />
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/2.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/2.webp"
                     alt="Shape Image"
                     className="shape-2"
                   />
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/3.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/3.webp"
                     alt="Shape Image"
                     className="shape-3"
                   />
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/4.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/4.webp"
                     alt="Shape Image"
                     className="shape-4"
                   />
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/5.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/icon/5.webp"
                     alt="Shape Image"
                     className="shape-5"
                   />

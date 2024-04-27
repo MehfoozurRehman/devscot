@@ -30,7 +30,7 @@ export default function About() {
           </Fade>
           <Fade up delay={100}>
             <img
-              src="https://wealcoder.com/dev/html/axtra/assets/imgs/about/award.png"
+              src="https://wealcoder.com/dev/html/axtra/assets/imgs/about/award.webp"
               alt=""
               className="Aboutuspage__about__logo"
             />
@@ -145,7 +145,7 @@ export default function About() {
               <Fade up delay={100}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -154,7 +154,7 @@ export default function About() {
               <Fade up delay={200}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -163,7 +163,7 @@ export default function About() {
               <Fade up delay={300}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -172,7 +172,7 @@ export default function About() {
               <Fade up delay={400}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -181,7 +181,7 @@ export default function About() {
               <Fade up delay={500}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -190,7 +190,7 @@ export default function About() {
               <Fade up delay={600}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -199,7 +199,7 @@ export default function About() {
               <Fade up delay={700}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -208,7 +208,7 @@ export default function About() {
               <Fade up delay={800}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -217,7 +217,7 @@ export default function About() {
               <Fade up delay={900}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
@@ -226,7 +226,7 @@ export default function About() {
               <Fade up delay={1000}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
-                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.png"
+                    src="https://wealcoder.com/dev/html/axtra/assets/imgs/brand/1.webp"
                     alt=""
                     className="Aboutuspage__logos__content__logos__card__image"
                   />
