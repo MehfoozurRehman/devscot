@@ -41,7 +41,7 @@
   height: 90vh;
 }
 .service__Pagedetails__section__content__mid__imgs {
-  width: 70%;
+  width: 40%;
   overflow: hidden;
 }
 .service__Pagedetails__section__content__mid__imgs__moblie {
@@ -71,6 +71,7 @@
   font-size: 20px;
   height: 90vh;
   display: flex;
+  flex: 1;
   justify-content: center;
   flex-direction: column;
 }
@@ -123,6 +124,7 @@
 }
 .service__Pagedetails__section__content__mid__imgs img {
   width: 100%;
+  object-fit: contain;
   height: 100%;
 }
 .solution__btm ul {
