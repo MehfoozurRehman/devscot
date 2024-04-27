@@ -17,7 +17,7 @@ export default function Loader({ children }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useLayoutEffect(() => {
-    setIsLoading(true);
+    if (pathname !== "/contact") setIsLoading(true);
   }, [pathname]);
 
   useEffect(() => {
