@@ -506,6 +506,7 @@ body {
 .FeatureSection__content__right__img {
   width: 100%;
   min-height: 700px;
+  object-fit: cover;
 }
 .FeatureSection__content__right__content__card {
   position: absolute;
@@ -521,7 +522,7 @@ body {
   font-size: 22px;
   position: sticky;
   margin-top: 5em;
-  height: 50vh;
+  height: 40vh;
   top: 20%;
   display: flex;
   flex-direction: column;
@@ -558,15 +559,15 @@ body {
   color: #000000;
   font-weight: 400;
   font-family: AvenirLTStd-Roman, sans-serif;
-  max-width: 200px;
-  margin-left: 8em;
+  max-width: 270px;
+  margin-left: 9em;
   position: relative;
 }
 .FeatureSection__content__left__content__info::before {
   content: "";
   position: absolute;
   top: 10px;
-  left: -8em;
+  left: -9em;
   width: 50%;
   height: 2px;
   background-color: #c2c2c2;
