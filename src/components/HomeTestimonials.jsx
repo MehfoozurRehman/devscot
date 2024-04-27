@@ -80,7 +80,7 @@ export default function HomeTestimonials() {
         <Fade up delay={100}>
           <div distance="30%">
             <div className="home__testmonials__heading heading">
-              Learn why 50 + customers
+              Learn why 50+ customers
             </div>
           </div>
         </Fade>
@@ -89,10 +89,8 @@ export default function HomeTestimonials() {
         <Fade up delay={100}>
           <div distance="30%">
             <div className="home__testmonials__info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
-              rerum fugit? Quibusdam eaque amet, quam et tempora unde suscipit
-              autem nisi dolores sequi repellat ex totam. Eligendi sapiente
-              inventore dolor!
+              We have a proven track record of delivering exceptional results
+              for our clients. Here's what they have to say about us.
             </div>
           </div>
         </Fade>
