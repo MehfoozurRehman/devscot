@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import Footermobile from "@/components/Footermobile";
 import Header from "@/components/Header";
 import MagnetButton from "@/components/MagnetButton";
-import { delayAnimationsFor } from "../Loader";
 import { motion } from "framer-motion";
 import { solutions } from "@/db/solutions";
 import splitText from "@/utils/splitText";
@@ -50,9 +49,6 @@ export default function Contact({ searchParams }) {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{
-            delay: delayAnimationsFor,
-          }}
           className="formpage__content"
         >
           <div className="formpage__content__heading">
@@ -89,7 +85,7 @@ export default function Contact({ searchParams }) {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{
-                          delay: index * 0.1 + delayAnimationsFor,
+                          delay: index * 0.1,
                           duration: 1.5,
                         }}
                         key={index}
@@ -130,7 +126,7 @@ export default function Contact({ searchParams }) {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{
-                          delay: index * 0.1 + delayAnimationsFor,
+                          delay: index * 0.1,
                           duration: 1.5,
                         }}
                         key={index}
@@ -159,7 +155,6 @@ export default function Contact({ searchParams }) {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: delayAnimationsFor }}
               className="formpage__content__form__submitbutton"
             >
               <MagnetButton>Submit</MagnetButton>
