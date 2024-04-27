@@ -1,7 +1,7 @@
 import "@/styles/global.scss";
 
 import Loader from "./Loader";
-import { LoaderTagline } from "./LoaderTagline";
+import LoaderTagline from "./LoaderTagline";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
