@@ -1,7 +1,7 @@
 export const testimonials = [
   {
     url: "/FeatureSectionimg.webp",
-    title: "Transformed Our Business",
+    title: "Transformed Your Business",
     id: 1,
     number: "01",
     quote:
