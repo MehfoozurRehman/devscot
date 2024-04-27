@@ -11,69 +11,15 @@ import MagnetButton from "@/components/MagnetButton";
 import ScrollSpy from "react-ui-scrollspy";
 import { delayAnimationsFor } from "../Loader";
 import { motion } from "framer-motion";
+import { solutions } from "@/db/solutions";
 import splitText from "@/utils/splitText";
 import { useRef } from "react";
 
-const Data = [
-  {
-    link: "/web-development",
-    title: "Web Development",
-    description:
-      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-    links: ["Approch", "Creativity", "Experienced"],
-    id: 1,
-    img: "/FeatureSectionimg.webp",
-  },
-  {
-    link: "/mobile-development",
-    title: "Mobile App Development",
-    description:
-      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-    links: ["Approch", "Creativity", "Experienced"],
-    id: 2,
-    img: "/FeatureSectionimg.webp",
-  },
-  {
-    link: "/digital-marketing",
-    title: "Digital Marketing",
-    description:
-      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-    links: ["Approch", "Creativity", "Experienced"],
-    id: 3,
-    img: "/FeatureSectionimg.webp",
-  },
-  {
-    link: "/ui-ux-design",
-    title: "UI/UX Design",
-    description:
-      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-    links: ["Approch", "Creativity", "Experienced"],
-    id: 4,
-    img: "/FeatureSectionimg.webp",
-  },
-  {
-    link: "/branding",
-    title: "Branding",
-    description:
-      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-    links: ["Approch", "Creativity", "Experienced"],
-    id: 5,
-    img: "/FeatureSectionimg.webp",
-  },
-  {
-    link: "/seo",
-    title: "E-commerce",
-    description:
-      "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
-    links: ["Approch", "Creativity", "Experienced"],
-    id: 6,
-    img: "/FeatureSectionimg.webp",
-  },
-];
-
 function ServicePage() {
   const parentScrollContainerRef = useRef(null);
-  const heading = splitText("Digital Solution");
+
+  const heading = splitText("Digital Software");
+
   return (
     <>
       <div
@@ -176,7 +122,7 @@ function ServicePage() {
         <div className="service__Pagedetails__section">
           <div className="service__Pagedetails__section__content">
             <div className="service__Pagedetails__section__content__left">
-              {Data.map((item) => {
+              {solutions.map((item) => {
                 return (
                   <div
                     className="service__Pagedetails__section__content__left__links"
@@ -186,7 +132,7 @@ function ServicePage() {
                       href={`#${item.id}`}
                       className="service__Pagedetails__section__content__left__links__link "
                     >
-                      <div data-to-scrollspy-id={item.id}>{item.title}</div>
+                      <div data-to-scrollspy-id={item.id}>{item.heading}</div>
                     </div>
                   </div>
                 );
@@ -199,13 +145,18 @@ function ServicePage() {
                 offsetTop={-250}
                 parentScrollContainerRef={parentScrollContainerRef}
               >
-                {Data?.map((item) => (
+                {solutions?.map((item) => (
                   <section
                     className="service__Pagedetails__section__content__right__content__section"
                     id={item.id}
                     key={item.id}
                   >
-                    <div className="service__Pagedetails__section__content__mid__imgs">
+                    <div
+                      className="service__Pagedetails__section__content__mid__imgs"
+                      style={{
+                        backgroundImage: item.background,
+                      }}
+                    >
                       <motion.img
                         initial={{ scale: 1.5 }}
                         whileInView={{ scale: 1 }}
@@ -214,31 +165,35 @@ function ServicePage() {
                           delay: delayAnimationsFor,
                         }}
                         src={item.img}
-                        alt={item.title}
+                        alt={item.heading}
                       />
                     </div>
                     <div className="service__Pagedetails__section__content__right__content">
                       <Fade up delay={100}>
                         <h2 className="service__Pagedetails__section__content__right__content__heading">
-                          {item.title}
+                          {item.heading}
                         </h2>
                       </Fade>
                       <Fade up delay={300}>
                         <p className="service__Pagedetails__section__content__right__content__info">
-                          {item.description}
+                          {item.text}
                         </p>
                       </Fade>
                       <Fade up delay={500}>
                         <div className="service__Pagedetails__section__content__right__content__heading__links">
                           <ul>
-                            <li>Approch</li>
-                            <li>Creativity</li>
-                            <li>Experienced</li>
+                            {item.tools
+                              .slice(0, Math.floor(item.tools.length / 2))
+                              .map((tool) => (
+                                <li key={tool}>{tool}</li>
+                              ))}
                           </ul>
                           <ul>
-                            <li>Approch</li>
-                            <li>Creativity</li>
-                            <li>Experienced</li>
+                            {item.tools
+                              .slice(Math.floor(item.tools.length / 2))
+                              .map((tool) => (
+                                <li key={tool}>{tool}</li>
+                              ))}
                           </ul>
                         </div>
                       </Fade>
@@ -246,7 +201,7 @@ function ServicePage() {
                         <MagnetButton>
                           <a
                             style={{ color: "white", textDecoration: "none" }}
-                            href={"/services" + item.link}
+                            href={"/contact?service=" + item.id}
                           >
                             Get Started
                           </a>
@@ -261,38 +216,51 @@ function ServicePage() {
         </div>
         <div className="service__Pagedetails__section__mobile">
           <div className="service__Pagedetails__section__mobile__content">
-            {Data?.map((item) => (
+            {solutions?.map((item) => (
               <section
                 className="service__Pagedetails__section__content__right__content__section"
                 id={item.id}
                 key={item.id}
               >
-                <div className="service__Pagedetails__section__content__mid__imgs__moblie">
+                <div
+                  className="service__Pagedetails__section__content__mid__imgs__moblie"
+                  style={{
+                    backgroundImage: item.background,
+                  }}
+                >
                   <img src={item.img} alt={item.title} />
                 </div>
                 <div className="service__Pagedetails__section__content__right__content">
                   <h2 className="service__Pagedetails__section__content__right__content__heading">
-                    {item.title}
+                    {item.heading}
                   </h2>
                   <p className="service__Pagedetails__section__content__right__content__info">
-                    {item.description}
+                    {item.text}
                   </p>
                   <div className="service__Pagedetails__section__content__right__content__heading__links">
-                    <ul>
-                      <li>Approch</li>
-                      <li>Creativity</li>
-                      <li>Experienced</li>
-                    </ul>
-                    <ul>
-                      <li>Approch</li>
-                      <li>Creativity</li>
-                      <li>Experienced</li>
-                    </ul>
+                    <div>
+                      <ul>
+                        {item.tools
+                          .slice(0, Math.floor(item.tools.length / 2))
+                          .map((tool) => (
+                            <li key={tool}>{tool}</li>
+                          ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <ul>
+                        {item.tools
+                          .slice(Math.floor(item.tools.length / 2))
+                          .map((tool) => (
+                            <li key={tool}>{tool}</li>
+                          ))}
+                      </ul>
+                    </div>
                   </div>
                   <MagnetButton>
                     <a
                       style={{ color: "white", textDecoration: "none" }}
-                      href={"/services" + item.link}
+                      href={"/contact?service=" + item.id}
                     >
                       Get Started
                     </a>
