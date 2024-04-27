@@ -1,4 +1,3 @@
-"use client";
 export const stats = [
   {
     number: "200",
