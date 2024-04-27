@@ -1,10 +1,9 @@
 "use client";
 
-import { Facebook, Instagram, Linkedin, Send, Twitter } from "react-feather";
-
 import Fade from "@/components/Fade";
 import Link from "next/link";
 import MagnetButton from "@/components/MagnetButton";
+import { Send } from "react-feather";
 
 export default function Footer() {
   return (
@@ -27,7 +26,7 @@ export default function Footer() {
               </div>
             </Fade>
             <div className="Footer__content__left__social">
-              <Fade up delay={100}>
+              {/* <Fade up delay={100}>
                 <Facebook />
               </Fade>
               <Fade up delay={300}>
@@ -38,7 +37,7 @@ export default function Footer() {
               </Fade>
               <Fade up delay={700}>
                 <Linkedin />
-              </Fade>
+              </Fade> */}
             </div>
           </div>
           <div className="Footer__content__right">
@@ -79,17 +78,24 @@ export default function Footer() {
             </Fade>
             <Fade up delay={300}>
               <div className="Footer__content__right__info">
-                Valentin, Street Road 24, New York, USA - 67452
+                Office No. 10 Street No. 8 Housing Colony No 1 Samundri,
+                Faisalabad, Punjab, Pakistan
               </div>
             </Fade>
             <Fade up delay={500}>
-              <Link href="#" className="Footer__content__right__info">
-                +1 123 456 7890
+              <Link
+                href={"tel:+923356226026"}
+                className="Footer__content__right__info"
+              >
+                +92 335 6226026
               </Link>
             </Fade>
             <Fade up delay={800}>
-              <Link href="#" className="Footer__content__right__link">
-                info@Devscot.com
+              <Link
+                href={"mailto:info@devscot.com"}
+                className="Footer__content__right__link"
+              >
+                info@devscot.com
               </Link>
             </Fade>
           </div>
@@ -110,7 +116,7 @@ export default function Footer() {
               </Fade>
               <Fade up delay={700}>
                 <div className="Footer__content__right__card__content__days">
-                  Saturday - Thursday
+                  Monday - Saturday
                 </div>
               </Fade>
             </div>
