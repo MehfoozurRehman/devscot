@@ -4,48 +4,41 @@ import Fade from "@/components/Fade";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { useState } from "react";
 
-const entries = [
+const steps = [
   {
     step: "Step 01",
     number: "01",
-    heading: "Audience",
-    text: "Having these the marketplace to your business",
+    heading: "Understanding Your Audience",
+    text: "Analyzing market trends and customer demographics to tailor your product or service.",
     delay: "100",
   },
   {
     step: "Step 02",
     number: "02",
-    heading: "Plan & Sketch",
+    heading: "Planning & Sketching",
     delay: "200",
-    text: "Delicate and long-lasting with vitamins and nutritions",
+    text: "Mapping out strategies and sketching design ideas to ensure innovation and uniqueness.",
   },
   {
     step: "Step 03",
     number: "03",
-    heading: "Customize",
+    heading: "Customization Process",
     delay: "300",
-    text: "Creating brand identities for the Digital experiences",
+    text: "Tailoring brand identities and digital experiences to resonate with your target audience.",
   },
   {
     step: "Step 04",
     number: "04",
-    heading: "User Testing",
+    heading: "User Testing & Feedback",
     delay: "400",
-    text: "We look forward to engage with beyond the conventional",
+    text: "Engaging with users to gather insights and refine the product beyond conventional standards.",
   },
   {
     step: "Step 05",
     number: "05",
-    heading: "User Testing",
+    heading: "Product Launch",
     delay: "500",
-    text: "We look forward to engage with beyond the conventional",
-  },
-  {
-    step: "Step 06",
-    number: "06",
-    heading: "User Testing",
-    delay: "2100",
-    text: "We look forward to engage with beyond the conventional",
+    text: "Excitingly unveiling your product to the world, ready to make an impact.",
   },
 ];
 
@@ -63,7 +56,7 @@ export default function HowWorkSection() {
         </Fade>
         <ScrollContainer>
           <div className="how__section__content__data">
-            {entries.map((entry, index) => (
+            {steps.map((entry, index) => (
               <Fade In delay={parseInt(entry.delay)} key={index}>
                 <div
                   className="how__section__content__data__entry"
