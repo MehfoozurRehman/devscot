@@ -46,7 +46,7 @@ function FooterContent() {
               </div>
             </Fade>
             <div className="Footer__content__left__social">
-              <Fade up delay={100}>
+              {/* <Fade up delay={100}>
                 <Facebook />
               </Fade>
               <Fade up delay={300}>
@@ -57,36 +57,31 @@ function FooterContent() {
               </Fade>
               <Fade up delay={700}>
                 <Linkedin />
-              </Fade>
+              </Fade> */}
             </div>
           </div>
           <div className="Footer__content__right">
             <Fade up delay={100}>
-              <div className="Footer__content__mid__heading">Information</div>
+              <div className="Footer__content__mid__heading">Quick Links</div>
             </Fade>
             <div className="Footer__content__right__links">
-              <Fade up delay={300}>
-                <Link className="Footer__content__right__link" href="#">
-                  About Company
-                </Link>
-              </Fade>
               <Fade up delay={400}>
-                <Link className="Footer__content__right__link" href="#">
-                  Case Study
+                <Link className="Footer__content__right__link" href="/services">
+                  Services
                 </Link>
               </Fade>
               <Fade up delay={600}>
-                <Link className="Footer__content__right__link" href="#">
-                  Career
+                <Link className="Footer__content__right__link" href="/projects">
+                  Portfolio
                 </Link>
               </Fade>
               <Fade up delay={800}>
-                <Link className="Footer__content__right__link" href="#">
-                  Blog
+                <Link className="Footer__content__right__link" href="/about">
+                  About Us
                 </Link>
               </Fade>
               <Fade up delay={1000}>
-                <Link className="Footer__content__right__link" href="#">
+                <Link className="Footer__content__right__link" href="/contact">
                   Contact
                 </Link>
               </Fade>
@@ -98,17 +93,24 @@ function FooterContent() {
             </Fade>
             <Fade up delay={300}>
               <div className="Footer__content__right__info">
-                Valentin, Street Road 24, New York, USA - 67452
+                Office No. 10 Street No. 8 Housing Colony No 1 Samundri,
+                Faisalabad, Punjab, Pakistan
               </div>
             </Fade>
             <Fade up delay={500}>
-              <Link href="#" className="Footer__content__right__info">
-                +1 123 456 7890
+              <Link
+                href={"tel:+923356226026"}
+                className="Footer__content__right__info"
+              >
+                +92 335 6226026
               </Link>
             </Fade>
             <Fade up delay={800}>
-              <Link href="#" className="Footer__content__right__link">
-                info@Devscot.com
+              <Link
+                href={"mailto:info@devscot.com"}
+                className="Footer__content__right__link"
+              >
+                info@devscot.com
               </Link>
             </Fade>
           </div>
@@ -129,7 +131,7 @@ function FooterContent() {
               </Fade>
               <Fade up delay={700}>
                 <div className="Footer__content__right__card__content__days">
-                  Saturday - Thursday
+                  Monday - Saturday
                 </div>
               </Fade>
             </div>
