@@ -56,7 +56,7 @@ export default function Header() {
     } else if (pathname === "/projects") {
       document.querySelector(".header").style.backgroundColor = "#000";
     } else {
-      document.querySelector(".header").style.backgroundColor = "taansparent";
+      document.querySelector(".header").style.backgroundColor = "transparent";
     }
   }, [pathname]);
 
