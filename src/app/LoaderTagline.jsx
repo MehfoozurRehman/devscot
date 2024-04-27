@@ -11,6 +11,6 @@ const taglines = [
   "Efficiency in motion, excellence in the making.",
 ];
 
-export function LoaderTagline() {
+export default function LoaderTagline() {
   return taglines[Math.floor(Math.random() * taglines.length)];
 }
