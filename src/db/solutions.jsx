@@ -7,7 +7,7 @@ export const solutions = [
     delay: "100",
     tools: ["React", "Angular", "Vue", "Node.js"],
     heading: "Web App Development",
-    text: "We take care of your product on the development stage. Our IT outsourcing company creates custom web dev solutions for startups and enterprises. We listen to your ideas carefully and deliver the exact result.",
+    text: "We take care of your product on the development stage. We create custom web dev solutions for startups and enterprises. We listen to your ideas carefully and deliver the exact result.",
   },
   {
     img: "/mobiledev.webp",
@@ -17,7 +17,7 @@ export const solutions = [
     delay: "400",
     tools: ["React Native", "Swift", "Kotlin", "Java"],
     heading: "Mobile App Development",
-    text: "Convert more clients by reaching out to your target audience via mobile apps. Our software development company will help you with building iOS, Android and cross-platform mobile development solutions.",
+    text: "We offer a full cycle of application design, integration and management services. Whether it is a consumer oriented app or a transformative enterprise-class solution.",
   },
   {
     img: "/ecommerce.webp",
@@ -27,7 +27,7 @@ export const solutions = [
     delay: "700",
     tools: ["React", "Angular", "Vue", "Node.js"],
     heading: "E-commerce Solutions",
-    text: "Our e-commerce development company will help you to create a user-friendly online store that will attract more clients. We provide custom e-commerce development services for businesses of all sizes.",
+    text: "We will help you to create a user-friendly online store that will attract more clients. We provide custom e-commerce development services for businesses of all sizes.",
   },
   {
     img: "/uiux.webp",
@@ -47,6 +47,6 @@ export const solutions = [
     delay: "1100",
     tools: ["Blender", "Maya", "3ds Max", "Cinema 4D"],
     heading: "3D Graphics & Animations",
-    text: "Our 3D graphics and animation studio will help you to create stunning visuals for your project. We provide 3D modeling, rendering, and animation services for various industries.",
+    text: "We will help you to create stunning visuals for your project. We provide 3D modeling, rendering, and animation services for various industries.",
   },
 ];
