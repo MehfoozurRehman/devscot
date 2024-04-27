@@ -162,11 +162,11 @@ export default function Projects() {
           </Fade>
           <Fade up delay={100}>
             <div className="projectpage__Section__content__info">
-              Let's dive into part of our journey. Of course we started working
-              for web2 companies, but really fast we found a passion and fall in
-              love with crypto, wallets, NFTs and other parts of web3 world.
-              We're proud that we established in this segment and we always
-              trying to make things better and easy to use for users.
+              Our projects are a testament to our commitment to excellence and
+              innovation. We have successfully delivered a wide range of
+              solutions that have helped our clients achieve their business
+              goals. Explore our projects to learn more about our capabilities
+              and the value we can bring to your business.
             </div>
           </Fade>
           <div className="projectpage__Section__content__cards">
