@@ -14,8 +14,11 @@ export default function FeatureSection() {
                 Projects
               </div>
               <div className="FeatureSection__content__left__content__info">
-                View the full case study of our recent featured and awesome
-                works that we created for our clients.
+                Discover the captivating case studies showcasing our recent
+                featured projects. Dive into the stories behind our innovative
+                solutions crafted for clients. Explore our journey of
+                creativity, problem-solving, and client success. Experience
+                excellence and satisfaction, all in one place.
               </div>
             </div>
             <div className="FeatureSection__content__left__content__div">
