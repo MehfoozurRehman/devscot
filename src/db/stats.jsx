@@ -1,11 +1,11 @@
 export const stats = [
   {
-    number: "200",
+    number: "2000",
     text: "Projects Completed",
     delay: "100",
   },
   {
-    number: "50",
+    number: "500",
     text: "Satisfied Customers",
     delay: "500",
   },
@@ -15,7 +15,7 @@ export const stats = [
     delay: "800",
   },
   {
-    number: "5",
+    number: "15",
     text: "Awards & Achievements",
     delay: "1200",
   },
