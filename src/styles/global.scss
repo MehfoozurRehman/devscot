@@ -151,7 +151,10 @@ body {
 }
 .header__content__nav__link.active {
   transition: 300ms ease-in-out;
-  color: white;
+  color: #09bb50 !important;
+  font-weight: 600;
+  
+  
 }
 .header__content__nav .header__content__cta__button__outside {
   display: none;
