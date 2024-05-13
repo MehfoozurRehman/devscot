@@ -141,7 +141,7 @@ function FooterContent() {
           <div className="Footer__bottom__content">
             <Fade up delay={100}>
               <div className="Footer__bottom__content__info">
-                © 2021 Devscot. All Rights Reserved
+                © 2024 Devscot. All Rights Reserved
               </div>
             </Fade>
             <Fade up delay={100}>
