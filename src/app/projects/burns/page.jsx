@@ -194,7 +194,7 @@ export default function ProjectDetails() {
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img src="/burnlogo.webp" alt="meal" />
+              <img src="/burnslogo.webp" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>
