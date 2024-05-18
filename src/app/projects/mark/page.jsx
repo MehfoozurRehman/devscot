@@ -150,7 +150,9 @@ export default function ProjectDetails() {
             </Swiper>
           </div>
         </div>
-        <div className="project__details__text__header__container__bg" />
+        <div className="project__details__text__header__container__bg" style={{
+            background: 'linear-gradient(120deg, #062a94 3.95%, #001143 96.98%)'
+        }}/>
         <div className="project__details__about__container">
           <Fade up delay={100}>
             <div className="project__details__about__container__heading">
