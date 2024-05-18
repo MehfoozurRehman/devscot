@@ -143,7 +143,7 @@ export default function ProjectDetails() {
         <div className="Emphasizing__main__container">
           <Fade up delay={100}>
             <div className="Emphasizing__main__container__logo">
-              <img src="/saakemmarlogo.webp" alt="meal" />
+              <img src="/sakemmarlogo.webp" alt="meal" />
             </div>
           </Fade>
           <Fade up delay={100}>
