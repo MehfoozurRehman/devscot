@@ -109,7 +109,9 @@ export default function ProjectDetails() {
             />
           </div>
         </div>
-        <div className="project__details__text__header__container__bg" />
+        <div className="project__details__text__header__container__bg" style={{
+            background: 'linear-gradient(120deg, #ed1b16 3.95%, #1e1e1e 96.98%)'
+        }}/>
         <div className="project__details__about__container">
           <Fade up delay={100}>
             <div className="project__details__about__container__heading">
