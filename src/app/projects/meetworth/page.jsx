@@ -334,7 +334,7 @@ export default function ProjectDetails() {
                   Typography
                 </div>
                 <div className="guide__section__card__font__left__name">
-                  Inter
+                Mostserrat
                 </div>
                 <div className="guide__section__card__font__left__sub__name">
                   Semi-bold
