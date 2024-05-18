@@ -1042,6 +1042,7 @@ body {
 .home__testmonials__content__users__entry__img {
   width: 75px;
   height: 75px;
+  object-fit: cover;
   border-radius: 50%;
   padding: 0;
   border: 10px solid transparent;
