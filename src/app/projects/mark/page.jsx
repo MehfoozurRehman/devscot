@@ -115,11 +115,7 @@ export default function ProjectDetails() {
                   <img src="/mark2.webp" alt="image" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mark3.webp" alt="image" />
-                </div>
-              </SwiperSlide>
+           
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/mark4.webp" alt="image" />
@@ -140,11 +136,7 @@ export default function ProjectDetails() {
                   <img src="/mark2.webp" alt="image" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/mark3.webp" alt="image" />
-                </div>
-              </SwiperSlide>
+              
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/mark4.webp" alt="image" />
