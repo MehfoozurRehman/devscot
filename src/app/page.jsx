@@ -11,7 +11,15 @@ import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
-
+export const metadata = {
+  title: "Devscot || Home Page",
+  description: "A software house based in Pakistan",
+  keywords: "software house, web development, app development, devscot",
+  image: "/images/og-image.jpg",
+  url: "https://devscot.com",
+  type: "website",
+  
+};
 export default function Index() {
   return (
     <>
