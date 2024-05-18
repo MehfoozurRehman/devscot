@@ -120,11 +120,7 @@ export default function ProjectDetails() {
                   <img src="/walking3.webp" alt="image" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/walking4.webp" alt="image" />
-                </div>
-              </SwiperSlide>
+             
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/walking5.webp" alt="image" />
@@ -145,11 +141,7 @@ export default function ProjectDetails() {
                   <img src="/walking3.webp" alt="image" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="project__header__imags__slider__card">
-                  <img src="/walking4.webp" alt="image" />
-                </div>
-              </SwiperSlide>
+          
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/walking5.webp" alt="image" />
