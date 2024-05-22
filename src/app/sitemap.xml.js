@@ -7,7 +7,19 @@ const DEVSCOT_URLS = [
     'https://www.devscot.com/projects',
     'https://www.devscot.com/about',
     'https://www.devscot.com/contact',
-  ];
+    'https://www.devscot.com/projects/meetworth',
+    'https://www.devscot.com/projects/mark',
+    'https://www.devscot.com/projects/unitedmeal',
+    'https://www.devscot.com/projects/sakenemaar',
+    'https://www.devscot.com/projects/muslimbiz',
+    'https://www.devscot.com/projects/walking',
+    'https://www.devscot.com/projects/daltaswap',
+    'https://www.devscot.com/projects/burns',
+    'https://www.devscot.com/projects/healthvital',
+    'https://www.devscot.com/projects/weekly',
+    'https://www.devscot.com/contact?service=web',
+    ];
+   
   
   function generateSiteMap(urls) {
     return `<?xml version="1.0" encoding="UTF-8"?>
@@ -36,6 +48,7 @@ const DEVSCOT_URLS = [
     const sitemap = generateSiteMap(DEVSCOT_URLS);
     res.setHeader('Content-Type', 'text/xml');
     // Send the XML to the browser
+    
     res.write(sitemap);
     res.end();
   
