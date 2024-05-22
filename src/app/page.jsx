@@ -70,7 +70,6 @@ email: "info@devscot.com",
       "Wednesday",
       "Thursday",
       "Friday"
-
     ],
     opens: "09:00",
     closes: "17:00"
