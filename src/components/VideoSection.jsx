@@ -31,7 +31,7 @@ export default function VideoSection() {
           onClick={() => {
             document.querySelector(".Aboutuspage__video__video").play();
             document.querySelector(
-              ".Aboutuspage__video__button"
+              ".Aboutuspage__video__button",
             ).style.display = "none";
           }}
           className="Aboutuspage__video__button"

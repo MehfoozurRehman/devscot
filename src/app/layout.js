@@ -13,7 +13,6 @@ export const metadata = {
   image: "/devscotlogo-black.png",
   url: "https://www.devscot.com/Services",
   type: "website",
-
 };
 
 export default function RootLayout({ children }) {
