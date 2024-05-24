@@ -1,4 +1,5 @@
 import Servicespagedata from "@/components/Servicespagedata";
+
 export const metadata = {
   title: "Services-Devscot | Software Design & Development Company ",
   description:
@@ -8,8 +9,6 @@ export const metadata = {
   image: "/devscotlogo-black.png",
   url: "https://www.devscot.com/Services",
   type: "website",
-
-  // Additional metadata
   author: "Devscot",
   language: "en",
   locale: "en_US",
@@ -36,8 +35,6 @@ export const metadata = {
   canonical: "https://www.devscot.com/Services",
   theme_color: "#ffffff",
   apple_mobile_web_app_status_bar_style: "black-translucent",
-
-  ////2nd// Additional metadata
   email: "info@devscot.com",
   phone_number: "+92 335 6226026",
   address: "123 Main Street, Lahore, Pakistan",
