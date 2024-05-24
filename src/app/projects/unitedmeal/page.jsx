@@ -74,7 +74,7 @@ export default function ProjectDetails() {
             </Fade>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__btn">
-                <Link href="/contact" style={{ margin: "0px" }} class="btn">
+                <Link href="/contact" style={{ margin: "0px" }} className="btn">
                   Contact us
                 </Link>
               </div>
@@ -252,9 +252,9 @@ export default function ProjectDetails() {
                   width="1532.28"
                   height="1532.28"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feBlend
                     mode="normal"
                     in="SourceGraphic"

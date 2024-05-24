@@ -75,7 +75,7 @@ export default function ProjectDetails() {
             </Fade>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__btn">
-                <Link href="/contact" style={{ margin: "0px" }} class="btn">
+                <Link href="/contact" style={{ margin: "0px" }} className="btn">
                   Contact us
                 </Link>
               </div>
@@ -120,7 +120,7 @@ export default function ProjectDetails() {
                   <img src="/walking3.webp" alt="image" />
                 </div>
               </SwiperSlide>
-             
+
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/walking5.webp" alt="image" />
@@ -141,7 +141,7 @@ export default function ProjectDetails() {
                   <img src="/walking3.webp" alt="image" />
                 </div>
               </SwiperSlide>
-          
+
               <SwiperSlide>
                 <div className="project__header__imags__slider__card">
                   <img src="/walking5.webp" alt="image" />
@@ -150,9 +150,13 @@ export default function ProjectDetails() {
             </Swiper>
           </div>
         </div>
-        <div className="project__details__text__header__container__bg" style={{
-            background: 'linear-gradient(120deg, #130032 3.95%, #da3667 96.98%)'
-        }}/>
+        <div
+          className="project__details__text__header__container__bg"
+          style={{
+            background:
+              "linear-gradient(120deg, #130032 3.95%, #da3667 96.98%)",
+          }}
+        />
         <div className="project__details__about__container">
           <Fade up delay={100}>
             <div className="project__details__about__container__heading">
@@ -235,9 +239,9 @@ export default function ProjectDetails() {
                   width="1532.28"
                   height="1532.28"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feBlend
                     mode="normal"
                     in="SourceGraphic"
