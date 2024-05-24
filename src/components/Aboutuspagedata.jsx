@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Footermobile from "@/components/Footermobile";
 import Header from "@/components/Header";
 import splitText from "@/utils/splitText";
-import { stats } from "@/db/stats";
+import stats from "@/db/stats.json";
 
 export default function About() {
   return (

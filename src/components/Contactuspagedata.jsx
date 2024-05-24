@@ -10,7 +10,7 @@ import Header from "@/components/Header";
 import MagnetButton from "@/components/MagnetButton";
 import { delayAnimationsFor } from "../app/Loader";
 import { motion } from "framer-motion";
-import { solutions } from "@/db/solutions";
+import solutions from "@/db/solutions.json";
 import splitText from "@/utils/splitText";
 
 const budgets = ["10k-20k", "20k-30k", "30k-40k", "40k-50k", "50k-60k"];

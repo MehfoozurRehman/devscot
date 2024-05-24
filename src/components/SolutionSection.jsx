@@ -3,7 +3,7 @@
 import Fade from "@/components/Fade";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { solutions } from "@/db/solutions";
+import solutions from "@/db/solutions.json";
 import splitText from "@/utils/splitText";
 import { useState } from "react";
 

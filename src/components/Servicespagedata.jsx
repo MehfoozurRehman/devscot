@@ -11,7 +11,7 @@ import MagnetButton from "@/components/MagnetButton";
 import ScrollSpy from "react-ui-scrollspy";
 import { delayAnimationsFor } from "../app/Loader";
 import { motion } from "framer-motion";
-import { solutions } from "@/db/solutions";
+import solutions from "@/db/solutions.json";
 import splitText from "@/utils/splitText";
 import { useRef } from "react";
 

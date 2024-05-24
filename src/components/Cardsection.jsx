@@ -5,7 +5,7 @@ import "@/styles/style.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 import Fade from "@/components/Fade";
-import { testimonials } from "../db/testimonials";
+import testimonials from "../db/testimonials.json";
 import { useRef } from "react";
 
 const HorizontalScrollCarouselCard = ({ card }) => {

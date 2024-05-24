@@ -2,7 +2,7 @@
 
 import CountUpWhenInView from "./CountUpWhenInView";
 import Fade from "@/components/Fade";
-import { stats } from "../db/stats";
+import stats from "@/db/stats.json";
 import { useState } from "react";
 
 export default function NumbersSection() {
