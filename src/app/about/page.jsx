@@ -1,7 +1,7 @@
 import Aboutuspagedata from "@/components/Aboutuspagedata";
 
 export const metadata = {
-  title: "Aboutus-Devscot | Software Design & Development Company ",
+  title: "About Us",
   description:
     "A software Companies specializing in innovative web and mobile applications. ",
   keywords:

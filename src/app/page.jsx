@@ -13,7 +13,7 @@ import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
 
 export const metadata = {
-  title: "Home-Devscot | Software Design & Development Company ",
+  title: "Devscot | Software Design & Development Company ",
   description:
     "A software Companies specializing in innovative web and mobile applications. ",
   keywords:

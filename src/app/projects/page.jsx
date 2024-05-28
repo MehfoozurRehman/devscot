@@ -1,7 +1,7 @@
 import Projectspagedata from "@/components/Projectspagedata";
 
 export const metadata = {
-  title: "Projects-Devscot | Software Design & Development Company ",
+  title: "Projects",
   description:
     "A software Companies specializing in innovative web and mobile applications. ",
   keywords:

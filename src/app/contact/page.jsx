@@ -1,6 +1,6 @@
 import Contactuspagedata from "@/components/Contactuspagedata";
 export const metadata = {
-  title: "Contactus-Devscot | Software Design & Development Company ",
+  title: "Contact Us",
   description:
     "A software Companies specializing in innovative web and mobile applications. ",
   keywords:
