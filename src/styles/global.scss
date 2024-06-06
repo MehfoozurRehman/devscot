@@ -1807,14 +1807,14 @@ body {
     align-items: center;
   }
   .hero__section__content__info__highlight__name:nth-child(2) {
-    width: 40%;
+    width:fit-content;
     text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
   }
   .hero__section__content__info__highlight__name:last-child {
-    width: 50%;
+    width: fit-content;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -2019,11 +2019,47 @@ body {
   .home__testmonials {
     overflow: hidden;
   }
+
+  .hero__section__aboutus__content{
+    background-color: #121212;
+  }
+  .hero__section__aboutus__content__left{
+    color: #fff;
+  }
+  .hero__section__aboutus__content__right{
+    color: #dfd9d9;
+  
+  }
+  .solution__section__content{
+    background-color: #121212;
+  }
+  .solution__section__content__heading{
+    color: #fff;
+  
+  }
+  .solution__section__content__data__right__entry__heading{
+    color: #139948;
+  
+  }
+  .solution__section__content__data__right__entry__text{
+    color: #dfd9d9;
+  }
+  .FeatureSection__content__mobile{
+    background-color: #121212;
+  }
+  .FeatureSection__content__left__content__heading{
+    color: #fff;
+  
+  }
+  .FeatureSection__content__left__content__info{
+    color: #dfd9d9;
+  
+  }
 }
 @media (max-width: 520px) {
   .Footer {
     width: 100%;
-    margin-top: -10em;
+    margin-top: 0em;
   }
   .home__testmonials__content__users__entry__img {
     width: 40px;
