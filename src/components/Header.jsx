@@ -87,7 +87,7 @@ export default function Header() {
           <motion.div
             initial={{ y: "-150%" }}
             animate={{ y: isOpen ? "0%" : "-100%" }}
-            transition={{ duration: 1.5, delay: delayAnimationsFor }}
+            transition={{ duration: .5, delay: delayAnimationsFor }}
             className="header__content__nav"
           >
             <Link
