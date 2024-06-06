@@ -2044,17 +2044,6 @@ body {
   .solution__section__content__data__right__entry__text{
     color: #dfd9d9;
   }
-  .FeatureSection__content__mobile{
-    background-color: #121212;
-  }
-  .FeatureSection__content__left__content__heading{
-    color: #fff;
-  
-  }
-  .FeatureSection__content__left__content__info{
-    color: #dfd9d9;
-  
-  }
 }
 @media (max-width: 520px) {
   .Footer {
@@ -2158,5 +2147,11 @@ body {
     border-radius: 5px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+  }
+}
+@media (max-width:400px) {
+  
+  .hero__section__content__heading{
+    font-size: 35px;
   }
 }
