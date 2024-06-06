@@ -94,7 +94,7 @@ export default function Index() {
       <HowWorkSection />
       <FeatureSection />
       <FeatureSectionMobile />
-      <Cardsection />
+      {/* <Cardsection /> */}
       <HomeTestimonials />
       <Footer />
       <Footermobile />
