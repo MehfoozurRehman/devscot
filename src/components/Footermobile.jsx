@@ -107,7 +107,9 @@ export default function Footer() {
                 </div>
               </Fade>
               <Fade up delay={300}>
-                <MagnetButton>Let's Talk</MagnetButton>
+                <a href="/contact">
+                  <MagnetButton>Let's Talk</MagnetButton>
+                </a>
               </Fade>
               <Fade up delay={500}>
                 <div className="Footer__content__right__card__content__time">
