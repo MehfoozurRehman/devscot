@@ -31,7 +31,7 @@ export default function FeatureSection() {
               </Link>
             </div>
             <div>
-              <FeatureSectionCard />=
+              <FeatureSectionCard />
             </div>
           </div>
         </div>
