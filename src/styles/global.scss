@@ -1208,7 +1208,7 @@ body {
 .solution__section__content__data__right__entry__hover {
   display: flex;
   width: 100%;
-  padding: 1em;
+  padding: 1.5em;
   justify-content: space-between;
   background-color: #1399480a;
   cursor: pointer;
@@ -1876,6 +1876,9 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .solution__section__content__data__right__entry__hover {
+    padding: 1em;
+  }
   .hero__section__marquee__container {
     background-color: #139948;
     color: white;
@@ -2125,9 +2128,15 @@ body {
     padding: 1em;
   }
   .hero__section__aboutus__content__left {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
-    padding: 0em .5em ;
+    padding: 0em;
+  }
+  .hero__section__aboutus__content{
+    padding: 2em;
+  }
+  .home__testmonials__content__users__entry {
+    gap: 0;
   }
   .home__testmonials__content__details {
     height: 300px;
@@ -2140,6 +2149,7 @@ body {
   }
   .hero__section__aboutus__content__right {
     font-size: 16px;
+    padding: 0;
   }
   .header__content__nav {
     width: 100%;
