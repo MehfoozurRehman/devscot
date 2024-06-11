@@ -18,7 +18,7 @@ import { useRef } from "react";
 function ServicePage() {
   const parentScrollContainerRef = useRef(null);
 
-  const heading = splitText("Digital Software");
+  const heading = splitText("Our Services");
 
   return (
     <>
