@@ -324,6 +324,20 @@ body {
   font-weight: 800;
   letter-spacing: 1px;
 }
+.hero__section__content__heading__mobile {
+  font-size: 82px;
+  color: #f5f7fc;
+  font-weight: 800;
+  font-family: AvenirLTStd-Black, sans-serif;
+  text-transform: uppercase;
+  animation-delay: 0.5s;
+  display: none;
+}
+.hero__section__content__heading__mobile span {
+  font-family: AvenirLTStd-Black, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
 .hero__section__content__info {
   font-size: 18px;
   color: #f5f7fc;
@@ -1445,12 +1459,85 @@ body {
   background-color: #139948;
   transition: 300ms ease-in-out;
 }
+.Cardsmain__section{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #121212;
+  flex-direction: column;
+  // padding: .5em ;
+ 
+  
+
+}
+.Cardsmain__section__main{
+  display: flex;
+  width: 100%; max-width: 1366px;
+  margin: 0 auto;
+  
+}
+
+.Cardsmain__section__content{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 50%;
+  padding: 4em 0em 5em 2em;
+  justify-content: center;
+  // color: white;
+  // border-top: 1px solid #139948;
+  // border-bottom: 1px solid #139948;
+  // border-left: 1px solid #139948;
+  // border-right: 1px solid #139948;
+
+}
+.Cardsmain__section__content:first-child{
+  // border-right: 1px solid #139948;
+
+}
+.Cardsmain__section__content:last-child{
+  // border-right: 1px solid #139948;
+
+}
+.Cardsmain__section__content__number__text__number{
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: AvenirLTStd-Black, sans-serif;
+  color: #ffffff38;
+
+
+}
+.Cardsmain__section__content__number__text{
+  display: flex;
+  align-items: flex-end;
+}
+.Cardsmain__section__content__number__text__text{
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1em 0 1.5em;
+  margin-left: 1em;
+  padding-bottom: 1em;
+  color: #fff;
+  border-bottom: 2px solid #139948;
+  flex: 1;
+
+}.Cardsmain__section__content__text{
+  font-size: 18px;
+  padding: .5em;
+  color: #999;
+}
 @media (min-width: 1920px) {
   .hero__section__content {
     max-width: 1920px;
   }
   .hero__section__content__heading {
     font-size: 120px;
+  }
+  .hero__section__content__heading__mobile {
+    font-size: 120px;
+
   }
   .hero__section__content__subheading {
     font-size: 28px;
@@ -1701,6 +1788,9 @@ body {
   .hero__section__content__heading {
     font-size: 40px;
   }
+  .hero__section__content__heading__mobile {
+    font-size: 40px;
+  }
   .hero__section__content__info {
     font-size: 16px;
   }
@@ -1791,6 +1881,9 @@ body {
     text-align: justify;
   }
   .hero__section__content__heading {
+    font-size: 40px;
+  }
+  .hero__section__content__heading__mobile {
     font-size: 40px;
   }
   .hero__section__content__info__highlight {
@@ -2015,7 +2108,13 @@ body {
     transform: translate(0, 0%);
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 600px) { 
+   .hero__section__content__heading{
+  display: none;
+}
+.hero__section__content__heading__mobile{
+  display: block ;
+}
   .home__testmonials__heading {
     font-size: 25px;
   }
@@ -2049,6 +2148,7 @@ body {
   }
 }
 @media (max-width: 520px) {
+
   .Footer {
     width: 100%;
     margin-top: 0em;
@@ -2162,6 +2262,9 @@ body {
 @media (max-width:400px) {
   
   .hero__section__content__heading{
+    font-size: 35px;
+  }
+  .hero__section__content__heading__mobile{
     font-size: 35px;
   }
 }
