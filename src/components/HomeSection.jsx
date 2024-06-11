@@ -2,6 +2,7 @@
 
 import HomeSectionDown from "./HomeSectionDown";
 import HomeSectionHeading from "./HomeSectionHeading";
+import HomeSectionHeadingmobile from "./HomeSectionHeadingmobile";
 import HomeSectionMarquee from "./HomeSectionMarquee";
 import { delayAnimationsFor } from "@/app/Loader";
 import { motion } from "framer-motion";
@@ -20,6 +21,8 @@ export default function HomeSection() {
             We are heroes of
           </motion.div>
           <HomeSectionHeading />
+          <HomeSectionHeadingmobile />
+          
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
