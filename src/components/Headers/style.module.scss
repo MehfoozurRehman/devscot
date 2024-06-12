@@ -1,0 +1,19 @@
+.header{
+    position: fixed;
+    display:none;
+    right: 5px;
+    top: 12px;
+    .menu{
+        width: 100%;
+        height: 650px;
+        background-color:#139948;
+        
+        border-radius: 25px;
+        position: relative;
+    }
+}
+@media (max-width: 1060px){
+    .header{
+        display: block;
+    }
+}
