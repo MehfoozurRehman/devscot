@@ -1,5 +1,5 @@
 import AboutSection from "../components/AboutSection";
-import Cardsection from "@/components/Cardsection";
+import Cardsmain from "@/components/Cardsmain";
 import FeatureSection from "@/components/FeatureSection";
 import FeatureSectionMobile from "@/components/FeatureSectionMobile";
 import Footer from "@/components/Footer";
@@ -11,6 +11,7 @@ import HowWorkSection from "@/components/HowWorkSection";
 import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
+
 
 export const metadata = {
   title: "Devscot | Software Design & Development Company ",
@@ -95,6 +96,7 @@ export default function Index() {
       <FeatureSection />
       <FeatureSectionMobile />
       {/* <Cardsection /> */}
+      {/* <Cardsmain /> */}
       <HomeTestimonials />
       <Footer />
       <Footermobile />
