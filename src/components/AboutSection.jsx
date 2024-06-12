@@ -8,8 +8,8 @@ export default function AboutSection({}) {
       <div className="hero__section__aboutus__content">
         <Fade up delay={100}>
           <div className="hero__section__aboutus__content__left">
-            We unlock the potential of your business with creative digital
-            solutions.
+            We unlock the potential of your business with <span>creative digital
+            solutions.</span>
           </div>
         </Fade>
         <Fade up delay={300}>
