@@ -8,6 +8,7 @@ import Link from "next/link";
 import { delayAnimationsFor } from "@/app/Loader";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import Headers from "@/components/Headers";
 
 export default function Header() {
   const pathname = usePathname();
@@ -146,8 +147,8 @@ export default function Header() {
               Lets Talk
             </Link>
           </motion.div>
-          <div className="header__content__cta">
-            <button
+          <div className="header__content__cta">  <Headers/>
+            {/* <button
               className="header__content__menu"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -159,7 +160,8 @@ export default function Header() {
               ) : (
                 <Menu size={20} color="currentColor" />
               )}
-            </button>
+            </button> */}
+          
             <Link
               href="/contact"
               title="Lets Talk"
