@@ -17,15 +17,15 @@ import splitText from "@/utils/splitText";
 const aboutArray = [
   {
     heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    text: "DevScot had the privilege of collaborating with Wark, a forward-thinking digital banking app aimed at revolutionizing domestic money transfers. Our partnership with Wark focused on enhancing user interface (UI) design to ensure a seamless and intuitive banking experience for its users. Wark's vision aligns perfectly with our commitment to delivering innovative solutions that prioritize user-centric design and functionality. Through close collaboration and clear communication with Wark's team, we aimed to create a UI that not only met but exceeded their expectations, reflecting their brand ethos of reliability and efficiency in financial transactions.",
   },
   {
     heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    text: "Navigating the challenges of designing for a digital banking app like Wark required meticulous attention to detail and a deep understanding of user needs. Key challenges included balancing security requirements with a user-friendly interface, accommodating diverse user demographics, and integrating complex financial functionalities seamlessly. Another challenge was ensuring compliance with regulatory standards while maintaining a modern and visually appealing design that enhances user engagement and trust. Our team at DevScot approached these challenges with a methodical approach, leveraging our expertise in UI/UX design and extensive research to craft solutions that addressed each obstacle effectively.",
   },
   {
     heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    text: "DevScot's solution for Wark involved a rigorous design process that began with comprehensive stakeholder meetings and user research. We focused on creating a clean, intuitive interface that prioritized ease of navigation and clarity in financial transactions. Our design team incorporated modern UI elements, intuitive controls, and interactive features to enhance user experience while maintaining robust security measures. Through iterative prototyping and user testing phases, we refined our designs to ensure optimal usability and accessibility across devices. The result is a sleek and functional UI design for Wark that not only meets industry standards but sets a new benchmark in digital banking user experience.",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function ProjectDetails() {
     window.addEventListener("resize", checkWidth);
     return () => window.removeEventListener("resize", checkWidth);
   }, [swiperSlides]);
-  const heading = splitText("  Mark");
+  const heading = splitText("Wark");
 
   return (
     <>
@@ -66,11 +66,10 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Our client is a visionary company that aims to simplify
-                decentralized finance. With features offering convenience,
-                user-friendly crypto design, and multi-currency support, their
-                product — the Infinity wallet — seamlessly integrates into
-                users’ lives, catering to all their financial needs.
+              Introducing Wark, your seamless online digital banking app for effortless money transfers within the country. With Wark, securely send funds to family, friends, or businesses with ease and speed. Enjoy intuitive navigation and robust security features, ensuring your transactions are safe and efficient.
+
+
+
               </div>
             </Fade>
             <Fade up delay={100}>
