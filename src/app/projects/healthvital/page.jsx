@@ -16,17 +16,29 @@ import splitText from "@/utils/splitText";
 
 const aboutArray = [
   {
-    heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    heading: "Client Goals",
+    text: "The primary design goal for Health Bit was to create an engaging and functional user experience, allowing users to easily view their health details and monitor health issues.",
   },
   {
-    heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    heading: "User-Centered Design:",
+    text: "The app should prioritize the end-user, offering an intuitive and user-friendly interface that meets their needs and expectations.",
   },
   {
-    heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    heading: "Brand Consistency:",
+    text: " The app design should reflect the company's brand identity and values, ensuring a consistent user experience across all touchpoints.",
   },
+  {
+    heading: "Functionality and Usability:",
+    text: "The app should perform its intended functions effectively and efficiently while being easy to navigate and use.",
+  }
+  ,{
+    heading: "Our Solution:",
+    text: "The complete design process for this app took two months. We focused on simplicity and ease of use, while maintaining brand consistency throughout. The client was very supportive and clear about their requirements, which facilitated a smooth design process.",
+  },{
+    heading: "Project Summary:",
+    text :"The client was highly satisfied with the design and our design process, which is of utmost importance to us. Consequently, the project concluded successfully."
+
+  }
 ];
 
 export default function ProjectDetails() {
@@ -66,11 +78,8 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Our client is a visionary company that aims to simplify
-                decentralized finance. With features offering convenience,
-                user-friendly crypto design, and multi-currency support, their
-                product — the Infinity wallet — seamlessly integrates into
-                users’ lives, catering to all their financial needs.
+              Health VItal is a comprehensive health monitoring app designed to track and analyze your vital signs, physical activity, and overall wellness. With real-time data and personalized insights, Health Vitals empowers you to take control of your health and make informed decisions. Achieve your wellness goals and maintain a healthier lifestyle with StayWell.
+
               </div>
             </Fade>
             <Fade up delay={100}>
