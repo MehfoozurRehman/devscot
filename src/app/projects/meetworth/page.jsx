@@ -16,17 +16,24 @@ import splitText from "@/utils/splitText";
 
 const aboutArray = [
   {
-    heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    heading: "Client Goal:",
+    text: "To design a business mobile app that fosters an engaging and functional user experience, enabling professionals from diverse industries to connect and communicate effectively.",
   },
   {
-    heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    heading: "User-Centered Design:",
+    text: " Develop the app with a primary focus on the end-user, ensuring an intuitive and user-friendly interface that addresses their needs and expectations seamlessly.",
   },
   {
-    heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    heading: "Functionality and Usability:",
+    text: "Ensure the app performs its intended functions efficiently while being easy to navigate. Prioritize effective functionality alongside user-friendliness.",
+  },{
+    heading: "Visual Appeal:",
+    text: "Design the app with a modern, attractive aesthetic that captivates users and enhances the overall user experience, ensuring the visual elements are both engaging and professionally appealing.",
   },
+  {
+    heading: "Project Summary:",
+    text:"The client expressed high satisfaction with both the design and my design process, which is paramount to me. The project concluded successfully, and I gained valuable insights. Initially, I was unsure if we could achieve a user-friendly design that also aligned with the client's branding and color scheme, but we managed to accomplish this harmoniously."
+  }
 ];
 
 export default function ProjectDetails() {
@@ -67,10 +74,8 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Meet Worth is a decentralized finance platform that offers
-                multi-currency support, user-friendly crypto design, and
-                convenience. The Infinity wallet seamlessly integrates into
-                users’ lives, catering to all their financial needs.
+              Meetworth is a mobile application designed to facilitate professional networking in a streamlined, user-friendly manner. Similar to the swipe functionality popularized by Tinder, users can swipe right to connect with other professionals who share similar fields of interest. This feature allows users to collaborate on upcoming projects and build valuable professional networks. Meetworth is dedicated to helping users create meaningful professional connections efficiently.
+
               </div>
             </Fade>
             <Fade up delay={100}>
