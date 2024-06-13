@@ -16,15 +16,15 @@ import splitText from "@/utils/splitText";
 const aboutArray = [
   {
     heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    text: "DevScot partnered with Weekly, an innovative platform dedicated to enhancing the restaurant discovery experience for users. Our collaboration focused on designing a user interface (UI) that prioritizes ease of use and facilitates seamless navigation through a diverse array of dining options. Weekly’s commitment to providing curated restaurant recommendations and insightful reviews aligned perfectly with DevScot’s mission to deliver impactful UI/UX solutions. Through close collaboration and a deep understanding of Weekly’s audience and business goals, we aimed to create a UI design that reflects their dedication to enhancing the dining experience.",
   },
   {
     heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    text: "Designing for Weekly presented specific challenges that demanded strategic solutions. These included creating an intuitive and visually appealing interface that accommodates a vast database of restaurants and cuisines, ensuring robust search and filtering capabilities for users, and integrating interactive features such as reviews and ratings effectively. Additionally, optimizing the platform for mobile responsiveness while maintaining consistency across various devices posed technical complexities. DevScot addressed these challenges through comprehensive research, iterative design processes, and collaboration with Weekly’s team to ensure the UI design meets industry standards and exceeds user expectations.",
   },
   {
     heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    text: "DevScot approached the UI design for Weekly with a user-centered approach aimed at enhancing usability and engagement. We began by conducting extensive user research and usability testing to understand user behaviors and preferences in discovering and choosing restaurants. This research informed our design decisions, enabling us to create a clean and intuitive interface that simplifies restaurant exploration and decision-making. Leveraging modern UI design principles, we implemented features such as dynamic restaurant listings, personalized recommendations, and seamless booking options to enhance user interaction. Through continuous iteration and feedback loops with Weekly, we refined the UI design to achieve optimal performance, visual appeal, and user satisfaction. The result is a sophisticated and user-friendly UI for Weekly that enhances the restaurant discovery experience, making it easier and more enjoyable for users to find their next dining destination.",
   },
 ];
 
@@ -66,10 +66,13 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Weekly is a decentralized finance platform that offers a
-                user-friendly crypto design and multi-currency support. The
-                Infinity wallet seamlessly integrates into users’ lives,
-                catering to all their financial needs.
+              Introducing Weekly, your go-to website for discovering and exploring a variety of food restaurants. Whether you're craving international flavors or local delicacies, Weekly offers curated recommendations and insightful reviews to help you find the perfect dining spot. Explore new culinary experiences and plan your next meal with ease using Weekly.
+
+
+
+
+
+
               </div>
             </Fade>
             <Fade up delay={100}>
