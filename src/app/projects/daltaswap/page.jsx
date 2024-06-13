@@ -16,15 +16,15 @@ import splitText from "@/utils/splitText";
 const aboutArray = [
   {
     heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    text: "DevScot partnered with Dalta, a cutting-edge cryptocurrency platform focused on providing seamless trading and investment opportunities. Our collaboration centered on designing a user interface (UI) that enhances user experience and facilitates intuitive navigation within the crypto market. Dalta’s commitment to innovation and reliability resonated with DevScot’s mission to deliver impactful UI/UX solutions. Through extensive consultations and a deep understanding of Dalta’s brand vision, we aimed to create a UI design that reflects their dedication to empowering users in the world of digital finance.",
   },
   {
     heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    text: "Designing for Dalta presented several challenges that required strategic solutions. These included creating a responsive and scalable UI to accommodate fluctuating market demands, ensuring robust security measures to protect user assets, and integrating complex data analytics tools for informed decision-making. Additionally, optimizing the app for user accessibility across different devices and providing a seamless trading experience while adhering to regulatory standards posed significant technical complexities. DevScot tackled these challenges through meticulous research, iterative design processes, and collaboration with Dalta’s team to ensure the UI design meets industry standards and surpasses user expectations.",
   },
   {
     heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    text: "DevScot approached the UI design for Dalta with a comprehensive strategy focused on usability and functionality. We began by conducting extensive user research and usability testing to understand user behaviors and preferences within the crypto market. This informed our design decisions, enabling us to create a clean, intuitive interface that simplifies cryptocurrency trading and portfolio management. Leveraging modern UI design principles, we implemented interactive charts for market analysis, real-time price tracking, and secure transaction capabilities to enhance user engagement and trust. Through continuous iteration and feedback loops with Dalta, we refined the UI design to achieve optimal performance, scalability, and visual appeal. The result is a sophisticated and user-centric UI for Dalta that empowers users to navigate the complexities of cryptocurrency with confidence and efficiency.",
   },
 ];
 
@@ -66,11 +66,13 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Our client is a visionary company that aims to simplify
-                decentralized finance. With features offering convenience,
-                user-friendly crypto design, and multi-currency support, their
-                product — the Infinity wallet — seamlessly integrates into
-                users’ lives, catering to all their financial needs.
+              Introducing Dalta, your comprehensive cryptocurrency app for secure trading and investment. Explore a diverse range of digital currencies, track real-time market trends, and manage your portfolio with ease. With Dalta, embark on your crypto journey with confidence and convenience at your fingertips.
+
+
+
+
+
+
               </div>
             </Fade>
             <Fade up delay={100}>
