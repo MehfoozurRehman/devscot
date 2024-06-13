@@ -17,15 +17,15 @@ import splitText from "@/utils/splitText";
 const aboutArray = [
   {
     heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    text: "DevScot proudly collaborated with Burns, a dynamic blogging and news platform committed to delivering engaging and informative content. Our partnership focused on designing a user interface (UI) that enhances user experience and facilitates seamless interaction with diverse topics and articles. Burns’ dedication to providing a platform for insightful discussions and up-to-date news aligns perfectly with DevScot’s mission to deliver innovative UI/UX solutions. Through extensive consultations and a deep understanding of Burns’ audience and editorial vision, we aimed to create a UI design that reflects their commitment to quality journalism and community engagement.",
   },
   {
     heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    text: "Designing for Burns presented specific challenges that demanded strategic solutions. These included creating a visually appealing and intuitive interface that caters to both casual readers and avid contributors, ensuring robust content management capabilities for editors, and optimizing the platform for performance across various devices and screen sizes. Additionally, incorporating features such as user-generated content moderation, real-time updates, and seamless social media integration posed technical complexities. DevScot addressed these challenges through thorough research, iterative design processes, and collaboration with Burns’ editorial team to ensure the UI design meets industry standards and enhances user interaction and engagement.",
   },
   {
     heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    text: "DevScot approached the UI design for Burns with a user-centric approach aimed at enhancing usability and visual appeal. We began by conducting comprehensive user research and usability testing to understand user behaviors and preferences in consuming and interacting with news and blog content. This informed our design decisions, enabling us to create a clean, intuitive interface that encourages exploration and engagement. Leveraging modern UI design principles, we implemented features such as personalized content recommendations, seamless navigation between categories and articles, and interactive elements for enhanced user interaction. Through continuous iteration and feedback loops with Burns, we refined the UI design to achieve optimal performance, accessibility, and user satisfaction. The result is a sophisticated and user-friendly UI for Burns that elevates the blogging and news reading experience, fostering a vibrant community of readers and contributors alike.",
   },
 ];
 
@@ -66,11 +66,13 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Our client is a visionary company that aims to simplify
-                decentralized finance. With features offering convenience,
-                user-friendly crypto design, and multi-currency support, their
-                product — the Infinity wallet — seamlessly integrates into
-                users’ lives, catering to all their financial needs.
+              Introducing Burns, your ultimate platform for blogging and staying updated with the latest news. Explore a diverse range of topics, from lifestyle and technology to current events, curated by passionate writers and journalists. Engage with insightful content, share your thoughts, and stay informed with Burns, where knowledge meets community.
+
+
+
+
+
+
               </div>
             </Fade>
             <Fade up delay={100}>
