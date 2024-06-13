@@ -17,15 +17,15 @@ import splitText from "@/utils/splitText";
 const aboutArray = [
   {
     heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    text: "DevScot had the privilege of partnering with Wark, an innovative digital banking app aimed at transforming domestic money transfers. Our collaboration with Wark focused on designing a user interface (UI) that enhances usability and provides a seamless banking experience. Wark’s vision aligns closely with DevScot’s commitment to delivering cutting-edge UI/UX solutions that prioritize user needs and expectations. Through extensive consultations and a deep dive into Wark’s brand identity, we ensured that every aspect of the UI design reflects their commitment to efficiency, security, and customer satisfaction.",
   },
   {
     heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    text: "Designing for Wark presented several challenges that demanded strategic solutions. These included integrating robust security features without compromising on the app's user-friendly interface, accommodating a diverse user base with varying levels of digital literacy, and ensuring compliance with stringent regulatory requirements. Additionally, optimizing the app’s performance across different devices and platforms posed a significant technical challenge. DevScot addressed these challenges through thorough research, iterative design processes, and rigorous testing to ensure a seamless user experience that meets industry standards and exceeds user expectations.",
   },
   {
     heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    text: "DevScot’s approach to designing Wark’s UI involved a systematic and collaborative process. We began by conducting in-depth workshops and user interviews to gather insights into user behaviors and preferences. This informed our design decisions, enabling us to create a clean, intuitive interface that guides users through complex financial transactions effortlessly. Leveraging our expertise in UI/UX design, we incorporated modern design principles, intuitive navigation elements, and interactive features that enhance usability and engagement. Through continuous iteration and feedback loops with Wark’s team, we refined the UI design to achieve a balance between functionality, aesthetics, and security. The result is a sophisticated UI for Wark that not only enhances user trust and satisfaction but also positions Wark as a leader in the digital banking landscape.",
   },
 ];
 
@@ -67,9 +67,11 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                United Meal is a food delivery service that offers a wide range
-                of cuisines from various restaurants. The platform is designed
-                to provide a seamless experience for users to order food online.
+                Introducing United Meal, your premier food delivery app offering
+                a wide array of cuisines from local restaurants. Browse menus,
+                place orders with ease, and enjoy prompt delivery straight to
+                your location. Experience convenience and quality dining at your
+                fingertips with United Meal.
               </div>
             </Fade>
             <Fade up delay={100}>
