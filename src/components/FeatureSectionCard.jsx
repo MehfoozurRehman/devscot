@@ -40,13 +40,7 @@ const entries = [
     title: "Muslim Biz",
     info: "Bridging employers and skilled workers for efficient labor recruitment and management across industries.",
   },
-  {
-    delay: 600,
-    link: "projects/walking",
-    img: "/walkingbanner.webp",
-    title: "Walking App",
-    info: "Discover scenic routes and track your walks with ease, promoting a healthier lifestyle.",
-  },
+
   {
     delay: 700,
     link: "projects/daltaswap",
