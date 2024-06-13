@@ -16,15 +16,15 @@ import splitText from "@/utils/splitText";
 const aboutArray = [
   {
     heading: "The client",
-    text: "Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs.",
+    text: "DevScot partnered with MuslimBiz, a pioneering platform dedicated to providing efficient and reliable plumbing services. Our collaboration focused on designing a user interface (UI) that enhances user experience and facilitates seamless service delivery. MuslimBiz’s commitment to professionalism and customer satisfaction aligned perfectly with DevScot’s mission to deliver innovative UI/UX solutions. Through extensive consultations and a deep understanding of MuslimBiz’s brand values, we aimed to create a UI design that reflects their dedication to excellence in plumbing services.",
   },
   {
     heading: "Challenge",
-    text: "The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications.",
+    text: "Designing for MuslimBiz presented specific challenges that required strategic solutions. These included creating an intuitive and user-friendly interface for both service providers and customers, ensuring secure and seamless transaction processing, and implementing real-time scheduling and communication features. Additionally, accommodating a diverse range of plumbing services and geographical locations while maintaining consistent branding and usability posed technical complexities. DevScot addressed these challenges through rigorous research, iterative design processes, and collaboration with MuslimBiz’s team to ensure the UI design meets industry standards and exceeds user expectations.",
   },
   {
     heading: "Our solution",
-    text: "Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly.",
+    text: "DevScot approached the UI design for MuslimBiz with a holistic strategy focused on enhancing functionality and user experience. We began by conducting thorough user research and usability testing to understand the needs and preferences of both service providers and customers. This informed our design decisions, enabling us to create a clean, intuitive interface that simplifies booking, scheduling, and payment processes. Leveraging modern UI design principles, we integrated features such as interactive maps for service location, real-time service tracking, and secure payment gateways to enhance usability and transparency. Through continuous iteration and feedback loops with MuslimBiz, we refined the UI design to achieve optimal performance across different devices and ensure seamless service delivery. The result is a sophisticated and user-centric UI for MuslimBiz that enhances operational efficiency and customer satisfaction in the plumbing service industry.",
   },
 ];
 
@@ -66,10 +66,13 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-                Muslim Biz is a decentralized finance platform that offers
-                multi-currency support, user-friendly crypto design, and
-                convenient features. Our team worked on the Infinity wallet
-                design, focusing on consistency and user-friendliness.
+              Introducing MuslimBiz, your reliable app for accessing professional plumbing services. Connect with skilled plumbers who uphold the highest standards of service and reliability. Enjoy hassle-free scheduling, transparent pricing, and prompt assistance for all your plumbing needs through MuslimBiz.
+
+
+
+
+
+
               </div>
             </Fade>
             <Fade up delay={100}>
