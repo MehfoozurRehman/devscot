@@ -56,7 +56,7 @@ export default function About() {
     },
     {
       name: "Muahmmad Faisal",
-      position: "Ui/Yx Designer",
+      position: "Ui/Ux Designer",
       image: "/teammember10.png",
     },
   ];
