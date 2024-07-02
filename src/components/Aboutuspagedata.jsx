@@ -8,6 +8,58 @@ import splitText from "@/utils/splitText";
 import stats from "@/db/stats.json";
 
 export default function About() {
+  const Teamdata = [
+    {
+      name: "Hammad Habib",
+      position: "CEO & Founder",
+      image: "/teammember1.png",
+    },
+    {
+      name: "Mehfooz-Ur-Rehman",
+      position: "Senior Developer",
+      image: "/teammember2.png",
+    },
+    {
+      name: " Muhammad Arslan ",
+      position: "Fiver Handler",
+      image: "/teammember3.png",
+    },
+    {
+      name: " M Bilal Khalid",
+      position: "Ui/Ux Designer",
+      image: "/teammember4.png",
+    },
+    {
+      name: "M Abrar Khalid ",
+      position: "Digtal Marketing Manager",
+      image: "/teammember5.png",
+    },
+    {
+      name: "Asim Rasheed",
+      position: "Frontend Developer",
+      image: "/teammember6.png",
+    },
+    {
+      name: "Arslan Iftekhar",
+      position: "Frontend Developer",
+      image: "/teammember7.png",
+    },
+    {
+      name: "Zain Ul Abideen",
+      position: "Graphic Designer",
+      image: "/teammember8.png",
+    },
+    {
+      name: " Muahmmad Usama",
+      position: "Video Editor",
+      image: "/teammember9.png",
+    },
+    {
+      name: "Muahmmad Faisal",
+      position: "Ui/Yx Designer",
+      image: "/teammember10.png",
+    },
+  ];
   return (
     <>
       <Header />
@@ -106,146 +158,47 @@ export default function About() {
         <div className="Aboutuspage__logos">
           <div className="Aboutuspage__logos__content">
             <div className="Aboutuspage__logos__content__main">
-
-           <div className="Aboutuspage__logos__content__main__left">
-            <Fade up delay={100}>
-              <div className="Aboutuspage__logos__content__subheading">
-                {splitText("Team")}
+              <div className="Aboutuspage__logos__content__main__left">
+                <Fade up delay={100}>
+                  <div className="Aboutuspage__logos__content__subheading">
+                    {splitText("Team")}
+                  </div>
+                </Fade>
+                <Fade up delay={100}>
+                  <div className="Aboutuspage__logos__content__heading">
+                    A Team Of <br /> Web3 Experts
+                  </div>
+                </Fade>
               </div>
-            </Fade>
-            <Fade up delay={100}>
-              <div className="Aboutuspage__logos__content__heading">
-              A Team Of  <br /> Web3  Experts 
-              </div> 
-            </Fade></div>
-            <div className="Aboutuspage__logos__content__main__right">
-              <Fade up delay={100}>
-                <div className="Aboutuspage__logos__content__info">
-                View the full case study of our recent featured and awesome works that we created for our clients.
-
-                </div>
-              </Fade>
-            </div>
+              <div className="Aboutuspage__logos__content__main__right">
+                <Fade up delay={100}>
+                  <div className="Aboutuspage__logos__content__info">
+                    View the full case study of our recent featured and awesome
+                    works that we created for our clients.
+                  </div>
+                </Fade>
+              </div>
             </div>
             <div className="Aboutuspage__logos__content__team">
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember1.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                  UI/UX Designer
+              {Teamdata.map((data) => (
+                <div className="Aboutuspage__logos__content__team__card">
+                  <img
+                    src={data.image}
+                    alt=""
+                    className="Aboutuspage__logos__content__team__card__image"
+                  />
+                  <div className="Aboutuspage__logos__content__team__card__info">
+                    <div className="Aboutuspage__logos__content__team__card__info__content">
+                      <div className="Aboutuspage__logos__content__team__card__info__name">
+                        {data.name}
+                      </div>
+                      <div className="Aboutuspage__logos__content__team__card__info__position">
+                        {data.position}
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember2.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                  UI/UX Designer
-                  </div>
-                </div>
-              </div>
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember3.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember4.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember5.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember6.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember7.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>
-              <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember8.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>  <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember9.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>  <div className="Aboutuspage__logos__content__team__card">
-                <img
-                  src="/teammember10.png"
-                  alt=""
-                  className="Aboutuspage__logos__content__team__card__image"
-                />
-                <div className="Aboutuspage__logos__content__team__card__info">
-                  <div className="Aboutuspage__logos__content__team__card__info__position">
-                    CEO
-                  </div>
-                </div>
-              </div>  
+              ))}
             </div>
             {/* <div className="Aboutuspage__logos__content__logos">
               <Fade up delay={100}>
