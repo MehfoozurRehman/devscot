@@ -130,7 +130,7 @@ export default function About() {
             <div className="Aboutuspage__logos__content__team">
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember1.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -142,7 +142,7 @@ export default function About() {
               </div>
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember2.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -154,7 +154,7 @@ export default function About() {
               </div>
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember3.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -166,7 +166,7 @@ export default function About() {
               </div>
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember4.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -178,7 +178,7 @@ export default function About() {
               </div>
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember5.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -190,7 +190,7 @@ export default function About() {
               </div>
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember6.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -202,7 +202,7 @@ export default function About() {
               </div>
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember7.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -214,7 +214,7 @@ export default function About() {
               </div>
               <div className="Aboutuspage__logos__content__team__card">
                 <img
-                  src="/team.png"
+                  src="/teammember8.png"
                   alt=""
                   className="Aboutuspage__logos__content__team__card__image"
                 />
@@ -223,7 +223,29 @@ export default function About() {
                     CEO
                   </div>
                 </div>
-              </div>
+              </div>  <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/teammember9.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>  <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/teammember10.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>  
             </div>
             {/* <div className="Aboutuspage__logos__content__logos">
               <Fade up delay={100}>
