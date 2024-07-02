@@ -13,51 +13,62 @@ export default function About() {
       name: "Hammad Habib",
       position: "CEO & Founder",
       image: "/teammember1.png",
+      dalay: 100,
     },
     {
       name: "Mehfooz-Ur-Rehman",
       position: "Senior Developer",
       image: "/teammember2.png",
+      dalay: 200,
     },
     {
       name: " Muhammad Arslan ",
       position: "Fiver Handler",
       image: "/teammember3.png",
+      dalay: 300,
     },
     {
       name: " M Bilal Khalid",
       position: "Ui/Ux Designer",
       image: "/teammember4.png",
+      dalay: 400,
+
     },
     {
       name: "M Abrar Khalid ",
       position: "Digtal Marketing Manager",
       image: "/teammember5.png",
+      dalay: 500,
     },
     {
       name: "Asim Rasheed",
       position: "Frontend Developer",
       image: "/teammember6.png",
+      dalay: 600,
     },
     {
       name: "Arslan Iftekhar",
       position: "Frontend Developer",
       image: "/teammember7.png",
+      dalay: 700,
     },
     {
       name: "Zain Ul Abideen",
       position: "Graphic Designer",
       image: "/teammember8.png",
+      dalay: 800,
     },
     {
       name: " Muahmmad Usama",
       position: "Video Editor",
       image: "/teammember9.png",
+      dalay: 900,
     },
     {
       name: "Muahmmad Faisal",
       position: "Ui/Ux Designer",
       image: "/teammember10.png",
+      dalay: 1000,
     },
   ];
   return (
@@ -181,6 +192,7 @@ export default function About() {
             </div>
             <div className="Aboutuspage__logos__content__team">
               {Teamdata.map((data) => (
+                  <Fade up delay={data.dalay}>
                 <div className="Aboutuspage__logos__content__team__card">
                   <img
                     src={data.image}
@@ -197,7 +209,7 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div></Fade>
               ))}
             </div>
             {/* <div className="Aboutuspage__logos__content__logos">
