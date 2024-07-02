@@ -967,6 +967,19 @@ body {
   justify-content: space-between;
   text-align: center;
 }
+.Aboutuspage__logos__content__main {
+  display: flex;
+}
+.Aboutuspage__logos__content__main__left {
+  width: 50%;
+}
+.Aboutuspage__logos__content__main__right {
+  width: 50%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
 .Aboutuspage__logos__content__subheading {
   font-size: 18px;
   color: #139948;
@@ -1000,6 +1013,53 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.Aboutuspage__logos__content__team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.Aboutuspage__logos__content__team__card__image {
+  width: 100%;
+  border-radius: 20px;
+}
+.Aboutuspage__logos__content__team__card {
+  width: 24%;
+  position: relative;
+  margin-bottom: 1em;
+}
+.Aboutuspage__logos__content__team__card__info{
+  display: none;
+  cursor: pointer;
+ 
+}
+.Aboutuspage__logos__content__team__card:hover .Aboutuspage__logos__content__team__card__info{
+display: block;
+}
+.Aboutuspage__logos__content__team__card__info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(19 153 72 / 56%);
+  border-radius: 20px;
+}
+.Aboutuspage__logos__content__team__card__info__position {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  padding: 1em;
+  font-weight: 600;
+  transition: 0.3s;
 }
 .home__testmonials {
   display: flex;

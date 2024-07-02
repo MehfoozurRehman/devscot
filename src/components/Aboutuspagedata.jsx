@@ -105,17 +105,127 @@ export default function About() {
         </div>
         <div className="Aboutuspage__logos">
           <div className="Aboutuspage__logos__content">
+            <div className="Aboutuspage__logos__content__main">
+
+           <div className="Aboutuspage__logos__content__main__left">
             <Fade up delay={100}>
               <div className="Aboutuspage__logos__content__subheading">
-                {splitText("Internation Brands")}
+                {splitText("Team")}
               </div>
             </Fade>
             <Fade up delay={100}>
               <div className="Aboutuspage__logos__content__heading">
-                {splitText("We are happy to work with global largest brands")}
+              A Team Of  <br /> Web3  Experts 
+              </div> 
+            </Fade></div>
+            <div className="Aboutuspage__logos__content__main__right">
+              <Fade up delay={100}>
+                <div className="Aboutuspage__logos__content__info">
+                View the full case study of our recent featured and awesome works that we created for our clients.
+
+                </div>
+              </Fade>
+            </div>
+            </div>
+            <div className="Aboutuspage__logos__content__team">
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                  UI/UX Designer
+                  </div>
+                </div>
               </div>
-            </Fade>
-            <div className="Aboutuspage__logos__content__logos">
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                  UI/UX Designer
+                  </div>
+                </div>
+              </div>
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>
+              <div className="Aboutuspage__logos__content__team__card">
+                <img
+                  src="/team.png"
+                  alt=""
+                  className="Aboutuspage__logos__content__team__card__image"
+                />
+                <div className="Aboutuspage__logos__content__team__card__info">
+                  <div className="Aboutuspage__logos__content__team__card__info__position">
+                    CEO
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="Aboutuspage__logos__content__logos">
               <Fade up delay={100}>
                 <div className="Aboutuspage__logos__content__logos__card">
                   <img
@@ -206,7 +316,7 @@ export default function About() {
                   />
                 </div>
               </Fade>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
