@@ -26,14 +26,15 @@ const aboutArray = [
   {
     heading: "Functionality and Usability:",
     text: "Ensure the app performs its intended functions efficiently while being easy to navigate. Prioritize effective functionality alongside user-friendliness.",
-  },{
+  },
+  {
     heading: "Visual Appeal:",
     text: "Design the app with a modern, attractive aesthetic that captivates users and enhances the overall user experience, ensuring the visual elements are both engaging and professionally appealing.",
   },
   {
     heading: "Project Summary:",
-    text:"The client expressed high satisfaction with both the design and my design process, which is paramount to me. The project concluded successfully, and I gained valuable insights. Initially, I was unsure if we could achieve a user-friendly design that also aligned with the client's branding and color scheme, but we managed to accomplish this harmoniously."
-  }
+    text: "The client expressed high satisfaction with both the design and my design process, which is paramount to me. The project concluded successfully, and I gained valuable insights. Initially, I was unsure if we could achieve a user-friendly design that also aligned with the client's branding and color scheme, but we managed to accomplish this harmoniously.",
+  },
 ];
 
 export default function ProjectDetails() {
@@ -74,8 +75,14 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Meetworth is a mobile application designed to facilitate professional networking in a streamlined, user-friendly manner. Similar to the swipe functionality popularized by Tinder, users can swipe right to connect with other professionals who share similar fields of interest. This feature allows users to collaborate on upcoming projects and build valuable professional networks. Meetworth is dedicated to helping users create meaningful professional connections efficiently.
-
+                Meetworth is a mobile application designed to facilitate
+                professional networking in a streamlined, user-friendly manner.
+                Similar to the swipe functionality popularized by Tinder, users
+                can swipe right to connect with other professionals who share
+                similar fields of interest. This feature allows users to
+                collaborate on upcoming projects and build valuable professional
+                networks. Meetworth is dedicated to helping users create
+                meaningful professional connections efficiently.
               </div>
             </Fade>
             <Fade up delay={100}>

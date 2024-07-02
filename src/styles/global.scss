@@ -33,7 +33,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-.menu{
+.menu {
   display: none;
 }
 .header {
@@ -434,7 +434,7 @@ body {
   font-family: AvenirLTStd-Black, sans-serif;
   font-size: 22px;
 }
-.hero__section__aboutus__content__left span{
+.hero__section__aboutus__content__left span {
   text-align: left;
   font-family: AvenirLTStd-Black, sans-serif;
   font-size: 22px;
@@ -1468,7 +1468,7 @@ body {
   background-color: #139948;
   transition: 300ms ease-in-out;
 }
-.Cardsmain__section{
+.Cardsmain__section {
   display: flex;
   width: 100%;
   margin: 0 auto;
@@ -1476,18 +1476,15 @@ body {
   background-color: #121212;
   flex-direction: column;
   // padding: .5em ;
- 
-  
-
 }
-.Cardsmain__section__main{
+.Cardsmain__section__main {
   display: flex;
-  width: 100%; max-width: 1366px;
+  width: 100%;
+  max-width: 1366px;
   margin: 0 auto;
-  
 }
 
-.Cardsmain__section__content{
+.Cardsmain__section__content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -1500,29 +1497,24 @@ body {
   // border-bottom: 1px solid #139948;
   // border-left: 1px solid #139948;
   // border-right: 1px solid #139948;
-
 }
-.Cardsmain__section__content:first-child{
+.Cardsmain__section__content:first-child {
   // border-right: 1px solid #139948;
-
 }
-.Cardsmain__section__content:last-child{
+.Cardsmain__section__content:last-child {
   // border-right: 1px solid #139948;
-
 }
-.Cardsmain__section__content__number__text__number{
+.Cardsmain__section__content__number__text__number {
   font-size: 80px;
   font-weight: bolder;
   font-family: AvenirLTStd-Black, sans-serif;
   color: #ffffff38;
-
-
 }
-.Cardsmain__section__content__number__text{
+.Cardsmain__section__content__number__text {
   display: flex;
   align-items: flex-end;
 }
-.Cardsmain__section__content__number__text__text{
+.Cardsmain__section__content__number__text__text {
   font-size: 16px;
   font-weight: 700;
   margin: 1em 0 1.5em;
@@ -1531,10 +1523,10 @@ body {
   color: #fff;
   border-bottom: 2px solid #139948;
   flex: 1;
-
-}.Cardsmain__section__content__text{
+}
+.Cardsmain__section__content__text {
   font-size: 18px;
-  padding: .5em;
+  padding: 0.5em;
   color: #999;
 }
 @media (min-width: 1920px) {
@@ -1546,7 +1538,6 @@ body {
   }
   .hero__section__content__heading__mobile {
     font-size: 120px;
-
   }
   .hero__section__content__subheading {
     font-size: 28px;
@@ -1906,14 +1897,14 @@ body {
     font-size: 14px;
   }
   .hero__section__content__info__highlight__name:first-child {
-    width:fit-content;
+    width: fit-content;
     text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
   }
   .hero__section__content__info__highlight__name:nth-child(2) {
-    width:fit-content;
+    width: fit-content;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -1934,7 +1925,7 @@ body {
     margin-top: 2em;
     // margin-bottom: 1em;
   }
-  .hero__section__content__info__highlight__name{
+  .hero__section__content__info__highlight__name {
     margin-left: 0;
   }
   .header__content__menu svg {
@@ -2121,13 +2112,13 @@ body {
     transform: translate(0, 0%);
   }
 }
-@media (max-width: 600px) { 
-   .hero__section__content__heading{
-  display: none;
-}
-.hero__section__content__heading__mobile{
-  display: block ;
-}
+@media (max-width: 600px) {
+  .hero__section__content__heading {
+    display: none;
+  }
+  .hero__section__content__heading__mobile {
+    display: block;
+  }
   .home__testmonials__heading {
     font-size: 25px;
   }
@@ -2135,33 +2126,29 @@ body {
     overflow: hidden;
   }
 
-  .hero__section__aboutus__content{
+  .hero__section__aboutus__content {
     background-color: #121212;
   }
-  .hero__section__aboutus__content__left{
+  .hero__section__aboutus__content__left {
     color: #fff;
   }
-  .hero__section__aboutus__content__right{
+  .hero__section__aboutus__content__right {
     color: #dfd9d9;
-  
   }
-  .solution__section__content{
+  .solution__section__content {
     background-color: #121212;
   }
-  .solution__section__content__heading{
+  .solution__section__content__heading {
     color: #fff;
-  
   }
-  .solution__section__content__data__right__entry__heading{
+  .solution__section__content__data__right__entry__heading {
     color: #139948;
-  
   }
-  .solution__section__content__data__right__entry__text{
+  .solution__section__content__data__right__entry__text {
     color: #dfd9d9;
   }
 }
 @media (max-width: 520px) {
-
   .Footer {
     width: 100%;
     margin-top: 0em;
@@ -2245,7 +2232,7 @@ body {
     font-weight: 700;
     padding: 0em;
   }
-  .hero__section__aboutus__content{
+  .hero__section__aboutus__content {
     padding: 2em;
   }
   .home__testmonials__content__users__entry {
@@ -2272,12 +2259,11 @@ body {
     border-bottom-right-radius: 15px;
   }
 }
-@media (max-width:400px) {
-  
-  .hero__section__content__heading{
+@media (max-width: 400px) {
+  .hero__section__content__heading {
     font-size: 35px;
   }
-  .hero__section__content__heading__mobile{
+  .hero__section__content__heading__mobile {
     font-size: 35px;
   }
 }

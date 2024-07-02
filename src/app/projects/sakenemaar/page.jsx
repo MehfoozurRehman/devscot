@@ -66,13 +66,13 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Introducing Saken Emaar, your premier real estate website offering a comprehensive platform to buy, sell, and rent properties. Explore diverse listings, from luxurious homes to commercial spaces, with detailed property information and virtual tours. Experience seamless transactions and expert guidance in real estate, tailored to meet your housing and investment needs.
-
-
-
-
-
-
+                Introducing Saken Emaar, your premier real estate website
+                offering a comprehensive platform to buy, sell, and rent
+                properties. Explore diverse listings, from luxurious homes to
+                commercial spaces, with detailed property information and
+                virtual tours. Experience seamless transactions and expert
+                guidance in real estate, tailored to meet your housing and
+                investment needs.
               </div>
             </Fade>
             <Fade up delay={100}>

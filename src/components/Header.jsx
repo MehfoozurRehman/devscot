@@ -88,7 +88,7 @@ export default function Header() {
           <motion.div
             initial={{ y: "-150%" }}
             animate={{ y: isOpen ? "0%" : "-100%" }}
-            transition={{ duration: .5, delay: delayAnimationsFor }}
+            transition={{ duration: 0.5, delay: delayAnimationsFor }}
             className="header__content__nav"
           >
             <Link
@@ -147,7 +147,9 @@ export default function Header() {
               Lets Talk
             </Link>
           </motion.div>
-          <div className="header__content__cta">  <Headers/>
+          <div className="header__content__cta">
+            {" "}
+            <Headers />
             {/* <button
               className="header__content__menu"
               onClick={() => {
@@ -161,7 +163,6 @@ export default function Header() {
                 <Menu size={20} color="currentColor" />
               )}
             </button> */}
-          
             <Link
               href="/contact"
               title="Lets Talk"

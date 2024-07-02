@@ -66,13 +66,12 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Introducing Weekly, your go-to website for discovering and exploring a variety of food restaurants. Whether you're craving international flavors or local delicacies, Weekly offers curated recommendations and insightful reviews to help you find the perfect dining spot. Explore new culinary experiences and plan your next meal with ease using Weekly.
-
-
-
-
-
-
+                Introducing Weekly, your go-to website for discovering and
+                exploring a variety of food restaurants. Whether you're craving
+                international flavors or local delicacies, Weekly offers curated
+                recommendations and insightful reviews to help you find the
+                perfect dining spot. Explore new culinary experiences and plan
+                your next meal with ease using Weekly.
               </div>
             </Fade>
             <Fade up delay={100}>

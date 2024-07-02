@@ -66,13 +66,11 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Introducing MuslimBiz, your reliable app for accessing professional plumbing services. Connect with skilled plumbers who uphold the highest standards of service and reliability. Enjoy hassle-free scheduling, transparent pricing, and prompt assistance for all your plumbing needs through MuslimBiz.
-
-
-
-
-
-
+                Introducing MuslimBiz, your reliable app for accessing
+                professional plumbing services. Connect with skilled plumbers
+                who uphold the highest standards of service and reliability.
+                Enjoy hassle-free scheduling, transparent pricing, and prompt
+                assistance for all your plumbing needs through MuslimBiz.
               </div>
             </Fade>
             <Fade up delay={100}>

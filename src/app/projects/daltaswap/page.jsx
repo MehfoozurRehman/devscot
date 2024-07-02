@@ -66,13 +66,11 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Introducing Dalta, your comprehensive cryptocurrency app for secure trading and investment. Explore a diverse range of digital currencies, track real-time market trends, and manage your portfolio with ease. With Dalta, embark on your crypto journey with confidence and convenience at your fingertips.
-
-
-
-
-
-
+                Introducing Dalta, your comprehensive cryptocurrency app for
+                secure trading and investment. Explore a diverse range of
+                digital currencies, track real-time market trends, and manage
+                your portfolio with ease. With Dalta, embark on your crypto
+                journey with confidence and convenience at your fingertips.
               </div>
             </Fade>
             <Fade up delay={100}>

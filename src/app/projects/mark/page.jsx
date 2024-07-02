@@ -66,10 +66,11 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Introducing Wark, your seamless online digital banking app for effortless money transfers within the country. With Wark, securely send funds to family, friends, or businesses with ease and speed. Enjoy intuitive navigation and robust security features, ensuring your transactions are safe and efficient.
-
-
-
+                Introducing Wark, your seamless online digital banking app for
+                effortless money transfers within the country. With Wark,
+                securely send funds to family, friends, or businesses with ease
+                and speed. Enjoy intuitive navigation and robust security
+                features, ensuring your transactions are safe and efficient.
               </div>
             </Fade>
             <Fade up delay={100}>

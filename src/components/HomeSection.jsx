@@ -22,7 +22,7 @@ export default function HomeSection() {
           </motion.div>
           <HomeSectionHeading />
           <HomeSectionHeadingmobile />
-          
+
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

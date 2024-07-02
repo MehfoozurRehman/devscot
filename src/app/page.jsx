@@ -12,7 +12,6 @@ import NumbersSection from "@/components/NumbersSection";
 import SolutionSection from "@/components/SolutionSection";
 import VideoSection from "@/components/VideoSection";
 
-
 export const metadata = {
   title: "Devscot | Software Design & Development Company ",
   description:

@@ -66,13 +66,12 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Introducing Burns, your ultimate platform for blogging and staying updated with the latest news. Explore a diverse range of topics, from lifestyle and technology to current events, curated by passionate writers and journalists. Engage with insightful content, share your thoughts, and stay informed with Burns, where knowledge meets community.
-
-
-
-
-
-
+                Introducing Burns, your ultimate platform for blogging and
+                staying updated with the latest news. Explore a diverse range of
+                topics, from lifestyle and technology to current events, curated
+                by passionate writers and journalists. Engage with insightful
+                content, share your thoughts, and stay informed with Burns,
+                where knowledge meets community.
               </div>
             </Fade>
             <Fade up delay={100}>

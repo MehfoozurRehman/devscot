@@ -30,15 +30,15 @@ const aboutArray = [
   {
     heading: "Functionality and Usability:",
     text: "The app should perform its intended functions effectively and efficiently while being easy to navigate and use.",
-  }
-  ,{
+  },
+  {
     heading: "Our Solution:",
     text: "The complete design process for this app took two months. We focused on simplicity and ease of use, while maintaining brand consistency throughout. The client was very supportive and clear about their requirements, which facilitated a smooth design process.",
-  },{
+  },
+  {
     heading: "Project Summary:",
-    text :"The client was highly satisfied with the design and our design process, which is of utmost importance to us. Consequently, the project concluded successfully."
-
-  }
+    text: "The client was highly satisfied with the design and our design process, which is of utmost importance to us. Consequently, the project concluded successfully.",
+  },
 ];
 
 export default function ProjectDetails() {
@@ -78,8 +78,12 @@ export default function ProjectDetails() {
             </div>
             <Fade up delay={100}>
               <div className="project__details__text__header__container__left__subheading">
-              Health VItal is a comprehensive health monitoring app designed to track and analyze your vital signs, physical activity, and overall wellness. With real-time data and personalized insights, Health Vitals empowers you to take control of your health and make informed decisions. Achieve your wellness goals and maintain a healthier lifestyle with StayWell.
-
+                Health VItal is a comprehensive health monitoring app designed
+                to track and analyze your vital signs, physical activity, and
+                overall wellness. With real-time data and personalized insights,
+                Health Vitals empowers you to take control of your health and
+                make informed decisions. Achieve your wellness goals and
+                maintain a healthier lifestyle with StayWell.
               </div>
             </Fade>
             <Fade up delay={100}>
